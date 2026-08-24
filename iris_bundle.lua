@@ -1,1 +1,13902 @@
-assert(game:GetService'RunService':IsClient(),'Iris must run on the client')local a,a,a,a=(function()return{}end)(),(function()return{}end)(),(function()return{}end)(),(function()local a={colorDark={TextColor=Color3.fromRGB(255,255,255),TextTransparency=0,TextDisabledColor=Color3.fromRGB(128,128,128),TextDisabledTransparency=0,BorderColor=Color3.fromRGB(110,110,125),BorderTransparency=0.5,BorderActiveColor=Color3.fromRGB(160,160,175),BorderActiveTransparency=0.3,WindowBgColor=Color3.fromRGB(15,15,15),WindowBgTransparency=0.06,PopupBgColor=Color3.fromRGB(20,20,20),PopupBgTransparency=0.06,ScrollbarGrabColor=Color3.fromRGB(79,79,79),ScrollbarGrabTransparency=0,TitleBgColor=Color3.fromRGB(10,10,10),TitleBgTransparency=0,TitleBgActiveColor=Color3.fromRGB(41,74,122),TitleBgActiveTransparency=0,TitleBgCollapsedColor=Color3.fromRGB(0,0,0),TitleBgCollapsedTransparency=0.5,MenubarBgColor=Color3.fromRGB(36,36,36),MenubarBgTransparency=0,FrameBgColor=Color3.fromRGB(41,74,122),FrameBgTransparency=0.46,FrameBgHoveredColor=Color3.fromRGB(66,150,250),FrameBgHoveredTransparency=0.46,FrameBgActiveColor=Color3.fromRGB(66,150,250),FrameBgActiveTransparency=0.33,ButtonColor=Color3.fromRGB(66,150,250),ButtonTransparency=0.6,ButtonHoveredColor=Color3.fromRGB(66,150,250),ButtonHoveredTransparency=0,ButtonActiveColor=Color3.fromRGB(15,135,250),ButtonActiveTransparency=0,ImageColor=Color3.fromRGB(255,255,255),ImageTransparency=0,SliderGrabColor=Color3.fromRGB(66,150,250),SliderGrabTransparency=0,SliderGrabActiveColor=Color3.fromRGB(66,150,250),SliderGrabActiveTransparency=0,HeaderColor=Color3.fromRGB(66,150,250),HeaderTransparency=0.69,HeaderHoveredColor=Color3.fromRGB(66,150,250),HeaderHoveredTransparency=0.2,HeaderActiveColor=Color3.fromRGB(66,150,250),HeaderActiveTransparency=0,TabColor=Color3.fromRGB(46,89,148),TabTransparency=0.14,TabHoveredColor=Color3.fromRGB(66,150,250),TabHoveredTransparency=0.2,TabActiveColor=Color3.fromRGB(51,105,173),TabActiveTransparency=0,SelectionImageObjectColor=Color3.fromRGB(255,255,255),SelectionImageObjectTransparency=0.8,SelectionImageObjectBorderColor=Color3.fromRGB(255,255,255),SelectionImageObjectBorderTransparency=0,TableBorderStrongColor=Color3.fromRGB(79,79,89),TableBorderStrongTransparency=0,TableBorderLightColor=Color3.fromRGB(59,59,64),TableBorderLightTransparency=0,TableRowBgColor=Color3.fromRGB(0,0,0),TableRowBgTransparency=1,TableRowBgAltColor=Color3.fromRGB(255,255,255),TableRowBgAltTransparency=0.94,TableHeaderColor=Color3.fromRGB(48,48,51),TableHeaderTransparency=0,NavWindowingHighlightColor=Color3.fromRGB(255,255,255),NavWindowingHighlightTransparency=0.3,NavWindowingDimBgColor=Color3.fromRGB(204,204,204),NavWindowingDimBgTransparency=0.65,SeparatorColor=Color3.fromRGB(110,110,128),SeparatorTransparency=0.5,CheckMarkColor=Color3.fromRGB(66,150,250),CheckMarkTransparency=0,PlotLinesColor=Color3.fromRGB(156,156,156),PlotLinesTransparency=0,PlotLinesHoveredColor=Color3.fromRGB(255,110,89),PlotLinesHoveredTransparency=0,PlotHistogramColor=Color3.fromRGB(230,179,0),PlotHistogramTransparency=0,PlotHistogramHoveredColor=Color3.fromRGB(255,153,0),PlotHistogramHoveredTransparency=0,ResizeGripColor=Color3.fromRGB(66,150,250),ResizeGripTransparency=0.8,ResizeGripHoveredColor=Color3.fromRGB(66,150,250),ResizeGripHoveredTransparency=0.33,ResizeGripActiveColor=Color3.fromRGB(66,150,250),ResizeGripActiveTransparency=0.05},colorLight={TextColor=Color3.fromRGB(0,0,0),TextTransparency=0,TextDisabledColor=Color3.fromRGB(153,153,153),TextDisabledTransparency=0,BorderColor=Color3.fromRGB(64,64,64),BorderActiveColor=Color3.fromRGB(64,64,64),BorderTransparency=0.5,BorderActiveTransparency=0.2,WindowBgColor=Color3.fromRGB(240,240,240),WindowBgTransparency=0,PopupBgColor=Color3.fromRGB(255,255,255),PopupBgTransparency=0.02,TitleBgColor=Color3.fromRGB(245,245,245),TitleBgTransparency=0,TitleBgActiveColor=Color3.fromRGB(209,209,209),TitleBgActiveTransparency=0,TitleBgCollapsedColor=Color3.fromRGB(255,255,255),TitleBgCollapsedTransparency=0.5,MenubarBgColor=Color3.fromRGB(219,219,219),MenubarBgTransparency=0,ScrollbarGrabColor=Color3.fromRGB(176,176,176),ScrollbarGrabTransparency=0.2,FrameBgColor=Color3.fromRGB(255,255,255),FrameBgTransparency=0.6,FrameBgHoveredColor=Color3.fromRGB(66,150,250),FrameBgHoveredTransparency=0.6,FrameBgActiveColor=Color3.fromRGB(66,150,250),FrameBgActiveTransparency=0.33,ButtonColor=Color3.fromRGB(66,150,250),ButtonTransparency=0.6,ButtonHoveredColor=Color3.fromRGB(66,150,250),ButtonHoveredTransparency=0,ButtonActiveColor=Color3.fromRGB(15,135,250),ButtonActiveTransparency=0,ImageColor=Color3.fromRGB(255,255,255),ImageTransparency=0,HeaderColor=Color3.fromRGB(66,150,250),HeaderTransparency=0.31,HeaderHoveredColor=Color3.fromRGB(66,150,250),HeaderHoveredTransparency=0.2,HeaderActiveColor=Color3.fromRGB(66,150,250),HeaderActiveTransparency=0,TabColor=Color3.fromRGB(195,203,213),TabTransparency=0.07,TabHoveredColor=Color3.fromRGB(66,150,250),TabHoveredTransparency=0.2,TabActiveColor=Color3.fromRGB(152,186,255),TabActiveTransparency=0,SliderGrabColor=Color3.fromRGB(61,133,224),SliderGrabTransparency=0,SliderGrabActiveColor=Color3.fromRGB(117,138,204),SliderGrabActiveTransparency=0,SelectionImageObjectColor=Color3.fromRGB(0,0,0),SelectionImageObjectTransparency=0.8,SelectionImageObjectBorderColor=Color3.fromRGB(0,0,0),SelectionImageObjectBorderTransparency=0,TableBorderStrongColor=Color3.fromRGB(145,145,163),TableBorderStrongTransparency=0,TableBorderLightColor=Color3.fromRGB(173,173,189),TableBorderLightTransparency=0,TableRowBgColor=Color3.fromRGB(0,0,0),TableRowBgTransparency=1,TableRowBgAltColor=Color3.fromRGB(77,77,77),TableRowBgAltTransparency=0.91,TableHeaderColor=Color3.fromRGB(199,222,250),TableHeaderTransparency=0,NavWindowingHighlightColor=Color3.fromRGB(179,179,179),NavWindowingHighlightTransparency=0.3,NavWindowingDimBgColor=Color3.fromRGB(51,51,51),NavWindowingDimBgTransparency=0.8,SeparatorColor=Color3.fromRGB(99,99,99),SeparatorTransparency=0.38,CheckMarkColor=Color3.fromRGB(66,150,250),CheckMarkTransparency=0,PlotLinesColor=Color3.fromRGB(99,99,99),PlotLinesTransparency=0,PlotLinesHoveredColor=Color3.fromRGB(255,110,89),PlotLinesHoveredTransparency=0,PlotHistogramColor=Color3.fromRGB(230,179,0),PlotHistogramTransparency=0,PlotHistogramHoveredColor=Color3.fromRGB(255,153,0),PlotHistogramHoveredTransparency=0,ResizeGripColor=Color3.fromRGB(89,89,89),ResizeGripTransparency=0.83,ResizeGripHoveredColor=Color3.fromRGB(66,150,250),ResizeGripHoveredTransparency=0.33,ResizeGripActiveColor=Color3.fromRGB(66,150,250),ResizeGripActiveTransparency=0.05},sizeDefault={ItemWidth=UDim.new(1,0),ContentWidth=UDim.new(0.65,0),ContentHeight=UDim.new(0,0),WindowPadding=Vector2.new(8,8),WindowResizePadding=Vector2.new(6,6),FramePadding=Vector2.new(4,3),ItemSpacing=Vector2.new(8,4),ItemInnerSpacing=Vector2.new(4,4),CellPadding=Vector2.new(4,2),DisplaySafeAreaPadding=Vector2.new(0,0),SeparatorTextPadding=Vector2.new(20,3),IndentSpacing=21,TextFont=Font.fromEnum(Enum.Font.Code),TextSize=13,FrameBorderSize=0,FrameRounding=0,GrabRounding=0,WindowRounding=0,WindowBorderSize=1,WindowTitleAlign=Enum.LeftRight.Left,PopupBorderSize=1,PopupRounding=0,ScrollbarSize=7,GrabMinSize=10,SeparatorTextBorderSize=3,ImageBorderSize=2},sizeClear={ItemWidth=UDim.new(1,0),ContentWidth=UDim.new(0.65,0),ContentHeight=UDim.new(0,0),WindowPadding=Vector2.new(12,8),WindowResizePadding=Vector2.new(8,8),FramePadding=Vector2.new(6,4),ItemSpacing=Vector2.new(8,8),ItemInnerSpacing=Vector2.new(8,8),CellPadding=Vector2.new(4,4),DisplaySafeAreaPadding=Vector2.new(8,8),SeparatorTextPadding=Vector2.new(24,6),IndentSpacing=25,TextFont=Font.fromEnum(Enum.Font.Ubuntu),TextSize=15,FrameBorderSize=1,FrameRounding=4,GrabRounding=4,WindowRounding=4,WindowBorderSize=1,WindowTitleAlign=Enum.LeftRight.Center,PopupBorderSize=1,PopupRounding=4,ScrollbarSize=9,GrabMinSize=14,SeparatorTextBorderSize=4,ImageBorderSize=4},utilityDefault={UseScreenGUIs=true,IgnoreGuiInset=false,ScreenInsets=Enum.ScreenInsets.CoreUISafeInsets,Parent=nil,RichText=false,TextWrapped=false,DisplayOrderOffset=127,ZIndexOffset=0,MouseDoubleClickTime=0.30,MouseDoubleClickMaxDist=6.0,HoverColor=Color3.fromRGB(255,255,0),HoverTransparency=0.1}}return a end)()local b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r=(function()return function(a)local b={}b._version=[[ 2.5.1 ]];b._started=false;b._shutdown=false;b._cycleTick=0;b._deltaTime=0;b._globalRefreshRequested=false;b._refreshCounter=0;b._refreshLevel=1;b._refreshStack=table.create(16)b._widgets={}b._stackIndex=1;b._rootInstance=nil;b._rootWidget={ID="R",type="Root",Instance=b._rootInstance,ZIndex=0,ZOffset=0}b._lastWidget=b._rootWidget;b._rootConfig={}b._config=b._rootConfig;b._IDStack={"R"}b._usedIDs={}b._pushedIds={}b._newID=false;b._nextWidgetId=nil;b._states={}b._postCycleCallbacks={}b._connectedFunctions={}b._connections={}b._initFunctions={}b._fullErrorTracebacks=game:GetService"RunService":IsStudio()b._cycleCoroutine=coroutine.create(function()while b._started do for a,a in b._connectedFunctions do do end;local a,c=pcall(a)do end;if not a then b._stackIndex=1;coroutine.yield(false,c)end end;coroutine.yield(true)end end)local c={}c.__index=c;c.get=function(a)return a.value end;c.set=function(c,d,e)if d==c.value and e~=true then return c.value end;c.value=d;c.lastChangeTick=a.Internal._cycleTick;for a,a in c.ConnectedWidgets do if a.lastCycleTick~=-1 then b._widgets[a.type].UpdateState(a)end end;for a,a in c.ConnectedFunctions do a(d)end;return c.value end;c.onChange=function(a,b)local c=#a.ConnectedFunctions+1;a.ConnectedFunctions[c]=b;return function()a.ConnectedFunctions[c]=nil end end;c.changed=function(a)return a.lastChangeTick+1==b._cycleTick end;b.StateClass=c;b._cycle=function(c)if a.Disabled then return end;b._rootWidget.lastCycleTick=b._cycleTick;if b._rootInstance==nil or b._rootInstance.Parent==nil then a.ForceRefresh()end;for a,a in b._lastVDOM do if a.lastCycleTick~=b._cycleTick and(a.lastCycleTick~=-1)then b._DiscardWidget(a)end end;setmetatable(b._lastVDOM,{__mode="kv"})b._lastVDOM=b._VDOM;b._VDOM=b._generateEmptyVDOM()task.spawn(function()for a,a in b._postCycleCallbacks do a()end end)if b._globalRefreshRequested then b._generateSelectionImageObject()b._globalRefreshRequested=false;for a,a in b._lastVDOM do b._DiscardWidget(a)end;b._generateRootInstance()b._lastVDOM=b._generateEmptyVDOM()end;b._cycleTick+=1;b._deltaTime=c;table.clear(b._usedIDs)local a=(b.parentInstance:IsA"GuiBase2d"or b.parentInstance:IsA"BasePlayerGui")if a==false then error"The Iris parent instance will not display any GUIs."end;if b._fullErrorTracebacks then for a,a in b._connectedFunctions do a()end else local a=coroutine.status(b._cycleCoroutine)if a=="suspended"then local a,a,b=coroutine.resume(b._cycleCoroutine)if a==false then error(b,0)end elseif a=="running"then error"Iris cycleCoroutine took to long to yield. Connected functions should not yield."else error"unrecoverable state"end end;if b._stackIndex~=1 then b._stackIndex=1;error("Too few calls to Iris.End().",0)end;if#b._pushedIds~=0 then error("Too few calls to Iris.PopId().",0)end end;b._NoOp=function()end;b.WidgetConstructor=function(c,d)local e,f={All={Required={"Generate","Discard","Update","Args","Events","hasChildren","hasState"},Optional={}},IfState={Required={"GenerateState","UpdateState"},Optional={}},IfChildren={Required={"ChildAdded"},Optional={"ChildDiscarded"}}},{}for a,a in e.All.Required do assert(d[a]~=nil,`field {field} is missing from widget {type}, it is required for all widgets`)f[a]=d[a]end;for a,a in e.All.Optional do if d[a]==nil then f[a]=b._NoOp else f[a]=d[a]end end;if d.hasState then for a,a in e.IfState.Required do assert(d[a]~=nil,`field {field} is missing from widget {type}, it is required for all widgets with state`)f[a]=d[a]end;for a,a in e.IfState.Optional do if d[a]==nil then f[a]=b._NoOp else f[a]=d[a]end end end;if d.hasChildren then for a,a in e.IfChildren.Required do assert(d[a]~=nil,`field {field} is missing from widget {type}, it is required for all widgets with children`)f[a]=d[a]end;for a,a in e.IfChildren.Optional do if d[a]==nil then f[a]=b._NoOp else f[a]=d[a]end end end;b._widgets[c]=f;a.Args[c]=f.Args;local c={}for a,b in f.Args do c[b]=a end;f.ArgNames=c;for c,d in f.Events do if a.Events[c]==nil then a.Events[c]=function()return b._EventCall(b._lastWidget,c)end end end end;b._Insert=function(a,c,d)local e,f=b._getID(3),b._widgets[a];if b._VDOM[e]then return b._ContinueWidget(e,a)end;local g={}if c~=nil then if type(c)~="table"then c={c}end;for a,b in c do assert(a>0,`Widget Arguments must be a positive number, not {index} of type {typeof(index)} for {argument}.`)g[f.ArgNames[a]]=b end end;table.freeze(g)local c=b._lastVDOM[e];if c then if b._refreshCounter>0 or a~=c.type then b._DiscardWidget(c)c=nil end end;local a=(c==nil and{(b._GenNewWidget(a,g,d,e))}or{c})[1];local c=a.parentWidget;if a.type~="Window"and a.type~="Tooltip"then if a.ZIndex~=c.ZOffset then c.ZUpdate=true end;if c.ZUpdate then a.ZIndex=c.ZOffset;if a.Instance then a.Instance.ZIndex=a.ZIndex;a.Instance.LayoutOrder=a.ZIndex end end end;if c.type=="Table"then local a=c;a._rowCycles[a._rowIndex]=b._cycleTick end;if b._deepCompare(a.providedArguments,g)==false then a.arguments=b._deepCopy(g)a.providedArguments=g;f.Update(a)end;a.lastCycleTick=b._cycleTick;c.ZOffset+=1;if f.hasChildren then local c=a;c.ZOffset=0;c.ZUpdate=false;b._stackIndex+=1;b._IDStack[b._stackIndex]=a.ID end;b._VDOM[e]=a;b._lastWidget=a;return a end;b._GenNewWidget=function(a,c,d,e)local f=b._IDStack[b._stackIndex];local f,g,h=b._VDOM[f],b._widgets[a],{}setmetatable(h,h)h.ID=e;h.type=a;h.parentWidget=f;h.trackedEvents={}h.ZIndex=f.ZOffset;h.Instance=g.Generate(h)f=h.parentWidget;if b._config.Parent then h.Instance.Parent=b._config.Parent else h.Instance.Parent=b._widgets[f.type].ChildAdded(f,h)end;h.providedArguments=c;h.arguments=b._deepCopy(c)g.Update(h)local a;if g.hasState then local c=h;if d then for a,e in d do if not(type(e)=="table"and getmetatable(e)==b.StateClass)then d[a]=b._widgetState(c,a,e)end;d[a].lastChangeTick=b._cycleTick end;c.state=d;for a,a in d do a.ConnectedWidgets[c.ID]=c end else c.state={}end;g.GenerateState(c)g.UpdateState(c)c.stateMT={}setmetatable(c.state,c.stateMT)c.__index=c.state;a=c.stateMT else a=h end;a.__index=function(a,a)return function()return b._EventCall(h,a)end end;return h end;b._ContinueWidget=function(a,c)local a,c=b._widgets[c],b._VDOM[a];if a.hasChildren then b._stackIndex+=1;b._IDStack[b._stackIndex]=c.ID end;b._lastWidget=c;return c end;b._DiscardWidget=function(a)local c=a.parentWidget;if c then b._widgets[c.type].ChildDiscarded(c,a)end;b._widgets[a.type].Discard(a)a.lastCycleTick=-1 end;b._widgetState=function(a,c,d)local c=a.ID..c;if b._states[c]then b._states[c].ConnectedWidgets[a.ID]=a;b._states[c].lastChangeTick=b._cycleTick;return b._states[c]else local a={ID=c,value=d,lastChangeTick=b._cycleTick,ConnectedWidgets={[a.ID]=a},ConnectedFunctions={}}setmetatable(a,b.StateClass)b._states[c]=a;return a end end;b._EventCall=function(a,c)local b=b._widgets[a.type].Events;local b=b[c];assert(b~=nil,`widget {thisWidget.type} has no event of name {eventName}`)if a.trackedEvents[c]==nil then b.Init(a)a.trackedEvents[c]=true end;return b.Get(a)end;b._GetParentWidget=function()return b._VDOM[b._IDStack[b._stackIndex]]end;b._generateEmptyVDOM=function()return{R=b._rootWidget}end;b._generateRootInstance=function()b._rootInstance=b._widgets.Root.Generate(b._widgets.Root)b._rootInstance.Parent=b.parentInstance;b._rootWidget.Instance=b._rootInstance end;b._generateSelectionImageObject=function()if b.SelectionImageObject then b.SelectionImageObject:Destroy()end;local a=Instance.new"Frame";a.Position=UDim2.fromOffset(-1,-1)a.Size=UDim2.new(1,2,1,2)a.BackgroundColor3=b._config.SelectionImageObjectColor;a.BackgroundTransparency=b._config.SelectionImageObjectTransparency;a.BorderSizePixel=0;b._utility.UIStroke(a,1,b._config.SelectionImageObjectBorderColor,b._config.SelectionImageObjectBorderTransparency)b._utility.UICorner(a,2)b.SelectionImageObject=a end;b._getID=function(a)if b._nextWidgetId then local a=b._nextWidgetId;b._nextWidgetId=nil;return a end;local a,c=1+(a or 1),"";local d=debug.info(a,"l")while d~=-1 and d~=nil do c..="+"..d;a+=1;d=debug.info(a,"l")end;local a=b._usedIDs[c];if a then b._usedIDs[c]+=1;a+=1 else b._usedIDs[c]=1;a=1 end;if#b._pushedIds==0 then return c..":"..a elseif b._newID then b._newID=false;return c.."::"..table.concat(b._pushedIds,"\\")else return c..":"..a..":"..table.concat(b._pushedIds,"\\")end end;b._deepCompare=function(a,c)for a,d in a do local a=c[a];if type(d)=="table"then if a and type(a)=="table"then if b._deepCompare(d,a)==false then return false end else return false end else if type(d)~=type(a)or d~=a then return false end end end;return true end;b._deepCopy=function(a)local c=table.clone(a)for a,d in a do if type(d)=="table"then c[a]=b._deepCopy(d)end end;return c end;b._lastVDOM=b._generateEmptyVDOM()b._VDOM=b._generateEmptyVDOM()a.Internal=b;a._config=b._config;return b end end)(),(function()return function(a)local b=function(b)return function(c,d)return a.Internal._Insert(b,c,d)end end;a.Window=b"Window";a.SetFocusedWindow=a.Internal.SetFocusedWindow;a.Tooltip=b"Tooltip";a.MenuBar=b"MenuBar";a.Menu=b"Menu";a.MenuItem=b"MenuItem";a.MenuToggle=b"MenuToggle";a.Separator=b"Separator";a.Indent=b"Indent";a.SameLine=b"SameLine";a.Group=b"Group";a.Text=b"Text";a.TextWrapped=function(b)b[2]=true;return a.Internal._Insert("Text",b)end;a.TextColored=function(b)b[3]=b[2];b[2]=nil;return a.Internal._Insert("Text",b)end;a.SeparatorText=b"SeparatorText";a.InputText=b"InputText";a.Button=b"Button";a.SmallButton=b"SmallButton";a.Checkbox=b"Checkbox";a.RadioButton=b"RadioButton";a.Image=b"Image";a.ImageButton=b"ImageButton";a.Tree=b"Tree";a.CollapsingHeader=b"CollapsingHeader";a.TabBar=b"TabBar";a.Tab=b"Tab";a.InputNum=b"InputNum";a.InputVector2=b"InputVector2";a.InputVector3=b"InputVector3";a.InputUDim=b"InputUDim";a.InputUDim2=b"InputUDim2";a.InputRect=b"InputRect";a.DragNum=b"DragNum";a.DragVector2=b"DragVector2";a.DragVector3=b"DragVector3";a.DragUDim=b"DragUDim";a.DragUDim2=b"DragUDim2";a.DragRect=b"DragRect";a.InputColor3=b"InputColor3";a.InputColor4=b"InputColor4";a.SliderNum=b"SliderNum";a.SliderVector2=b"SliderVector2";a.SliderVector3=b"SliderVector3";a.SliderUDim=b"SliderUDim";a.SliderUDim2=b"SliderUDim2";a.SliderRect=b"SliderRect";a.Selectable=b"Selectable";a.Combo=b"Combo";a.ComboArray=function(b,c,d)local e;if c==nil then e=a.State(d[1])else e=c end;local b=a.Internal._Insert("Combo",b,e)local c=b.state.index;for b,b in d do a.Internal._Insert("Selectable",{b,b},{index=c})end;a.End()return b end;a.ComboEnum=function(b,c,d)local e;if c==nil then e=a.State(d:GetEnumItems()[1])else e=c end;local b=a.Internal._Insert("Combo",b,e)local c=b.state.index;for b,b in d:GetEnumItems()do a.Internal._Insert("Selectable",{b.Name,b},{index=c})end;a.End()return b end;a.InputEnum=a.ComboEnum;a.ProgressBar=b"ProgressBar";a.PlotLines=b"PlotLines";a.PlotHistogram=b"PlotHistogram";a.Table=b"Table";a.NextColumn=function()local a=(a.Internal._GetParentWidget())assert(a~=nil,"Iris.NextColumn() can only called when directly within a table.")local b=a._columnIndex;if b==a.arguments.NumColumns then a._columnIndex=1;a._rowIndex+=1 else a._columnIndex+=1 end;return a._columnIndex end;a.NextRow=function()local a=(a.Internal._GetParentWidget())assert(a~=nil,"Iris.NextRow() can only called when directly within a table.")a._columnIndex=1;a._rowIndex+=1;return a._rowIndex end;a.SetColumnIndex=function(b)local a=(a.Internal._GetParentWidget())assert(a~=nil,"Iris.SetColumnIndex() can only called when directly within a table.")assert((b>=1)and(b<=a.arguments.NumColumns),`The index must be between 1 and {Table.arguments.NumColumns}, inclusive.`)a._columnIndex=b end;a.SetRowIndex=function(b)local a=(a.Internal._GetParentWidget())assert(a~=nil,"Iris.SetRowIndex() can only called when directly within a table.")assert(b>=1,"The index must be greater or equal to 1.")a._rowIndex=b end;a.NextHeaderColumn=function()local a=(a.Internal._GetParentWidget())assert(a~=nil,"Iris.NextHeaderColumn() can only called when directly within a table.")a._rowIndex=0;a._columnIndex=(a._columnIndex%a.arguments.NumColumns)+1;return a._columnIndex end;a.SetHeaderColumnIndex=function(b)local a=(a.Internal._GetParentWidget())assert(a~=nil,"Iris.SetHeaderColumnIndex() can only called when directly within a table.")assert((b>=1)and(b<=a.arguments.NumColumns),`The index must be between 1 and {Table.arguments.NumColumns}, inclusive.`)a._rowIndex=0;a._columnIndex=b end;a.SetColumnWidth=function(b,c)local a=(a.Internal._GetParentWidget())assert(a~=nil,"Iris.SetColumnWidth() can only called when directly within a table.")assert((b>=1)and(b<=a.arguments.NumColumns),`The index must be between 1 and {Table.arguments.NumColumns}, inclusive.`)local d=a.state.widths.value[b];a.state.widths.value[b]=c;a.state.widths:set(a.state.widths.value,c~=d)end end end)(),(function()return function(a,b)local c=0;a.WidgetConstructor("Root",{hasState=false,hasChildren=true,Args={},Events={},Generate=function(c)local c=Instance.new"Folder";c.Name="Iris_Root";local d;if a._config.UseScreenGUIs then d=Instance.new"ScreenGui";d.ResetOnSpawn=false;d.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;d.ScreenInsets=a._config.ScreenInsets;d.IgnoreGuiInset=a._config.IgnoreGuiInset;d.DisplayOrder=a._config.DisplayOrderOffset else d=Instance.new"Frame";d.AnchorPoint=Vector2.new(0.5,0.5)d.Position=UDim2.fromScale(0.5,0.5)d.Size=UDim2.fromScale(1,1)d.BackgroundTransparency=1;d.ZIndex=a._config.DisplayOrderOffset end;d.Name="PseudoWindowScreenGui";d.Parent=c;local e;if a._config.UseScreenGUIs then e=Instance.new"ScreenGui";e.ResetOnSpawn=false;e.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;e.DisplayOrder=a._config.DisplayOrderOffset+1024;e.ScreenInsets=a._config.ScreenInsets;e.IgnoreGuiInset=a._config.IgnoreGuiInset else e=Instance.new"Frame";e.AnchorPoint=Vector2.new(0.5,0.5)e.Position=UDim2.fromScale(0.5,0.5)e.Size=UDim2.fromScale(1,1)e.BackgroundTransparency=1;e.ZIndex=a._config.DisplayOrderOffset+1024 end;e.Name="PopupScreenGui";e.Parent=c;local f=Instance.new"Frame";f.Name="TooltipContainer";f.AutomaticSize=Enum.AutomaticSize.XY;f.Size=UDim2.fromOffset(0,0)f.BackgroundTransparency=1;f.BorderSizePixel=0;b.UIListLayout(f,Enum.FillDirection.Vertical,UDim.new(0,a._config.PopupBorderSize))f.Parent=e;local f=Instance.new"Frame";f.Name="MenuBarContainer";f.AutomaticSize=Enum.AutomaticSize.Y;f.Size=UDim2.fromScale(1,0)f.BackgroundTransparency=1;f.BorderSizePixel=0;f.Parent=e;local e=Instance.new"Frame";e.Name="PseudoWindow";e.AutomaticSize=Enum.AutomaticSize.XY;e.Size=UDim2.new(0,0,0,0)e.Position=UDim2.fromOffset(0,22)e.BackgroundTransparency=a._config.WindowBgTransparency;e.BackgroundColor3=a._config.WindowBgColor;e.BorderSizePixel=a._config.WindowBorderSize;e.BorderColor3=a._config.BorderColor;e.Selectable=false;e.SelectionGroup=true;e.SelectionBehaviorUp=Enum.SelectionBehavior.Stop;e.SelectionBehaviorDown=Enum.SelectionBehavior.Stop;e.SelectionBehaviorLeft=Enum.SelectionBehavior.Stop;e.SelectionBehaviorRight=Enum.SelectionBehavior.Stop;e.Visible=false;b.UIPadding(e,a._config.WindowPadding)b.UIListLayout(e,Enum.FillDirection.Vertical,UDim.new(0,a._config.ItemSpacing.Y))e.Parent=d;return c end,Update=function(a)if c>0 then local a=a.Instance;local a=a.PseudoWindowScreenGui;local a=a.PseudoWindow;a.Visible=true end end,Discard=function(a)c=0;a.Instance:Destroy()end,ChildAdded=function(a,b)local d=a.Instance;if b.type=="Window"then return a.Instance elseif b.type=="Tooltip"then return d.PopupScreenGui.TooltipContainer elseif b.type=="MenuBar"then return d.PopupScreenGui.MenuBarContainer else local a=d.PseudoWindowScreenGui;local a=a.PseudoWindow;c+=1;a.Visible=true;return a end end,ChildDiscarded=function(a,b)if b.type~="Window"and b.type~="Tooltip"and b.type~="MenuBar"then c-=1;if c==0 then local a=a.Instance;local a=a.PseudoWindowScreenGui;local a=a.PseudoWindow;a.Visible=false end end end})end end)(),(function()return function(a,b)local c=function()if a._rootInstance==nil then return end;local c=a._rootInstance:FindFirstChild"PopupScreenGui";local d,e=c.TooltipContainer,b.getMouseLocation()local a=b.findBestWindowPosForPopup(e,d.AbsoluteSize,a._config.DisplaySafeAreaPadding,c.AbsoluteSize)d.Position=UDim2.fromOffset(a.X,a.Y)end;b.registerEvent("InputChanged",function()if not a._started then return end;c()end)a.WidgetConstructor("Tooltip",{hasState=false,hasChildren=false,Args={Text=1},Events={},Generate=function(c)c.parentWidget=a._rootWidget;local c=Instance.new"Frame";c.Name="Iris_Tooltip";c.AutomaticSize=Enum.AutomaticSize.Y;c.Size=UDim2.new(a._config.ContentWidth,UDim.new(0,0))c.BorderSizePixel=0;c.BackgroundTransparency=1;local d=Instance.new"TextLabel";d.Name="TooltipText";d.AutomaticSize=Enum.AutomaticSize.XY;d.Size=UDim2.fromOffset(0,0)d.BackgroundColor3=a._config.PopupBgColor;d.BackgroundTransparency=a._config.PopupBgTransparency;b.applyTextStyle(d)b.UIStroke(d,a._config.PopupBorderSize,a._config.BorderActiveColor,a._config.BorderActiveTransparency)b.UIPadding(d,a._config.WindowPadding)if a._config.PopupRounding>0 then b.UICorner(d,a._config.PopupRounding)end;d.Parent=c;return c end,Update=function(a)local b=a.Instance;local b=b.TooltipText;if a.arguments.Text==nil then error("Text argument is required for Iris.Tooltip().",5)end;b.Text=a.arguments.Text;c()end,Discard=function(a)a.Instance:Destroy()end})local c,d,e,f,g,h,i,j,k,l,m,n,o,p=0,false,false,false,false,Enum.TopBottom.Top,Enum.LeftRight.Left,false,{}local q,r,s=function()if a._config.UseScreenGUIs==false then return end;local b,c=0xFFFF;for a,a in k do if a.state.isOpened.value and not a.arguments.NoNav then if a.Instance:IsA"ScreenGui"then local d=a.Instance.DisplayOrder;if d<b then b=d;c=a end end end end;if not c then return end;if c.state.isUncollapsed.value==false then c.state.isUncollapsed:set(true)end;a.SetFocusedWindow(c)end,function(c,d)local a,b,c,e=Vector2.new(c.state.position.value.X,c.state.position.value.Y),(a._config.TextSize+2*a._config.FramePadding.Y)*2,b.getScreenSizeForWindow(c),Vector2.new(a._config.WindowBorderSize+a._config.DisplaySafeAreaPadding.X,a._config.WindowBorderSize+a._config.DisplaySafeAreaPadding.Y)local a=(c-a-e)return Vector2.new(math.clamp(d.X,b,math.max(a.X,b)),math.clamp(d.Y,b,math.max(a.Y,b)))end,function(c,d)local a,b,c=c.Instance,b.getScreenSizeForWindow(c),Vector2.new(a._config.WindowBorderSize+a._config.DisplaySafeAreaPadding.X,a._config.WindowBorderSize+a._config.DisplaySafeAreaPadding.Y)return Vector2.new(math.clamp(d.X,c.X,math.max(c.X,b.X-a.WindowButton.AbsoluteSize.X-c.X)),math.clamp(d.Y,c.Y,math.max(c.Y,b.Y-a.WindowButton.AbsoluteSize.Y-c.Y)))end;a.SetFocusedWindow=function(d)if p==d then return end;if j and p~=nil then if k[p.ID]then local b=p.Instance;local b=b.WindowButton;local c=b.Content;local c=c.TitleBar;if p.state.isUncollapsed.value then c.BackgroundColor3=a._config.TitleBgColor;c.BackgroundTransparency=a._config.TitleBgTransparency else c.BackgroundColor3=a._config.TitleBgCollapsedColor;c.BackgroundTransparency=a._config.TitleBgCollapsedTransparency end;b.UIStroke.Color=a._config.BorderColor end;j=false;p=nil end;if d~=nil then j=true;p=d;local e=d.Instance;local f=e.WindowButton;local g=f.Content;local g=g.TitleBar;g.BackgroundColor3=a._config.TitleBgActiveColor;g.BackgroundTransparency=a._config.TitleBgActiveTransparency;f.UIStroke.Color=a._config.BorderActiveColor;c+=1;if d.usesScreenGuis then e.DisplayOrder=c+a._config.DisplayOrderOffset else e.ZIndex=c+a._config.DisplayOrderOffset end;if d.state.isUncollapsed.value==false then d.state.isUncollapsed:set(true)end;local a=b.GuiService.SelectedObject;if a then if g.Visible then b.GuiService:Select(g)else b.GuiService:Select(d.ChildContainer)end end end end;b.registerEvent("InputBegan",function(c)if not a._started then return end;if c.UserInputType==Enum.UserInputType.MouseButton1 then local c,d=false,b.getMouseLocation()for a,a in k do local a=a.Instance;if not a then continue end;local a=a.WindowButton;local a=a.ResizeBorder;if a and b.isPosInsideRect(d,a.AbsolutePosition-b.GuiOffset,a.AbsolutePosition-b.GuiOffset+a.AbsoluteSize)then c=true;break end end;if not c then a.SetFocusedWindow(nil)end end;if c.KeyCode==Enum.KeyCode.Tab and(b.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or b.UserInputService:IsKeyDown(Enum.KeyCode.RightControl))then q()end;if c.UserInputType==Enum.UserInputType.MouseButton1 and f and not g and j and p then local a=p.state.position.value+(p.state.size.value/2)local a=b.getMouseLocation()-a;if math.abs(a.X)*p.state.size.value.Y>=math.abs(a.Y)*p.state.size.value.X then h=Enum.TopBottom.Center;i=(math.sign(a.X)==-1 and{Enum.LeftRight.Left}or{Enum.LeftRight.Right})[1]else i=Enum.LeftRight.Center;h=(math.sign(a.Y)==-1 and{Enum.TopBottom.Top}or{Enum.TopBottom.Bottom})[1]end;e=true;n=p end end)b.registerEvent("TouchTapInWorld",function(b,b)if not a._started then return end;if not b then a.SetFocusedWindow(nil)end end)b.registerEvent("InputChanged",function(c)if not a._started then return end;if d and l then local a;if c.UserInputType==Enum.UserInputType.Touch then local b=c.Position;a=Vector2.new(b.X,b.Y)else a=b.getMouseLocation()end;local b=l.Instance;local a,b=b.WindowButton,a-m;local b=s(l,b)a.Position=UDim2.fromOffset(b.X,b.Y)l.state.position.value=b end;if e and n and n.arguments.NoResize~=true then local a=n.Instance;local a=a.WindowButton;local d,e,f=Vector2.new(a.Position.X.Offset,a.Position.Y.Offset),(Vector2.new(a.Size.X.Offset,a.Size.Y.Offset))if c.UserInputType==Enum.UserInputType.Touch then f=c.Delta else f=b.getMouseLocation()-o end;local b,c=d+Vector2.new((i==Enum.LeftRight.Left and{f.X}or{0})[1],(h==Enum.TopBottom.Top and{f.Y}or{0})[1]),e+Vector2.new((i==Enum.LeftRight.Left and{(-f.X)}or{(i==Enum.LeftRight.Right and{f.X}or{0})[1]})[1],(h==Enum.TopBottom.Top and{(-f.Y)}or{(h==Enum.TopBottom.Bottom and{f.Y}or{0})[1]})[1])local b,c=r(n,c),s(n,b)a.Size=UDim2.fromOffset(b.X,b.Y)n.state.size.value=b;a.Position=UDim2.fromOffset(c.X,c.Y)n.state.position.value=c end;o=b.getMouseLocation()end)b.registerEvent("InputEnded",function(b,c)if not a._started then return end;if(b.UserInputType==Enum.UserInputType.MouseButton1 or b.UserInputType==Enum.UserInputType.Touch)and d and l then local a=l.Instance;local a=a.WindowButton;d=false;l.state.position:set(Vector2.new(a.Position.X.Offset,a.Position.Y.Offset))end;if(b.UserInputType==Enum.UserInputType.MouseButton1 or b.UserInputType==Enum.UserInputType.Touch)and e and n then local a=n.Instance;e=false;n.state.size:set(a.WindowButton.AbsoluteSize)end;if b.KeyCode==Enum.KeyCode.ButtonX then q()end end)a.WidgetConstructor("Window",{hasState=true,hasChildren=true,Args={Title=1,NoTitleBar=2,NoBackground=3,NoCollapse=4,NoClose=5,NoMove=6,NoScrollbar=7,NoResize=8,NoNav=9,NoMenu=10},Events={closed={Init=function(a)end,Get=function(b)return b.lastClosedTick==a._cycleTick end},opened={Init=function(a)end,Get=function(b)return b.lastOpenedTick==a._cycleTick end},collapsed={Init=function(a)end,Get=function(b)return b.lastCollapsedTick==a._cycleTick end},uncollapsed={Init=function(a)end,Get=function(b)return b.lastUncollapsedTick==a._cycleTick end},hovered=b.EVENTS.hover(function(a)local a=a.Instance;return a.WindowButton end)},Generate=function(c)c.parentWidget=a._rootWidget;c.usesScreenGuis=a._config.UseScreenGUIs;k[c.ID]=c;local k;if c.usesScreenGuis then k=Instance.new"ScreenGui";k.ResetOnSpawn=false;k.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;k.DisplayOrder=a._config.DisplayOrderOffset;k.ScreenInsets=a._config.ScreenInsets;k.IgnoreGuiInset=a._config.IgnoreGuiInset else k=Instance.new"Frame";k.AnchorPoint=Vector2.new(0.5,0.5)k.Position=UDim2.fromScale(0.5,0.5)k.Size=UDim2.fromScale(1,1)k.BackgroundTransparency=1;k.ZIndex=a._config.DisplayOrderOffset end;k.Name="Iris_Window";local o=Instance.new"TextButton";o.Name="WindowButton";o.Size=UDim2.fromOffset(0,0)o.BackgroundTransparency=1;o.BorderSizePixel=0;o.Text="";o.AutoButtonColor=false;o.ClipsDescendants=false;o.Selectable=false;o.SelectionImageObject=a.SelectionImageObject;o.SelectionGroup=true;o.SelectionBehaviorUp=Enum.SelectionBehavior.Stop;o.SelectionBehaviorDown=Enum.SelectionBehavior.Stop;o.SelectionBehaviorLeft=Enum.SelectionBehavior.Stop;o.SelectionBehaviorRight=Enum.SelectionBehavior.Stop;b.UIStroke(o,a._config.WindowBorderSize,a._config.BorderColor,a._config.BorderTransparency)o.Parent=k;b.applyInputBegan(o,function(e)if e.UserInputType==Enum.UserInputType.MouseMovement or e.UserInputType==Enum.UserInputType.Keyboard then return end;if c.state.isUncollapsed.value then a.SetFocusedWindow(c)end;if not c.arguments.NoMove and e.UserInputType==Enum.UserInputType.MouseButton1 then l=c;d=true;m=b.getMouseLocation()-c.state.position.value end end)local q=Instance.new"Frame";q.Name="Content";q.AnchorPoint=Vector2.new(0.5,0.5)q.Position=UDim2.fromScale(0.5,0.5)q.Size=UDim2.fromScale(1,1)q.BackgroundTransparency=1;q.ClipsDescendants=true;q.Parent=o;local r=b.UIListLayout(q,Enum.FillDirection.Vertical,UDim.new(0,0))r.HorizontalAlignment=Enum.HorizontalAlignment.Center;r.VerticalAlignment=Enum.VerticalAlignment.Top;local r=Instance.new"ScrollingFrame";r.Name="WindowContainer";r.Size=UDim2.fromScale(1,1)r.BackgroundColor3=a._config.WindowBgColor;r.BackgroundTransparency=a._config.WindowBgTransparency;r.BorderSizePixel=0;r.AutomaticCanvasSize=Enum.AutomaticSize.Y;r.ScrollBarImageTransparency=a._config.ScrollbarGrabTransparency;r.ScrollBarImageColor3=a._config.ScrollbarGrabColor;r.CanvasSize=UDim2.fromScale(0,0)r.VerticalScrollBarInset=Enum.ScrollBarInset.ScrollBar;r.TopImage=b.ICONS.BLANK_SQUARE;r.MidImage=b.ICONS.BLANK_SQUARE;r.BottomImage=b.ICONS.BLANK_SQUARE;r.LayoutOrder=c.ZIndex+0xFFFF;r.ClipsDescendants=true;b.UIPadding(r,a._config.WindowPadding)r.Parent=q;local s=Instance.new"UIFlexItem";s.FlexMode=Enum.UIFlexMode.Fill;s.ItemLineAlignment=Enum.ItemLineAlignment.End;s.Parent=r;r:GetPropertyChangedSignal"CanvasPosition":Connect(function()c.state.scrollDistance.value=r.CanvasPosition.Y end)b.applyInputBegan(r,function(b)if b.UserInputType==Enum.UserInputType.MouseMovement or b.UserInputType==Enum.UserInputType.Keyboard then return end;if c.state.isUncollapsed.value then a.SetFocusedWindow(c)end end)local s=Instance.new"Frame";s.Name="TerminatingFrame";s.Size=UDim2.fromOffset(0,a._config.WindowPadding.Y+a._config.FramePadding.Y)s.BackgroundTransparency=1;s.BorderSizePixel=0;s.LayoutOrder=0x7FFFFFF0;b.UIListLayout(r,Enum.FillDirection.Vertical,UDim.new(0,a._config.ItemSpacing.Y)).VerticalAlignment=Enum.VerticalAlignment.Top;s.Parent=r;local s=Instance.new"Frame";s.Name="TitleBar";s.AutomaticSize=Enum.AutomaticSize.Y;s.Size=UDim2.fromScale(1,0)s.BorderSizePixel=0;s.ClipsDescendants=true;s.Parent=q;b.UIPadding(s,Vector2.new(a._config.FramePadding.X))b.UIListLayout(s,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;b.applyInputBegan(s,function(a)if a.UserInputType==Enum.UserInputType.Touch then if not c.arguments.NoMove then l=c;d=true;local a=a.Position;m=Vector2.new(a.X,a.Y)-c.state.position.value end end end)local d,l=a._config.TextSize+((a._config.FramePadding.Y-1)*2),Instance.new"TextButton";l.Name="CollapseButton";l.AutomaticSize=Enum.AutomaticSize.None;l.AnchorPoint=Vector2.new(0,0.5)l.Size=UDim2.fromOffset(d,d)l.Position=UDim2.fromScale(0,0.5)l.BackgroundTransparency=1;l.BorderSizePixel=0;l.AutoButtonColor=false;l.Text="";b.UICorner(l)l.Parent=s;b.applyButtonClick(l,function()c.state.isUncollapsed:set(not c.state.isUncollapsed.value)end)b.applyInteractionHighlights("Background",l,l,{Color=a._config.ButtonColor,Transparency=1,HoveredColor=a._config.ButtonHoveredColor,HoveredTransparency=a._config.ButtonHoveredTransparency,ActiveColor=a._config.ButtonActiveColor,ActiveTransparency=a._config.ButtonActiveTransparency})local m=Instance.new"ImageLabel";m.Name="Arrow";m.AnchorPoint=Vector2.new(0.5,0.5)m.Size=UDim2.fromOffset(math.floor(0.7*d),math.floor(0.7*d))m.Position=UDim2.fromScale(0.5,0.5)m.BackgroundTransparency=1;m.BorderSizePixel=0;m.Image=b.ICONS.MULTIPLICATION_SIGN;m.ImageColor3=a._config.TextColor;m.ImageTransparency=a._config.TextTransparency;m.Parent=l;local l=Instance.new"TextButton";l.Name="CloseButton";l.AutomaticSize=Enum.AutomaticSize.None;l.AnchorPoint=Vector2.new(1,0.5)l.Size=UDim2.fromOffset(d,d)l.Position=UDim2.fromScale(1,0.5)l.BackgroundTransparency=1;l.BorderSizePixel=0;l.Text="";l.AutoButtonColor=false;l.LayoutOrder=2;b.UICorner(l)b.applyButtonClick(l,function()c.state.isOpened:set(false)end)b.applyInteractionHighlights("Background",l,l,{Color=a._config.ButtonColor,Transparency=1,HoveredColor=a._config.ButtonHoveredColor,HoveredTransparency=a._config.ButtonHoveredTransparency,ActiveColor=a._config.ButtonActiveColor,ActiveTransparency=a._config.ButtonActiveTransparency})l.Parent=s;local m=Instance.new"ImageLabel";m.Name="Icon";m.AnchorPoint=Vector2.new(0.5,0.5)m.Size=UDim2.fromOffset(math.floor(0.7*d),math.floor(0.7*d))m.Position=UDim2.fromScale(0.5,0.5)m.BackgroundTransparency=1;m.BorderSizePixel=0;m.Image=b.ICONS.MULTIPLICATION_SIGN;m.ImageColor3=a._config.TextColor;m.ImageTransparency=a._config.TextTransparency;m.Parent=l;local d=Instance.new"TextLabel";d.Name="Title";d.AutomaticSize=Enum.AutomaticSize.XY;d.BorderSizePixel=0;d.BackgroundTransparency=1;d.LayoutOrder=1;d.ClipsDescendants=true;b.UIPadding(d,Vector2.new(0,a._config.FramePadding.Y))b.applyTextStyle(d)d.TextXAlignment=Enum.TextXAlignment[a._config.WindowTitleAlign.Name];local l=Instance.new"UIFlexItem";l.FlexMode=Enum.UIFlexMode.Fill;l.ItemLineAlignment=Enum.ItemLineAlignment.Center;l.Parent=d;d.Parent=s;local d,l=a._config.TextSize+a._config.FramePadding.X,Instance.new"ImageButton";l.Name="LeftResizeGrip";l.AnchorPoint=Vector2.yAxis;l.Rotation=180;l.Position=UDim2.fromScale(0,1)l.Size=UDim2.fromOffset(d,d)l.BackgroundTransparency=1;l.BorderSizePixel=0;l.Image=b.ICONS.BOTTOM_RIGHT_CORNER;l.ImageColor3=a._config.ResizeGripColor;l.ImageTransparency=1;l.AutoButtonColor=false;l.ZIndex=3;l.Parent=o;b.applyInteractionHighlights("Image",l,l,{Color=a._config.ResizeGripColor,Transparency=1,HoveredColor=a._config.ResizeGripHoveredColor,HoveredTransparency=a._config.ResizeGripHoveredTransparency,ActiveColor=a._config.ResizeGripActiveColor,ActiveTransparency=a._config.ResizeGripActiveTransparency})b.applyButtonDown(l,function()if not j or not(p==c)then a.SetFocusedWindow(c)end;e=true;h=Enum.TopBottom.Bottom;i=Enum.LeftRight.Left;n=c end)local l=Instance.new"ImageButton";l.Name="RightResizeGrip";l.AnchorPoint=Vector2.one;l.Rotation=90;l.Position=UDim2.fromScale(1,1)l.Size=UDim2.fromOffset(d,d)l.BackgroundTransparency=1;l.BorderSizePixel=0;l.Image=b.ICONS.BOTTOM_RIGHT_CORNER;l.ImageColor3=a._config.ResizeGripColor;l.ImageTransparency=a._config.ResizeGripTransparency;l.AutoButtonColor=false;l.ZIndex=3;l.Parent=o;b.applyInteractionHighlights("Image",l,l,{Color=a._config.ResizeGripColor,Transparency=a._config.ResizeGripTransparency,HoveredColor=a._config.ResizeGripHoveredColor,HoveredTransparency=a._config.ResizeGripHoveredTransparency,ActiveColor=a._config.ResizeGripActiveColor,ActiveTransparency=a._config.ResizeGripActiveTransparency})b.applyButtonDown(l,function()if not j or not(p==c)then a.SetFocusedWindow(c)end;e=true;h=Enum.TopBottom.Bottom;i=Enum.LeftRight.Right;n=c end)local d=Instance.new"ImageButton";d.Name="LeftResizeBorder";d.AnchorPoint=Vector2.new(1,.5)d.Position=UDim2.fromScale(0,.5)d.Size=UDim2.new(0,a._config.WindowResizePadding.X,1,2*a._config.WindowBorderSize)d.Transparency=1;d.Image=b.ICONS.BORDER;d.ResampleMode=Enum.ResamplerMode.Pixelated;d.ScaleType=Enum.ScaleType.Slice;d.SliceCenter=Rect.new(0,0,1,1)d.ImageRectOffset=Vector2.new(2,2)d.ImageRectSize=Vector2.new(2,1)d.ImageTransparency=1;d.AutoButtonColor=false;d.ZIndex=4;d.Parent=o;local e=Instance.new"ImageButton";e.Name="RightResizeBorder";e.AnchorPoint=Vector2.new(0,.5)e.Position=UDim2.fromScale(1,.5)e.Size=UDim2.new(0,a._config.WindowResizePadding.X,1,2*a._config.WindowBorderSize)e.Transparency=1;e.Image=b.ICONS.BORDER;e.ResampleMode=Enum.ResamplerMode.Pixelated;e.ScaleType=Enum.ScaleType.Slice;e.SliceCenter=Rect.new(1,0,2,1)e.ImageRectOffset=Vector2.new(1,2)e.ImageRectSize=Vector2.new(2,1)e.ImageTransparency=1;e.AutoButtonColor=false;e.ZIndex=4;e.Parent=o;local h=Instance.new"ImageButton";h.Name="TopResizeBorder";h.AnchorPoint=Vector2.new(.5,1)h.Position=UDim2.fromScale(.5,0)h.Size=UDim2.new(1,2*a._config.WindowBorderSize,0,a._config.WindowResizePadding.Y)h.Transparency=1;h.Image=b.ICONS.BORDER;h.ResampleMode=Enum.ResamplerMode.Pixelated;h.ScaleType=Enum.ScaleType.Slice;h.SliceCenter=Rect.new(0,0,1,1)h.ImageRectOffset=Vector2.new(2,2)h.ImageRectSize=Vector2.new(1,2)h.ImageTransparency=1;h.AutoButtonColor=false;h.ZIndex=4;h.Parent=o;local i=Instance.new"ImageButton";i.Name="BottomResizeBorder";i.AnchorPoint=Vector2.new(.5,0)i.Position=UDim2.fromScale(.5,1)i.Size=UDim2.new(1,2*a._config.WindowBorderSize,0,a._config.WindowResizePadding.Y)i.Transparency=1;i.Image=b.ICONS.BORDER;i.ResampleMode=Enum.ResamplerMode.Pixelated;i.ScaleType=Enum.ScaleType.Slice;i.SliceCenter=Rect.new(0,1,1,2)i.ImageRectOffset=Vector2.new(2,1)i.ImageRectSize=Vector2.new(1,2)i.ImageTransparency=1;i.AutoButtonColor=false;i.ZIndex=4;i.Parent=o;b.applyInteractionHighlights("Image",d,d,{Color=a._config.ResizeGripColor,Transparency=1,HoveredColor=a._config.ResizeGripHoveredColor,HoveredTransparency=a._config.ResizeGripHoveredTransparency,ActiveColor=a._config.ResizeGripActiveColor,ActiveTransparency=a._config.ResizeGripActiveTransparency})b.applyInteractionHighlights("Image",e,e,{Color=a._config.ResizeGripColor,Transparency=1,HoveredColor=a._config.ResizeGripHoveredColor,HoveredTransparency=a._config.ResizeGripHoveredTransparency,ActiveColor=a._config.ResizeGripActiveColor,ActiveTransparency=a._config.ResizeGripActiveTransparency})b.applyInteractionHighlights("Image",h,h,{Color=a._config.ResizeGripColor,Transparency=1,HoveredColor=a._config.ResizeGripHoveredColor,HoveredTransparency=a._config.ResizeGripHoveredTransparency,ActiveColor=a._config.ResizeGripActiveColor,ActiveTransparency=a._config.ResizeGripActiveTransparency})b.applyInteractionHighlights("Image",i,i,{Color=a._config.ResizeGripColor,Transparency=1,HoveredColor=a._config.ResizeGripHoveredColor,HoveredTransparency=a._config.ResizeGripHoveredTransparency,ActiveColor=a._config.ResizeGripActiveColor,ActiveTransparency=a._config.ResizeGripActiveTransparency})local d=Instance.new"Frame";d.Name="ResizeBorder";d.Position=UDim2.fromOffset(-a._config.WindowResizePadding.X,-a._config.WindowResizePadding.Y)d.Size=UDim2.new(1,a._config.WindowResizePadding.X*2,1,a._config.WindowResizePadding.Y*2)d.BackgroundTransparency=1;d.BorderSizePixel=0;d.Active=false;d.Selectable=false;d.ClipsDescendants=false;d.Parent=o;b.applyMouseEnter(d,function()if p==c then f=true end end)b.applyMouseLeave(d,function()if p==c then f=false end end)b.applyInputBegan(d,function(b)if b.UserInputType==Enum.UserInputType.MouseMovement or b.UserInputType==Enum.UserInputType.Keyboard then return end;if c.state.isUncollapsed.value then a.SetFocusedWindow(c)end end)b.applyMouseEnter(o,function()if p==c then g=true end end)b.applyMouseLeave(o,function()if p==c then g=false end end)c.ChildContainer=r;return k end,GenerateState=function(b)if b.state.size==nil then b.state.size=a._widgetState(b,"size",Vector2.new(400,300))end;if b.state.position==nil then b.state.position=a._widgetState(b,"position",(j and p and{(p.state.position.value+Vector2.new(15,45))}or{(Vector2.new(150,250))})[1])end;b.state.position.value=s(b,b.state.position.value)b.state.size.value=r(b,b.state.size.value)if b.state.isUncollapsed==nil then b.state.isUncollapsed=a._widgetState(b,"isUncollapsed",true)end;if b.state.isOpened==nil then b.state.isOpened=a._widgetState(b,"isOpened",true)end;if b.state.scrollDistance==nil then b.state.scrollDistance=a._widgetState(b,"scrollDistance",0)end end,Update=function(b)local c,d=b.Instance,b.ChildContainer;local c=c.WindowButton;local e=c.Content;local f=e.TitleBar;local c,e,g,h,i,j,k,l=f.Title,e:FindFirstChild"Iris_MenuBar",c.LeftResizeGrip,c.RightResizeGrip,c.LeftResizeBorder,c.RightResizeBorder,c.TopResizeBorder,c.BottomResizeBorder;if b.arguments.NoResize~=true then g.Visible=true;h.Visible=true;i.Visible=true;j.Visible=true;k.Visible=true;l.Visible=true else g.Visible=false;h.Visible=false;i.Visible=false;j.Visible=false;k.Visible=false;l.Visible=false end;if b.arguments.NoScrollbar then d.ScrollBarThickness=0 else d.ScrollBarThickness=a._config.ScrollbarSize end;if b.arguments.NoTitleBar then f.Visible=false else f.Visible=true end;if e then if b.arguments.NoMenu then e.Visible=false else e.Visible=true end end;if b.arguments.NoBackground then d.BackgroundTransparency=1 else d.BackgroundTransparency=a._config.WindowBgTransparency end;if b.arguments.NoCollapse then f.CollapseButton.Visible=false else f.CollapseButton.Visible=true end;if b.arguments.NoClose then f.CloseButton.Visible=false else f.CloseButton.Visible=true end;c.Text=b.arguments.Title or""end,UpdateState=function(c)local d,e,f,g,h,i,j=c.state.size.value,c.state.position.value,c.state.isUncollapsed.value,c.state.isOpened.value,c.state.scrollDistance.value,c.Instance,c.ChildContainer;local k=i.WindowButton;local l=k.Content;local l,m,n,o,p,q,r,s=l.TitleBar,l:FindFirstChild"Iris_MenuBar",k.LeftResizeGrip,k.RightResizeGrip,k.LeftResizeBorder,k.RightResizeBorder,k.TopResizeBorder,k.BottomResizeBorder;k.Size=UDim2.fromOffset(d.X,d.Y)k.Position=UDim2.fromOffset(e.X,e.Y)if g then if c.usesScreenGuis then i.Enabled=true;k.Visible=true else i.Visible=true;k.Visible=true end;c.lastOpenedTick=a._cycleTick+1 else if c.usesScreenGuis then i.Enabled=false;k.Visible=false else i.Visible=false;k.Visible=false end;c.lastClosedTick=a._cycleTick+1 end;if f then l.CollapseButton.Arrow.Image=b.ICONS.DOWN_POINTING_TRIANGLE;if m then m.Visible=not c.arguments.NoMenu end;j.Visible=true;if c.arguments.NoResize~=true then n.Visible=true;o.Visible=true;p.Visible=true;q.Visible=true;r.Visible=true;s.Visible=true end;k.AutomaticSize=Enum.AutomaticSize.None;c.lastUncollapsedTick=a._cycleTick+1 else local e=l.AbsoluteSize.Y;l.CollapseButton.Arrow.Image=b.ICONS.RIGHT_POINTING_TRIANGLE;if m then m.Visible=false end;j.Visible=false;n.Visible=false;o.Visible=false;p.Visible=false;q.Visible=false;r.Visible=false;s.Visible=false;k.Size=UDim2.fromOffset(d.X,e)c.lastCollapsedTick=a._cycleTick+1 end;if g and f then a.SetFocusedWindow(c)else l.BackgroundColor3=a._config.TitleBgCollapsedColor;l.BackgroundTransparency=a._config.TitleBgCollapsedTransparency;k.UIStroke.Color=a._config.BorderColor;a.SetFocusedWindow(nil)end;if h and h~=0 then local b,d=#a._postCycleCallbacks+1,a._cycleTick+1;a._postCycleCallbacks[b]=function()if a._cycleTick>=d then if c.lastCycleTick~=-1 then j.CanvasPosition=Vector2.new(0,h)end;a._postCycleCallbacks[b]=nil end end end end,ChildAdded=function(a,b)local c=a.Instance;local c=c.WindowButton;local c=c.Content;if b.type=="MenuBar"then local a=a.ChildContainer;b.Instance.ZIndex=a.ZIndex+1;b.Instance.LayoutOrder=a.LayoutOrder-1;return c end;return a.ChildContainer end,Discard=function(a)if p==a then p=nil;j=false end;if l==a then l=nil;d=false end;if n==a then n=nil;e=false end;k[a.ID]=nil;a.Instance:Destroy()b.discardState(a)end})end end)(),(function()return function(a,b)local c,d,e=false,{}local f,g=function(b)for b=#d,b and b+1 or 1,-1 do local c=d[b];c.state.isOpened:set(false)c.Instance.BackgroundColor3=a._config.HeaderColor;c.Instance.BackgroundTransparency=1;table.remove(d,b)end;if#d==0 then c=false;e=nil end end,function(c)local c,d,e=c.parentWidget.type=="Menu",c.Instance,c.ChildContainer;e.Size=UDim2.fromOffset(d.AbsoluteSize.X,0)if e.Parent==nil then return end;local a,b,d,f,g=d.AbsolutePosition-b.GuiOffset,d.AbsoluteSize,e.AbsoluteSize,a._config.PopupBorderSize,e.Parent.AbsoluteSize;local h,i,j=a.X,Vector2.zero;if c then if a.X+d.X>g.X then i=Vector2.xAxis else h=a.X+b.X end end;if a.Y+d.Y>g.Y then j=a.Y-f+(c and b.Y or 0)i+=Vector2.yAxis else j=a.Y+f+(c and 0 or b.Y)end;e.Position=UDim2.fromOffset(h,j)e.AnchorPoint=i end;b.registerEvent("InputBegan",function(g)if not a._started then return end;if g.UserInputType~=Enum.UserInputType.MouseButton1 and g.UserInputType~=Enum.UserInputType.MouseButton2 then return end;if c==false then return end;if e==nil then return end;local a,c=false,b.getMouseLocation()for d,d in d do for d,d in{d.ChildContainer,d.Instance}do local e=d.AbsolutePosition-b.GuiOffset;local d=e+d.AbsoluteSize;if b.isPosInsideRect(c,e,d)then a=true;break end end;if a then break end end;if not a then f()end end)a.WidgetConstructor("MenuBar",{hasState=false,hasChildren=true,Args={},Events={},Generate=function(c)local c=Instance.new"Frame";c.Name="Iris_MenuBar";c.AutomaticSize=Enum.AutomaticSize.Y;c.Size=UDim2.fromScale(1,0)c.BackgroundColor3=a._config.MenubarBgColor;c.BackgroundTransparency=a._config.MenubarBgTransparency;c.BorderSizePixel=0;c.ClipsDescendants=true;b.UIPadding(c,Vector2.new(a._config.WindowPadding.X,1))b.UIListLayout(c,Enum.FillDirection.Horizontal,UDim.new()).VerticalAlignment=Enum.VerticalAlignment.Center;b.applyFrameStyle(c,true,true)return c end,Update=function(a)end,ChildAdded=function(a,b)return a.Instance end,Discard=function(a)a.Instance:Destroy()end})a.WidgetConstructor("Menu",{hasState=true,hasChildren=true,Args={Text=1},Events={clicked=b.EVENTS.click(function(a)return a.Instance end),hovered=b.EVENTS.hover(function(a)return a.Instance end),opened={Init=function(a)end,Get=function(b)return b.lastOpenedTick==a._cycleTick end},closed={Init=function(a)end,Get=function(b)return b.lastClosedTick==a._cycleTick end}},Generate=function(g)local h;g.ButtonColors={Color=a._config.HeaderColor,Transparency=1,HoveredColor=a._config.HeaderHoveredColor,HoveredTransparency=a._config.HeaderHoveredTransparency,ActiveColor=a._config.HeaderHoveredColor,ActiveTransparency=a._config.HeaderHoveredTransparency}if g.parentWidget.type=="Menu"then h=Instance.new"TextButton";h.Name="Menu";h.AutomaticSize=Enum.AutomaticSize.Y;h.Size=UDim2.fromScale(1,0)h.BackgroundColor3=a._config.HeaderColor;h.BackgroundTransparency=1;h.BorderSizePixel=0;h.Text="";h.AutoButtonColor=false;local c=b.UIPadding(h,a._config.FramePadding)c.PaddingTop=c.PaddingTop-UDim.new(0,1)b.UIListLayout(h,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;local c=Instance.new"TextLabel";c.Name="TextLabel";c.AutomaticSize=Enum.AutomaticSize.XY;c.BackgroundTransparency=1;c.BorderSizePixel=0;b.applyTextStyle(c)c.Parent=h;local c=a._config.TextSize+2*a._config.FramePadding.Y;local d=math.round(0.2*c)local c,d=c-2*d,Instance.new"ImageLabel";d.Name="Icon";d.Size=UDim2.fromOffset(c,c)d.BackgroundTransparency=1;d.BorderSizePixel=0;d.ImageColor3=a._config.TextColor;d.ImageTransparency=a._config.TextTransparency;d.Image=b.ICONS.RIGHT_POINTING_TRIANGLE;d.LayoutOrder=1;d.Parent=h else h=Instance.new"TextButton";h.Name="Menu";h.AutomaticSize=Enum.AutomaticSize.XY;h.Size=UDim2.fromScale(0,0)h.BackgroundColor3=a._config.HeaderColor;h.BackgroundTransparency=1;h.BorderSizePixel=0;h.Text="";h.AutoButtonColor=false;h.ClipsDescendants=true;b.applyTextStyle(h)b.UIPadding(h,Vector2.new(a._config.ItemSpacing.X,a._config.FramePadding.Y))end;b.applyInteractionHighlights("Background",h,h,g.ButtonColors)b.applyButtonClick(h,function()local a=(#d<=1 and{(not g.state.isOpened.value)}or{true})[1];g.state.isOpened:set(a)c=a;e=a and g or nil;if#d<=1 then if a then table.insert(d,g)else table.remove(d)end end end)b.applyMouseEnter(h,function()if c and e and e~=g then local a=g.parentWidget;local a=table.find(d,a)f(a)g.state.isOpened:set(true)e=g;c=true;table.insert(d,g)end end)local c=Instance.new"ScrollingFrame";c.Name="MenuContainer";c.AutomaticSize=Enum.AutomaticSize.XY;c.Size=UDim2.fromOffset(0,0)c.BackgroundColor3=a._config.PopupBgColor;c.BackgroundTransparency=a._config.PopupBgTransparency;c.BorderSizePixel=0;c.AutomaticCanvasSize=Enum.AutomaticSize.Y;c.ScrollBarImageTransparency=a._config.ScrollbarGrabTransparency;c.ScrollBarImageColor3=a._config.ScrollbarGrabColor;c.ScrollBarThickness=a._config.ScrollbarSize;c.CanvasSize=UDim2.fromScale(0,0)c.VerticalScrollBarInset=Enum.ScrollBarInset.ScrollBar;c.TopImage=b.ICONS.BLANK_SQUARE;c.MidImage=b.ICONS.BLANK_SQUARE;c.BottomImage=b.ICONS.BLANK_SQUARE;c.ZIndex=6;c.LayoutOrder=6;c.ClipsDescendants=true;b.UIStroke(c,a._config.WindowBorderSize,a._config.BorderColor,a._config.BorderTransparency)b.UIPadding(c,Vector2.new(2,a._config.WindowPadding.Y-a._config.ItemSpacing.Y))b.UIListLayout(c,Enum.FillDirection.Vertical,UDim.new(0,1)).VerticalAlignment=Enum.VerticalAlignment.Top;local a=a._rootInstance and(a._rootInstance:FindFirstChild"PopupScreenGui")c.Parent=a;g.ChildContainer=c;return h end,Update=function(a)local b,c=a.Instance;if a.parentWidget.type=="Menu"then c=b.TextLabel else c=b end;c.Text=a.arguments.Text or"Menu"end,ChildAdded=function(a,b)g(a)return a.ChildContainer end,ChildDiscarded=function(a,b)g(a)end,GenerateState=function(b)if b.state.isOpened==nil then b.state.isOpened=a._widgetState(b,"isOpened",false)end end,UpdateState=function(b)local c=b.ChildContainer;if b.state.isOpened.value then b.lastOpenedTick=a._cycleTick+1;b.ButtonColors.Transparency=a._config.HeaderTransparency;c.Visible=true;g(b)else b.lastClosedTick=a._cycleTick+1;b.ButtonColors.Transparency=1;c.Visible=false end end,Discard=function(a)if c then local a=a.parentWidget;local b=table.find(d,a)if b then f(b)if#d~=0 then e=a;c=true end end end;a.Instance:Destroy()a.ChildContainer:Destroy()b.discardState(a)end})a.WidgetConstructor("MenuItem",{hasState=false,hasChildren=false,Args={Text=1,KeyCode=2,ModifierKey=3},Events={clicked=b.EVENTS.click(function(a)return a.Instance end),hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(g)local h=Instance.new"TextButton";h.Name="Iris_MenuItem";h.AutomaticSize=Enum.AutomaticSize.Y;h.Size=UDim2.fromScale(1,0)h.BackgroundTransparency=1;h.BorderSizePixel=0;h.Text="";h.AutoButtonColor=false;local i=b.UIPadding(h,a._config.FramePadding)i.PaddingTop=i.PaddingTop-UDim.new(0,1)b.UIListLayout(h,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X))b.applyInteractionHighlights("Background",h,h,{Color=a._config.HeaderColor,Transparency=1,HoveredColor=a._config.HeaderHoveredColor,HoveredTransparency=a._config.HeaderHoveredTransparency,ActiveColor=a._config.HeaderHoveredColor,ActiveTransparency=a._config.HeaderHoveredTransparency})b.applyButtonClick(h,function()f()end)b.applyMouseEnter(h,function()local a=g.parentWidget;if c and e and e~=a then local b=table.find(d,a)f(b)e=a;c=true end end)local c=Instance.new"TextLabel";c.Name="TextLabel";c.AutomaticSize=Enum.AutomaticSize.XY;c.BackgroundTransparency=1;c.BorderSizePixel=0;b.applyTextStyle(c)c.Parent=h;local c=Instance.new"TextLabel";c.Name="Shortcut";c.AutomaticSize=Enum.AutomaticSize.XY;c.BackgroundTransparency=1;c.BorderSizePixel=0;c.LayoutOrder=1;b.applyTextStyle(c)c.Text="";c.TextColor3=a._config.TextDisabledColor;c.TextTransparency=a._config.TextDisabledTransparency;c.Parent=h;return h end,Update=function(a)local b=a.Instance;local b,c=b.TextLabel,b.Shortcut;b.Text=a.arguments.Text;if a.arguments.KeyCode then if a.arguments.ModifierKey then c.Text=a.arguments.ModifierKey.Name.." + "..a.arguments.KeyCode.Name else c.Text=a.arguments.KeyCode.Name end end end,Discard=function(a)a.Instance:Destroy()end})a.WidgetConstructor("MenuToggle",{hasState=true,hasChildren=false,Args={Text=1,KeyCode=2,ModifierKey=3},Events={checked={Init=function(a)end,Get=function(b)return b.lastCheckedTick==a._cycleTick end},unchecked={Init=function(a)end,Get=function(b)return b.lastUncheckedTick==a._cycleTick end},hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(g)local h=Instance.new"TextButton";h.Name="Iris_MenuToggle";h.AutomaticSize=Enum.AutomaticSize.Y;h.Size=UDim2.fromScale(1,0)h.BackgroundTransparency=1;h.BorderSizePixel=0;h.Text="";h.AutoButtonColor=false;local i=b.UIPadding(h,a._config.FramePadding)i.PaddingTop=i.PaddingTop-UDim.new(0,1)b.UIListLayout(h,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;b.applyInteractionHighlights("Background",h,h,{Color=a._config.HeaderColor,Transparency=1,HoveredColor=a._config.HeaderHoveredColor,HoveredTransparency=a._config.HeaderHoveredTransparency,ActiveColor=a._config.HeaderHoveredColor,ActiveTransparency=a._config.HeaderHoveredTransparency})b.applyButtonClick(h,function()g.state.isChecked:set(not g.state.isChecked.value)f()end)b.applyMouseEnter(h,function()local a=g.parentWidget;if c and e and e~=a then local b=table.find(d,a)f(b)e=a;c=true end end)local c=Instance.new"TextLabel";c.Name="TextLabel";c.AutomaticSize=Enum.AutomaticSize.XY;c.BackgroundTransparency=1;c.BorderSizePixel=0;b.applyTextStyle(c)c.Parent=h;local c=Instance.new"TextLabel";c.Name="Shortcut";c.AutomaticSize=Enum.AutomaticSize.XY;c.BackgroundTransparency=1;c.BorderSizePixel=0;c.LayoutOrder=1;b.applyTextStyle(c)c.Text="";c.TextColor3=a._config.TextDisabledColor;c.TextTransparency=a._config.TextDisabledTransparency;c.Parent=h;local c=a._config.TextSize+2*a._config.FramePadding.Y;local d=math.round(0.2*c)local c,d=c-2*d,Instance.new"ImageLabel";d.Name="Icon";d.Size=UDim2.fromOffset(c,c)d.BackgroundTransparency=1;d.BorderSizePixel=0;d.ImageColor3=a._config.TextColor;d.ImageTransparency=a._config.TextTransparency;d.Image=b.ICONS.CHECKMARK;d.LayoutOrder=2;d.Parent=h;return h end,GenerateState=function(b)if b.state.isChecked==nil then b.state.isChecked=a._widgetState(b,"isChecked",false)end end,Update=function(a)local b=a.Instance;local b,c=b.TextLabel,b.Shortcut;b.Text=a.arguments.Text;if a.arguments.KeyCode then if a.arguments.ModifierKey then c.Text=a.arguments.ModifierKey.Name.." + "..a.arguments.KeyCode.Name else c.Text=a.arguments.KeyCode.Name end end end,UpdateState=function(b)local c=b.Instance;local c=c.Icon;if b.state.isChecked.value then c.ImageTransparency=a._config.TextTransparency;b.lastCheckedTick=a._cycleTick+1 else c.ImageTransparency=1;b.lastUncheckedTick=a._cycleTick+1 end end,Discard=function(a)a.Instance:Destroy()b.discardState(a)end})end end)(),(function()return function(a,b)a.WidgetConstructor("Separator",{hasState=false,hasChildren=false,Args={},Events={},Generate=function(c)local d=Instance.new"Frame";d.Name="Iris_Separator";if c.parentWidget.type=="SameLine"then d.Size=UDim2.new(0,1,a._config.ItemWidth.Scale,a._config.ItemWidth.Offset)else d.Size=UDim2.new(a._config.ItemWidth.Scale,a._config.ItemWidth.Offset,0,1)end;d.BackgroundColor3=a._config.SeparatorColor;d.BackgroundTransparency=a._config.SeparatorTransparency;d.BorderSizePixel=0;b.UIListLayout(d,Enum.FillDirection.Vertical,UDim.new(0,0))return d end,Update=function(a)end,Discard=function(a)a.Instance:Destroy()end})a.WidgetConstructor("Indent",{hasState=false,hasChildren=true,Args={Width=1},Events={},Generate=function(c)local c=Instance.new"Frame";c.Name="Iris_Indent";c.AutomaticSize=Enum.AutomaticSize.Y;c.Size=UDim2.new(a._config.ItemWidth,UDim.new())c.BackgroundTransparency=1;c.BorderSizePixel=0;b.UIListLayout(c,Enum.FillDirection.Vertical,UDim.new(0,a._config.ItemSpacing.Y))b.UIPadding(c,Vector2.zero)return c end,Update=function(b)local c=b.Instance;c.UIPadding.PaddingLeft=UDim.new(0,(b.arguments.Width and{b.arguments.Width}or{a._config.IndentSpacing})[1])end,ChildAdded=function(a,b)return a.Instance end,Discard=function(a)a.Instance:Destroy()end})a.WidgetConstructor("SameLine",{hasState=false,hasChildren=true,Args={Width=1,VerticalAlignment=2,HorizontalAlignment=3},Events={},Generate=function(c)local c=Instance.new"Frame";c.Name="Iris_SameLine";c.AutomaticSize=Enum.AutomaticSize.Y;c.Size=UDim2.new(a._config.ItemWidth,UDim.new())c.BackgroundTransparency=1;c.BorderSizePixel=0;b.UIListLayout(c,Enum.FillDirection.Horizontal,UDim.new(0,0))return c end,Update=function(b)local c=b.Instance;local c=c.UIListLayout;c.Padding=UDim.new(0,(b.arguments.Width and{b.arguments.Width}or{a._config.ItemSpacing.X})[1])if b.arguments.VerticalAlignment then c.VerticalAlignment=b.arguments.VerticalAlignment else c.VerticalAlignment=Enum.VerticalAlignment.Top end;if b.arguments.HorizontalAlignment then c.HorizontalAlignment=b.arguments.HorizontalAlignment else c.HorizontalAlignment=Enum.HorizontalAlignment.Left end end,ChildAdded=function(a,b)return a.Instance end,Discard=function(a)a.Instance:Destroy()end})a.WidgetConstructor("Group",{hasState=false,hasChildren=true,Args={},Events={},Generate=function(c)local c=Instance.new"Frame";c.Name="Iris_Group";c.AutomaticSize=Enum.AutomaticSize.XY;c.Size=UDim2.fromOffset(0,0)c.BackgroundTransparency=1;c.BorderSizePixel=0;c.ClipsDescendants=false;b.UIListLayout(c,Enum.FillDirection.Vertical,UDim.new(0,a._config.ItemSpacing.Y))return c end,Update=function(a)end,ChildAdded=function(a,b)return a.Instance end,Discard=function(a)a.Instance:Destroy()end})end end)(),(function()return function(a,b)a.WidgetConstructor("Text",{hasState=false,hasChildren=false,Args={Text=1,Wrapped=2,Color=3,RichText=4},Events={hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(a)local a=Instance.new"TextLabel";a.Name="Iris_Text";a.AutomaticSize=Enum.AutomaticSize.XY;a.Size=UDim2.fromOffset(0,0)a.BackgroundTransparency=1;a.BorderSizePixel=0;b.applyTextStyle(a)b.UIPadding(a,Vector2.new(0,2))return a end,Update=function(b)local c=b.Instance;if b.arguments.Text==nil then error("Text argument is required for Iris.Text().",5)end;if b.arguments.Wrapped~=nil then c.TextWrapped=b.arguments.Wrapped else c.TextWrapped=a._config.TextWrapped end;if b.arguments.Color then c.TextColor3=b.arguments.Color else c.TextColor3=a._config.TextColor end;if b.arguments.RichText~=nil then c.RichText=b.arguments.RichText else c.RichText=a._config.RichText end;c.Text=b.arguments.Text end,Discard=function(a)a.Instance:Destroy()end})a.WidgetConstructor("SeparatorText",{hasState=false,hasChildren=false,Args={Text=1},Events={hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(c)local c=Instance.new"Frame";c.Name="Iris_SeparatorText";c.AutomaticSize=Enum.AutomaticSize.Y;c.Size=UDim2.new(a._config.ItemWidth,UDim.new())c.BackgroundTransparency=1;c.BorderSizePixel=0;c.ClipsDescendants=true;b.UIPadding(c,Vector2.new(0,a._config.SeparatorTextPadding.Y))b.UIListLayout(c,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemSpacing.X))c.UIListLayout.VerticalAlignment=Enum.VerticalAlignment.Center;local d=Instance.new"TextLabel";d.Name="TextLabel";d.AutomaticSize=Enum.AutomaticSize.XY;d.BackgroundTransparency=1;d.BorderSizePixel=0;d.LayoutOrder=1;b.applyTextStyle(d)d.Parent=c;local b=Instance.new"Frame";b.Name="Left";b.AnchorPoint=Vector2.new(1,0.5)b.Size=UDim2.fromOffset(a._config.SeparatorTextPadding.X-a._config.ItemSpacing.X,a._config.SeparatorTextBorderSize)b.BackgroundColor3=a._config.SeparatorColor;b.BackgroundTransparency=a._config.SeparatorTransparency;b.BorderSizePixel=0;b.Parent=c;local b=Instance.new"Frame";b.Name="Right";b.AnchorPoint=Vector2.new(1,0.5)b.Size=UDim2.new(1,0,0,a._config.SeparatorTextBorderSize)b.BackgroundColor3=a._config.SeparatorColor;b.BackgroundTransparency=a._config.SeparatorTransparency;b.BorderSizePixel=0;b.LayoutOrder=2;b.Parent=c;return c end,Update=function(a)local b=a.Instance;local b=b.TextLabel;if a.arguments.Text==nil then error("Text argument is required for Iris.SeparatorText().",5)end;b.Text=a.arguments.Text end,Discard=function(a)a.Instance:Destroy()end})end end)(),(function()return function(a,b)local c={hasState=false,hasChildren=false,Args={Text=1,Size=2},Events={clicked=b.EVENTS.click(function(a)return a.Instance end),rightClicked=b.EVENTS.rightClick(function(a)return a.Instance end),doubleClicked=b.EVENTS.doubleClick(function(a)return a.Instance end),ctrlClicked=b.EVENTS.ctrlClick(function(a)return a.Instance end),hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(c)local c=Instance.new"TextButton";c.AutomaticSize=Enum.AutomaticSize.XY;c.Size=UDim2.fromOffset(0,0)c.BackgroundColor3=a._config.ButtonColor;c.BackgroundTransparency=a._config.ButtonTransparency;c.AutoButtonColor=false;b.applyTextStyle(c)c.TextXAlignment=Enum.TextXAlignment.Center;b.applyFrameStyle(c)b.applyInteractionHighlights("Background",c,c,{Color=a._config.ButtonColor,Transparency=a._config.ButtonTransparency,HoveredColor=a._config.ButtonHoveredColor,HoveredTransparency=a._config.ButtonHoveredTransparency,ActiveColor=a._config.ButtonActiveColor,ActiveTransparency=a._config.ButtonActiveTransparency})return c end,Update=function(a)local b=a.Instance;b.Text=a.arguments.Text or"Button";b.Size=a.arguments.Size or UDim2.fromOffset(0,0)end,Discard=function(a)a.Instance:Destroy()end}b.abstractButton=c;a.WidgetConstructor("Button",b.extend(c,{Generate=function(a)local a=c.Generate(a)a.Name="Iris_Button";return a end}))a.WidgetConstructor("SmallButton",b.extend(c,{Generate=function(a)local a=c.Generate(a)a.Name="Iris_SmallButton";local b=a.UIPadding;b.PaddingLeft=UDim.new(0,2)b.PaddingRight=UDim.new(0,2)b.PaddingTop=UDim.new(0,0)b.PaddingBottom=UDim.new(0,0)return a end}))end end)(),(function()return function(a,b)a.WidgetConstructor("Checkbox",{hasState=true,hasChildren=false,Args={Text=1},Events={checked={Init=function(a)end,Get=function(b)return b.lastCheckedTick==a._cycleTick end},unchecked={Init=function(a)end,Get=function(b)return b.lastUncheckedTick==a._cycleTick end},hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(c)local d=Instance.new"TextButton";d.Name="Iris_Checkbox";d.AutomaticSize=Enum.AutomaticSize.XY;d.Size=UDim2.fromOffset(0,0)d.BackgroundTransparency=1;d.BorderSizePixel=0;d.Text="";d.AutoButtonColor=false;b.UIListLayout(d,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;local e,f=a._config.TextSize+2*a._config.FramePadding.Y,Instance.new"Frame";f.Name="Box";f.Size=UDim2.fromOffset(e,e)f.BackgroundColor3=a._config.FrameBgColor;f.BackgroundTransparency=a._config.FrameBgTransparency;b.applyFrameStyle(f,true)b.UIPadding(f,Vector2.new(math.floor(e/10),math.floor(e/10)))b.applyInteractionHighlights("Background",d,f,{Color=a._config.FrameBgColor,Transparency=a._config.FrameBgTransparency,HoveredColor=a._config.FrameBgHoveredColor,HoveredTransparency=a._config.FrameBgHoveredTransparency,ActiveColor=a._config.FrameBgActiveColor,ActiveTransparency=a._config.FrameBgActiveTransparency})f.Parent=d;local e=Instance.new"ImageLabel";e.Name="Checkmark";e.Size=UDim2.fromScale(1,1)e.BackgroundTransparency=1;e.Image=b.ICONS.CHECKMARK;e.ImageColor3=a._config.CheckMarkColor;e.ImageTransparency=1;e.ScaleType=Enum.ScaleType.Fit;e.Parent=f;b.applyButtonClick(d,function()c.state.isChecked:set(not c.state.isChecked.value)end)local a=Instance.new"TextLabel";a.Name="TextLabel";a.AutomaticSize=Enum.AutomaticSize.XY;a.BackgroundTransparency=1;a.BorderSizePixel=0;a.LayoutOrder=1;b.applyTextStyle(a)a.Parent=d;return d end,GenerateState=function(b)if b.state.isChecked==nil then b.state.isChecked=a._widgetState(b,"checked",false)end end,Update=function(a)local b=a.Instance;b.TextLabel.Text=a.arguments.Text or"Checkbox"end,UpdateState=function(b)local c=b.Instance;local c=c.Box;local c=c.Checkmark;if b.state.isChecked.value then c.ImageTransparency=a._config.CheckMarkTransparency;b.lastCheckedTick=a._cycleTick+1 else c.ImageTransparency=1;b.lastUncheckedTick=a._cycleTick+1 end end,Discard=function(a)a.Instance:Destroy()b.discardState(a)end})end end)(),(function()return function(a,b)a.WidgetConstructor("RadioButton",{hasState=true,hasChildren=false,Args={Text=1,Index=2},Events={selected={Init=function(a)end,Get=function(b)return b.lastSelectedTick==a._cycleTick end},unselected={Init=function(a)end,Get=function(b)return b.lastUnselectedTick==a._cycleTick end},active={Init=function(a)end,Get=function(a)return a.state.index.value==a.arguments.Index end},hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(c)local d=Instance.new"TextButton";d.Name="Iris_RadioButton";d.AutomaticSize=Enum.AutomaticSize.XY;d.Size=UDim2.fromOffset(0,0)d.BackgroundTransparency=1;d.BorderSizePixel=0;d.Text="";d.AutoButtonColor=false;b.UIListLayout(d,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;local e,f=a._config.TextSize+2*(a._config.FramePadding.Y-1),Instance.new"Frame";f.Name="Button";f.Size=UDim2.fromOffset(e,e)f.BackgroundColor3=a._config.FrameBgColor;f.BackgroundTransparency=a._config.FrameBgTransparency;f.Parent=d;b.UICorner(f)b.UIPadding(f,Vector2.new(math.max(1,math.floor(e/5)),math.max(1,math.floor(e/5))))local e=Instance.new"Frame";e.Name="Circle";e.Size=UDim2.fromScale(1,1)e.BackgroundColor3=a._config.CheckMarkColor;e.BackgroundTransparency=a._config.CheckMarkTransparency;b.UICorner(e)e.Parent=f;b.applyInteractionHighlights("Background",d,f,{Color=a._config.FrameBgColor,Transparency=a._config.FrameBgTransparency,HoveredColor=a._config.FrameBgHoveredColor,HoveredTransparency=a._config.FrameBgHoveredTransparency,ActiveColor=a._config.FrameBgActiveColor,ActiveTransparency=a._config.FrameBgActiveTransparency})b.applyButtonClick(d,function()c.state.index:set(c.arguments.Index)end)local a=Instance.new"TextLabel";a.Name="TextLabel";a.AutomaticSize=Enum.AutomaticSize.XY;a.BackgroundTransparency=1;a.BorderSizePixel=0;a.LayoutOrder=1;b.applyTextStyle(a)a.Parent=d;return d end,Update=function(b)local c=b.Instance;local c=c.TextLabel;c.Text=b.arguments.Text or"Radio Button";if b.state then b.state.index.lastChangeTick=a._cycleTick;a._widgets[b.type].UpdateState(b)end end,Discard=function(a)a.Instance:Destroy()b.discardState(a)end,GenerateState=function(b)if b.state.index==nil then b.state.index=a._widgetState(b,"index",b.arguments.Index)end end,UpdateState=function(b)local c=b.Instance;local c=c.Button;local c=c.Circle;if b.state.index.value==b.arguments.Index then c.BackgroundTransparency=a._config.CheckMarkTransparency;b.lastSelectedTick=a._cycleTick+1 else c.BackgroundTransparency=1;b.lastUnselectedTick=a._cycleTick+1 end end})end end)(),(function()return function(a,b)local c,d,e,f,g,h,i,j={Init=function(a)end,Get=function(b)return b.lastNumberChangedTick==a._cycleTick end},function(a,b,c)local a=a;if typeof(a)=="number"then return a elseif typeof(a)=="Vector2"then if b==1 then return a.X elseif b==2 then return a.Y end elseif typeof(a)=="Vector3"then if b==1 then return a.X elseif b==2 then return a.Y elseif b==3 then return a.Z end elseif typeof(a)=="UDim"then if b==1 then return a.Scale elseif b==2 then return a.Offset end elseif typeof(a)=="UDim2"then if b==1 then return a.X.Scale elseif b==2 then return a.X.Offset elseif b==3 then return a.Y.Scale elseif b==4 then return a.Y.Offset end elseif typeof(a)=="Color3"then local a=c.UseHSV and{a:ToHSV()}or{a.R,a.G,a.B}if b==1 then return a[1]elseif b==2 then return a[2]elseif b==3 then return a[3]end elseif typeof(a)=="Rect"then if b==1 then return a.Min.X elseif b==2 then return a.Min.Y elseif b==3 then return a.Max.X elseif b==4 then return a.Max.Y end elseif typeof(a)=="table"then return a[b]end;error(`Incorrect datatype or value: {value} {typeof(value)} {index}.`)end,function(a,b,c,d)local a=a;if typeof(a)=="number"then return c elseif typeof(a)=="Vector2"then if b==1 then return(Vector2.new(c,a.Y))elseif b==2 then return(Vector2.new(a.X,c))end elseif typeof(a)=="Vector3"then if b==1 then return(Vector3.new(c,a.Y,a.Z))elseif b==2 then return(Vector3.new(a.X,c,a.Z))elseif b==3 then return(Vector3.new(a.X,a.Y,c))end elseif typeof(a)=="UDim"then if b==1 then return(UDim.new(c,a.Offset))elseif b==2 then return(UDim.new(a.Scale,c))end elseif typeof(a)=="UDim2"then if b==1 then return(UDim2.new(UDim.new(c,a.X.Offset),a.Y))elseif b==2 then return(UDim2.new(UDim.new(a.X.Scale,c),a.Y))elseif b==3 then return(UDim2.new(a.X,UDim.new(c,a.Y.Offset)))elseif b==4 then return(UDim2.new(a.X,UDim.new(a.Y.Scale,c)))end elseif typeof(a)=="Rect"then if b==1 then return(Rect.new(Vector2.new(c,a.Min.Y),a.Max))elseif b==2 then return(Rect.new(Vector2.new(a.Min.X,c),a.Max))elseif b==3 then return(Rect.new(a.Min,Vector2.new(c,a.Max.Y)))elseif b==4 then return(Rect.new(a.Min,Vector2.new(a.Max.X,c)))end elseif typeof(a)=="Color3"then if d.UseHSV then local a,d,e=a:ToHSV()if b==1 then return(Color3.fromHSV(c,d,e))elseif b==2 then return(Color3.fromHSV(a,c,e))elseif b==3 then return(Color3.fromHSV(a,d,c))end end;if b==1 then return(Color3.new(c,a.G,a.B))elseif b==2 then return(Color3.new(a.R,c,a.B))elseif b==3 then return(Color3.new(a.R,a.G,c))end end;error(`Incorrect datatype or value {value} {typeof(value)} {index}.`)end,{Num={1},Vector2={1,1},Vector3={1,1,1},UDim={0.01,1},UDim2={0.01,1,0.01,1},Color3={1,1,1},Color4={1,1,1,1},Rect={1,1,1,1}},{Num={0},Vector2={0,0},Vector3={0,0,0},UDim={0,0},UDim2={0,0,0,0},Rect={0,0,0,0}},{Num={100},Vector2={100,100},Vector3={100,100,100},UDim={1,960},UDim2={1,960,1,960},Rect={960,960,960,960}},{Num={""},Vector2={"X: ","Y: "},Vector3={"X: ","Y: ","Z: "},UDim={"",""},UDim2={"","","",""},Color3_RGB={"R: ","G: ","B: "},Color3_HSV={"H: ","S: ","V: "},Color4_RGB={"R: ","G: ","B: ","T: "},Color4_HSV={"H: ","S: ","V: ","T: "},Rect={"X: ","Y: ","X: ","Y: "}},{Num={0},Vector2={0,0},Vector3={0,0,0},UDim={3,0},UDim2={3,0,3,0},Color3={0,0,0},Color4={0,0,0,0},Rect={0,0,0,0}}local c,j,k=function(e,k,l,m)return{hasState=true,hasChildren=false,Args={Text=1,Increment=2,Min=3,Max=4,Format=5},Events={numberChanged=c,hovered=b.EVENTS.hover(function(a)return a.Instance end)},GenerateState=function(b)if b.state.number==nil then b.state.number=a._widgetState(b,"number",m)end;if b.state.editingText==nil then b.state.editingText=a._widgetState(b,"editingText",0)end end,Update=function(b)local c=b.Instance;local m=c.TextLabel;m.Text=b.arguments.Text or`Input {dataType}`if b.arguments.Format and typeof(b.arguments.Format)~="table"then b.arguments.Format={b.arguments.Format}elseif not b.arguments.Format then local a={}for c=1,l do local e=j[k][c];if b.arguments.Increment then local a=d(b.arguments.Increment,c,b.arguments)e=math.max(e,math.ceil(-math.log10(a==0 and 1 or a)),e)end;if b.arguments.Max then local a=d(b.arguments.Max,c,b.arguments)e=math.max(e,math.ceil(-math.log10(a==0 and 1 or a)),e)end;if b.arguments.Min then local a=d(b.arguments.Min,c,b.arguments)e=math.max(e,math.ceil(-math.log10(a==0 and 1 or a)),e)end;if e>0 then a[c]=`%.{sigfigs}f`else a[c]="%d"end end;b.arguments.Format=a;b.arguments.Prefix=i[k]end;if e=="Input"and k=="Num"then c.SubButton.Visible=not b.arguments.NoButtons;c.AddButton.Visible=not b.arguments.NoButtons;local b,c=c.InputField1,b.arguments.NoButtons and 0 or(2*a._config.ItemInnerSpacing.X)+(2*(a._config.TextSize+2*a._config.FramePadding.Y))b.Size=UDim2.new(UDim.new(a._config.ContentWidth.Scale,a._config.ContentWidth.Offset-c),a._config.ContentHeight)end;if e=="Slider"then for a=1,l do local c=(c:FindFirstChild("SliderField"..tostring(a)))local a,b,c,d=c.GrabBar,b.arguments.Increment and d(b.arguments.Increment,a,b.arguments)or f[k][a],b.arguments.Min and d(b.arguments.Min,a,b.arguments)or g[k][a],b.arguments.Max and d(b.arguments.Max,a,b.arguments)or h[k][a];local b=1/math.floor((1+d-c)/b)a.Size=UDim2.fromScale(b,1)end;local c,d=#a._postCycleCallbacks+1,a._cycleTick+1;a._postCycleCallbacks[c]=function()if a._cycleTick>=d then if b.lastCycleTick~=-1 then b.state.number.lastChangeTick=a._cycleTick;a._widgets[`Slider{dataType}`].UpdateState(b)end;a._postCycleCallbacks[c]=nil end end end end,Discard=function(a)a.Instance:Destroy()b.discardState(a)end}end,function(b,c,f,g)local h,i,j=tonumber(c.Text:match"-?%d*%.?%d*"),b.state.number,b;if g=="Color4"and f==4 then i=j.state.transparency elseif g=="Color3"or g=="Color4"then i=j.state.color end;if h~=nil then if g=="Color3"or g=="Color4"and not j.arguments.UseFloats then h=h/255 end;if b.arguments.Min~=nil then h=math.max(h,d(b.arguments.Min,f,b.arguments))end;if b.arguments.Max~=nil then h=math.min(h,d(b.arguments.Max,f,b.arguments))end;if b.arguments.Increment then h=math.round(h/d(b.arguments.Increment,f,b.arguments))*d(b.arguments.Increment,f,b.arguments)end;i:set(e(i.value,f,h,b.arguments))b.lastNumberChangedTick=a._cycleTick+1 end;local a=d(i.value,f,b.arguments)if g=="Color3"or g=="Color4"and not j.arguments.UseFloats then a=math.round(a*255)end;local d=b.arguments.Format[f]or b.arguments.Format[1];if b.arguments.Prefix then d=b.arguments.Prefix[f]..d end;c.Text=string.format(d,a)b.state.editingText:set(0)c:ReleaseFocus(true)end;do local e,f=function(c,e,f)local g=(b.abstractButton.Generate(c))g.Name="SubButton";g.Size=UDim2.fromOffset(a._config.TextSize+2*a._config.FramePadding.Y,a._config.TextSize)g.Text="-";g.TextXAlignment=Enum.TextXAlignment.Center;g.ZIndex=5;g.LayoutOrder=5;g.Parent=e;b.applyButtonClick(g,function()local b=b.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or b.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)local b=(c.arguments.Increment and d(c.arguments.Increment,1,c.arguments)or 1)*(b and 100 or 1)local b=c.state.number.value-b;if c.arguments.Min~=nil then b=math.max(b,d(c.arguments.Min,1,c.arguments))end;if c.arguments.Max~=nil then b=math.min(b,d(c.arguments.Max,1,c.arguments))end;c.state.number:set(b)c.lastNumberChangedTick=a._cycleTick+1 end)local g=(b.abstractButton.Generate(c))g.Name="AddButton";g.Size=UDim2.fromOffset(a._config.TextSize+2*a._config.FramePadding.Y,a._config.TextSize)g.Text="+";g.TextXAlignment=Enum.TextXAlignment.Center;g.ZIndex=6;g.LayoutOrder=6;g.Parent=e;b.applyButtonClick(g,function()local b=b.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or b.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)local b=(c.arguments.Increment and d(c.arguments.Increment,1,c.arguments)or 1)*(b and 100 or 1)local b=c.state.number.value+b;if c.arguments.Min~=nil then b=math.max(b,d(c.arguments.Min,1,c.arguments))end;if c.arguments.Max~=nil then b=math.min(b,d(c.arguments.Max,1,c.arguments))end;c.state.number:set(b)c.lastNumberChangedTick=a._cycleTick+1 end)return 2*a._config.ItemInnerSpacing.X+2*f end,function(c,d,e,f)local g=Instance.new"TextBox";g.Name="InputField"..tostring(d)g.AutomaticSize=Enum.AutomaticSize.Y;g.Size=UDim2.new(e,a._config.ContentHeight)g.BackgroundColor3=a._config.FrameBgColor;g.BackgroundTransparency=a._config.FrameBgTransparency;g.TextTruncate=Enum.TextTruncate.AtEnd;g.ClearTextOnFocus=false;g.ZIndex=d;g.LayoutOrder=d;g.ClipsDescendants=true;b.applyFrameStyle(g)b.applyTextStyle(g)b.UISizeConstraint(g,Vector2.xAxis)g.FocusLost:Connect(function()j(c,g,d,f)end)g.Focused:Connect(function()g.CursorPosition=#g.Text+1;g.SelectionStart=1;c.state.editingText:set(d)end)return g end;k=function(g,h,i)local c=c("Input",g,h,i)return b.extend(c,{Generate=function(c)local d=Instance.new"Frame";d.Name="Iris_Input"..g;d.AutomaticSize=Enum.AutomaticSize.Y;d.Size=UDim2.new(a._config.ItemWidth,UDim.new())d.BackgroundTransparency=1;d.BorderSizePixel=0;b.UIListLayout(d,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;local i,j=0,a._config.TextSize+2*a._config.FramePadding.Y;if h==1 then i=e(c,d,j)end;local e=UDim.new(a._config.ContentWidth.Scale/h,(a._config.ContentWidth.Offset-(a._config.ItemInnerSpacing.X*(h-1))-i)/h)local i=UDim.new(e.Scale*(h-1),(e.Offset*(h-1))+(a._config.ItemInnerSpacing.X*(h-1))+i)local a=a._config.ContentWidth-i;for b=1,h do f(c,b,(b==h and{a}or{e})[1],g).Parent=d end;local a=Instance.new"TextLabel";a.Name="TextLabel";a.AutomaticSize=Enum.AutomaticSize.XY;a.BackgroundTransparency=1;a.BorderSizePixel=0;a.LayoutOrder=7;b.applyTextStyle(a)a.Parent=d;return d end,UpdateState=function(a)local b=a.Instance;for c=1,h do local b,e=b:FindFirstChild("InputField"..tostring(c)),a.arguments.Format[c]or a.arguments.Format[1];if a.arguments.Prefix then e=a.arguments.Prefix[c]..e end;b.Text=string.format(e,d(a.state.number.value,c,a.arguments))end end})end end;local l,m;do local g,h,k,n,o=0,false,0,"";local e=function()local c=b.getMouseLocation().X;local i=c-g;g=c;if h==false then return end;if o==nil then return end;local c=o.state.number;if n=="Color3"or n=="Color4"then local a=o;c=a.state.color;if k==4 then c=a.state.transparency end end;local f=o.arguments.Increment and d(o.arguments.Increment,k,o.arguments)or f[n][k];f*=(b.UserInputService:IsKeyDown(Enum.KeyCode.LeftShift)or b.UserInputService:IsKeyDown(Enum.KeyCode.RightShift))and 10 or 1;f*=(b.UserInputService:IsKeyDown(Enum.KeyCode.LeftAlt)or b.UserInputService:IsKeyDown(Enum.KeyCode.RightAlt))and 0.1 or 1;f*=(n=="Color3"or n=="Color4")and 5 or 1;local b=d(c.value,k,o.arguments)local b=b+(i*f)if o.arguments.Min~=nil then b=math.max(b,d(o.arguments.Min,k,o.arguments))end;if o.arguments.Max~=nil then b=math.min(b,d(o.arguments.Max,k,o.arguments))end;c:set(e(c.value,k,b,o.arguments))o.lastNumberChangedTick=a._cycleTick+1 end;local f=function(c,d,f,g,i)local j=b.getTime()local b,l=j-c.lastClickedTime<a._config.MouseDoubleClickTime,b.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or b.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)if(b and(Vector2.new(g,i)-c.lastClickedPosition).Magnitude<a._config.MouseDoubleClickMaxDist)or l then c.state.editingText:set(f)else c.lastClickedTime=j;c.lastClickedPosition=Vector2.new(g,i)h=true;o=c;k=f;n=d;e()end end;b.registerEvent("InputChanged",function()if not a._started then return end;e()end)b.registerEvent("InputEnded",function(b)if not a._started then return end;if b.UserInputType==Enum.UserInputType.MouseButton1 and h then h=false;o=nil;k=0 end end)local e=function(c,d,e,g)local h=Instance.new"TextButton";h.Name="DragField"..tostring(d)h.AutomaticSize=Enum.AutomaticSize.Y;h.Size=e;h.BackgroundColor3=a._config.FrameBgColor;h.BackgroundTransparency=a._config.FrameBgTransparency;h.Text="";h.AutoButtonColor=false;h.LayoutOrder=d;h.ClipsDescendants=true;b.applyFrameStyle(h)b.applyTextStyle(h)b.UISizeConstraint(h,Vector2.xAxis)h.TextXAlignment=Enum.TextXAlignment.Center;b.applyInteractionHighlights("Background",h,h,{Color=a._config.FrameBgColor,Transparency=a._config.FrameBgTransparency,HoveredColor=a._config.FrameBgHoveredColor,HoveredTransparency=a._config.FrameBgHoveredTransparency,ActiveColor=a._config.FrameBgActiveColor,ActiveTransparency=a._config.FrameBgActiveTransparency})local a=Instance.new"TextBox";a.Name="InputField";a.Size=UDim2.fromScale(1,1)a.BackgroundTransparency=1;a.ClearTextOnFocus=false;a.TextTruncate=Enum.TextTruncate.AtEnd;a.ClipsDescendants=true;a.Visible=false;b.applyFrameStyle(a,true)b.applyTextStyle(a)a.Parent=h;a.FocusLost:Connect(function()j(c,a,d,g)end)a.Focused:Connect(function()a.CursorPosition=#a.Text+1;a.SelectionStart=1;c.state.editingText:set(d)end)b.applyButtonDown(h,function(a,b)f(c,g,d,a,b)end)return h end;l=function(f,g,h)local c=c("Drag",f,g,h)return b.extend(c,{Generate=function(c)c.lastClickedTime=-1;c.lastClickedPosition=Vector2.zero;local d=Instance.new"Frame";d.Name="Iris_Drag"..f;d.AutomaticSize=Enum.AutomaticSize.Y;d.Size=UDim2.new(a._config.ItemWidth,UDim.new())d.BackgroundTransparency=1;d.BorderSizePixel=0;b.UIListLayout(d,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;local h,i=0,a._config.TextSize+2*a._config.FramePadding.Y;if f=="Color3"or f=="Color4"then h+=a._config.ItemInnerSpacing.X+i;local a=Instance.new"ImageLabel";a.Name="ColorBox";a.Size=UDim2.fromOffset(i,i)a.BorderSizePixel=0;a.Image=b.ICONS.ALPHA_BACKGROUND_TEXTURE;a.ImageTransparency=1;a.LayoutOrder=5;b.applyFrameStyle(a,true)a.Parent=d end;local i=UDim.new(a._config.ContentWidth.Scale/g,(a._config.ContentWidth.Offset-(a._config.ItemInnerSpacing.X*(g-1))-h)/g)local h=UDim.new(i.Scale*(g-1),(i.Offset*(g-1))+(a._config.ItemInnerSpacing.X*(g-1))+h)local h=a._config.ContentWidth-h;for b=1,g do e(c,b,(b==g and{(UDim2.new(h,a._config.ContentHeight))}or{(UDim2.new(i,a._config.ContentHeight))})[1],f).Parent=d end;local a=Instance.new"TextLabel";a.Name="TextLabel";a.AutomaticSize=Enum.AutomaticSize.XY;a.BackgroundTransparency=1;a.BorderSizePixel=0;a.LayoutOrder=6;b.applyTextStyle(a)a.Parent=d;return d end,UpdateState=function(b)local c,e=b.Instance,b;for g=1,g do local h=b.state.number;if f=="Color3"or f=="Color4"then h=e.state.color;if g==4 then h=e.state.transparency end end;local c=(c:FindFirstChild("DragField"..tostring(g)))local d,h=c.InputField,d(h.value,g,b.arguments)if(f=="Color3"or f=="Color4")and not e.arguments.UseFloats then h=math.round(h*255)end;local e=b.arguments.Format[g]or b.arguments.Format[1];if b.arguments.Prefix then e=b.arguments.Prefix[g]..e end;c.Text=string.format(e,h)d.Text=tostring(h)if b.state.editingText.value==g then d.Visible=true;d:CaptureFocus()c.TextTransparency=1 else d.Visible=false;c.TextTransparency=a._config.TextTransparency end end;if f=="Color3"or f=="Color4"then local a=c.ColorBox;a.BackgroundColor3=e.state.color.value;if f=="Color4"then a.ImageTransparency=1-e.state.transparency.value end end end})end;m=function(c,...)local d={...}local e=l(c,c=="Color4"and 4 or 3,d[1])return b.extend(e,{Args={Text=1,UseFloats=2,UseHSV=3,Format=4},Update=function(b)local d=b.Instance;local d=d.TextLabel;d.Text=b.arguments.Text or`Drag {dataType}`if b.arguments.Format and typeof(b.arguments.Format)~="table"then b.arguments.Format={b.arguments.Format}elseif not b.arguments.Format then if b.arguments.UseFloats then b.arguments.Format={"%.3f"}else b.arguments.Format={"%d"}end;b.arguments.Prefix=i[c..(b.arguments.UseHSV and"_HSV"or"_RGB")]end;b.arguments.Min={0,0,0,0}b.arguments.Max={1,1,1,1}b.arguments.Increment={0.001,0.001,0.001,0.001}if b.state then b.state.color.lastChangeTick=a._cycleTick;if c=="Color4"then b.state.transparency.lastChangeTick=a._cycleTick end;a._widgets[b.type].UpdateState(b)end end,GenerateState=function(b)if b.state.color==nil then b.state.color=a._widgetState(b,"color",d[1])end;if c=="Color4"then if b.state.transparency==nil then b.state.transparency=a._widgetState(b,"transparency",d[2])end end;if b.state.editingText==nil then b.state.editingText=a._widgetState(b,"editingText",false)end end})end end;local i,n;do local k,l,m,o=false,0,"";local e=function()if k==false then return end;if o==nil then return end;local c=o.Instance;local c=(c:FindFirstChild("SliderField"..tostring(l)))local d,f,g,h=c.GrabBar,o.arguments.Increment and d(o.arguments.Increment,l,o.arguments)or f[m][l],o.arguments.Min and d(o.arguments.Min,l,o.arguments)or g[m][l],o.arguments.Max and d(o.arguments.Max,l,o.arguments)or h[m][l];local d=d.AbsoluteSize.X;local b=b.getMouseLocation().X-(c.AbsolutePosition.X-b.GuiOffset.X+d/2)local b,c=b/(c.AbsoluteSize.X-d),math.floor((h-g)/f)local b=math.clamp(math.round(b*c)*f+g,g,h)o.state.number:set(e(o.state.number.value,l,b,o.arguments))o.lastNumberChangedTick=a._cycleTick+1 end;local p=function(a,c,d)local b=b.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or b.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)if b then a.state.editingText:set(d)else k=true;o=a;l=d;m=c;e()end end;b.registerEvent("InputChanged",function()if not a._started then return end;e()end)b.registerEvent("InputEnded",function(b)if not a._started then return end;if b.UserInputType==Enum.UserInputType.MouseButton1 and k then k=false;o=nil;l=0;m=""end end)local e=function(c,d,e,f)local g=Instance.new"TextButton";g.Name="SliderField"..tostring(d)g.AutomaticSize=Enum.AutomaticSize.Y;g.Size=e;g.BackgroundColor3=a._config.FrameBgColor;g.BackgroundTransparency=a._config.FrameBgTransparency;g.Text="";g.AutoButtonColor=false;g.LayoutOrder=d;g.ClipsDescendants=true;b.applyFrameStyle(g)b.applyTextStyle(g)b.UISizeConstraint(g,Vector2.xAxis)local e=Instance.new"TextLabel";e.Name="OverlayText";e.Size=UDim2.fromScale(1,1)e.BackgroundTransparency=1;e.BorderSizePixel=0;e.ZIndex=10;e.ClipsDescendants=true;b.applyTextStyle(e)e.TextXAlignment=Enum.TextXAlignment.Center;e.Parent=g;b.applyInteractionHighlights("Background",g,g,{Color=a._config.FrameBgColor,Transparency=a._config.FrameBgTransparency,HoveredColor=a._config.FrameBgHoveredColor,HoveredTransparency=a._config.FrameBgHoveredTransparency,ActiveColor=a._config.FrameBgActiveColor,ActiveTransparency=a._config.FrameBgActiveTransparency})local e=Instance.new"TextBox";e.Name="InputField";e.Size=UDim2.fromScale(1,1)e.BackgroundTransparency=1;e.ClearTextOnFocus=false;e.TextTruncate=Enum.TextTruncate.AtEnd;e.ClipsDescendants=true;e.Visible=false;b.applyFrameStyle(e,true)b.applyTextStyle(e)e.Parent=g;e.FocusLost:Connect(function()j(c,e,d,f)end)e.Focused:Connect(function()e.CursorPosition=#e.Text+1;e.SelectionStart=1;c.state.editingText:set(d)end)b.applyButtonDown(g,function()p(c,f,d)end)local c=Instance.new"Frame";c.Name="GrabBar";c.AnchorPoint=Vector2.new(0.5,0.5)c.Position=UDim2.fromScale(0,0.5)c.BackgroundColor3=a._config.SliderGrabColor;c.Transparency=a._config.SliderGrabTransparency;c.BorderSizePixel=0;c.ZIndex=5;b.applyInteractionHighlights("Background",g,c,{Color=a._config.SliderGrabColor,Transparency=a._config.SliderGrabTransparency,HoveredColor=a._config.SliderGrabColor,HoveredTransparency=a._config.SliderGrabTransparency,ActiveColor=a._config.SliderGrabActiveColor,ActiveTransparency=a._config.SliderGrabActiveTransparency})if a._config.GrabRounding>0 then b.UICorner(c,a._config.GrabRounding)end;b.UISizeConstraint(c,Vector2.new(a._config.GrabMinSize,0))c.Parent=g;return g end;i=function(i,j,k)local c=c("Slider",i,j,k)return b.extend(c,{Generate=function(c)local d=Instance.new"Frame";d.Name="Iris_Slider"..i;d.AutomaticSize=Enum.AutomaticSize.Y;d.Size=UDim2.new(a._config.ItemWidth,UDim.new())d.BackgroundTransparency=1;d.BorderSizePixel=0;b.UIListLayout(d,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;local f=UDim.new(a._config.ContentWidth.Scale/j,(a._config.ContentWidth.Offset-(a._config.ItemInnerSpacing.X*(j-1)))/j)local g=UDim.new(f.Scale*(j-1),(f.Offset*(j-1))+(a._config.ItemInnerSpacing.X*(j-1)))local g=a._config.ContentWidth-g;for b=1,j do e(c,b,(b==j and{(UDim2.new(g,a._config.ContentHeight))}or{(UDim2.new(f,a._config.ContentHeight))})[1],i).Parent=d end;local a=Instance.new"TextLabel";a.Name="TextLabel";a.AutomaticSize=Enum.AutomaticSize.XY;a.BackgroundTransparency=1;a.BorderSizePixel=0;a.LayoutOrder=5;b.applyTextStyle(a)a.Parent=d;return d end,UpdateState=function(a)local b=a.Instance;for c=1,j do local b=(b:FindFirstChild("SliderField"..tostring(c)))local e,j,k,l,m=b.InputField,b.OverlayText,b.GrabBar,d(a.state.number.value,c,a.arguments),a.arguments.Format[c]or a.arguments.Format[1];if a.arguments.Prefix then m=a.arguments.Prefix[c]..m end;j.Text=string.format(m,l)e.Text=tostring(l)local b,d,f,g=a.arguments.Increment and d(a.arguments.Increment,c,a.arguments)or f[i][c],a.arguments.Min and d(a.arguments.Min,c,a.arguments)or g[i][c],a.arguments.Max and d(a.arguments.Max,c,a.arguments)or h[i][c],b.AbsoluteSize.X;local b,d,f=g-k.AbsoluteSize.X,(l-d)/(f-d),math.floor((f-d)/b)local d=math.clamp(math.floor((d*f))/f,0,1)local b=((b/g)*d)+((1-(b/g))/2)k.Position=UDim2.fromScale(b,0.5)if a.state.editingText.value==c then e.Visible=true;j.Visible=false;k.Visible=false;e:CaptureFocus()else e.Visible=false;j.Visible=true;k.Visible=true end end end})end;n=function(c,d)local e,f=i("Enum",1,d.Value),{string}for a,a in c:GetEnumItems()do f[a.Value]=a.Name end;return b.extend(e,{Args={Text=1},Update=function(a)local b=a.Instance;local d=b.TextLabel;d.Text=a.arguments.Text or"Input Enum";a.arguments.Increment=1;a.arguments.Min=0;a.arguments.Max=#c:GetEnumItems()-1;local a=(b:FindFirstChild"SliderField1")local a,b=a.GrabBar,1/math.floor(#c:GetEnumItems())a.Size=UDim2.fromScale(b,1)end,GenerateState=function(b)if b.state.number==nil then b.state.number=a._widgetState(b,"number",d.Value)end;if b.state.enumItem==nil then b.state.enumItem=a._widgetState(b,"enumItem",d)end;if b.state.editingText==nil then b.state.editingText=a._widgetState(b,"editingText",false)end end})end end;do local b=k("Num",1,0)b.Args.NoButtons=6;a.WidgetConstructor("InputNum",b)end;a.WidgetConstructor("InputVector2",k("Vector2",2,Vector2.zero))a.WidgetConstructor("InputVector3",k("Vector3",3,Vector3.zero))a.WidgetConstructor("InputUDim",k("UDim",2,UDim.new()))a.WidgetConstructor("InputUDim2",k("UDim2",4,UDim2.new()))a.WidgetConstructor("InputRect",k("Rect",4,Rect.new(0,0,0,0)))a.WidgetConstructor("DragNum",l("Num",1,0))a.WidgetConstructor("DragVector2",l("Vector2",2,Vector2.zero))a.WidgetConstructor("DragVector3",l("Vector3",3,Vector3.zero))a.WidgetConstructor("DragUDim",l("UDim",2,UDim.new()))a.WidgetConstructor("DragUDim2",l("UDim2",4,UDim2.new()))a.WidgetConstructor("DragRect",l("Rect",4,Rect.new(0,0,0,0)))a.WidgetConstructor("InputColor3",m("Color3",Color3.fromRGB(0,0,0)))a.WidgetConstructor("InputColor4",m("Color4",Color3.fromRGB(0,0,0),0))a.WidgetConstructor("SliderNum",i("Num",1,0))a.WidgetConstructor("SliderVector2",i("Vector2",2,Vector2.zero))a.WidgetConstructor("SliderVector3",i("Vector3",3,Vector3.zero))a.WidgetConstructor("SliderUDim",i("UDim",2,UDim.new()))a.WidgetConstructor("SliderUDim2",i("UDim2",4,UDim2.new()))a.WidgetConstructor("SliderRect",i("Rect",4,Rect.new(0,0,0,0)))a.WidgetConstructor("InputText",{hasState=true,hasChildren=false,Args={Text=1,TextHint=2,ReadOnly=3,MultiLine=4},Events={textChanged={Init=function(a)a.lastTextChangedTick=0 end,Get=function(b)return b.lastTextChangedTick==a._cycleTick end},hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(c)local d=Instance.new"Frame";d.Name="Iris_InputText";d.AutomaticSize=Enum.AutomaticSize.Y;d.Size=UDim2.new(a._config.ItemWidth,UDim.new())d.BackgroundTransparency=1;d.BorderSizePixel=0;b.UIListLayout(d,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;local e=Instance.new"TextBox";e.Name="InputField";e.AutomaticSize=Enum.AutomaticSize.Y;e.Size=UDim2.new(a._config.ContentWidth,a._config.ContentHeight)e.BackgroundColor3=a._config.FrameBgColor;e.BackgroundTransparency=a._config.FrameBgTransparency;e.Text="";e.TextYAlignment=Enum.TextYAlignment.Top;e.PlaceholderColor3=a._config.TextDisabledColor;e.ClearTextOnFocus=false;e.ClipsDescendants=true;b.applyFrameStyle(e)b.applyTextStyle(e)b.UISizeConstraint(e,Vector2.xAxis)e.Parent=d;e.FocusLost:Connect(function()c.state.text:set(e.Text)c.lastTextChangedTick=a._cycleTick+1 end)local a,c=a._config.TextSize+2*a._config.FramePadding.Y,Instance.new"TextLabel";c.Name="TextLabel";c.AutomaticSize=Enum.AutomaticSize.X;c.Size=UDim2.fromOffset(0,a)c.BackgroundTransparency=1;c.BorderSizePixel=0;c.LayoutOrder=1;b.applyTextStyle(c)c.Parent=d;return d end,GenerateState=function(b)if b.state.text==nil then b.state.text=a._widgetState(b,"text","")end end,Update=function(a)local b=a.Instance;local b,c=b.TextLabel,b.InputField;b.Text=a.arguments.Text or"Input Text";c.PlaceholderText=a.arguments.TextHint or"";c.TextEditable=not a.arguments.ReadOnly;c.MultiLine=a.arguments.MultiLine or false end,UpdateState=function(a)local b=a.Instance;local b=b.InputField;b.Text=a.state.text.value end,Discard=function(a)a.Instance:Destroy()b.discardState(a)end})end end)(),(function()return function(a,b)a.WidgetConstructor("Selectable",{hasState=true,hasChildren=false,Args={Text=1,Index=2,NoClick=3},Events={selected={Init=function(a)end,Get=function(b)return b.lastSelectedTick==a._cycleTick end},unselected={Init=function(a)end,Get=function(b)return b.lastUnselectedTick==a._cycleTick end},active={Init=function(a)end,Get=function(a)return a.state.index.value==a.arguments.Index end},clicked=b.EVENTS.click(function(a)local a=a.Instance;return a.SelectableButton end),rightClicked=b.EVENTS.rightClick(function(a)local a=a.Instance;return a.SelectableButton end),doubleClicked=b.EVENTS.doubleClick(function(a)local a=a.Instance;return a.SelectableButton end),ctrlClicked=b.EVENTS.ctrlClick(function(a)local a=a.Instance;return a.SelectableButton end),hovered=b.EVENTS.hover(function(a)local a=a.Instance;return a.SelectableButton end)},Generate=function(c)local d=Instance.new"Frame";d.Name="Iris_Selectable";d.Size=UDim2.new(a._config.ItemWidth,UDim.new(0,a._config.TextSize+2*a._config.FramePadding.Y-a._config.ItemSpacing.Y))d.BackgroundTransparency=1;d.BorderSizePixel=0;local e=Instance.new"TextButton";e.Name="SelectableButton";e.Size=UDim2.new(1,0,0,a._config.TextSize+2*a._config.FramePadding.Y)e.Position=UDim2.fromOffset(0,-bit32.rshift(a._config.ItemSpacing.Y,1))e.BackgroundColor3=a._config.HeaderColor;e.ClipsDescendants=true;b.applyFrameStyle(e)b.applyTextStyle(e)b.UISizeConstraint(e,Vector2.xAxis)c.ButtonColors={Color=a._config.HeaderColor,Transparency=1,HoveredColor=a._config.HeaderHoveredColor,HoveredTransparency=a._config.HeaderHoveredTransparency,ActiveColor=a._config.HeaderActiveColor,ActiveTransparency=a._config.HeaderActiveTransparency}b.applyInteractionHighlights("Background",e,e,c.ButtonColors)b.applyButtonClick(e,function()if c.arguments.NoClick~=true then if type(c.state.index.value)=="boolean"then c.state.index:set(not c.state.index.value)else c.state.index:set(c.arguments.Index)end end end)e.Parent=d;return d end,GenerateState=function(b)if b.state.index==nil then if b.arguments.Index~=nil then error("A shared state index is required for Iris.Selectables() with an Index argument.",5)end;b.state.index=a._widgetState(b,"index",false)end end,Update=function(a)local b=a.Instance;local b=b.SelectableButton;b.Text=a.arguments.Text or"Selectable"end,UpdateState=function(b)local c=b.Instance;local c=c.SelectableButton;if b.state.index.value==b.arguments.Index or b.state.index.value==true then b.ButtonColors.Transparency=a._config.HeaderTransparency;c.BackgroundTransparency=a._config.HeaderTransparency;b.lastSelectedTick=a._cycleTick+1 else b.ButtonColors.Transparency=1;c.BackgroundTransparency=1;b.lastUnselectedTick=a._cycleTick+1 end end,Discard=function(a)a.Instance:Destroy()b.discardState(a)end})local c,d,e,f=false,-1,0;local g=function(c)local d=c.Instance;local d,f=d.PreviewContainer,c.ChildContainer;local b,c,g,h,i=d.AbsolutePosition-b.GuiOffset,d.AbsoluteSize,a._config.PopupBorderSize,f.Parent.AbsoluteSize,c.UIListLayout.AbsoluteContentSize.Y;e=i;local a,c,e,i=i+2*a._config.WindowPadding.Y,b.X,b.Y+c.Y+g,Vector2.zero;local j=h.Y-e;if a>j and e>(h.Y/2)then e=b.Y-g;i=Vector2.yAxis;j=e end;f.AnchorPoint=i;f.Position=UDim2.fromOffset(c,e)local a=math.min(a,j)f.Size=UDim2.fromOffset(d.AbsoluteSize.X,a)end;table.insert(a._postCycleCallbacks,function()if c and f then local a=f.UIListLayout.AbsoluteContentSize.Y;if a~=e then g(f)end end end)local e=function(e)if not a._started then return end;if e.UserInputType~=Enum.UserInputType.MouseButton1 and e.UserInputType~=Enum.UserInputType.MouseButton2 and e.UserInputType~=Enum.UserInputType.Touch and e.UserInputType~=Enum.UserInputType.MouseWheel then return end;if c==false or not f then return end;if d==a._cycleTick then return end;local a,c=b.getMouseLocation(),f.Instance;local c,d=c.PreviewContainer,f.ChildContainer;local c,e=c.AbsolutePosition-b.GuiOffset,c.AbsolutePosition-b.GuiOffset+c.AbsoluteSize;if b.isPosInsideRect(a,c,e)then return end;c=d.AbsolutePosition-b.GuiOffset;e=d.AbsolutePosition-b.GuiOffset+d.AbsoluteSize;if b.isPosInsideRect(a,c,e)then return end;f.state.isOpened:set(false)end;b.registerEvent("InputBegan",e)b.registerEvent("InputChanged",e)a.WidgetConstructor("Combo",{hasState=true,hasChildren=true,Args={Text=1,NoButton=2,NoPreview=3},Events={opened={Init=function(a)end,Get=function(b)return b.lastOpenedTick==a._cycleTick end},closed={Init=function(a)end,Get=function(b)return b.lastClosedTick==a._cycleTick end},changed={Init=function(a)end,Get=function(b)return b.lastChangedTick==a._cycleTick end},clicked=b.EVENTS.click(function(a)local a=a.Instance;return a.PreviewContainer end),hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(d)local e,g=a._config.TextSize+2*a._config.FramePadding.Y,Instance.new"Frame";g.Name="Iris_Combo";g.AutomaticSize=Enum.AutomaticSize.Y;g.Size=UDim2.new(a._config.ItemWidth,UDim.new())g.BackgroundTransparency=1;g.BorderSizePixel=0;b.UIListLayout(g,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;local h=Instance.new"TextButton";h.Name="PreviewContainer";h.AutomaticSize=Enum.AutomaticSize.Y;h.Size=UDim2.new(a._config.ContentWidth,UDim.new(0,0))h.BackgroundTransparency=1;h.Text="";h.AutoButtonColor=false;h.ZIndex=2;b.applyFrameStyle(h,true)b.UIListLayout(h,Enum.FillDirection.Horizontal,UDim.new(0,0))b.UISizeConstraint(h,Vector2.new(e))h.Parent=g;local i=Instance.new"TextLabel";i.Name="PreviewLabel";i.AutomaticSize=Enum.AutomaticSize.Y;i.Size=UDim2.new(UDim.new(1,0),a._config.ContentHeight)i.BackgroundColor3=a._config.FrameBgColor;i.BackgroundTransparency=a._config.FrameBgTransparency;i.BorderSizePixel=0;i.ClipsDescendants=true;b.applyTextStyle(i)b.UIPadding(i,a._config.FramePadding)i.Parent=h;local j=Instance.new"TextLabel";j.Name="DropdownButton";j.Size=UDim2.new(0,e,a._config.ContentHeight.Scale,math.max(a._config.ContentHeight.Offset,e))j.BackgroundColor3=a._config.ButtonColor;j.BackgroundTransparency=a._config.ButtonTransparency;j.BorderSizePixel=0;j.Text="";local k=math.round(e*0.2)local k,l=e-2*k,Instance.new"ImageLabel";l.Name="Dropdown";l.AnchorPoint=Vector2.new(0.5,0.5)l.Size=UDim2.fromOffset(k,k)l.Position=UDim2.fromScale(0.5,0.5)l.BackgroundTransparency=1;l.BorderSizePixel=0;l.ImageColor3=a._config.TextColor;l.ImageTransparency=a._config.TextTransparency;l.Parent=j;j.Parent=h;b.applyInteractionHighlightsWithMultiHighlightee("Background",h,{{i,{Color=a._config.FrameBgColor,Transparency=a._config.FrameBgTransparency,HoveredColor=a._config.FrameBgHoveredColor,HoveredTransparency=a._config.FrameBgHoveredTransparency,ActiveColor=a._config.FrameBgActiveColor,ActiveTransparency=a._config.FrameBgActiveTransparency}},{j,{Color=a._config.ButtonColor,Transparency=a._config.ButtonTransparency,HoveredColor=a._config.ButtonHoveredColor,HoveredTransparency=a._config.ButtonHoveredTransparency,ActiveColor=a._config.ButtonHoveredColor,ActiveTransparency=a._config.ButtonHoveredTransparency}}})b.applyButtonClick(h,function()if c and f~=d then return end;d.state.isOpened:set(not d.state.isOpened.value)end)local c=Instance.new"TextLabel";c.Name="TextLabel";c.AutomaticSize=Enum.AutomaticSize.X;c.Size=UDim2.fromOffset(0,e)c.BackgroundTransparency=1;c.BorderSizePixel=0;b.applyTextStyle(c)c.Parent=g;local c=Instance.new"ScrollingFrame";c.Name="ComboContainer";c.BackgroundColor3=a._config.PopupBgColor;c.BackgroundTransparency=a._config.PopupBgTransparency;c.BorderSizePixel=0;c.AutomaticCanvasSize=Enum.AutomaticSize.Y;c.ScrollBarImageTransparency=a._config.ScrollbarGrabTransparency;c.ScrollBarImageColor3=a._config.ScrollbarGrabColor;c.ScrollBarThickness=a._config.ScrollbarSize;c.CanvasSize=UDim2.fromScale(0,0)c.VerticalScrollBarInset=Enum.ScrollBarInset.ScrollBar;c.TopImage=b.ICONS.BLANK_SQUARE;c.MidImage=b.ICONS.BLANK_SQUARE;c.BottomImage=b.ICONS.BLANK_SQUARE;c.ClipsDescendants=true;b.UIStroke(c,a._config.WindowBorderSize,a._config.BorderColor,a._config.BorderTransparency)b.UIPadding(c,Vector2.new(2,a._config.WindowPadding.Y))b.UISizeConstraint(c,Vector2.new(100))local b=b.UIListLayout(c,Enum.FillDirection.Vertical,UDim.new(0,a._config.ItemSpacing.Y))b.VerticalAlignment=Enum.VerticalAlignment.Top;local a=a._rootInstance and(a._rootInstance:WaitForChild"PopupScreenGui")c.Parent=a;d.ChildContainer=c;d.UIListLayout=b;return g end,GenerateState=function(b)if b.state.index==nil then b.state.index=a._widgetState(b,"index","No Selection")end;if b.state.isOpened==nil then b.state.isOpened=a._widgetState(b,"isOpened",false)end;b.state.index:onChange(function()b.lastChangedTick=a._cycleTick+1;if b.state.isOpened.value then b.state.isOpened:set(false)end end)end,Update=function(b)local c=b.Instance;local d=c.PreviewContainer;local c,e,f=d.PreviewLabel,d.DropdownButton,c.TextLabel;f.Text=b.arguments.Text or"Combo";if b.arguments.NoButton then e.Visible=false;c.Size=UDim2.new(UDim.new(1,0),c.Size.Height)else e.Visible=true;local a=a._config.TextSize+2*a._config.FramePadding.Y;c.Size=UDim2.new(UDim.new(1,-a),c.Size.Height)end;if b.arguments.NoPreview then c.Visible=false;d.Size=UDim2.new(0,0,0,0)d.AutomaticSize=Enum.AutomaticSize.XY else c.Visible=true;d.Size=UDim2.new(a._config.ContentWidth,a._config.ContentHeight)d.AutomaticSize=Enum.AutomaticSize.Y end end,UpdateState=function(e)local h,i=e.Instance,e.ChildContainer;local h=h.PreviewContainer;local h,j=h.PreviewLabel,h.DropdownButton;local j=j.Dropdown;if e.state.isOpened.value then c=true;f=e;d=a._cycleTick;e.lastOpenedTick=a._cycleTick+1;j.Image=b.ICONS.RIGHT_POINTING_TRIANGLE;i.Visible=true;g(e)else if c then c=false;f=nil;e.lastClosedTick=a._cycleTick+1 end;j.Image=b.ICONS.DOWN_POINTING_TRIANGLE;i.Visible=false end;local a=e.state.index.value;h.Text=(typeof(a)=="EnumItem"and{a.Name}or{(tostring(a))})[1]end,ChildAdded=function(a,b)g(a)return a.ChildContainer end,Discard=function(a)if f and f==a then f=nil;c=false end;a.Instance:Destroy()a.ChildContainer:Destroy()b.discardState(a)end})end end)(),(function()return function(a,b)local c={hasState=true,hasChildren=true,Events={collapsed={Init=function(a)end,Get=function(b)return b.lastCollapsedTick==a._cycleTick end},uncollapsed={Init=function(a)end,Get=function(b)return b.lastUncollapsedTick==a._cycleTick end},hovered=b.EVENTS.hover(function(a)return a.Instance end)},Discard=function(a)a.Instance:Destroy()b.discardState(a)end,ChildAdded=function(a,b)local b=a.ChildContainer;b.Visible=a.state.isUncollapsed.value;return b end,UpdateState=function(c)local d,e,f=c.state.isUncollapsed.value,c.Instance,c.ChildContainer;local e=e.Header;local e=e.Button;local e=e.Arrow;e.Image=(d and b.ICONS.DOWN_POINTING_TRIANGLE or b.ICONS.RIGHT_POINTING_TRIANGLE)if d then c.lastUncollapsedTick=a._cycleTick+1 else c.lastCollapsedTick=a._cycleTick+1 end;f.Visible=d end,GenerateState=function(b)if b.state.isUncollapsed==nil then b.state.isUncollapsed=a._widgetState(b,"isUncollapsed",b.arguments.DefaultOpen or false)end end}a.WidgetConstructor("Tree",b.extend(c,{Args={Text=1,SpanAvailWidth=2,NoIndent=3,DefaultOpen=4},Generate=function(c)local d=Instance.new"Frame";d.Name="Iris_Tree";d.AutomaticSize=Enum.AutomaticSize.Y;d.Size=UDim2.new(a._config.ItemWidth,UDim.new(0,0))d.BackgroundTransparency=1;d.BorderSizePixel=0;b.UIListLayout(d,Enum.FillDirection.Vertical,UDim.new(0,0))local e=Instance.new"Frame";e.Name="TreeContainer";e.AutomaticSize=Enum.AutomaticSize.Y;e.Size=UDim2.fromScale(1,0)e.BackgroundTransparency=1;e.BorderSizePixel=0;e.LayoutOrder=1;e.Visible=false;b.UIListLayout(e,Enum.FillDirection.Vertical,UDim.new(0,a._config.ItemSpacing.Y))b.UIPadding(e,Vector2.zero).PaddingTop=UDim.new(0,a._config.ItemSpacing.Y)e.Parent=d;local f=Instance.new"Frame";f.Name="Header";f.AutomaticSize=Enum.AutomaticSize.Y;f.Size=UDim2.fromScale(1,0)f.BackgroundTransparency=1;f.BorderSizePixel=0;f.Parent=d;local g=Instance.new"TextButton";g.Name="Button";g.BackgroundTransparency=1;g.BorderSizePixel=0;g.Text="";g.AutoButtonColor=false;b.applyInteractionHighlights("Background",g,f,{Color=Color3.fromRGB(0,0,0),Transparency=1,HoveredColor=a._config.HeaderHoveredColor,HoveredTransparency=a._config.HeaderHoveredTransparency,ActiveColor=a._config.HeaderActiveColor,ActiveTransparency=a._config.HeaderActiveTransparency})b.UIPadding(g,Vector2.zero).PaddingLeft=UDim.new(0,a._config.FramePadding.X)b.UIListLayout(g,Enum.FillDirection.Horizontal,UDim.new(0,a._config.FramePadding.X)).VerticalAlignment=Enum.VerticalAlignment.Center;g.Parent=f;local f=Instance.new"ImageLabel";f.Name="Arrow";f.Size=UDim2.fromOffset(a._config.TextSize,math.floor(a._config.TextSize*0.7))f.BackgroundTransparency=1;f.BorderSizePixel=0;f.ImageColor3=a._config.TextColor;f.ImageTransparency=a._config.TextTransparency;f.ScaleType=Enum.ScaleType.Fit;f.Parent=g;local a=Instance.new"TextLabel";a.Name="TextLabel";a.AutomaticSize=Enum.AutomaticSize.XY;a.Size=UDim2.fromOffset(0,0)a.BackgroundTransparency=1;a.BorderSizePixel=0;b.UIPadding(a,Vector2.zero).PaddingRight=UDim.new(0,21)b.applyTextStyle(a)a.Parent=g;b.applyButtonClick(g,function()c.state.isUncollapsed:set(not c.state.isUncollapsed.value)end)c.ChildContainer=e;return d end,Update=function(b)local c,d=b.Instance,b.ChildContainer;local c=c.Header;local c=c.Button;local d,e=c.TextLabel,d.UIPadding;d.Text=b.arguments.Text or"Tree";if b.arguments.SpanAvailWidth then c.AutomaticSize=Enum.AutomaticSize.Y;c.Size=UDim2.fromScale(1,0)else c.AutomaticSize=Enum.AutomaticSize.XY;c.Size=UDim2.fromScale(0,0)end;if b.arguments.NoIndent then e.PaddingLeft=UDim.new(0,0)else e.PaddingLeft=UDim.new(0,a._config.IndentSpacing)end end}))a.WidgetConstructor("CollapsingHeader",b.extend(c,{Args={Text=1,DefaultOpen=2},Generate=function(c)local d=Instance.new"Frame";d.Name="Iris_CollapsingHeader";d.AutomaticSize=Enum.AutomaticSize.Y;d.Size=UDim2.new(a._config.ItemWidth,UDim.new(0,0))d.BackgroundTransparency=1;d.BorderSizePixel=0;b.UIListLayout(d,Enum.FillDirection.Vertical,UDim.new(0,0))local e=Instance.new"Frame";e.Name="CollapsingHeaderContainer";e.AutomaticSize=Enum.AutomaticSize.Y;e.Size=UDim2.fromScale(1,0)e.BackgroundTransparency=1;e.BorderSizePixel=0;e.LayoutOrder=1;e.Visible=false;b.UIListLayout(e,Enum.FillDirection.Vertical,UDim.new(0,a._config.ItemSpacing.Y))b.UIPadding(e,Vector2.zero).PaddingTop=UDim.new(0,a._config.ItemSpacing.Y)e.Parent=d;local f=Instance.new"Frame";f.Name="Header";f.AutomaticSize=Enum.AutomaticSize.Y;f.Size=UDim2.fromScale(1,0)f.BackgroundTransparency=1;f.BorderSizePixel=0;f.Parent=d;local g=Instance.new"TextButton";g.Name="Button";g.AutomaticSize=Enum.AutomaticSize.Y;g.Size=UDim2.fromScale(1,0)g.BackgroundColor3=a._config.HeaderColor;g.BackgroundTransparency=a._config.HeaderTransparency;g.BorderSizePixel=0;g.Text="";g.AutoButtonColor=false;g.ClipsDescendants=true;b.UIPadding(g,a._config.FramePadding)b.applyFrameStyle(g,true)b.UIListLayout(g,Enum.FillDirection.Horizontal,UDim.new(0,2*a._config.FramePadding.X)).VerticalAlignment=Enum.VerticalAlignment.Center;b.applyInteractionHighlights("Background",g,g,{Color=a._config.HeaderColor,Transparency=a._config.HeaderTransparency,HoveredColor=a._config.HeaderHoveredColor,HoveredTransparency=a._config.HeaderHoveredTransparency,ActiveColor=a._config.HeaderActiveColor,ActiveTransparency=a._config.HeaderActiveTransparency})g.Parent=f;local f=Instance.new"ImageLabel";f.Name="Arrow";f.AutomaticSize=Enum.AutomaticSize.Y;f.Size=UDim2.fromOffset(a._config.TextSize,math.ceil(a._config.TextSize*0.8))f.BackgroundTransparency=1;f.BorderSizePixel=0;f.ImageColor3=a._config.TextColor;f.ImageTransparency=a._config.TextTransparency;f.ScaleType=Enum.ScaleType.Fit;f.Parent=g;local a=Instance.new"TextLabel";a.Name="TextLabel";a.AutomaticSize=Enum.AutomaticSize.XY;a.Size=UDim2.fromOffset(0,0)a.BackgroundTransparency=1;a.BorderSizePixel=0;b.UIPadding(a,Vector2.zero).PaddingRight=UDim.new(0,21)b.applyTextStyle(a)a.Parent=g;b.applyButtonClick(g,function()c.state.isUncollapsed:set(not c.state.isUncollapsed.value)end)c.ChildContainer=e;return d end,Update=function(a)local b=a.Instance;local b=b.Header;local b=b.Button;local b=b.TextLabel;b.Text=a.arguments.Text or"Collapsing Header"end}))end end)(),(function()return function(a,b)local c,d,e,f,g,h,i,j,k={},{},false,0,-1,-1,0,function(b,c)local d=0;for a,a in b._cellInstances do local a=a[c];for a,a in a:GetChildren()do if a:IsA"GuiObject"then d=math.max(d,a.AbsoluteSize.X)end end end;b._minWidths[c]=d+2*a._config.CellPadding.X end;table.insert(a._postCycleCallbacks,function()for b,b in c do for c,d in b._rowCycles do if d<a._cycleTick-1 then local a,d=b._rowInstances[c],b._rowBorders[c-1];if a~=nil then a:Destroy()end;if d~=nil then d:Destroy()end;b._rowInstances[c]=nil;b._rowBorders[c-1]=nil;b._cellInstances[c]=nil;b._rowCycles[c]=nil end end;b._rowIndex=1;b._columnIndex=1;local a=b.Instance;local a=a.BorderContainer;a.Size=UDim2.new(1,0,0,b._rowContainer.AbsoluteSize.Y)b._columnBorders[0].Size=UDim2.fromOffset(5,b._rowContainer.AbsoluteSize.Y)end;for b,c in d do local d=false;for a,c in c do j(b,a)d=true end;if d then table.clear(c)a._widgets.Table.UpdateState(b)end end end)local j,l=function()if e==false or k==nil then return end;local c,d,e=k.state.widths,k.arguments.NumColumns,k.Instance;local a,j,k=e.BorderContainer,k.arguments.FixedWidth,2*a._config.CellPadding.X;if g==-1 then g=c.value[f];if g==0 then g=k/e.AbsoluteSize.X end;h=c.value[f+1]or-1;if h==0 then h=k/e.AbsoluteSize.X end end;local l,m,n=e.AbsolutePosition.X;if f==1 then m=0 else m=math.floor(a:FindFirstChild(`Border_{ActiveColumn-1}`).AbsolutePosition.X+3-l)end;if f>=d-1 then n=e.AbsoluteSize.X else n=math.floor(a:FindFirstChild(`Border_{ActiveColumn+1}`).AbsolutePosition.X+3-l)end;local a=l-b.GuiOffset.X;local a,b=math.clamp(b.getMouseLocation().X,m+a+k,n+a-k)-i,(i-a)-m;local b=g/b;if j then c.value[f]=math.clamp(math.round(g+a),k,e.AbsoluteSize.X-m)else local a=b*a;c.value[f]=math.clamp(g+a,0,(n-m-k)/e.AbsoluteSize.X)if f<d then c.value[f+1]=math.clamp(h-a,0,1)end end;c:set(c.value,true)end,function(a,c)e=true;k=a;f=c;g=-1;h=-1;i=b.getMouseLocation().X end;b.registerEvent("InputChanged",function()if not a._started then return end;j()end)b.registerEvent("InputEnded",function(b)if not a._started then return end;if b.UserInputType==Enum.UserInputType.MouseButton1 and e then e=false;k=nil;f=0;g=-1;h=-1;i=0 end end)local e,f=function(c,c,d,e)local f;if e then f=Instance.new"TextButton";f.Text="";f.AutoButtonColor=false else f=((Instance.new"Frame"))end;f.Name=`Cell_{index}`f.AutomaticSize=Enum.AutomaticSize.Y;f.Size=UDim2.new(d,UDim.new())f.BackgroundTransparency=1;f.ZIndex=c;f.LayoutOrder=c;f.ClipsDescendants=true;if e then b.applyInteractionHighlights("Background",f,f,{Color=a._config.HeaderColor,Transparency=1,HoveredColor=a._config.HeaderHoveredColor,HoveredTransparency=a._config.HeaderHoveredTransparency,ActiveColor=a._config.HeaderActiveColor,ActiveTransparency=a._config.HeaderActiveTransparency})end;b.UIPadding(f,a._config.CellPadding)b.UIListLayout(f,Enum.FillDirection.Vertical,UDim.new())b.UISizeConstraint(f,Vector2.new(2*a._config.CellPadding.X,0))return f end,function(c,d,e)local e=Instance.new"ImageButton";e.Name=`Border_{index}`e.Size=UDim2.new(0,5,1,0)e.BackgroundTransparency=1;e.Image="";e.ImageTransparency=1;e.AutoButtonColor=false;e.ZIndex=d;e.LayoutOrder=2*d;local f,g=d==c.arguments.NumColumns and 3 or 2,Instance.new"Frame";g.Name="Line";g.Size=UDim2.new(0,1,1,0)g.Position=UDim2.fromOffset(f,0)g.BackgroundColor3=a._config[`TableBorder{style}Color`];g.BackgroundTransparency=a._config[`TableBorder{style}Transparency`];g.BorderSizePixel=0;g.Parent=e;local g=Instance.new"Frame";g.Name="Hover";g.Position=UDim2.fromOffset(f,0)g.Size=UDim2.new(0,1,1,0)g.BackgroundColor3=a._config[`TableBorder{style}Color`];g.BackgroundTransparency=a._config[`TableBorder{style}Transparency`];g.BorderSizePixel=0;g.Visible=c.arguments.Resizable;g.Parent=e;b.applyInteractionHighlights("Background",e,g,{Color=a._config.ResizeGripColor,Transparency=1,HoveredColor=a._config.ResizeGripHoveredColor,HoveredTransparency=a._config.ResizeGripHoveredTransparency,ActiveColor=a._config.ResizeGripActiveColor,ActiveTransparency=a._config.ResizeGripActiveTransparency})b.applyButtonDown(e,function()if c.arguments.Resizable then l(c,d)end end)return e end;local g,h=function(c,d)local f=Instance.new"Frame";f.Name=`Row_{index}`f.AutomaticSize=Enum.AutomaticSize.Y;f.Size=UDim2.fromScale(1,0)if d==0 then f.BackgroundColor3=a._config.TableHeaderColor;f.BackgroundTransparency=a._config.TableHeaderTransparency elseif c.arguments.RowBackground==true then if(d%2)==0 then f.BackgroundColor3=a._config.TableRowBgAltColor;f.BackgroundTransparency=a._config.TableRowBgAltTransparency else f.BackgroundColor3=a._config.TableRowBgColor;f.BackgroundTransparency=a._config.TableRowBgTransparency end else f.BackgroundTransparency=1 end;f.BorderSizePixel=0;f.ZIndex=2*d-1;f.LayoutOrder=2*d-1;f.ClipsDescendants=true;b.UIListLayout(f,Enum.FillDirection.Horizontal,UDim.new())c._cellInstances[d]=table.create(c.arguments.NumColumns)for a=1,c.arguments.NumColumns do local b=e(c,a,c._widths[a],d==0)b.Parent=f;c._cellInstances[d][a]=b end;c._rowInstances[d]=f;return f end,function(b,b,c)local c=Instance.new"Frame";c.Name=`Border_{index}`c.Size=UDim2.fromScale(1,0)c.BackgroundTransparency=1;c.ZIndex=2*b;c.LayoutOrder=2*b;local b=Instance.new"Frame";b.Name="Line";b.AnchorPoint=Vector2.new(0,0.5)b.Size=UDim2.new(1,0,0,1)b.BackgroundColor3=a._config[`TableBorder{style}Color`];b.BackgroundTransparency=a._config[`TableBorder{style}Transparency`];b.BorderSizePixel=0;b.Parent=c;return c end;a.WidgetConstructor("Table",{hasState=true,hasChildren=true,Args={NumColumns=1,Header=2,RowBackground=3,OuterBorders=4,InnerBorders=5,Resizable=6,FixedWidth=7,ProportionalWidth=8,LimitTableWidth=9},Events={},Generate=function(e)c[e.ID]=e;d[e]={}local c=Instance.new"Frame";c.Name="Iris_Table";c.AutomaticSize=Enum.AutomaticSize.Y;c.Size=UDim2.fromScale(1,0)c.BackgroundTransparency=1;local d=Instance.new"Frame";d.Name="RowContainer";d.AutomaticSize=Enum.AutomaticSize.Y;d.Size=UDim2.fromScale(1,0)d.BackgroundTransparency=1;d.ZIndex=1;b.UISizeConstraint(d)b.UIListLayout(d,Enum.FillDirection.Vertical,UDim.new())d.Parent=c;e._rowContainer=d;local d=Instance.new"Frame";d.Name="BorderContainer";d.Size=UDim2.fromScale(1,1)d.BackgroundTransparency=1;d.ZIndex=2;d.ClipsDescendants=true;b.UISizeConstraint(d)b.UIListLayout(d,Enum.FillDirection.Horizontal,UDim.new())b.UIStroke(d,1,a._config.TableBorderStrongColor,a._config.TableBorderStrongTransparency)d.Parent=c;e._columnIndex=1;e._rowIndex=1;e._rowInstances={}e._cellInstances={}e._rowBorders={}e._columnBorders={}e._rowCycles={}local b,d=#a._postCycleCallbacks+1,a._cycleTick+1;a._postCycleCallbacks[b]=function()if a._cycleTick>=d then if e.lastCycleTick~=-1 then e.state.widths.lastChangeTick=a._cycleTick;a._widgets.Table.UpdateState(e)end;a._postCycleCallbacks[b]=nil end end;return c end,GenerateState=function(b)local c=b.arguments.NumColumns;if b.state.widths==nil then local c=table.create(c,1/c)b.state.widths=a._widgetState(b,"widths",c)end;b._widths=table.create(c,UDim.new())b._minWidths=table.create(c,0)local d=b.Instance;local g=d.BorderContainer;b._cellInstances[-1]=table.create(c)for d=1,c do local f=f(b,d,"Light")f.Visible=b.arguments.InnerBorders;b._columnBorders[d]=f;f.Parent=g;local e=e(b,d,b._widths[d],false)local f=(e:FindFirstChild"UISizeConstraint")f.MinSize=Vector2.new(2*a._config.CellPadding.X+(d>1 and-2 or 0)+(d<c and-3 or 0),0)e.LayoutOrder=2*d-1;b._cellInstances[-1][d]=e;e.Parent=g end;local a=f(b,c,"Strong")b._columnBorders[0]=a;a.Parent=d end,Update=function(b)local c=b.arguments.NumColumns;assert(c>=1,"Iris.Table must have at least one column.")if b._widths~=nil and#b._widths~=c then b.arguments.NumColumns=#b._widths;warn"NumColumns cannot change once set. See documentation."end;for c,d in b._rowInstances do if c==0 then d.BackgroundColor3=a._config.TableHeaderColor;d.BackgroundTransparency=a._config.TableHeaderTransparency elseif b.arguments.RowBackground==true then if(c%2)==0 then d.BackgroundColor3=a._config.TableRowBgAltColor;d.BackgroundTransparency=a._config.TableRowBgAltTransparency else d.BackgroundColor3=a._config.TableRowBgColor;d.BackgroundTransparency=a._config.TableRowBgTransparency end else d.BackgroundTransparency=1 end end;for a,a in b._rowBorders do a.Visible=b.arguments.InnerBorders end;for a,a in b._columnBorders do a.Visible=b.arguments.InnerBorders or b.arguments.Resizable end;for a,a in b._columnBorders do local a=(a:FindFirstChild"Hover")if a then a.Visible=b.arguments.Resizable end end;if b._columnBorders[c]~=nil then b._columnBorders[c].Visible=not b.arguments.LimitTableWidth and(b.arguments.Resizable or b.arguments.InnerBorders)b._columnBorders[0].Visible=b.arguments.LimitTableWidth and(b.arguments.Resizable or b.arguments.OuterBorders)end;local c,e=b._rowInstances[0],b._rowBorders[0];if c~=nil then c.Visible=b.arguments.Header end;if e~=nil then e.Visible=b.arguments.Header and b.arguments.InnerBorders end;local c=b.Instance;local c=c.BorderContainer;c.UIStroke.Enabled=b.arguments.OuterBorders;for a=1,b.arguments.NumColumns do d[b][a]=true end;if b._widths~=nil then a._widgets.Table.UpdateState(b)end end,UpdateState=function(a)local b=a.Instance;local b,c,d,e,f,g,h=b.BorderContainer,b.RowContainer,a.arguments.NumColumns,a.state.widths.value,a._minWidths,a.arguments.FixedWidth,a.arguments.ProportionalWidth;if not a.arguments.Resizable then if g then if h then for a=1,d do e[a]=f[a]end else local a=0;for b,b in f do a=math.max(a,b)end;for b=1,d do e[b]=a end end else if h then local a=0;for b,b in f do a+=b end;local a=1/a;for b=1,d do e[b]=a*f[b]end else local a=1/d;for b=1,d do e[b]=a end end end end;local f=UDim.new()for b=1,d do local c=e[b];local c=UDim.new(g and 0 or math.clamp(c,0,1),(g and{(math.max(c,0))}or{0})[1])a._widths[b]=c;f+=c;for a,a in a._cellInstances do a[b].Size=UDim2.new(c,UDim.new())end;a._cellInstances[-1][b].Size=UDim2.new(c+UDim.new(0,(b>1 and-2 or 0)-3),UDim.new())end;local d=f.Offset;if not a.arguments.FixedWidth or not a.arguments.LimitTableWidth then d=math.huge end;b.UISizeConstraint.MaxSize=Vector2.new(d,math.huge)c.UISizeConstraint.MaxSize=Vector2.new(d,math.huge)a._columnBorders[0].Position=UDim2.fromOffset(d-3,0)end,ChildAdded=function(b,c)local c,e=b._rowIndex,b._columnIndex;local f=b._rowInstances[c];b._rowCycles[c]=a._cycleTick;d[b][e]=true;if f~=nil then return b._cellInstances[c][e]end;f=g(b,c)if c==0 then f.Visible=b.arguments.Header end;f.Parent=b._rowContainer;if c>0 then local a=h(b,c-1,c==1 and"Strong"or"Light")a.Visible=b.arguments.InnerBorders and((c==1 and{(b.arguments.Header and b.arguments.InnerBorders)and(b._rowInstances[0]~=nil)}or{true})[1])b._rowBorders[c-1]=a;a.Parent=b._rowContainer end;return b._cellInstances[c][e]end,ChildDiscarded=function(a,b)local b=b.Instance.Parent;if b~=nil then local b=tonumber(b.Name:sub(6))if b then d[a][b]=true end end end,Discard=function(a)c[a.ID]=nil;d[a]=nil;a.Instance:Destroy()b.discardState(a)end})end end)(),(function()return function(a,b)local c,d=function(a,b)if a.state.index.value>0 then return end;a.state.index:set(b)end,function(a,b)if a.state.index.value~=b then return end;for b=b-1,1,-1 do if a.Tabs[b].state.isOpened.value==true then a.state.index:set(b)return end end;for b=b,#a.Tabs do if a.Tabs[b].state.isOpened.value==true then a.state.index:set(b)return end end;a.state.index:set(0)end;a.WidgetConstructor("TabBar",{hasState=true,hasChildren=true,Args={},Events={},Generate=function(c)local d=Instance.new"Frame";d.Name="Iris_TabBar";d.AutomaticSize=Enum.AutomaticSize.Y;d.Size=UDim2.fromScale(1,0)d.BackgroundTransparency=1;d.BorderSizePixel=0;b.UIListLayout(d,Enum.FillDirection.Vertical,UDim.new()).VerticalAlignment=Enum.VerticalAlignment.Bottom;local e=Instance.new"Frame";e.Name="Bar";e.AutomaticSize=Enum.AutomaticSize.Y;e.Size=UDim2.fromScale(1,0)e.BackgroundTransparency=1;e.BorderSizePixel=0;b.UIListLayout(e,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X))e.Parent=d;local b=Instance.new"Frame";b.Name="Underline";b.Size=UDim2.new(1,0,0,1)b.BackgroundColor3=a._config.TabActiveColor;b.BackgroundTransparency=a._config.TabActiveTransparency;b.BorderSizePixel=0;b.LayoutOrder=1;b.Parent=d;local a=Instance.new"Frame";a.Name="TabContainer";a.AutomaticSize=Enum.AutomaticSize.Y;a.Size=UDim2.fromScale(1,0)a.BackgroundTransparency=1;a.BorderSizePixel=0;a.LayoutOrder=2;a.ClipsDescendants=true;a.Parent=d;c.ChildContainer=a;c.Tabs={}return d end,Update=function(a)end,ChildAdded=function(a,b)assert(b.type=="Tab","Only Iris.Tab can be parented to Iris.TabBar.")local c=a.Instance;b.ChildContainer.Parent=a.ChildContainer;b.Index=#a.Tabs+1;a.state.index.ConnectedWidgets[b.ID]=b;table.insert(a.Tabs,b)return c.Bar end,ChildDiscarded=function(a,b)local b=b.Index;table.remove(a.Tabs,b)for b=b,#a.Tabs do a.Tabs[b].Index=b end;d(a,b)end,GenerateState=function(b)if b.state.index==nil then b.state.index=a._widgetState(b,"index",1)end end,UpdateState=function(a)end,Discard=function(a)a.Instance:Destroy()end})a.WidgetConstructor("Tab",{hasState=true,hasChildren=true,Args={Text=1,Hideable=2},Events={clicked=b.EVENTS.click(function(a)return a.Instance end),hovered=b.EVENTS.hover(function(a)return a.Instance end),selected={Init=function(a)end,Get=function(b)return b.lastSelectedTick==a._cycleTick end},unselected={Init=function(a)end,Get=function(b)return b.lastUnselectedTick==a._cycleTick end},active={Init=function(a)end,Get=function(a)return a.state.index.value==a.Index end},opened={Init=function(a)end,Get=function(b)return b.lastOpenedTick==a._cycleTick end},closed={Init=function(a)end,Get=function(b)return b.lastClosedTick==a._cycleTick end}},Generate=function(c)local e=Instance.new"TextButton";e.Name="Iris_Tab";e.AutomaticSize=Enum.AutomaticSize.XY;e.BackgroundColor3=a._config.TabColor;e.BackgroundTransparency=a._config.TabTransparency;e.BorderSizePixel=0;e.Text="";e.AutoButtonColor=false;c.ButtonColors={Color=a._config.TabColor,Transparency=a._config.TabTransparency,HoveredColor=a._config.TabHoveredColor,HoveredTransparency=a._config.TabHoveredTransparency,ActiveColor=a._config.TabActiveColor,ActiveTransparency=a._config.TabActiveTransparency}b.UIPadding(e,Vector2.new(a._config.FramePadding.X,0))b.applyFrameStyle(e,true,true)b.UIListLayout(e,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;b.applyInteractionHighlights("Background",e,e,c.ButtonColors)b.applyButtonClick(e,function()c.state.index:set(c.Index)end)local f=Instance.new"TextLabel";f.Name="TextLabel";f.AutomaticSize=Enum.AutomaticSize.XY;f.BackgroundTransparency=1;f.BorderSizePixel=0;b.applyTextStyle(f)b.UIPadding(f,Vector2.new(0,a._config.FramePadding.Y))f.Parent=e;local f,g=a._config.TextSize+((a._config.FramePadding.Y-1)*2),Instance.new"TextButton";g.Name="CloseButton";g.Size=UDim2.fromOffset(f,f)g.BackgroundTransparency=1;g.BorderSizePixel=0;g.Text="";g.AutoButtonColor=false;g.LayoutOrder=1;b.UICorner(g)b.applyButtonClick(g,function()c.state.isOpened:set(false)d(c.parentWidget,c.Index)end)b.applyInteractionHighlights("Background",g,g,{Color=a._config.TabColor,Transparency=1,HoveredColor=a._config.ButtonHoveredColor,HoveredTransparency=a._config.ButtonHoveredTransparency,ActiveColor=a._config.ButtonActiveColor,ActiveTransparency=a._config.ButtonActiveTransparency})g.Parent=e;local d=Instance.new"ImageLabel";d.Name="Icon";d.AnchorPoint=Vector2.new(0.5,0.5)d.Position=UDim2.fromScale(0.5,0.5)d.Size=UDim2.fromOffset(math.floor(0.7*f),math.floor(0.7*f))d.BackgroundTransparency=1;d.BorderSizePixel=0;d.Image=b.ICONS.MULTIPLICATION_SIGN;d.ImageTransparency=1;b.applyInteractionHighlights("Image",e,d,{Color=a._config.TextColor,Transparency=1,HoveredColor=a._config.TextColor,HoveredTransparency=a._config.TextTransparency,ActiveColor=a._config.TextColor,ActiveTransparency=a._config.TextTransparency})d.Parent=g;local d=Instance.new"Frame";d.Name="TabContainer";d.AutomaticSize=Enum.AutomaticSize.Y;d.Size=UDim2.fromScale(1,0)d.BackgroundTransparency=1;d.BorderSizePixel=0;d.ClipsDescendants=true;b.UIListLayout(d,Enum.FillDirection.Vertical,UDim.new(0,a._config.ItemSpacing.Y))b.UIPadding(d,Vector2.new(0,a._config.ItemSpacing.Y)).PaddingBottom=UDim.new()c.ChildContainer=d;return e end,Update=function(a)local b=a.Instance;local b,c=b.TextLabel,b.CloseButton;b.Text=a.arguments.Text;c.Visible=a.arguments.Hideable==true and true or false end,ChildAdded=function(a,b)return a.ChildContainer end,GenerateState=function(b)b.state.index=b.parentWidget.state.index;b.state.index.ConnectedWidgets[b.ID]=b;if b.state.isOpened==nil then b.state.isOpened=a._widgetState(b,"isOpened",true)end end,UpdateState=function(b)local e,f=b.Instance,b.ChildContainer;if b.state.isOpened.lastChangeTick==a._cycleTick then if b.state.isOpened.value==true then b.lastOpenedTick=a._cycleTick+1;c(b.parentWidget,b.Index)e.Visible=true else b.lastClosedTick=a._cycleTick+1;d(b.parentWidget,b.Index)e.Visible=false end end;if b.state.index.lastChangeTick==a._cycleTick then if b.state.index.value==b.Index then b.ButtonColors.Color=a._config.TabActiveColor;b.ButtonColors.Transparency=a._config.TabActiveTransparency;e.BackgroundColor3=a._config.TabActiveColor;e.BackgroundTransparency=a._config.TabActiveTransparency;f.Visible=true;b.lastSelectedTick=a._cycleTick+1 else b.ButtonColors.Color=a._config.TabColor;b.ButtonColors.Transparency=a._config.TabTransparency;e.BackgroundColor3=a._config.TabColor;e.BackgroundTransparency=a._config.TabTransparency;f.Visible=false;b.lastUnselectedTick=a._cycleTick+1 end end end,Discard=function(a)if a.state.isOpened.value==true then d(a.parentWidget,a.Index)end;a.Instance:Destroy()a.ChildContainer:Destroy()b.discardState(a)end})end end)(),(function()return function(a,b)a.WidgetConstructor("ProgressBar",{hasState=true,hasChildren=false,Args={Text=1,Format=2},Events={hovered=b.EVENTS.hover(function(a)return a.Instance end),changed={Init=function(a)end,Get=function(b)return b.lastChangedTick==a._cycleTick end}},Generate=function(c)local c=Instance.new"Frame";c.Name="Iris_ProgressBar";c.AutomaticSize=Enum.AutomaticSize.Y;c.Size=UDim2.new(a._config.ItemWidth,UDim.new())c.BackgroundTransparency=1;b.UIListLayout(c,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;local d=Instance.new"Frame";d.Name="Bar";d.AutomaticSize=Enum.AutomaticSize.Y;d.Size=UDim2.new(a._config.ContentWidth,a._config.ContentHeight)d.BackgroundColor3=a._config.FrameBgColor;d.BackgroundTransparency=a._config.FrameBgTransparency;d.BorderSizePixel=0;d.ClipsDescendants=true;b.applyFrameStyle(d,true)d.Parent=c;local e=Instance.new"TextLabel";e.Name="Progress";e.AutomaticSize=Enum.AutomaticSize.Y;e.Size=UDim2.new(UDim.new(0,0),a._config.ContentHeight)e.BackgroundColor3=a._config.PlotHistogramColor;e.BackgroundTransparency=a._config.PlotHistogramTransparency;e.BorderSizePixel=0;b.applyTextStyle(e)b.UIPadding(e,a._config.FramePadding)b.UICorner(e,a._config.FrameRounding)e.Text="";e.Parent=d;local e=Instance.new"TextLabel";e.Name="Value";e.AutomaticSize=Enum.AutomaticSize.XY;e.Size=UDim2.new(UDim.new(0,0),a._config.ContentHeight)e.BackgroundTransparency=1;e.BorderSizePixel=0;e.ZIndex=1;b.applyTextStyle(e)b.UIPadding(e,a._config.FramePadding)e.Parent=d;local d=Instance.new"TextLabel";d.Name="TextLabel";d.AutomaticSize=Enum.AutomaticSize.XY;d.AnchorPoint=Vector2.new(0,0.5)d.BackgroundTransparency=1;d.BorderSizePixel=0;d.LayoutOrder=1;b.applyTextStyle(d)b.UIPadding(e,a._config.FramePadding)d.Parent=c;return c end,GenerateState=function(b)if b.state.progress==nil then b.state.progress=a._widgetState(b,"Progress",0)end end,Update=function(a)local b=a.Instance;local b,c=b.TextLabel,b.Bar;local c=c.Value;if a.arguments.Format~=nil and typeof(a.arguments.Format)=="string"then c.Text=a.arguments.Format end;b.Text=a.arguments.Text or"Progress Bar"end,UpdateState=function(b)local c=b.Instance;local c=c.Bar;local c,d,e,f=c.Progress,c.Value,math.clamp(b.state.progress.value,0,1),c.AbsoluteSize.X;local g=d.AbsoluteSize.X;if f*(1-e)<g then d.AnchorPoint=Vector2.xAxis;d.Position=UDim2.fromScale(1,0)else d.AnchorPoint=Vector2.zero;d.Position=UDim2.fromScale(e,0)end;c.Size=UDim2.new(UDim.new(e,0),c.Size.Height)if b.arguments.Format~=nil and typeof(b.arguments.Format)=="string"then d.Text=b.arguments.Format else d.Text=string.format("%d%%",e*100)end;b.lastChangedTick=a._cycleTick+1 end,Discard=function(a)a.Instance:Destroy()b.discardState(a)end})local c,d=function(b,c)local d=Instance.new"Frame";d.Name=tostring(c)d.AnchorPoint=Vector2.new(0.5,0.5)d.BackgroundColor3=a._config.PlotLinesColor;d.BackgroundTransparency=a._config.PlotLinesTransparency;d.BorderSizePixel=0;d.Parent=b;return d end,function(b)if b.HoveredLine then b.HoveredLine.BackgroundColor3=a._config.PlotLinesColor;b.HoveredLine.BackgroundTransparency=a._config.PlotLinesTransparency;b.HoveredLine=false;b.state.hovered:set(nil)end end;local e=function(c,e)local f=c.Instance;local f=f.Background;local f,g=f.Plot,b.getMouseLocation()local b=f.AbsolutePosition-b.GuiOffset;local b=(g.X-b.X)/f.AbsoluteSize.X;local b=math.ceil(b*#c.Lines)local f=c.Lines[b];if f then if f~=c.HoveredLine and not e then d(c)end;local d,g=c.state.values.value[b],c.state.values.value[b+1];if d and g then if math.floor(d)==d and math.floor(g)==g then c.Tooltip.Text=("%d: %d\n%d: %d"):format(b,d,b+1,g)else c.Tooltip.Text=("%d: %.3f\n%d: %.3f"):format(b,d,b+1,g)end end;c.HoveredLine=f;f.BackgroundColor3=a._config.PlotLinesHoveredColor;f.BackgroundTransparency=a._config.PlotLinesHoveredTransparency;if e then c.state.hovered.value={d,g}else c.state.hovered:set{d,g}end end end;a.WidgetConstructor("PlotLines",{hasState=true,hasChildren=false,Args={Text=1,Height=2,Min=3,Max=4,TextOverlay=5},Events={hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(c)local f=Instance.new"Frame";f.Name="Iris_PlotLines";f.Size=UDim2.new(a._config.ItemWidth,UDim.new())f.BackgroundTransparency=1;f.BorderSizePixel=0;b.UIListLayout(f,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;local g=Instance.new"Frame";g.Name="Background";g.Size=UDim2.new(a._config.ContentWidth,UDim.new(1,0))g.BackgroundColor3=a._config.FrameBgColor;g.BackgroundTransparency=a._config.FrameBgTransparency;b.applyFrameStyle(g)g.Parent=f;local h=Instance.new"Frame";h.Name="Plot";h.Size=UDim2.fromScale(1,1)h.BackgroundTransparency=1;h.BorderSizePixel=0;h.ClipsDescendants=true;h:GetPropertyChangedSignal"AbsoluteSize":Connect(function()c.state.values.lastChangeTick=a._cycleTick;a._widgets.PlotLines.UpdateState(c)end)local i=Instance.new"TextLabel";i.Name="OverlayText";i.AutomaticSize=Enum.AutomaticSize.XY;i.AnchorPoint=Vector2.new(0.5,0)i.Size=UDim2.fromOffset(0,0)i.Position=UDim2.fromScale(0.5,0)i.BackgroundTransparency=1;i.BorderSizePixel=0;i.ZIndex=2;b.applyTextStyle(i)i.Parent=h;local i=Instance.new"TextLabel";i.Name="Iris_Tooltip";i.AutomaticSize=Enum.AutomaticSize.XY;i.Size=UDim2.fromOffset(0,0)i.BackgroundColor3=a._config.PopupBgColor;i.BackgroundTransparency=a._config.PopupBgTransparency;i.BorderSizePixel=0;i.Visible=false;b.applyTextStyle(i)b.UIStroke(i,a._config.PopupBorderSize,a._config.BorderActiveColor,a._config.BorderActiveTransparency)b.UIPadding(i,a._config.WindowPadding)if a._config.PopupRounding>0 then b.UICorner(i,a._config.PopupRounding)end;local a=a._rootInstance and a._rootInstance:FindFirstChild"PopupScreenGui";i.Parent=a and a:FindFirstChild"TooltipContainer";c.Tooltip=i;b.applyMouseMoved(h,function()e(c)end)b.applyMouseLeave(h,function()d(c)end)h.Parent=g;c.Lines={}c.HoveredLine=false;local a=Instance.new"TextLabel";a.Name="TextLabel";a.AutomaticSize=Enum.AutomaticSize.XY;a.Size=UDim2.fromOffset(0,0)a.BackgroundTransparency=1;a.BorderSizePixel=0;a.ZIndex=3;a.LayoutOrder=3;b.applyTextStyle(a)a.Parent=f;return f end,GenerateState=function(b)if b.state.values==nil then b.state.values=a._widgetState(b,"values",{0,1})end;if b.state.hovered==nil then b.state.hovered=a._widgetState(b,"hovered",nil)end end,Update=function(a)local b=a.Instance;local c,d=b.TextLabel,b.Background;local d=d.Plot;local d=d.OverlayText;c.Text=a.arguments.Text or"Plot Lines";d.Text=a.arguments.TextOverlay or"";b.Size=UDim2.new(1,0,0,a.arguments.Height or 0)end,UpdateState=function(b)if b.state.hovered.lastChangeTick==a._cycleTick then if b.state.hovered.value then b.Tooltip.Visible=true else b.Tooltip.Visible=false end end;if b.state.values.lastChangeTick==a._cycleTick then local a=b.Instance;local a=a.Background;local a,d=a.Plot,b.state.values.value;local f,g,h,i=#d-1,#b.Lines,b.arguments.Min or math.huge,b.arguments.Max or-math.huge;if h==nil or i==nil then for a,a in d do h=math.min(h,a)i=math.max(i,a)end end;if g<f then for d=g+1,f do table.insert(b.Lines,c(a,d))end elseif g>f then for a=f+1,g do local a=table.remove(b.Lines)if a then a:Destroy()end end end;local a,c=i-h,a.AbsoluteSize;for e=1,f do local d,g=d[e],d[e+1];local a,c=c*Vector2.new((e-1)/f,(i-d)/a),c*Vector2.new(e/f,(i-g)/a)local d=(a+c)/2;b.Lines[e].Size=UDim2.fromOffset((c-a).Magnitude+1,1)b.Lines[e].Position=UDim2.fromOffset(d.X,d.Y)b.Lines[e].Rotation=math.atan2(c.Y-a.Y,c.X-a.X)*(180/math.pi)end;if b.HoveredLine then e(b,true)end end end,Discard=function(a)a.Instance:Destroy()a.Tooltip:Destroy()b.discardState(a)end})local c,d=function(b,c)local d=Instance.new"Frame";d.Name=tostring(c)d.BackgroundColor3=a._config.PlotHistogramColor;d.BackgroundTransparency=a._config.PlotHistogramTransparency;d.BorderSizePixel=0;d.Parent=b;return d end,function(b)if b.HoveredBlock then b.HoveredBlock.BackgroundColor3=a._config.PlotHistogramColor;b.HoveredBlock.BackgroundTransparency=a._config.PlotHistogramTransparency;b.HoveredBlock=false;b.state.hovered:set(nil)end end;local e=function(c,e)local f=c.Instance;local f=f.Background;local f,g=f.Plot,b.getMouseLocation()local b=f.AbsolutePosition-b.GuiOffset;local b=(g.X-b.X)/f.AbsoluteSize.X;local b=math.ceil(b*#c.Blocks)local f=c.Blocks[b];if f then if f~=c.HoveredBlock and not e then d(c)end;local d=c.state.values.value[b];if d then c.Tooltip.Text=(math.floor(d)==d and{(("%d: %d"):format(b,d))}or{(("%d: %.3f"):format(b,d))})[1]end;c.HoveredBlock=f;f.BackgroundColor3=a._config.PlotHistogramHoveredColor;f.BackgroundTransparency=a._config.PlotHistogramHoveredTransparency;if e then c.state.hovered.value=d else c.state.hovered:set(d)end end end;a.WidgetConstructor("PlotHistogram",{hasState=true,hasChildren=false,Args={Text=1,Height=2,Min=3,Max=4,TextOverlay=5,BaseLine=6},Events={hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(c)local f=Instance.new"Frame";f.Name="Iris_PlotHistogram";f.Size=UDim2.new(a._config.ItemWidth,UDim.new())f.BackgroundTransparency=1;f.BorderSizePixel=0;b.UIListLayout(f,Enum.FillDirection.Horizontal,UDim.new(0,a._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center;local g=Instance.new"Frame";g.Name="Background";g.Size=UDim2.new(a._config.ContentWidth,UDim.new(1,0))g.BackgroundColor3=a._config.FrameBgColor;g.BackgroundTransparency=a._config.FrameBgTransparency;b.applyFrameStyle(g)local h=(g).UIPadding;h.PaddingRight=UDim.new(0,a._config.FramePadding.X-1)g.Parent=f;local h=Instance.new"Frame";h.Name="Plot";h.Size=UDim2.fromScale(1,1)h.BackgroundTransparency=1;h.BorderSizePixel=0;h.ClipsDescendants=true;local i=Instance.new"TextLabel";i.Name="OverlayText";i.AutomaticSize=Enum.AutomaticSize.XY;i.AnchorPoint=Vector2.new(0.5,0)i.Size=UDim2.fromOffset(0,0)i.Position=UDim2.fromScale(0.5,0)i.BackgroundTransparency=1;i.BorderSizePixel=0;i.ZIndex=2;b.applyTextStyle(i)i.Parent=h;local i=Instance.new"TextLabel";i.Name="Iris_Tooltip";i.AutomaticSize=Enum.AutomaticSize.XY;i.Size=UDim2.fromOffset(0,0)i.BackgroundColor3=a._config.PopupBgColor;i.BackgroundTransparency=a._config.PopupBgTransparency;i.BorderSizePixel=0;i.Visible=false;b.applyTextStyle(i)b.UIStroke(i,a._config.PopupBorderSize,a._config.BorderActiveColor,a._config.BorderActiveTransparency)b.UIPadding(i,a._config.WindowPadding)if a._config.PopupRounding>0 then b.UICorner(i,a._config.PopupRounding)end;local a=a._rootInstance and a._rootInstance:FindFirstChild"PopupScreenGui";i.Parent=a and a:FindFirstChild"TooltipContainer";c.Tooltip=i;b.applyMouseMoved(h,function()e(c)end)b.applyMouseLeave(h,function()d(c)end)h.Parent=g;c.Blocks={}c.HoveredBlock=false;local a=Instance.new"TextLabel";a.Name="TextLabel";a.AutomaticSize=Enum.AutomaticSize.XY;a.Size=UDim2.fromOffset(0,0)a.BackgroundTransparency=1;a.BorderSizePixel=0;a.ZIndex=3;a.LayoutOrder=3;b.applyTextStyle(a)a.Parent=f;return f end,GenerateState=function(b)if b.state.values==nil then b.state.values=a._widgetState(b,"values",{1})end;if b.state.hovered==nil then b.state.hovered=a._widgetState(b,"hovered",nil)end end,Update=function(a)local b=a.Instance;local c,d=b.TextLabel,b.Background;local d=d.Plot;local d=d.OverlayText;c.Text=a.arguments.Text or"Plot Histogram";d.Text=a.arguments.TextOverlay or"";b.Size=UDim2.new(1,0,0,a.arguments.Height or 0)end,UpdateState=function(b)if b.state.hovered.lastChangeTick==a._cycleTick then if b.state.hovered.value then b.Tooltip.Visible=true else b.Tooltip.Visible=false end end;if b.state.values.lastChangeTick==a._cycleTick then local a=b.Instance;local a=a.Background;local a,d=a.Plot,b.state.values.value;local f,g,h,i,j=#d,#b.Blocks,b.arguments.Min or math.huge,b.arguments.Max or-math.huge,b.arguments.BaseLine or 0;if h==nil or i==nil then for a,a in d do h=math.min(h or a,a)i=math.max(i or a,a)end end;if g<f then for d=g+1,f do table.insert(b.Blocks,c(a,d))end elseif g>f then for a=f+1,g do local a=table.remove(b.Blocks)if a then a:Destroy()end end end;local a,c=i-h,UDim.new(1/f,-1)for e=1,f do local d=d[e];if d>=0 then b.Blocks[e].Size=UDim2.new(c,UDim.new((d-j)/a))b.Blocks[e].Position=UDim2.fromScale((e-1)/f,(i-d)/a)else b.Blocks[e].Size=UDim2.new(c,UDim.new((j-d)/a))b.Blocks[e].Position=UDim2.fromScale((e-1)/f,(i-j)/a)end end;if b.HoveredBlock then e(b,true)end end end,Discard=function(a)a.Instance:Destroy()a.Tooltip:Destroy()b.discardState(a)end})end end)(),(function()return function(a,b)local c={hasState=false,hasChildren=false,Args={Image=1,Size=2,Rect=3,ScaleType=4,ResampleMode=5,TileSize=6,SliceCenter=7,SliceScale=8},Discard=function(a)a.Instance:Destroy()end}a.WidgetConstructor("Image",b.extend(c,{Events={hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(c)local c=Instance.new"ImageLabel";c.Name="Iris_Image";c.BackgroundTransparency=1;c.BorderSizePixel=0;c.ImageColor3=a._config.ImageColor;c.ImageTransparency=a._config.ImageTransparency;b.applyFrameStyle(c,true)return c end,Update=function(a)local c=a.Instance;c.Image=a.arguments.Image or b.ICONS.UNKNOWN_TEXTURE;c.Size=a.arguments.Size;if a.arguments.ScaleType then c.ScaleType=a.arguments.ScaleType;if a.arguments.ScaleType==Enum.ScaleType.Tile and a.arguments.TileSize then c.TileSize=a.arguments.TileSize elseif a.arguments.ScaleType==Enum.ScaleType.Slice then if a.arguments.SliceCenter then c.SliceCenter=a.arguments.SliceCenter end;if a.arguments.SliceScale then c.SliceScale=a.arguments.SliceScale end end end;if a.arguments.Rect then c.ImageRectOffset=a.arguments.Rect.Min;c.ImageRectSize=Vector2.new(a.arguments.Rect.Width,a.arguments.Rect.Height)end;if a.arguments.ResampleMode then c.ResampleMode=a.arguments.ResampleMode end end}))a.WidgetConstructor("ImageButton",b.extend(c,{Events={clicked=b.EVENTS.click(function(a)return a.Instance end),rightClicked=b.EVENTS.rightClick(function(a)return a.Instance end),doubleClicked=b.EVENTS.doubleClick(function(a)return a.Instance end),ctrlClicked=b.EVENTS.ctrlClick(function(a)return a.Instance end),hovered=b.EVENTS.hover(function(a)return a.Instance end)},Generate=function(c)local c=Instance.new"ImageButton";c.Name="Iris_ImageButton";c.AutomaticSize=Enum.AutomaticSize.XY;c.BackgroundColor3=a._config.FrameBgColor;c.BackgroundTransparency=a._config.FrameBgTransparency;c.BorderSizePixel=0;c.Image="";c.ImageTransparency=1;c.AutoButtonColor=false;b.applyFrameStyle(c,true)b.UIPadding(c,Vector2.new(a._config.ImageBorderSize,a._config.ImageBorderSize))local d=Instance.new"ImageLabel";d.Name="ImageLabel";d.BackgroundTransparency=1;d.BorderSizePixel=0;d.ImageColor3=a._config.ImageColor;d.ImageTransparency=a._config.ImageTransparency;d.Parent=c;b.applyInteractionHighlights("Background",c,c,{Color=a._config.FrameBgColor,Transparency=a._config.FrameBgTransparency,HoveredColor=a._config.FrameBgHoveredColor,HoveredTransparency=a._config.FrameBgHoveredTransparency,ActiveColor=a._config.FrameBgActiveColor,ActiveTransparency=a._config.FrameBgActiveTransparency})return c end,Update=function(a)local c=a.Instance;local c=c.ImageLabel;c.Image=a.arguments.Image or b.ICONS.UNKNOWN_TEXTURE;c.Size=a.arguments.Size;if a.arguments.ScaleType then c.ScaleType=a.arguments.ScaleType;if a.arguments.ScaleType==Enum.ScaleType.Tile and a.arguments.TileSize then c.TileSize=a.arguments.TileSize elseif a.arguments.ScaleType==Enum.ScaleType.Slice then if a.arguments.SliceCenter then c.SliceCenter=a.arguments.SliceCenter end;if a.arguments.SliceScale then c.SliceScale=a.arguments.SliceScale end end end;if a.arguments.Rect then c.ImageRectOffset=a.arguments.Rect.Min;c.ImageRectSize=Vector2.new(a.arguments.Rect.Width,a.arguments.Rect.Height)end;if a.arguments.ResampleMode then c.ResampleMode=a.arguments.ResampleMode end end}))end end)()local d,e=(function()local a={}return function(b)a.GuiService=game:GetService"GuiService";a.RunService=game:GetService"RunService";a.UserInputService=game:GetService"UserInputService";a.ContextActionService=game:GetService"ContextActionService";a.TextService=game:GetService"TextService";a.ICONS={BLANK_SQUARE="rbxassetid://83265623867126",RIGHT_POINTING_TRIANGLE="rbxassetid://105541346271951",DOWN_POINTING_TRIANGLE="rbxassetid://95465797476827",MULTIPLICATION_SIGN="rbxassetid://133890060015237",BOTTOM_RIGHT_CORNER="rbxassetid://125737344915000",CHECKMARK="rbxassetid://109638815494221",BORDER="rbxassetid://133803690460269",ALPHA_BACKGROUND_TEXTURE="rbxassetid://114090016039876",UNKNOWN_TEXTURE="rbxassetid://95045813476061"}a.IS_STUDIO=a.RunService:IsStudio()a.getTime=function()if a.IS_STUDIO then return os.clock()else return time()end end;a.GuiOffset=(b._config.IgnoreGuiInset and{(-a.GuiService:GetGuiInset())}or{Vector2.zero})[1];a.MouseOffset=(b._config.IgnoreGuiInset and{Vector2.zero}or{(a.GuiService:GetGuiInset())})[1];local c;c=a.GuiService:GetPropertyChangedSignal"TopbarInset":Once(function()a.MouseOffset=(b._config.IgnoreGuiInset and{Vector2.zero}or{(a.GuiService:GetGuiInset())})[1];a.GuiOffset=(b._config.IgnoreGuiInset and{(-a.GuiService:GetGuiInset())}or{Vector2.zero})[1];c:Disconnect()end)task.delay(5,function()c:Disconnect()end)a.getMouseLocation=function()return a.UserInputService:GetMouseLocation()-a.MouseOffset end;a.isPosInsideRect=function(a,b,c)return a.X>=b.X and a.X<=c.X and a.Y>=b.Y and a.Y<=c.Y end;a.findBestWindowPosForPopup=function(a,b,c,d)local e=20;if a.X+b.X+e>d.X then if a.Y+b.Y+e>d.Y then a+=Vector2.new(0,-(e+b.Y))else a+=Vector2.new(0,e)end else a+=Vector2.new(e)end;return Vector2.new(math.max(math.min(a.X+b.X,d.X)-b.X,c.X),math.max(math.min(a.Y+b.Y,d.Y)-b.Y,c.Y))end;a.getScreenSizeForWindow=function(a)if a.Instance:IsA"GuiBase2d"then return a.Instance.AbsoluteSize else local a=a.Instance.Parent;if a:IsA"GuiBase2d"then return a.AbsoluteSize else if a.Parent:IsA"GuiBase2d"then return a.AbsoluteSize else return workspace.CurrentCamera.ViewportSize end end end end;a.extend=function(a,b)local a=table.clone(a)for b,c in b do a[b]=c end;return a end;a.UIPadding=function(a,b)local c=Instance.new"UIPadding";c.PaddingLeft=UDim.new(0,b.X)c.PaddingRight=UDim.new(0,b.X)c.PaddingTop=UDim.new(0,b.Y)c.PaddingBottom=UDim.new(0,b.Y)c.Parent=a;return c end;a.UIListLayout=function(a,b,c)local d=Instance.new"UIListLayout";d.SortOrder=Enum.SortOrder.LayoutOrder;d.Padding=c;d.FillDirection=b;d.Parent=a;return d end;a.UIStroke=function(a,b,c,d)local e=Instance.new"UIStroke";e.Thickness=b;e.Color=c;e.Transparency=d;e.ApplyStrokeMode=Enum.ApplyStrokeMode.Border;e.LineJoinMode=Enum.LineJoinMode.Round;e.Parent=a;return e end;a.UICorner=function(a,b)local c=Instance.new"UICorner";c.CornerRadius=UDim.new(b and 0 or 1,b or 0)c.Parent=a;return c end;a.UISizeConstraint=function(a,b,c)local d=Instance.new"UISizeConstraint";d.MinSize=b or d.MinSize;d.MaxSize=c or d.MaxSize;d.Parent=a;return d end;a.applyTextStyle=function(a)a.FontFace=b._config.TextFont;a.TextSize=b._config.TextSize;a.TextColor3=b._config.TextColor;a.TextTransparency=b._config.TextTransparency;a.TextXAlignment=Enum.TextXAlignment.Left;a.TextYAlignment=Enum.TextYAlignment.Center;a.RichText=b._config.RichText;a.TextWrapped=b._config.TextWrapped;a.AutoLocalize=false end;a.applyInteractionHighlights=function(c,d,e,f)local g=false;a.applyMouseEnter(d,function()e[c.."Color3"]=f.HoveredColor;e[c.."Transparency"]=f.HoveredTransparency;g=false end)a.applyMouseLeave(d,function()e[c.."Color3"]=f.Color;e[c.."Transparency"]=f.Transparency;g=true end)a.applyInputBegan(d,function(a)if not(a.UserInputType==Enum.UserInputType.MouseButton1 or a.UserInputType==Enum.UserInputType.Gamepad1)then return end;e[c.."Color3"]=f.ActiveColor;e[c.."Transparency"]=f.ActiveTransparency end)a.applyInputEnded(d,function(a)if not(a.UserInputType==Enum.UserInputType.MouseButton1 or a.UserInputType==Enum.UserInputType.Gamepad1)or g then return end;if a.UserInputType==Enum.UserInputType.MouseButton1 then e[c.."Color3"]=f.HoveredColor;e[c.."Transparency"]=f.HoveredTransparency end;if a.UserInputType==Enum.UserInputType.Gamepad1 then e[c.."Color3"]=f.Color;e[c.."Transparency"]=f.Transparency end end)d.SelectionImageObject=b.SelectionImageObject end;a.applyInteractionHighlightsWithMultiHighlightee=function(c,d,e)local f=false;a.applyMouseEnter(d,function()for a,a in e do a[1][c.."Color3"]=a[2].HoveredColor;a[1][c.."Transparency"]=a[2].HoveredTransparency;f=false end end)a.applyMouseLeave(d,function()for a,a in e do a[1][c.."Color3"]=a[2].Color;a[1][c.."Transparency"]=a[2].Transparency;f=true end end)a.applyInputBegan(d,function(a)if not(a.UserInputType==Enum.UserInputType.MouseButton1 or a.UserInputType==Enum.UserInputType.Gamepad1)then return end;for a,a in e do a[1][c.."Color3"]=a[2].ActiveColor;a[1][c.."Transparency"]=a[2].ActiveTransparency end end)a.applyInputEnded(d,function(a)if not(a.UserInputType==Enum.UserInputType.MouseButton1 or a.UserInputType==Enum.UserInputType.Gamepad1)or f then return end;for b,b in e do if a.UserInputType==Enum.UserInputType.MouseButton1 then b[1][c.."Color3"]=b[2].HoveredColor;b[1][c.."Transparency"]=b[2].HoveredTransparency end;if a.UserInputType==Enum.UserInputType.Gamepad1 then b[1][c.."Color3"]=b[2].Color;b[1][c.."Transparency"]=b[2].Transparency end end end)d.SelectionImageObject=b.SelectionImageObject end;a.applyFrameStyle=function(c,d,e)local f,g=b._config.FrameBorderSize,b._config.FrameRounding;c.BorderSizePixel=0;if f>0 then a.UIStroke(c,f,b._config.BorderColor,b._config.BorderTransparency)end;if g>0 and not e then a.UICorner(c,g)end;if not d then a.UIPadding(c,b._config.FramePadding)end end;a.applyButtonClick=function(a,b)a.MouseButton1Click:Connect(function()b()end)end;a.applyButtonDown=function(b,c)b.MouseButton1Down:Connect(function(b,d)local a=Vector2.new(b,d)-a.MouseOffset;c(a.X,a.Y)end)end;a.applyMouseEnter=function(b,c)b.MouseEnter:Connect(function(b,d)local a=Vector2.new(b,d)-a.MouseOffset;c(a.X,a.Y)end)end;a.applyMouseMoved=function(b,c)b.MouseMoved:Connect(function(b,d)local a=Vector2.new(b,d)-a.MouseOffset;c(a.X,a.Y)end)end;a.applyMouseLeave=function(b,c)b.MouseLeave:Connect(function(b,d)local a=Vector2.new(b,d)-a.MouseOffset;c(a.X,a.Y)end)end;a.applyInputBegan=function(a,b)a.InputBegan:Connect(function(...)b(...)end)end;a.applyInputEnded=function(a,b)a.InputEnded:Connect(function(...)b(...)end)end;a.discardState=function(a)for b,b in a.state do b.ConnectedWidgets[a.ID]=nil end end;a.registerEvent=function(c,d)table.insert(b._initFunctions,function()table.insert(b._connections,a.UserInputService[c]:Connect(d))end)end;a.EVENTS={hover=function(b)return{Init=function(c)local b=b(c)a.applyMouseEnter(b,function()c.isHoveredEvent=true end)a.applyMouseLeave(b,function()c.isHoveredEvent=false end)c.isHoveredEvent=false end,Get=function(a)return a.isHoveredEvent end}end,click=function(c)return{Init=function(d)local c=c(d)d.lastClickedTick=-1;a.applyButtonClick(c,function()d.lastClickedTick=b._cycleTick+1 end)end,Get=function(a)return a.lastClickedTick==b._cycleTick end}end,rightClick=function(a)return{Init=function(c)local a=a(c)c.lastRightClickedTick=-1;a.MouseButton2Click:Connect(function()c.lastRightClickedTick=b._cycleTick+1 end)end,Get=function(a)return a.lastRightClickedTick==b._cycleTick end}end,doubleClick=function(c)return{Init=function(d)local c=c(d)d.lastClickedTime=-1;d.lastClickedPosition=Vector2.zero;d.lastDoubleClickedTick=-1;a.applyButtonDown(c,function(c,e)local a=a.getTime()local f=a-d.lastClickedTime<b._config.MouseDoubleClickTime;if f and(Vector2.new(c,e)-d.lastClickedPosition).Magnitude<b._config.MouseDoubleClickMaxDist then d.lastDoubleClickedTick=b._cycleTick+1 else d.lastClickedTime=a;d.lastClickedPosition=Vector2.new(c,e)end end)end,Get=function(a)return a.lastDoubleClickedTick==b._cycleTick end}end,ctrlClick=function(c)return{Init=function(d)local c=c(d)d.lastCtrlClickedTick=-1;a.applyButtonClick(c,function()if a.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or a.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)then d.lastCtrlClickedTick=b._cycleTick+1 end end)end,Get=function(a)return a.lastCtrlClickedTick==b._cycleTick end}end}b._utility=a;d(b,a)e(b,a)f(b,a)g(b,a)h(b,a)i(b,a)j(b,a)k(b,a)r(b,a)n(b,a)p(b,a)l(b,a)m(b,a)q(b,a)o(b,a)end end)(),(function()return function(a)local b,c,d,e,f,g,h,i,j,k=a.State(true),a.State(false),a.State(false),a.State(false),a.State(false),a.State(false),a.State(false),a.State(false),a.State(Color3.fromRGB(115,140,152)),a.State(0)table.insert(a.Internal._initFunctions,function()local b=Instance.new"Frame";b.Name="Background";b.Size=UDim2.fromScale(1,1)b.BackgroundColor3=j.value;b.BackgroundTransparency=k.value;local c;if a._config.UseScreenGUIs then c=Instance.new"ScreenGui";c.Name="Iris_Background";c.IgnoreGuiInset=true;c.DisplayOrder=a._config.DisplayOrderOffset-1;c.ScreenInsets=Enum.ScreenInsets.None;c.Enabled=true;b.Parent=c else b.ZIndex=a._config.DisplayOrderOffset-1;c=b end;j:onChange(function(a)b.BackgroundColor3=a end)k:onChange(function(a)b.BackgroundTransparency=a end)i:onChange(function(b)if b then c.Parent=a.Internal.parentInstance else c.Parent=nil end end)end)local l=function(b)a.PushConfig{TextColor=a._config.TextDisabledColor}local c=a.Text{"(?)"}a.PopConfig()a.PushConfig{ContentWidth=UDim.new(0,350)}if c.hovered()then a.Tooltip{b}end;a.PopConfig()end;local m,n,o=function(b,c)a.SameLine()do a.Text{b}l(c)end;a.End()end,{Basic=function()a.Tree{"Basic"}do a.SeparatorText{"Basic"}local b=a.State(1)a.Button{"Button"}a.SmallButton{"SmallButton"}a.Text{"Text"}a.TextWrapped{string.rep("Text Wrapped ",5)}a.TextColored{"Colored Text",Color3.fromRGB(255,128,0)}a.Text{`Rich Text: <b>bold text</b> <i>italic text</i> <u>underline text</u> <s>strikethrough text</s> <font color= "rgb(240, 40, 10)">red text</font> <font size="32">bigger text</font>`,true,nil,true}a.SameLine()do a.RadioButton({"Index '1'",1},{index=b})a.RadioButton({"Index 'two'","two"},{index=b})if a.RadioButton({"Index 'false'",false},{index=b}).active()==false then if a.SmallButton{"Select last"}.clicked()then b:set(false)end end end;a.End()a.Text{"The Index is: "..tostring(b.value)}a.SeparatorText{"Inputs"}a.InputNum{}a.DragNum{}a.SliderNum{}end;a.End()end,Image=function()a.Tree{"Image"}do a.SeparatorText{"Image Controls"}local b,c,d,e,f=a.State"rbxasset://textures/ui/common/robux.png",a.State(UDim2.fromOffset(100,100)),a.State(Rect.new(0,0,0,0)),a.State(Enum.ScaleType.Stretch),a.State(false)local g,h,i=a.ComputedState(f,function(a)return a and Enum.ResamplerMode.Pixelated or Enum.ResamplerMode.Default end),a.State(a._config.ImageColor),a.State(a._config.ImageTransparency)a.InputColor4({"Image Tint"},{color=h,transparency=i})a.Combo({"Asset"},{index=b})do a.Selectable({"Robux Small","rbxasset://textures/ui/common/robux.png"},{index=b})a.Selectable({"Robux Large","rbxasset://textures//ui/common/robux@3x.png"},{index=b})a.Selectable({"Loading Texture","rbxasset://textures//loading/darkLoadingTexture.png"},{index=b})a.Selectable({"Hue-Saturation Gradient","rbxasset://textures//TagEditor/huesatgradient.png"},{index=b})a.Selectable({"famfamfam.png (WHY?)","rbxasset://textures//TagEditor/famfamfam.png"},{index=b})end;a.End()a.SliderUDim2({"Image Size",nil,nil,UDim2.new(1,240,1,240)},{number=c})a.SliderRect({"Image Rect",nil,nil,Rect.new(256,256,256,256)},{number=d})a.Combo({"Scale Type"},{index=e})do a.Selectable({"Stretch",Enum.ScaleType.Stretch},{index=e})a.Selectable({"Fit",Enum.ScaleType.Fit},{index=e})a.Selectable({"Crop",Enum.ScaleType.Crop},{index=e})end;a.End()a.Checkbox({"Pixelated"},{isChecked=f})a.PushConfig{ImageColor=h:get(),ImageTransparency=i:get()}a.Image{b:get(),c:get(),d:get(),e:get(),g:get()}a.PopConfig()a.SeparatorText{"Tile"}local b=a.State(UDim2.fromScale(0.5,0.5))a.SliderUDim2({"Tile Size",nil,nil,UDim2.new(1,240,1,240)},{number=b})a.PushConfig{ImageColor=h:get(),ImageTransparency=i:get()}a.Image{"rbxasset://textures/grid2.png",c:get(),nil,Enum.ScaleType.Tile,g:get(),b:get()}a.PopConfig()a.SeparatorText{"Slice"}local b=a.State(1)a.SliderNum({"Image Slice Scale",0.1,0.1,5},{number=b})a.PushConfig{ImageColor=h:get(),ImageTransparency=i:get()}a.Image({"rbxasset://textures/ui/chatBubble_blue_notify_bkg.png",c:get(),nil,Enum.ScaleType.Slice,g:get(),nil,Rect.new(12,12,56,56),1},b:get())a.PopConfig()a.SeparatorText{"Image Button"}local b=a.State(0)a.SameLine()do a.PushConfig{ImageColor=h:get(),ImageTransparency=i:get()}if a.ImageButton{"rbxasset://textures/AvatarCompatibilityPreviewer/add.png",UDim2.fromOffset(20,20)}.clicked()then b:set(b.value+1)end;a.PopConfig()a.Text{`Click count: {count.value}`}end;a.End()end;a.End()end,Selectable=function()a.Tree{"Selectable"}do local b=a.State(2)a.Selectable({"Selectable #1",1},{index=b})a.Selectable({"Selectable #2",2},{index=b})if a.Selectable({"Double click Selectable",3,true},{index=b}).doubleClicked()then b:set(3)end;a.Selectable({"Impossible to select",4,true},{index=b})if a.Button{"Select last"}.clicked()then b:set(4)end;a.Selectable{"Independent Selectable"}end;a.End()end,Combo=function()a.Tree{"Combo"}do a.PushConfig{ContentWidth=UDim.new(1,-200)}local b,c,d=(a.State"No Selection")a.SameLine()do c=a.Checkbox{"No Preview"}d=a.Checkbox{"No Button"}if c.checked()and d.isChecked.value==true then d.isChecked:set(false)end;if d.checked()and c.isChecked.value==true then c.isChecked:set(false)end end;a.End()a.Combo({"Basic Usage",d.isChecked:get(),c.isChecked:get()},{index=b})do a.Selectable({"Select 1","One"},{index=b})a.Selectable({"Select 2","Two"},{index=b})a.Selectable({"Select 3","Three"},{index=b})end;a.End()a.ComboArray({"Using ComboArray"},{index="No Selection"},{"Red","Green","Blue"})local b={}for a=1,50 do table.insert(b,tostring(a))end;a.ComboArray({"Height Test"},{index="1"},b)local b=a.State"7 AM";a.Combo({"Combo with Inner widgets"},{index=b})do a.Tree{"Morning Shifts"}do a.Selectable({"Shift at 7 AM","7 AM"},{index=b})a.Selectable({"Shift at 11 AM","11 AM"},{index=b})a.Selectable({"Shift at 3 PM","3 PM"},{index=b})end;a.End()a.Tree{"Night Shifts"}do a.Selectable({"Shift at 6 PM","6 PM"},{index=b})a.Selectable({"Shift at 9 PM","9 PM"},{index=b})end;a.End()end;a.End()local b=a.ComboEnum({"Using ComboEnum"},{index=Enum.UserInputState.Begin},Enum.UserInputState)a.Text{"Selected: "..b.index:get().Name}a.PopConfig()end;a.End()end,Tree=function()a.Tree{"Trees"}do a.Tree{"Tree using SpanAvailWidth",true}do l"SpanAvailWidth determines if the Tree is selectable from its entire with, or only the text area"end;a.End()local b=a.Tree{"Tree with Children"}do a.Text{"Im inside the first tree!"}a.Button{"Im a button inside the first tree!"}a.Tree{"Im a tree inside the first tree!"}do a.Text{"I am the innermost text!"}end;a.End()end;a.End()a.Checkbox({"Toggle above tree"},{isChecked=b.state.isUncollapsed})end;a.End()end,CollapsingHeader=function()a.Tree{"Collapsing Headers"}do a.CollapsingHeader{"A header"}do a.Text{"This is under the first header!"}end;a.End()local b=a.State(false)a.CollapsingHeader({"Another header"},{isUncollapsed=b})do if a.Button{"Shhh... secret button!"}.clicked()then b:set(true)end end;a.End()end;a.End()end,Group=function()a.Tree{"Groups"}do a.SameLine()do a.Group()do a.Text{"I am in group A"}a.Button{"Im also in A"}end;a.End()a.Separator()a.Group()do a.Text{"I am in group B"}a.Button{"Im also in B"}a.Button{"Also group B"}end;a.End()end;a.End()end;a.End()end,Tab=function()a.Tree{"Tabs"}do a.Tree{"Simple"}do a.TabBar()do a.Tab{"Apples"}do a.Text{"Who loves apples?"}end;a.End()a.Tab{"Broccoli"}do a.Text{"And what about broccoli?"}end;a.End()a.Tab{"Carrots"}do a.Text{"But carrots are the best."}end;a.End()end;a.End()a.Separator()a.Text{"Very important questions."}end;a.End()a.Tree{"Closable"}do local b,c,d=a.State(true),a.State(true),a.State(true)a.TabBar()do a.Tab({"🍎",true},{isOpened=b})do a.Text{"Who loves apples?"}if a.Button{"I don't like apples."}.clicked()then b:set(false)end end;a.End()a.Tab({"🥦",true},{isOpened=c})do a.Text{"And what about broccoli?"}if a.Button{"Not for me."}.clicked()then c:set(false)end end;a.End()a.Tab({"🥕",true},{isOpened=d})do a.Text{"But carrots are the best."}if a.Button{"I disagree with you."}.clicked()then d:set(false)end end;a.End()end;a.End()a.Separator()if a.Button{"Actually, let me reconsider it."}.clicked()then b:set(true)c:set(true)d:set(true)end end;a.End()end;a.End()end,Indent=function()a.Tree{"Indents"}a.Text{"Not Indented"}a.Indent()do a.Text{"Indented"}a.Indent{7}do a.Text{"Indented by 7 more pixels"}a.End()a.Indent{-7}do a.Text{"Indented by 7 less pixels"}end;a.End()end;a.End()end;a.End()end,Input=function()a.Tree{"Input"}do local b,c,d,e,f,g=a.State(false),a.State(false),a.State(0),a.State(100),a.State(1),a.State"%d";a.PushConfig{ContentWidth=UDim.new(1,-120)}local d=a.InputNum{[a.Args.InputNum.Text]="Input Number",[a.Args.InputNum.NoButtons]=c.value,[a.Args.InputNum.Min]=d.value,[a.Args.InputNum.Max]=e.value,[a.Args.InputNum.Increment]=f.value,[a.Args.InputNum.Format]={g.value}}a.PopConfig()a.Text{"The Value is: "..d.number.value}if a.Button{"Randomize Number"}.clicked()then d.number:set(math.random(1,99))end;local b,c=a.Checkbox({"NoField"},{isChecked=b}),a.Checkbox({"NoButtons"},{isChecked=c})if b.checked()and c.isChecked.value==true then c.isChecked:set(false)end;if c.checked()and b.isChecked.value==true then b.isChecked:set(false)end;a.PushConfig{ContentWidth=UDim.new(1,-120)}a.InputVector2{"InputVector2"}a.InputVector3{"InputVector3"}a.InputUDim{"InputUDim"}a.InputUDim2{"InputUDim2"}local b,c,d,e=a.State(false),a.State(false),a.State(Color3.new()),a.State(0)a.SliderNum({"Transparency",0.01,0,1},{number=e})a.InputColor3({"InputColor3",b:get(),c:get()},{color=d})a.InputColor4({"InputColor4",b:get(),c:get()},{color=d,transparency=e})a.SameLine()a.Text{`#{sharedColor:get():ToHex()}`}a.Checkbox({"Use Floats"},{isChecked=b})a.Checkbox({"Use HSV"},{isChecked=c})a.End()a.PopConfig()a.Separator()a.SameLine()do a.Text{"Slider Numbers"}l"ctrl + click slider number widgets to input a number"end;a.End()a.PushConfig{ContentWidth=UDim.new(1,-120)}a.SliderNum{"Slide Int",1,1,8}a.SliderNum{"Slide Float",0.01,0,100}a.SliderNum{"Small Numbers",0.001,-2,1,"%f radians"}a.SliderNum{"Odd Ranges",0.001,-math.pi,math.pi,"%f radians"}a.SliderNum{"Big Numbers",1e4,1e5,1e7}a.SliderNum{"Few Numbers",1,0,3}a.PopConfig()a.Separator()a.SameLine()do a.Text{"Drag Numbers"}l"ctrl + click or double click drag number widgets to input a number, hold shift/alt while dragging to increase/decrease speed"end;a.End()a.PushConfig{ContentWidth=UDim.new(1,-120)}a.DragNum{"Drag Int"}a.DragNum{"Slide Float",0.001,-10,10}a.DragNum{"Percentage",1,0,100,"%d %%"}a.PopConfig()end;a.End()end,InputText=function()a.Tree{"Input Text"}do local b=a.InputText{"Input Text Test","Input Text here"}a.Text{"The text is: "..b.text.value}end;a.End()end,MultiInput=function()a.Tree{"Multi-Component Input"}do local b,c,d,e,f,g=a.State(Vector2.new()),a.State(Vector3.new()),a.State(UDim.new()),a.State(UDim2.new()),a.State(Color3.new()),a.State(Rect.new(0,0,0,0))a.SeparatorText{"Input"}a.InputVector2({},{number=b})a.InputVector3({},{number=c})a.InputUDim({},{number=d})a.InputUDim2({},{number=e})a.InputRect({},{number=g})a.SeparatorText{"Drag"}a.DragVector2({},{number=b})a.DragVector3({},{number=c})a.DragUDim({},{number=d})a.DragUDim2({},{number=e})a.DragRect({},{number=g})a.SeparatorText{"Slider"}a.SliderVector2({},{number=b})a.SliderVector3({},{number=c})a.SliderUDim({},{number=d})a.SliderUDim2({},{number=e})a.SliderRect({},{number=g})a.SeparatorText{"Color"}a.InputColor3({},{color=f})a.InputColor4({},{color=f})end;a.End()end,Tooltip=function()a.PushConfig{ContentWidth=UDim.new(0,250)}a.Tree{"Tooltip"}do if a.Text{"Hover over me to reveal a tooltip"}.hovered()then a.Tooltip{"I am some helpful tooltip text"}end;local b,c=a.State"Hello ",a.State(1)if a.InputNum({"# of repeat",1,1,50},{number=c}).numberChanged()then b:set(string.rep("Hello ",c:get()))end;if a.Checkbox{"Show dynamic text tooltip"}.state.isChecked.value then a.Tooltip{b:get()}end end;a.End()a.PopConfig()end,Plotting=function()a.Tree{"Plotting"}do a.SeparatorText{"Progress"}local b,c=os.clock()*15,a.State(0)local b=math.clamp((math.abs(b%100-50))-7.5,0,35)/35;c:set(b)a.ProgressBar({"Progress Bar"},{progress=c})a.ProgressBar({"Progress Bar",`{math.floor(Progress:get()*1753)}/1753`},{progress=c})a.SeparatorText{"Graphs"}do local b=a.State{0.5,0.8,0.2,0.9,0.1,0.6,0.4,0.7,0.3,0.0}a.PlotHistogram({"Histogram",100,0,1,"random"},{values=b})a.PlotLines({"Lines",100,0,1,"random"},{values=b})end;do local b,c,d,e,f,g=a.State"Cos",a.State(37),a.State(0),a.State{},a.State(0),a.Checkbox{"Animate"}local h,i=a.ComboArray({"Plotting Function"},{index=b},{"Sin","Cos","Tan","Saw"}),a.SliderNum({"Samples",1,1,145,"%d samples"},{number=c})if a.SliderNum({"Baseline",0.1,-1,1},{number=d}).numberChanged()then e:set(e.value,true)end;if g.state.isChecked.value or h.closed()or i.numberChanged()or#e.value==0 then if g.state.isChecked.value then f:set(f.value+a.Internal._deltaTime)end;local a,b=math.floor(f.value*30)-1,b.value;table.clear(e.value)for c=1,c.value do if b=="Sin"then e.value[c]=math.sin(math.rad(5*(c+a)))elseif b=="Cos"then e.value[c]=math.cos(math.rad(5*(c+a)))elseif b=="Tan"then e.value[c]=math.tan(math.rad(5*(c+a)))elseif b=="Saw"then e.value[c]=(c%2)==(a%2)and 1 or-1 end end;e:set(e.value,true)end;a.PlotHistogram({"Histogram",100,-1,1,"",d:get()},{values=e})a.PlotLines({"Lines",100,-1,1},{values=e})end end;a.End()end},{"Basic","Image","Selectable","Combo","Tree","CollapsingHeader","Group","Tab","Indent","Input","MultiInput","InputText","Tooltip","Plotting"}local function p()local b=a.Tree{"Recursive Tree"}do if b.state.isUncollapsed.value then p()end end;a.End()end;local function q(b)local c;a.Window({"Recursive Window"},{size=a.State(Vector2.new(175,100)),isOpened=b})do c=a.Checkbox{"Recurse Again"}end;a.End()if c.isChecked.value then q(c.isChecked)end end;local r,s=function()local b=a.Window({"Runtime Info"},{isOpened=d})do local c,d,e,f,g=a.Internal._lastVDOM,a.Internal._states,a.State(3),a.State(0),a.State(os.clock())a.SameLine()do a.InputNum({[a.Args.InputNum.Text]="",[a.Args.InputNum.Format]="%d Seconds",[a.Args.InputNum.Max]=10},{number=e})if a.Button{"Disable"}.clicked()then a.Disabled=true;task.delay(e:get(),function()a.Disabled=false end)end end;a.End()local e=os.clock()local h=e-g.value;f.value+=(h-f.value)*0.2;g.value=e;a.Text{string.format("Average %.3f ms/frame (%.1f FPS)",f.value*1000,1/f.value)}a.Text{string.format("Window Position: (%d, %d), Window Size: (%d, %d)",b.position.value.X,b.position.value.Y,b.size.value.X,b.size.value.Y)}a.SameLine()do a.Text{"Enter an ID to learn more about it."}l"every widget and state has an ID which Iris tracks to remember which widget is which. below lists all widgets and states, with their respective IDs"end;a.End()a.PushConfig{ItemWidth=UDim.new(1,-150)}local b=a.InputText({"ID field"},{text=a.State(b.ID)}).state.text.value;a.PopConfig()a.Indent()do local c,d=c[b],d[b];if c then a.Table{1}a.Text{string.format('The ID, "%s", is a widget',b)}a.NextRow()a.Text{string.format("Widget is type: %s",c.type)}a.NextRow()a.Tree({"Widget has Args:"},{isUncollapsed=a.State(true)})for b,c in c.arguments do a.Text{b.." - "..tostring(c)}end;a.End()a.NextRow()if c.state then a.Tree({"Widget has State:"},{isUncollapsed=a.State(true)})for b,c in c.state do a.Text{b.." - "..tostring(c.value)}end;a.End()end;a.End()elseif d then a.Table{1}a.Text{string.format('The ID, "%s", is a state',b)}a.NextRow()a.Text{string.format("Value is type: %s, Value = %s",typeof(d.value),tostring(d.value))}a.NextRow()a.Tree({"state has connected widgets:"},{isUncollapsed=a.State(true)})for b,c in d.ConnectedWidgets do a.Text{b.." - "..c.type}end;a.End()a.NextRow()a.Text{string.format("state has: %d connected functions",#d.ConnectedFunctions)}a.End()else a.Text{string.format('The ID, "%s", is not a state or widget',b)}end end;a.End()if a.Tree{"Widgets"}.state.isUncollapsed.value then local b,d=0,"";for a,a in c do b+=1;d..="\n"..a.ID.." - "..a.type end;a.Text{"Number of Widgets: "..b}a.Text{d}end;a.End()if a.Tree{"States"}.state.isUncollapsed.value then local b,c=0,"";for a,d in d do b+=1;c..="\n"..a.." - "..tostring(d.value)end;a.Text{"Number of States: "..b}a.Text{c}end;a.End()end;a.End()end,function()a.Window({"Debug Panel"},{isOpened=h})do a.CollapsingHeader{"Widgets"}do a.SeparatorText{"GuiService"}a.Text{`GuiOffset: {Iris.Internal._utility.GuiOffset}`}a.Text{`MouseOffset: {Iris.Internal._utility.MouseOffset}`}a.SeparatorText{"UserInputService"}a.Text{`MousePosition: {Iris.Internal._utility.UserInputService:GetMouseLocation()}`}a.Text{`MouseLocation: {Iris.Internal._utility.getMouseLocation()}`}a.Text{`Left Control: {Iris.Internal._utility.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)}`}a.Text{`Right Control: {Iris.Internal._utility.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)}`}end;a.End()end;a.End()end;local function t()if a.Menu{"Recursive"}.state.isOpened.value then a.MenuItem{"New",Enum.KeyCode.N,Enum.ModifierKey.Ctrl}a.MenuItem{"Open",Enum.KeyCode.O,Enum.ModifierKey.Ctrl}a.MenuItem{"Save",Enum.KeyCode.S,Enum.ModifierKey.Ctrl}a.Separator()a.MenuToggle{"Autosave"}a.MenuToggle{"Checked"}a.Separator()a.Menu{"Options"}a.MenuItem{"Red"}a.MenuItem{"Yellow"}a.MenuItem{"Green"}a.MenuItem{"Blue"}a.Separator()t()a.End()end;a.End()end;local t=function()a.MenuBar()do a.Menu{"File"}do a.MenuItem{"New",Enum.KeyCode.N,Enum.ModifierKey.Ctrl}a.MenuItem{"Open",Enum.KeyCode.O,Enum.ModifierKey.Ctrl}a.MenuItem{"Save",Enum.KeyCode.S,Enum.ModifierKey.Ctrl}t()if a.MenuItem{"Quit",Enum.KeyCode.Q,Enum.ModifierKey.Alt}.clicked()then b:set(false)end end;a.End()a.Menu{"Examples"}do a.MenuToggle({"Recursive Window"},{isChecked=c})a.MenuToggle({"Windowless"},{isChecked=f})a.MenuToggle({"Main Menu Bar"},{isChecked=g})end;a.End()a.Menu{"Tools"}do a.MenuToggle({"Runtime Info"},{isChecked=d})a.MenuToggle({"Style Editor"},{isChecked=e})a.MenuToggle({"Debug Panel"},{isChecked=h})end;a.End()end;a.End()end;local u,v=function()t()end;do v=function()local b={{"Sizing",function()local b=a.State{}a.SameLine()do if a.Button{"Update"}.clicked()then a.UpdateGlobalConfig(b.value)b:set{}end;l"Update the global config with these changes."end;a.End()local c,d=function(c,d)local a=a[c](d,{number=a.WeakState(a._config[d[1]])})if a.numberChanged()then b.value[d[1]]=a.number:get()end end,function(c)local a=a.Checkbox(c,{isChecked=a.WeakState(a._config[c[1]])})if a.checked()or a.unchecked()then b.value[c[1]]=a.isChecked:get()end end;a.SeparatorText{"Main"}c("SliderVector2",{"WindowPadding",nil,Vector2.zero,Vector2.new(20,20)})c("SliderVector2",{"WindowResizePadding",nil,Vector2.zero,Vector2.new(20,20)})c("SliderVector2",{"FramePadding",nil,Vector2.zero,Vector2.new(20,20)})c("SliderVector2",{"ItemSpacing",nil,Vector2.zero,Vector2.new(20,20)})c("SliderVector2",{"ItemInnerSpacing",nil,Vector2.zero,Vector2.new(20,20)})c("SliderVector2",{"CellPadding",nil,Vector2.zero,Vector2.new(20,20)})c("SliderNum",{"IndentSpacing",1,0,36})c("SliderNum",{"ScrollbarSize",1,0,20})c("SliderNum",{"GrabMinSize",1,0,20})a.SeparatorText{"Borders & Rounding"}c("SliderNum",{"FrameBorderSize",0.1,0,1})c("SliderNum",{"WindowBorderSize",0.1,0,1})c("SliderNum",{"PopupBorderSize",0.1,0,1})c("SliderNum",{"SeparatorTextBorderSize",1,0,20})c("SliderNum",{"FrameRounding",1,0,12})c("SliderNum",{"GrabRounding",1,0,12})c("SliderNum",{"PopupRounding",1,0,12})a.SeparatorText{"Widgets"}c("SliderVector2",{"DisplaySafeAreaPadding",nil,Vector2.zero,Vector2.new(20,20)})c("SliderVector2",{"SeparatorTextPadding",nil,Vector2.zero,Vector2.new(36,36)})c("SliderUDim",{"ItemWidth",nil,UDim.new(),UDim.new(1,200)})c("SliderUDim",{"ContentWidth",nil,UDim.new(),UDim.new(1,200)})c("SliderNum",{"ImageBorderSize",1,0,12})local e=a.ComboEnum({"WindowTitleAlign"},{index=a.WeakState(a._config.WindowTitleAlign)},Enum.LeftRight)if e.closed()then b.value.WindowTitleAlign=e.index:get()end;d{"RichText"}d{"TextWrapped"}a.SeparatorText{"Config"}d{"UseScreenGUIs"}c("DragNum",{"DisplayOrderOffset",1,0})c("DragNum",{"ZIndexOffset",1,0})c("SliderNum",{"MouseDoubleClickTime",0.1,0,5})c("SliderNum",{"MouseDoubleClickMaxDist",0.1,0,20})end},{"Colors",function()local b=a.State{}a.SameLine()do if a.Button{"Update"}.clicked()then a.UpdateGlobalConfig(b.value)b:set{}end;l"Update the global config with these changes."end;a.End()local c={"Text","TextDisabled","WindowBg","PopupBg","Border","BorderActive","ScrollbarGrab","TitleBg","TitleBgActive","TitleBgCollapsed","MenubarBg","FrameBg","FrameBgHovered","FrameBgActive","Button","ButtonHovered","ButtonActive","Image","SliderGrab","SliderGrabActive","Header","HeaderHovered","HeaderActive","SelectionImageObject","SelectionImageObjectBorder","TableBorderStrong","TableBorderLight","TableRowBg","TableRowBgAlt","NavWindowingHighlight","NavWindowingDimBg","Separator","CheckMark"}for c,c in c do local a=a.InputColor4({c},{color=a.WeakState(a._config[c.."Color"]),transparency=a.WeakState(a._config[c.."Transparency"])})if a.numberChanged()then b.value[c.."Color"]=a.color:get()b.value[c.."Transparency"]=a.transparency:get()end end end},{"Fonts",function()local b=a.State{}a.SameLine()do if a.Button{"Update"}.clicked()then a.UpdateGlobalConfig(b.value)b:set{}end;l"Update the global config with these changes."end;a.End()local c={["Code (default)"]=Font.fromEnum(Enum.Font.Code),["Ubuntu (template)"]=Font.fromEnum(Enum.Font.Ubuntu),Arial=Font.fromEnum(Enum.Font.Arial),Highway=Font.fromEnum(Enum.Font.Highway),Roboto=Font.fromEnum(Enum.Font.Roboto),["Roboto Mono"]=Font.fromEnum(Enum.Font.RobotoMono),["Noto Sans"]=Font.new"rbxassetid://12187370747",["Builder Sans"]=Font.fromEnum(Enum.Font.BuilderSans),["Builder Mono"]=Font.new"rbxassetid://16658246179",Sono=Font.new"rbxassetid://12187374537"}a.Text{`Current Font: {Iris._config.TextFont.Family} Weight: {Iris._config.TextFont.Weight} Style: {Iris._config.TextFont.Style}`}a.SeparatorText{"Size"}local d=a.SliderNum({"Font Size",1,4,20},{number=a.WeakState(a._config.TextSize)})if d.numberChanged()then b.value.TextSize=d.state.number:get()end;a.SeparatorText{"Properties"}local d,e,f=a.WeakState(a._config.TextFont.Family),a.ComboEnum({"Font Weight"},{index=a.WeakState(a._config.TextFont.Weight)},Enum.FontWeight),a.ComboEnum({"Font Style"},{index=a.WeakState(a._config.TextFont.Style)},Enum.FontStyle)a.SeparatorText{"Fonts"}for c,c in c do c=Font.new(c.Family,e.state.index.value,f.state.index.value)a.SameLine()do a.PushConfig{TextFont=c}if a.Selectable({`{name} | "The quick brown fox jumps over the lazy dog."`,c.Family},{index=d}).selected()then b.value.TextFont=c end;a.PopConfig()end;a.End()end end}}a.Window({"Style Editor"},{isOpened=e})do a.Text{"Customize the look of Iris in realtime."}local c=a.State"Dark Theme";if a.ComboArray({"Theme"},{index=c},{"Dark Theme","Light Theme"}).closed()then if c.value=="Dark Theme"then a.UpdateGlobalConfig(a.TemplateConfig.colorDark)elseif c.value=="Light Theme"then a.UpdateGlobalConfig(a.TemplateConfig.colorLight)end end;local d=a.State"Classic Size";if a.ComboArray({"Size"},{index=d},{"Classic Size","Larger Size"}).closed()then if d.value=="Classic Size"then a.UpdateGlobalConfig(a.TemplateConfig.sizeDefault)elseif d.value=="Larger Size"then a.UpdateGlobalConfig(a.TemplateConfig.sizeClear)end end;a.SameLine()do if a.Button{"Revert"}.clicked()then a.UpdateGlobalConfig(a.TemplateConfig.colorDark)a.UpdateGlobalConfig(a.TemplateConfig.sizeDefault)c:set"Dark Theme";d:set"Classic Size"end;l"Reset Iris to the default theme and size."end;a.End()a.TabBar()do for c,d in ipairs(b)do a.Tab{d[1]}do b[c][2]()end;a.End()end end;a.End()a.Separator()end;a.End()end end;local l,m,w,x,y,z=function()a.CollapsingHeader{"Widget Event Interactivity"}do local b=a.State(0)if a.Button{"Click to increase Number"}.clicked()then b:set(b:get()+1)end;a.Text{"The Number is: "..b:get()}a.Separator()local b,c=a.State(false),a.State"clicked";a.SameLine()do a.RadioButton({"clicked","clicked"},{index=c})a.RadioButton({"rightClicked","rightClicked"},{index=c})a.RadioButton({"doubleClicked","doubleClicked"},{index=c})a.RadioButton({"ctrlClicked","ctrlClicked"},{index=c})end;a.End()a.SameLine()do local d=a.Button{c:get().." to reveal text"}if d[c:get()]()then b:set(not b:get())end;if b:get()then a.Text{"Here i am!"}end end;a.End()a.Separator()local b=a.State(0)a.SameLine()do if a.Button{"Click to show text for 20 frames"}.clicked()then b:set(20)end;if b:get()>0 then a.Text{"Here i am!"}end end;a.End()b:set(math.max(0,b:get()-1))a.Text{"Text Timer: "..b:get()}local b=a.Checkbox{"Event-tracked checkbox"}a.Indent()do a.Text{"unchecked: "..tostring(b.unchecked())}a.Text{"checked: "..tostring(b.checked())}end;a.End()a.SameLine()do if a.Button{"Hover over me"}.hovered()then a.Text{"The button is hovered"}end end;a.End()end;a.End()end,function()a.CollapsingHeader{"Widget State Interactivity"}do local b=a.Checkbox{"Widget-Generated State"}a.Text{`isChecked: {checkbox0.state.isChecked.value}\n`}local b=a.State(false)local b=a.Checkbox({"User-Generated State"},{isChecked=b})a.Text{`isChecked: {checkbox1.state.isChecked.value}\n`}local b=a.Checkbox{"Widget Coupled State"}local b=a.Checkbox({"Coupled to above Checkbox"},{isChecked=b.state.isChecked})a.Text{`isChecked: {checkbox3.state.isChecked.value}\n`}local b=a.State(false)local c,c=a.Checkbox({"Widget and Code Coupled State"},{isChecked=b}),a.Button{"Click to toggle above checkbox"}if c.clicked()then b:set(not b:get())end;a.Text{`isChecked: {checkboxState1.value}\n`}local b=a.State(true)local b,c=a.ComputedState(b,function(a)return not a end),a.Checkbox({"ComputedState (dynamic coupling)"},{isChecked=b})a.Checkbox({"Inverted of above checkbox"},{isChecked=b})a.Text{`isChecked: {checkboxState3.value}\n`}end;a.End()end,function()a.CollapsingHeader{"Dynamic Styles"}do local b=a.State(0)a.SameLine()do if a.Button{"Change Color"}.clicked()then b:set(math.random())end;a.Text{"Hue: "..math.floor(b:get()*255)}l"Using PushConfig with a changing value, this can be done with any config field"end;a.End()a.PushConfig{TextColor=Color3.fromHSV(b:get(),1,1)}a.Text{"Text with a unique and changable color"}a.PopConfig()end;a.End()end,function()local b=a.State(false)a.CollapsingHeader({"Tables & Columns"},{isUncollapsed=b})if b.value==false then a.End()else a.Tree{"Basic"}do a.SameLine()do a.Text{"Table using NextColumn syntax:"}l"calling Iris.NextColumn() in the inner loop,\nwhich automatically goes to the next row at the end."end;a.End()a.Table{3}do for b=1,4 do for b=1,3 do a.Text{`Row: {i}, Column: {i2}`}a.NextColumn()end end end;a.End()a.Text{""}a.SameLine()do a.Text{"Table using NextColumn and NextRow syntax:"}l"Calling Iris.NextColumn() in the inner loop and Iris.NextRow() in the outer loop,\nto acehieve a visually identical result. Technically they are not the same."end;a.End()a.Table{3}do for b=1,4 do for b=1,3 do a.Text{`Row: {j}, Column: {i}`}a.NextColumn()end;a.NextRow()end end;a.End()end;a.End()a.Tree{"Headers, borders and backgrounds"}do local b,c,d,e,f=a.State(0),a.State(false),a.State(false),a.State(true),a.State(true)a.Checkbox({"Table header row"},{isChecked=c})a.Checkbox({"Table row backgrounds"},{isChecked=d})a.Checkbox({"Table outer border"},{isChecked=e})a.Checkbox({"Table inner borders"},{isChecked=f})a.SameLine()do a.Text{"Cell contents"}a.RadioButton({"Text",0},{index=b})a.RadioButton({"Fill button",1},{index=b})end;a.End()a.Table{3,c.value,d.value,e.value,f.value}do a.SetHeaderColumnIndex(1)for c=0,4 do for c=1,3 do if b.value==0 then a.Text{`Cell ({i}, {j})`}else a.Button{`Cell ({i}, {j})`,UDim2.fromScale(1,0)}end;a.NextColumn()end end end;a.End()end;a.End()a.Tree{"Sizing"}do local b,c=a.State(false),a.State(false)a.Checkbox({"Resizable"},{isChecked=b})a.Checkbox({"Limit Table Width"},{isChecked=c})do a.SeparatorText{"stretch, equal"}a.Table{3,false,true,true,true,b.value}do for b=1,3 do for b=1,3 do a.Text{"stretch"}a.NextColumn()end end end;a.End()a.Table{3,false,true,true,true,b.value}do for b=1,3 do for b=1,3 do a.Text{string.rep(string.char(64+b),4*b)}a.NextColumn()end end end;a.End()end;do a.SeparatorText{"stretch, proportional"}a.Table{3,false,true,true,true,b.value,false,true}do for b=1,3 do for b=1,3 do a.Text{"stretch"}a.NextColumn()end end end;a.End()a.Table{3,false,true,true,true,b.value,false,true}do for b=1,3 do for b=1,3 do a.Text{string.rep(string.char(64+b),4*b)}a.NextColumn()end end end;a.End()end;do a.SeparatorText{"fixed, equal"}a.Table{3,false,true,true,true,b.value,true,false,c.value}do for b=1,3 do for b=1,3 do a.Text{"fixed"}a.NextColumn()end end end;a.End()a.Table{3,false,true,true,true,b.value,true,false,c.value}do for b=1,3 do for b=1,3 do a.Text{string.rep(string.char(64+b),4*b)}a.NextColumn()end end end;a.End()end;do a.SeparatorText{"fixed, proportional"}a.Table{3,false,true,true,true,b.value,true,true,c.value}do for b=1,3 do for b=1,3 do a.Text{"fixed"}a.NextColumn()end end end;a.End()a.Table{3,false,true,true,true,b.value,true,true,c.value}do for b=1,3 do for b=1,3 do a.Text{string.rep(string.char(64+b),4*b)}a.NextColumn()end end end;a.End()end end;a.End()a.Tree{"Resizable"}do local b,c,d,e,f,g,h,i,j,k,l,m,n=a.State(4),a.State(3),a.State(false),a.State(true),a.State(true),a.State(true),a.State(true),a.State(false),a.State(false),a.State(false),a.State(false),a.State(false),a.State(table.create(10,100))a.SliderNum({"Num Columns",1,1,10},{number=b})a.SliderNum({"Number of rows",1,0,100},{number=c})a.SameLine()do a.RadioButton({"Buttons",true},{index=d})a.RadioButton({"Text",false},{index=d})end;a.End()a.Table{3}do a.Checkbox({"Show Header Row"},{isChecked=e})a.NextColumn()a.Checkbox({"Show Row Backgrounds"},{isChecked=f})a.NextColumn()a.Checkbox({"Show Outer Border"},{isChecked=g})a.NextColumn()a.Checkbox({"Show Inner Border"},{isChecked=h})a.NextColumn()a.Checkbox({"Resizable"},{isChecked=i})a.NextColumn()a.Checkbox({"Fixed Width"},{isChecked=j})a.NextColumn()a.Checkbox({"Proportional Width"},{isChecked=k})a.NextColumn()a.Checkbox({"Limit Table Width"},{isChecked=l})a.NextColumn()a.Checkbox({"Add extra"},{isChecked=m})a.NextColumn()end;a.End()for b=1,b.value do local c,d,e=j.value==true and 1 or 0.05,j.value==true and 2 or 0.05,j.value==true and 480 or 1;a.SliderNum({`Column {i} Width`,c,d,e},{number=a.TableState(n.value,b,function(a)n.value[b]=a;n:set(n.value,true)return false end)})end;a.PushConfig{NumColumns=b.value}a.Table({b.value,e.value,f.value,g.value,h.value,i.value,j.value,k.value,l.value},{widths=n})do a.SetHeaderColumnIndex(1)for c=0,c:get()do for b=1,b.value do if c==0 then if d.value then a.Button{`H: {j}`}else a.Text{`H: {j}`}end else if d.value then a.Button{`R: {i}, C: {j}`}a.Button{string.rep("...",b)}else a.Text{`R: {i}, C: {j}`}a.Text{string.rep("...",b)}end end;a.NextColumn()end end;if m.value then a.Text{"A really long piece of text!"}end end;a.End()a.PopConfig()end;a.End()a.End()end end,function()a.CollapsingHeader{"Widget Layout"}do a.Tree{"Widget Alignment"}do a.Text{"Iris.SameLine has optional argument supporting horizontal and vertical alignments."}a.Text{"This allows widgets to be place anywhere on the line."}a.Separator()a.SameLine()do a.Text{"By default child widgets will be aligned to the left."}l'Iris.SameLine()\n\tIris.Button({ "Button A" })\n\tIris.Button({ "Button B" })\nIris.End()'end;a.End()a.SameLine()do a.Button{"Button A"}a.Button{"Button B"}end;a.End()a.SameLine()do a.Text{"But can be aligned to the center."}l'Iris.SameLine({ nil, nil, Enum.HorizontalAlignment.Center })\n\tIris.Button({ "Button A" })\n\tIris.Button({ "Button B" })\nIris.End()'end;a.End()a.SameLine{nil,nil,Enum.HorizontalAlignment.Center}do a.Button{"Button A"}a.Button{"Button B"}end;a.End()a.SameLine()do a.Text{"Or right."}l'Iris.SameLine({ nil, nil, Enum.HorizontalAlignment.Right })\n\tIris.Button({ "Button A" })\n\tIris.Button({ "Button B" })\nIris.End()'end;a.End()a.SameLine{nil,nil,Enum.HorizontalAlignment.Right}do a.Button{"Button A"}a.Button{"Button B"}end;a.End()a.Separator()a.SameLine()do a.Text{"You can also specify the padding."}l'Iris.SameLine({ 0, nil, Enum.HorizontalAlignment.Center })\n\tIris.Button({ "Button A" })\n\tIris.Button({ "Button B" })\nIris.End()'end;a.End()a.SameLine{0,nil,Enum.HorizontalAlignment.Center}do a.Button{"Button A"}a.Button{"Button B"}end;a.End()end;a.End()a.Tree{"Widget Sizing"}do a.Text{"Nearly all widgets are the minimum size of the content."}a.Text{"For example, text and button widgets will be the size of the text labels."}a.Text{"Some widgets, such as the Image and Button have Size arguments will will set the size of them."}a.Separator()m("The button takes up the full screen-width.",'Iris.Button({ "Button", UDim2.fromScale(1, 0) })')a.Button{"Button",UDim2.fromScale(1,0)}m("The button takes up half the screen-width.",'Iris.Button({ "Button", UDim2.fromScale(0.5, 0) })')a.Button{"Button",UDim2.fromScale(0.5,0)}m("Combining with SameLine, the buttons can fill the screen width.","The button will still be larger that the text size.")local b=a.State(2)a.SliderNum({"Number of Buttons",1,1,8},{number=b})a.SameLine{0,nil,Enum.HorizontalAlignment.Center}do for c=1,b.value do a.Button{`Button {i}`,UDim2.fromScale(1/b.value,0)}end end;a.End()end;a.End()a.Tree{"Content Width"}do local b,c=a.State(50),a.State(Enum.Axis.X)a.Text{"The Content Width is a size property which determines the width of input fields."}a.SameLine()do a.Text{"By default the value is UDim.new(0.65, 0)"}l"This is the default value from Dear ImGui.\nIt is 65% of the window width."end;a.End()a.Text{"This works well, but sometimes we know how wide elements are going to be and want to maximise the space."}a.Text{"Therefore, we can use Iris.PushConfig() to change the width"}a.Separator()a.SameLine()do a.Text{"Content Width = 150 pixels"}l"UDim.new(0, 150)"end;a.End()a.PushConfig{ContentWidth=UDim.new(0,150)}a.DragNum({"number",1,0,100},{number=b})a.InputEnum({"axis"},{index=c},Enum.Axis)a.PopConfig()a.SameLine()do a.Text{"Content Width = 50% window width"}l"UDim.new(0.5, 0)"end;a.End()a.PushConfig{ContentWidth=UDim.new(0.5,0)}a.DragNum({"number",1,0,100},{number=b})a.InputEnum({"axis"},{index=c},Enum.Axis)a.PopConfig()a.SameLine()do a.Text{"Content Width = -150 pixels from the right side"}l"UDim.new(1, -150)"end;a.End()a.PushConfig{ContentWidth=UDim.new(1,-150)}a.DragNum({"number",1,0,100},{number=b})a.InputEnum({"axis"},{index=c},Enum.Axis)a.PopConfig()end;a.End()a.Tree{"Content Height"}do local b,c,d,e,f=a.State"a single line",a.State(50),a.State(Enum.Axis.X),a.State(0),math.clamp((math.abs((os.clock()*15)%100-50))-7.5,0,35)/35;e:set(f)a.Text{"The Content Height is a size property that determines the minimum size of certain widgets."}a.Text{"By default the value is UDim.new(0, 0), so there is no minimum height."}a.Text{"We use Iris.PushConfig() to change this value."}a.Separator()a.SameLine()do a.Text{"Content Height = 0 pixels"}l"UDim.new(0, 0)"end;a.End()a.InputText({"text"},{text=b})a.ProgressBar({"progress"},{progress=e})a.DragNum({"number",1,0,100},{number=c})a.ComboEnum({"axis"},{index=d},Enum.Axis)a.SameLine()do a.Text{"Content Height = 60 pixels"}l"UDim.new(0, 60)"end;a.End()a.PushConfig{ContentHeight=UDim.new(0,60)}a.InputText({"text",nil,nil,true},{text=b})a.ProgressBar({"progress"},{progress=e})a.DragNum({"number",1,0,100},{number=c})a.ComboEnum({"axis"},{index=d},Enum.Axis)a.PopConfig()a.Text{"This property can be used to force the height of a text box."}a.Text{"Just make sure you enable the MultiLine argument."}end;a.End()end;a.End()end,function()a.PushConfig{ItemWidth=UDim.new(0,150)}a.SameLine()do a.TextWrapped{"Windowless widgets"}l"Widgets which are placed outside of a window will appear on the top left side of the screen."end;a.End()a.Button{}a.Tree{}do a.InputText{}end;a.End()a.PopConfig()end;return function()local A,B,C,D,E,F,G,H,I=a.State(false),a.State(false),a.State(false),a.State(true),a.State(false),a.State(false),a.State(false),a.State(false),a.State(false)if b.value==false then a.Checkbox({"Open main window"},{isChecked=b})return end;do end;local b=a.Window({[a.Args.Window.Title]="Iris Demo Window",[a.Args.Window.NoTitleBar]=A.value,[a.Args.Window.NoBackground]=B.value,[a.Args.Window.NoCollapse]=C.value,[a.Args.Window.NoClose]=D.value,[a.Args.Window.NoMove]=E.value,[a.Args.Window.NoScrollbar]=F.value,[a.Args.Window.NoResize]=G.value,[a.Args.Window.NoNav]=H.value,[a.Args.Window.NoMenu]=I.value},{size=a.State(Vector2.new(600,550)),position=a.State(Vector2.new(100,25)),isOpened=b})if b.state.isUncollapsed.value and b.state.isOpened.value then do end;t()do end;a.Text{"Iris says hello. ("..a.Internal._version..")"}do end;a.CollapsingHeader{"Window Options"}do a.Table{3,false,false,false}do a.Checkbox({"NoTitleBar"},{isChecked=A})a.NextColumn()a.Checkbox({"NoBackground"},{isChecked=B})a.NextColumn()a.Checkbox({"NoCollapse"},{isChecked=C})a.NextColumn()a.Checkbox({"NoClose"},{isChecked=D})a.NextColumn()a.Checkbox({"NoMove"},{isChecked=E})a.NextColumn()a.Checkbox({"NoScrollbar"},{isChecked=F})a.NextColumn()a.Checkbox({"NoResize"},{isChecked=G})a.NextColumn()a.Checkbox({"NoNav"},{isChecked=H})a.NextColumn()a.Checkbox({"NoMenu"},{isChecked=I})a.NextColumn()end;a.End()end;a.End()do end;do end;l()do end;do end;m()do end;do end;a.CollapsingHeader{"Recursive Tree"}p()a.End()do end;do end;w()do end;a.Separator()do end;a.CollapsingHeader{"Widgets"}do for a,a in o do do end;n[a]()do end end end;a.End()do end;do end;x()do end;do end;y()do end;a.CollapsingHeader{"Background"}do a.Checkbox({"Show background colour"},{isChecked=i})a.InputColor4({"Background colour"},{color=j,transparency=k})end;a.End()end;a.End()do end;if c.value then q(c)end;if d.value then r()end;if h.value then s()end;if e.value then v()end;if f.value then z()end;if g.value then u()end;return b end end end)()local a=(function()local f={}local b=b(f)f.Disabled=false;f.Args={}f.Events={}f.Init=function(a,c,d)assert(b._shutdown==false,"Iris.Init() cannot be called once shutdown.")assert(b._started==false or d==true,"Iris.Init() can only be called once.")if b._started then return f end;if a==nil then a=game:GetService"Players".LocalPlayer:WaitForChild"PlayerGui"end;if c==nil then c=game:GetService"RunService".Heartbeat end;b.parentInstance=a;b._started=true;b._generateRootInstance()b._generateSelectionImageObject()for a,a in b._initFunctions do a()end;task.spawn(function()if typeof(c)=="function"then while b._started do local a=c()b._cycle(a)end elseif c~=nil and c~=false then b._eventConnection=c:Connect(function(...)b._cycle(...)end)end end)return f end;f.Shutdown=function()b._started=false;b._shutdown=true;if b._eventConnection then b._eventConnection:Disconnect()end;b._eventConnection=nil;if b._rootWidget then if b._rootWidget.Instance then b._widgets.Root.Discard(b._rootWidget)end;b._rootInstance=nil end;if b.SelectionImageObject then b.SelectionImageObject:Destroy()end;for a,a in b._connections do a:Disconnect()end end;f.Connect=function(a,a)if b._started==false then warn"Iris:Connect() was called before calling Iris.Init(); always initialise Iris first."end;local c=#b._connectedFunctions+1;b._connectedFunctions[c]=a;return function()b._connectedFunctions[c]=nil end end;f.Append=function(a)local c,d=(b._GetParentWidget())if b._config.Parent then d=b._config.Parent else d=b._widgets[c.type].ChildAdded(c,{type="userInstance"})end;a.Parent=d end;f.End=function()if b._stackIndex==1 then error("Too many calls to Iris.End().",2)end;b._IDStack[b._stackIndex]=nil;b._stackIndex-=1 end;f.ForceRefresh=function()b._globalRefreshRequested=true end;f.UpdateGlobalConfig=function(a)for a,c in a do b._rootConfig[a]=c end;f.ForceRefresh()end;f.PushConfig=function(a)local c=f.State(-1)if c.value==-1 then c:set(a)else if b._deepCompare(c:get(),a)==false then c:set(a)b._refreshStack[b._refreshLevel]=true;b._refreshCounter+=1 end end;b._refreshLevel+=1;b._config=(setmetatable(a,{__index=b._config}))end;f.PopConfig=function()b._refreshLevel-=1;if b._refreshStack[b._refreshLevel]==true then b._refreshCounter-=1;b._refreshStack[b._refreshLevel]=nil end;b._config=getmetatable(b._config).__index end;f.TemplateConfig=a;f.UpdateGlobalConfig(f.TemplateConfig.colorDark)f.UpdateGlobalConfig(f.TemplateConfig.sizeDefault)f.UpdateGlobalConfig(f.TemplateConfig.utilityDefault)b._globalRefreshRequested=false;f.PushId=function(a)assert(typeof(a)=="string","The ID argument to Iris.PushId() to be a string.")b._newID=true;table.insert(b._pushedIds,a)end;f.PopId=function()if#b._pushedIds==0 then return end;table.remove(b._pushedIds)end;f.SetNextWidgetID=function(a)b._nextWidgetId=a end;f.State=function(a)local c=b._getID(2)if b._states[c]then return b._states[c]end;local a={ID=c,value=a,lastChangeTick=f.Internal._cycleTick,ConnectedWidgets={},ConnectedFunctions={}}setmetatable(a,b.StateClass)b._states[c]=a;return a end;f.WeakState=function(a)local c=b._getID(2)if b._states[c]then if next(b._states[c].ConnectedWidgets)==nil then b._states[c]=nil else return b._states[c]end end;local a={ID=c,value=a,lastChangeTick=f.Internal._cycleTick,ConnectedWidgets={},ConnectedFunctions={}}setmetatable(a,b.StateClass)b._states[c]=a;return a end;f.VariableState=function(a,c)local d=b._getID(2)local e=b._states[d];if e then if a~=e.value then e:set(a)end;return e end;local a={ID=d,value=a,lastChangeTick=f.Internal._cycleTick,ConnectedWidgets={},ConnectedFunctions={}}setmetatable(a,b.StateClass)b._states[d]=a;a:onChange(c)return a end;f.TableState=function(a,c,d)local e,g=a[c],b._getID(2)local h=b._states[g];if h then if e~=h.value then h:set(e)end;return h end;local e={ID=g,value=e,lastChangeTick=f.Internal._cycleTick,ConnectedWidgets={},ConnectedFunctions={}}setmetatable(e,b.StateClass)b._states[g]=e;e:onChange(function()if d~=nil then if d(e.value)then a[c]=e.value end else a[c]=e.value end end)return e end;f.ComputedState=function(a,c)local d=b._getID(2)if b._states[d]then return b._states[d]else local e={ID=d,value=c(a.value),lastChangeTick=f.Internal._cycleTick,ConnectedWidgets={},ConnectedFunctions={}}setmetatable(e,b.StateClass)b._states[d]=e;a:onChange(function(a)e:set(c(a))end)return e end end;f.ShowDemoWindow=e(f)d(b)c(f)return f end)()return a
+assert(game:GetService'RunService':IsClient(),'Iris must run on the client');
+
+(function()
+
+local a=_iris_Types
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return{}
+end)()
+
+local a=(function()
+
+local a=_iris_WidgetTypes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return{}
+end)();
+
+(function()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return{}
+end)()
+
+local b=(function()
+
+local b={
+colorDark={
+TextColor=Color3.fromRGB(255,255,255),
+TextTransparency=0,
+TextDisabledColor=Color3.fromRGB(128,128,128),
+TextDisabledTransparency=0,
+
+
+
+BorderColor=Color3.fromRGB(110,110,125),
+BorderTransparency=0.5,
+BorderActiveColor=Color3.fromRGB(160,160,175),
+BorderActiveTransparency=0.3,
+
+WindowBgColor=Color3.fromRGB(15,15,15),
+WindowBgTransparency=0.06,
+PopupBgColor=Color3.fromRGB(20,20,20),
+PopupBgTransparency=0.06,
+
+ScrollbarGrabColor=Color3.fromRGB(79,79,79),
+ScrollbarGrabTransparency=0,
+
+TitleBgColor=Color3.fromRGB(10,10,10),
+TitleBgTransparency=0,
+TitleBgActiveColor=Color3.fromRGB(41,74,122),
+TitleBgActiveTransparency=0,
+TitleBgCollapsedColor=Color3.fromRGB(0,0,0),
+TitleBgCollapsedTransparency=0.5,
+
+MenubarBgColor=Color3.fromRGB(36,36,36),
+MenubarBgTransparency=0,
+
+FrameBgColor=Color3.fromRGB(41,74,122),
+FrameBgTransparency=0.46,
+FrameBgHoveredColor=Color3.fromRGB(66,150,250),
+FrameBgHoveredTransparency=0.46,
+FrameBgActiveColor=Color3.fromRGB(66,150,250),
+FrameBgActiveTransparency=0.33,
+
+ButtonColor=Color3.fromRGB(66,150,250),
+ButtonTransparency=0.6,
+ButtonHoveredColor=Color3.fromRGB(66,150,250),
+ButtonHoveredTransparency=0,
+ButtonActiveColor=Color3.fromRGB(15,135,250),
+ButtonActiveTransparency=0,
+
+ImageColor=Color3.fromRGB(255,255,255),
+ImageTransparency=0,
+
+SliderGrabColor=Color3.fromRGB(66,150,250),
+SliderGrabTransparency=0,
+SliderGrabActiveColor=Color3.fromRGB(66,150,250),
+SliderGrabActiveTransparency=0,
+
+HeaderColor=Color3.fromRGB(66,150,250),
+HeaderTransparency=0.69,
+HeaderHoveredColor=Color3.fromRGB(66,150,250),
+HeaderHoveredTransparency=0.2,
+HeaderActiveColor=Color3.fromRGB(66,150,250),
+HeaderActiveTransparency=0,
+
+TabColor=Color3.fromRGB(46,89,148),
+TabTransparency=0.14,
+TabHoveredColor=Color3.fromRGB(66,150,250),
+TabHoveredTransparency=0.2,
+TabActiveColor=Color3.fromRGB(51,105,173),
+TabActiveTransparency=0,
+
+SelectionImageObjectColor=Color3.fromRGB(255,255,255),
+SelectionImageObjectTransparency=0.8,
+SelectionImageObjectBorderColor=Color3.fromRGB(255,255,255),
+SelectionImageObjectBorderTransparency=0,
+
+TableBorderStrongColor=Color3.fromRGB(79,79,89),
+TableBorderStrongTransparency=0,
+TableBorderLightColor=Color3.fromRGB(59,59,64),
+TableBorderLightTransparency=0,
+TableRowBgColor=Color3.fromRGB(0,0,0),
+TableRowBgTransparency=1,
+TableRowBgAltColor=Color3.fromRGB(255,255,255),
+TableRowBgAltTransparency=0.94,
+TableHeaderColor=Color3.fromRGB(48,48,51),
+TableHeaderTransparency=0,
+
+NavWindowingHighlightColor=Color3.fromRGB(255,255,255),
+NavWindowingHighlightTransparency=0.3,
+NavWindowingDimBgColor=Color3.fromRGB(204,204,204),
+NavWindowingDimBgTransparency=0.65,
+
+SeparatorColor=Color3.fromRGB(110,110,128),
+SeparatorTransparency=0.5,
+
+CheckMarkColor=Color3.fromRGB(66,150,250),
+CheckMarkTransparency=0,
+
+PlotLinesColor=Color3.fromRGB(156,156,156),
+PlotLinesTransparency=0,
+PlotLinesHoveredColor=Color3.fromRGB(255,110,89),
+PlotLinesHoveredTransparency=0,
+PlotHistogramColor=Color3.fromRGB(230,179,0),
+PlotHistogramTransparency=0,
+PlotHistogramHoveredColor=Color3.fromRGB(255,153,0),
+PlotHistogramHoveredTransparency=0,
+
+ResizeGripColor=Color3.fromRGB(66,150,250),
+ResizeGripTransparency=0.8,
+ResizeGripHoveredColor=Color3.fromRGB(66,150,250),
+ResizeGripHoveredTransparency=0.33,
+ResizeGripActiveColor=Color3.fromRGB(66,150,250),
+ResizeGripActiveTransparency=0.05,
+},
+colorLight={
+TextColor=Color3.fromRGB(0,0,0),
+TextTransparency=0,
+TextDisabledColor=Color3.fromRGB(153,153,153),
+TextDisabledTransparency=0,
+
+
+
+BorderColor=Color3.fromRGB(64,64,64),
+BorderActiveColor=Color3.fromRGB(64,64,64),
+
+
+
+BorderTransparency=0.5,
+BorderActiveTransparency=0.2,
+
+WindowBgColor=Color3.fromRGB(240,240,240),
+WindowBgTransparency=0,
+PopupBgColor=Color3.fromRGB(255,255,255),
+PopupBgTransparency=0.02,
+
+TitleBgColor=Color3.fromRGB(245,245,245),
+TitleBgTransparency=0,
+TitleBgActiveColor=Color3.fromRGB(209,209,209),
+TitleBgActiveTransparency=0,
+TitleBgCollapsedColor=Color3.fromRGB(255,255,255),
+TitleBgCollapsedTransparency=0.5,
+
+MenubarBgColor=Color3.fromRGB(219,219,219),
+MenubarBgTransparency=0,
+
+ScrollbarGrabColor=Color3.fromRGB(176,176,176),
+ScrollbarGrabTransparency=0.2,
+
+FrameBgColor=Color3.fromRGB(255,255,255),
+FrameBgTransparency=0.6,
+FrameBgHoveredColor=Color3.fromRGB(66,150,250),
+FrameBgHoveredTransparency=0.6,
+FrameBgActiveColor=Color3.fromRGB(66,150,250),
+FrameBgActiveTransparency=0.33,
+
+ButtonColor=Color3.fromRGB(66,150,250),
+ButtonTransparency=0.6,
+ButtonHoveredColor=Color3.fromRGB(66,150,250),
+ButtonHoveredTransparency=0,
+ButtonActiveColor=Color3.fromRGB(15,135,250),
+ButtonActiveTransparency=0,
+
+ImageColor=Color3.fromRGB(255,255,255),
+ImageTransparency=0,
+
+HeaderColor=Color3.fromRGB(66,150,250),
+HeaderTransparency=0.31,
+HeaderHoveredColor=Color3.fromRGB(66,150,250),
+HeaderHoveredTransparency=0.2,
+HeaderActiveColor=Color3.fromRGB(66,150,250),
+HeaderActiveTransparency=0,
+
+TabColor=Color3.fromRGB(195,203,213),
+TabTransparency=0.07,
+TabHoveredColor=Color3.fromRGB(66,150,250),
+TabHoveredTransparency=0.2,
+TabActiveColor=Color3.fromRGB(152,186,255),
+TabActiveTransparency=0,
+
+SliderGrabColor=Color3.fromRGB(61,133,224),
+SliderGrabTransparency=0,
+SliderGrabActiveColor=Color3.fromRGB(117,138,204),
+SliderGrabActiveTransparency=0,
+
+SelectionImageObjectColor=Color3.fromRGB(0,0,0),
+SelectionImageObjectTransparency=0.8,
+SelectionImageObjectBorderColor=Color3.fromRGB(0,0,0),
+SelectionImageObjectBorderTransparency=0,
+
+TableBorderStrongColor=Color3.fromRGB(145,145,163),
+TableBorderStrongTransparency=0,
+TableBorderLightColor=Color3.fromRGB(173,173,189),
+TableBorderLightTransparency=0,
+TableRowBgColor=Color3.fromRGB(0,0,0),
+TableRowBgTransparency=1,
+TableRowBgAltColor=Color3.fromRGB(77,77,77),
+TableRowBgAltTransparency=0.91,
+TableHeaderColor=Color3.fromRGB(199,222,250),
+TableHeaderTransparency=0,
+
+NavWindowingHighlightColor=Color3.fromRGB(179,179,179),
+NavWindowingHighlightTransparency=0.3,
+NavWindowingDimBgColor=Color3.fromRGB(51,51,51),
+NavWindowingDimBgTransparency=0.8,
+
+SeparatorColor=Color3.fromRGB(99,99,99),
+SeparatorTransparency=0.38,
+
+CheckMarkColor=Color3.fromRGB(66,150,250),
+CheckMarkTransparency=0,
+
+PlotLinesColor=Color3.fromRGB(99,99,99),
+PlotLinesTransparency=0,
+PlotLinesHoveredColor=Color3.fromRGB(255,110,89),
+PlotLinesHoveredTransparency=0,
+PlotHistogramColor=Color3.fromRGB(230,179,0),
+PlotHistogramTransparency=0,
+PlotHistogramHoveredColor=Color3.fromRGB(255,153,0),
+PlotHistogramHoveredTransparency=0,
+
+ResizeGripColor=Color3.fromRGB(89,89,89),
+ResizeGripTransparency=0.83,
+ResizeGripHoveredColor=Color3.fromRGB(66,150,250),
+ResizeGripHoveredTransparency=0.33,
+ResizeGripActiveColor=Color3.fromRGB(66,150,250),
+ResizeGripActiveTransparency=0.05,
+},
+
+sizeDefault={
+ItemWidth=UDim.new(1,0),
+ContentWidth=UDim.new(0.65,0),
+ContentHeight=UDim.new(0,0),
+
+WindowPadding=Vector2.new(8,8),
+WindowResizePadding=Vector2.new(6,6),
+FramePadding=Vector2.new(4,3),
+ItemSpacing=Vector2.new(8,4),
+ItemInnerSpacing=Vector2.new(4,4),
+CellPadding=Vector2.new(4,2),
+DisplaySafeAreaPadding=Vector2.new(0,0),
+SeparatorTextPadding=Vector2.new(20,3),
+IndentSpacing=21,
+
+TextFont=Font.fromEnum(Enum.Font.Code),
+TextSize=13,
+FrameBorderSize=0,
+FrameRounding=0,
+GrabRounding=0,
+WindowRounding=0,
+WindowBorderSize=1,
+WindowTitleAlign=Enum.LeftRight.Left,
+PopupBorderSize=1,
+PopupRounding=0,
+ScrollbarSize=7,
+GrabMinSize=10,
+SeparatorTextBorderSize=3,
+ImageBorderSize=2,
+},
+sizeClear={
+ItemWidth=UDim.new(1,0),
+ContentWidth=UDim.new(0.65,0),
+ContentHeight=UDim.new(0,0),
+
+WindowPadding=Vector2.new(12,8),
+WindowResizePadding=Vector2.new(8,8),
+FramePadding=Vector2.new(6,4),
+ItemSpacing=Vector2.new(8,8),
+ItemInnerSpacing=Vector2.new(8,8),
+CellPadding=Vector2.new(4,4),
+DisplaySafeAreaPadding=Vector2.new(8,8),
+SeparatorTextPadding=Vector2.new(24,6),
+IndentSpacing=25,
+
+TextFont=Font.fromEnum(Enum.Font.Ubuntu),
+TextSize=15,
+FrameBorderSize=1,
+FrameRounding=4,
+GrabRounding=4,
+WindowRounding=4,
+WindowBorderSize=1,
+WindowTitleAlign=Enum.LeftRight.Center,
+PopupBorderSize=1,
+PopupRounding=4,
+ScrollbarSize=9,
+GrabMinSize=14,
+SeparatorTextBorderSize=4,
+ImageBorderSize=4,
+},
+
+utilityDefault={
+UseScreenGUIs=true,
+IgnoreGuiInset=false,
+ScreenInsets=Enum.ScreenInsets.CoreUISafeInsets,
+Parent=nil,
+RichText=false,
+TextWrapped=false,
+DisplayOrderOffset=127,
+ZIndexOffset=0,
+
+MouseDoubleClickTime=0.30,
+MouseDoubleClickMaxDist=6.0,
+
+HoverColor=Color3.fromRGB(255,255,0),
+HoverTransparency=0.1,
+},
+}
+
+return b
+end)()
+
+local c=(function()
+
+local c=a
+
+return function(d)
+
+
+
+
+
+local e={}
+
+
+
+
+
+
+
+e._version=[[ 2.5.1 ]]
+
+e._started=false
+e._shutdown=false
+e._cycleTick=0
+e._deltaTime=0
+
+
+e._globalRefreshRequested=false
+e._refreshCounter=0
+e._refreshLevel=1
+e._refreshStack=table.create(16)
+
+
+e._widgets={}
+e._stackIndex=1
+e._rootInstance=nil
+e._rootWidget={
+ID="R",
+type="Root",
+Instance=e._rootInstance,
+ZIndex=0,
+ZOffset=0,
+}
+e._lastWidget=e._rootWidget
+
+
+e._rootConfig={}
+e._config=e._rootConfig
+
+
+e._IDStack={"R"}
+e._usedIDs={}
+e._pushedIds={}
+e._newID=false
+e._nextWidgetId=nil
+
+
+e._states={}
+
+
+e._postCycleCallbacks={}
+e._connectedFunctions={}
+e._connections={}
+e._initFunctions={}
+
+
+e._fullErrorTracebacks=game:GetService"RunService":IsStudio()
+
+
+
+
+
+
+
+
+e._cycleCoroutine=coroutine.create(function()
+while e._started do
+for f,g in e._connectedFunctions do
+debug.profilebegin"Iris/Connection"
+local h,i=pcall(g)
+debug.profileend()
+if not h then
+
+e._stackIndex=1
+coroutine.yield(false,i)
+end
+end
+
+coroutine.yield(true)
+end
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local f={}
+f.__index=f
+
+
+
+
+
+
+
+
+function f.get(g)
+return g.value
+end
+
+
+
+
+
+
+
+
+
+
+function f.set(g,h,i)
+if h==g.value and i~=true then
+
+return g.value
+end
+g.value=h
+g.lastChangeTick=d.Internal._cycleTick
+for j,k in g.ConnectedWidgets do
+if k.lastCycleTick~=-1 then
+e._widgets[k.type].UpdateState(k)
+end
+end
+
+for j,k in g.ConnectedFunctions do
+k(h)
+end
+return g.value
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function f.onChange(g,h)
+local i=#g.ConnectedFunctions+1
+g.ConnectedFunctions[i]=h
+return function()
+g.ConnectedFunctions[i]=nil
+end
+end
+
+
+
+
+
+
+
+
+function f.changed(g)
+return g.lastChangeTick+1==e._cycleTick
+end
+
+e.StateClass=f
+
+
+
+
+
+
+
+
+
+
+
+
+
+function e._cycle(g)
+
+if d.Disabled then
+return
+end
+
+e._rootWidget.lastCycleTick=e._cycleTick
+if e._rootInstance==nil or e._rootInstance.Parent==nil then
+d.ForceRefresh()
+end
+
+for h,i in e._lastVDOM do
+if i.lastCycleTick~=e._cycleTick and(i.lastCycleTick~=-1)then
+
+
+e._DiscardWidget(i)
+end
+end
+
+
+
+setmetatable(e._lastVDOM,{__mode="kv"})
+e._lastVDOM=e._VDOM
+e._VDOM=e._generateEmptyVDOM()
+
+
+task.spawn(function()
+
+for h,i in e._postCycleCallbacks do
+i()
+end
+
+end)
+
+if e._globalRefreshRequested then
+
+
+e._generateSelectionImageObject()
+e._globalRefreshRequested=false
+for h,i in e._lastVDOM do
+e._DiscardWidget(i)
+end
+e._generateRootInstance()
+e._lastVDOM=e._generateEmptyVDOM()
+
+end
+
+
+e._cycleTick+=1
+e._deltaTime=g
+table.clear(e._usedIDs)
+
+
+
+
+local h=(e.parentInstance:IsA"GuiBase2d"or e.parentInstance:IsA"BasePlayerGui")
+if h==false then
+error"The Iris parent instance will not display any GUIs."
+end
+
+
+
+if e._fullErrorTracebacks then
+
+for i,j in e._connectedFunctions do
+j()
+end
+else
+
+
+
+local i=coroutine.status(e._cycleCoroutine)
+if i=="suspended"then local
+
+
+j, k, l=coroutine.resume(e._cycleCoroutine)
+if k==false then
+
+error(l,0)
+end
+elseif i=="running"then
+
+error"Iris cycleCoroutine took to long to yield. Connected functions should not yield."
+else
+
+error"unrecoverable state"
+end
+
+end
+
+if e._stackIndex~=1 then
+
+e._stackIndex=1
+error("Too few calls to Iris.End().",0)
+end
+
+
+
+if#e._pushedIds~=0 then
+error("Too few calls to Iris.PopId().",0)
+end
+
+
+end
+
+
+
+
+
+
+
+
+
+function e._NoOp()end
+
+
+
+
+
+
+
+
+
+
+
+
+
+function e.WidgetConstructor(g,h)
+local i={
+All={
+Required={
+"Generate",
+"Discard",
+"Update",
+
+
+"Args",
+"Events",
+"hasChildren",
+"hasState",
+},
+Optional={},
+},
+IfState={
+Required={
+"GenerateState",
+"UpdateState",
+},
+Optional={},
+},
+IfChildren={
+Required={
+"ChildAdded",
+},
+Optional={
+"ChildDiscarded",
+},
+},
+}
+
+
+
+local j={}
+for k,l in i.All.Required do
+assert(h[l]~=nil,`field {l} is missing from widget {g}, it is required for all widgets`)
+j[l]=h[l]
+end
+
+for k,l in i.All.Optional do
+if h[l]==nil then
+
+j[l]=e._NoOp
+else
+j[l]=h[l]
+end
+end
+
+if h.hasState then
+for k,l in i.IfState.Required do
+assert(h[l]~=nil,`field {l} is missing from widget {g}, it is required for all widgets with state`)
+j[l]=h[l]
+end
+for k,l in i.IfState.Optional do
+if h[l]==nil then
+j[l]=e._NoOp
+else
+j[l]=h[l]
+end
+end
+end
+
+if h.hasChildren then
+for k,l in i.IfChildren.Required do
+assert(h[l]~=nil,`field {l} is missing from widget {g}, it is required for all widgets with children`)
+j[l]=h[l]
+end
+for k,l in i.IfChildren.Optional do
+if h[l]==nil then
+j[l]=e._NoOp
+else
+j[l]=h[l]
+end
+end
+end
+
+
+e._widgets[g]=j
+
+d.Args[g]=j.Args
+
+local k={}
+for l,m in j.Args do
+k[m]=l
+end
+j.ArgNames=k
+
+for l,m in j.Events do
+if d.Events[l]==nil then
+d.Events[l]=function()
+return e._EventCall(e._lastWidget,l)
+end
+end
+end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+function e._Insert(g,h,i)
+local j=e._getID(3)
+
+
+
+local k=e._widgets[g]
+
+if e._VDOM[j]then
+
+return e._ContinueWidget(j,g)
+end
+
+local l={}
+if h~=nil then
+if type(h)~="table"then
+h={h}
+end
+
+
+for m,n in h do
+assert(m>0,`Widget Arguments must be a positive number, not {m} of type {typeof(m)} for {n}.`)
+l[k.ArgNames[m] ]=n
+end
+end
+
+table.freeze(l)
+
+local m=e._lastVDOM[j]
+if m then
+if e._refreshCounter>0 or g~=m.type then
+
+e._DiscardWidget(m)
+m=nil
+end
+end
+local n=if m==nil then e._GenNewWidget(g,l,i,j)else m
+
+local o=n.parentWidget
+
+if n.type~="Window"and n.type~="Tooltip"then
+if n.ZIndex~=o.ZOffset then
+o.ZUpdate=true
+end
+
+if o.ZUpdate then
+n.ZIndex=o.ZOffset
+if n.Instance then
+n.Instance.ZIndex=n.ZIndex
+n.Instance.LayoutOrder=n.ZIndex
+end
+end
+end
+
+
+if o.type=="Table"then
+local p=o
+p._rowCycles[p._rowIndex]=e._cycleTick
+end
+
+if e._deepCompare(n.providedArguments,l)==false then
+
+
+
+n.arguments=e._deepCopy(l)
+n.providedArguments=l
+k.Update(n)
+end
+
+n.lastCycleTick=e._cycleTick
+o.ZOffset+=1
+
+if k.hasChildren then
+local p=n
+
+p.ZOffset=0
+p.ZUpdate=false
+e._stackIndex+=1
+e._IDStack[e._stackIndex]=n.ID
+end
+
+e._VDOM[j]=n
+e._lastWidget=n
+
+
+
+return n
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+function e._GenNewWidget(g,h,i,j)
+local k=e._IDStack[e._stackIndex]
+local l=e._VDOM[k]
+local m=e._widgets[g]
+
+
+local n={}
+setmetatable(n,n)
+
+n.ID=j
+n.type=g
+n.parentWidget=l
+n.trackedEvents={}
+
+
+
+n.ZIndex=l.ZOffset
+
+n.Instance=m.Generate(n)
+
+l=n.parentWidget
+
+if e._config.Parent then
+n.Instance.Parent=e._config.Parent
+else
+n.Instance.Parent=e._widgets[l.type].ChildAdded(l,n)
+end
+
+
+n.providedArguments=h
+n.arguments=e._deepCopy(h)
+m.Update(n)
+
+local o
+if m.hasState then
+local p=n
+if i then
+for q,r in i do
+if not(type(r)=="table"and getmetatable(r)==e.StateClass)then
+
+i[q]=e._widgetState(p,q,r)
+end
+i[q].lastChangeTick=e._cycleTick
+end
+
+p.state=i
+for q,r in i do
+r.ConnectedWidgets[p.ID]=p
+end
+else
+p.state={}
+end
+
+m.GenerateState(p)
+m.UpdateState(p)
+
+
+p.stateMT={}
+setmetatable(p.state,p.stateMT)
+
+p.__index=p.state
+o=p.stateMT
+else
+o=n
+end
+
+o.__index=function(p,q)
+return function()
+return e._EventCall(n,q)
+end
+end
+return n
+end
+
+
+
+
+
+
+
+
+
+
+
+
+function e._ContinueWidget(g,h)
+local i=e._widgets[h]
+local j=e._VDOM[g]
+
+if i.hasChildren then
+
+e._stackIndex+=1
+e._IDStack[e._stackIndex]=j.ID
+end
+
+e._lastWidget=j
+return j
+end
+
+
+
+
+
+
+
+
+
+
+function e._DiscardWidget(g)
+local h=g.parentWidget
+if h then
+
+e._widgets[h.type].ChildDiscarded(h,g)
+end
+
+
+e._widgets[g.type].Discard(g)
+
+
+g.lastCycleTick=-1
+end
+
+
+
+
+
+
+
+
+
+
+
+
+function e._widgetState(g,h,i)
+local j=g.ID..h
+if e._states[j]then
+e._states[j].ConnectedWidgets[g.ID]=g
+e._states[j].lastChangeTick=e._cycleTick
+return e._states[j]
+else
+local k={
+ID=j,
+value=i,
+lastChangeTick=e._cycleTick,
+ConnectedWidgets={[g.ID]=g},
+ConnectedFunctions={},
+}
+setmetatable(k,e.StateClass)
+e._states[j]=k
+return k
+end
+end
+
+
+
+
+
+
+
+
+
+
+
+function e._EventCall(g,h)
+local i=e._widgets[g.type].Events
+local j=i[h]
+assert(j~=nil,`widget {g.type} has no event of name {h}`)
+
+if g.trackedEvents[h]==nil then
+j.Init(g)
+g.trackedEvents[h]=true
+end
+return j.Get(g)
+end
+
+
+
+
+
+
+
+
+function e._GetParentWidget()
+return e._VDOM[e._IDStack[e._stackIndex] ]
+end
+
+
+
+
+
+
+
+
+
+
+
+function e._generateEmptyVDOM()
+return{R=
+e._rootWidget,
+}
+end
+
+
+
+
+
+
+
+
+function e._generateRootInstance()
+
+e._rootInstance=e._widgets.Root.Generate(e._widgets.Root)
+e._rootInstance.Parent=e.parentInstance
+e._rootWidget.Instance=e._rootInstance
+end
+
+
+
+
+
+
+
+
+function e._generateSelectionImageObject()
+if e.SelectionImageObject then
+e.SelectionImageObject:Destroy()
+end
+
+local g=Instance.new"Frame"
+g.Position=UDim2.fromOffset(-1,-1)
+g.Size=UDim2.new(1,2,1,2)
+g.BackgroundColor3=e._config.SelectionImageObjectColor
+g.BackgroundTransparency=e._config.SelectionImageObjectTransparency
+g.BorderSizePixel=0
+
+e._utility.UIStroke(g,1,e._config.SelectionImageObjectBorderColor,e._config.SelectionImageObjectBorderTransparency)
+e._utility.UICorner(g,2)
+
+e.SelectionImageObject=g
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+function e._getID(g)
+if e._nextWidgetId then
+local h=e._nextWidgetId
+e._nextWidgetId=nil
+return h
+end
+
+local h=1+(g or 1)
+local i=""
+local j=debug.info(h,"l")
+while j~=-1 and j~=nil do
+i..="+"..j
+h+=1
+j=debug.info(h,"l")
+end
+
+local k=e._usedIDs[i]
+if k then
+e._usedIDs[i]+=1
+k+=1
+else
+e._usedIDs[i]=1
+k=1
+end
+
+if#e._pushedIds==0 then
+return i..":"..k
+elseif e._newID then
+e._newID=false
+return i.."::"..table.concat(e._pushedIds,"\\")
+else
+return i..":"..k..":"..table.concat(e._pushedIds,"\\")
+end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+function e._deepCompare(g,h)
+
+for i,j in g do
+local k=h[i]
+if type(j)=="table"then
+if k and type(k)=="table"then
+if e._deepCompare(j,k)==false then
+return false
+end
+else
+return false
+end
+else
+if type(j)~=type(k)or j~=k then
+return false
+end
+end
+end
+
+return true
+end
+
+
+
+
+
+
+
+
+
+
+function e._deepCopy(g)
+local h=table.clone(g)
+
+for i,j in g do
+if type(j)=="table"then
+h[i]=e._deepCopy(j)
+end
+end
+
+return h
+end
+
+
+e._lastVDOM=e._generateEmptyVDOM()
+e._VDOM=e._generateEmptyVDOM()
+
+d.Internal=e
+d._config=e._config
+return e
+end
+end)()
+
+local d=(function()
+
+local d=a
+
+return function(e)
+
+local function wrapper(f)
+return function(g,h)
+return e.Internal._Insert(f,g,h)
+end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Window=wrapper"Window"
+
+
+
+
+
+
+
+
+e.SetFocusedWindow=e.Internal.SetFocusedWindow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Tooltip=wrapper"Tooltip"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.MenuBar=wrapper"MenuBar"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Menu=wrapper"Menu"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.MenuItem=wrapper"MenuItem"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.MenuToggle=wrapper"MenuToggle"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Separator=wrapper"Separator"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Indent=wrapper"Indent"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.SameLine=wrapper"SameLine"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Group=wrapper"Group"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Text=wrapper"Text"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.TextWrapped=function(f)
+f[2]=true
+return e.Internal._Insert("Text",f)
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.TextColored=function(f)
+f[3]=f[2]
+f[2]=nil
+return e.Internal._Insert("Text",f)
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.SeparatorText=wrapper"SeparatorText"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.InputText=wrapper"InputText"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Button=wrapper"Button"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.SmallButton=wrapper"SmallButton"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Checkbox=wrapper"Checkbox"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.RadioButton=wrapper"RadioButton"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Image=wrapper"Image"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.ImageButton=wrapper"ImageButton"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Tree=wrapper"Tree"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.CollapsingHeader=wrapper"CollapsingHeader"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.TabBar=wrapper"TabBar"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Tab=wrapper"Tab"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.InputNum=wrapper"InputNum"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.InputVector2=wrapper"InputVector2"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.InputVector3=wrapper"InputVector3"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.InputUDim=wrapper"InputUDim"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.InputUDim2=wrapper"InputUDim2"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.InputRect=wrapper"InputRect"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.DragNum=wrapper"DragNum"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.DragVector2=wrapper"DragVector2"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.DragVector3=wrapper"DragVector3"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.DragUDim=wrapper"DragUDim"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.DragUDim2=wrapper"DragUDim2"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.DragRect=wrapper"DragRect"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.InputColor3=wrapper"InputColor3"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.InputColor4=wrapper"InputColor4"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.SliderNum=wrapper"SliderNum"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.SliderVector2=wrapper"SliderVector2"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.SliderVector3=wrapper"SliderVector3"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.SliderUDim=wrapper"SliderUDim"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.SliderUDim2=wrapper"SliderUDim2"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.SliderRect=wrapper"SliderRect"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Selectable=wrapper"Selectable"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Combo=wrapper"Combo"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.ComboArray=function(f,g,h)
+local i
+if g==nil then
+i=e.State(h[1])
+else
+i=g
+end
+local j=e.Internal._Insert("Combo",f,i)
+local k=j.state.index
+for l,m in h do
+e.Internal._Insert("Selectable",{m,m},{index=k})
+end
+e.End()
+
+return j
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.ComboEnum=function(f,g,h)
+local i
+if g==nil then
+i=e.State(h:GetEnumItems()[1])
+else
+i=g
+end
+local j=e.Internal._Insert("Combo",f,i)
+local k=j.state.index
+for l,m in h:GetEnumItems()do
+e.Internal._Insert("Selectable",{m.Name,m},{index=k})
+end
+e.End()
+
+return j
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.InputEnum=e.ComboEnum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.ProgressBar=wrapper"ProgressBar"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.PlotLines=wrapper"PlotLines"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.PlotHistogram=wrapper"PlotHistogram"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.Table=wrapper"Table"
+
+
+
+
+
+
+
+
+e.NextColumn=function()
+local f=(e.Internal._GetParentWidget())
+assert(f~=nil,"Iris.NextColumn() can only called when directly within a table.")
+
+local g=f._columnIndex
+if g==f.arguments.NumColumns then
+f._columnIndex=1
+f._rowIndex+=1
+else
+f._columnIndex+=1
+end
+return f._columnIndex
+end
+
+
+
+
+
+
+
+e.NextRow=function()
+local f=(e.Internal._GetParentWidget())
+assert(f~=nil,"Iris.NextRow() can only called when directly within a table.")
+f._columnIndex=1
+f._rowIndex+=1
+return f._rowIndex
+end
+
+
+
+
+
+
+
+
+
+
+e.SetColumnIndex=function(f)
+local g=(e.Internal._GetParentWidget())
+assert(g~=nil,"Iris.SetColumnIndex() can only called when directly within a table.")
+assert((f>=1)and(f<=g.arguments.NumColumns),`The index must be between 1 and {g.arguments.NumColumns}, inclusive.`)
+g._columnIndex=f
+end
+
+
+
+
+
+
+
+
+e.SetRowIndex=function(f)
+local g=(e.Internal._GetParentWidget())
+assert(g~=nil,"Iris.SetRowIndex() can only called when directly within a table.")
+assert(f>=1,"The index must be greater or equal to 1.")
+g._rowIndex=f
+end
+
+
+
+
+
+
+
+
+e.NextHeaderColumn=function()
+local f=(e.Internal._GetParentWidget())
+assert(f~=nil,"Iris.NextHeaderColumn() can only called when directly within a table.")
+
+f._rowIndex=0
+f._columnIndex=(f._columnIndex%f.arguments.NumColumns)+1
+
+return f._columnIndex
+end
+
+
+
+
+
+
+
+
+
+
+e.SetHeaderColumnIndex=function(f)
+local g=(e.Internal._GetParentWidget())
+assert(g~=nil,"Iris.SetHeaderColumnIndex() can only called when directly within a table.")
+assert((f>=1)and(f<=g.arguments.NumColumns),`The index must be between 1 and {g.arguments.NumColumns}, inclusive.`)
+
+g._rowIndex=0
+g._columnIndex=f
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+e.SetColumnWidth=function(f,g)
+local h=(e.Internal._GetParentWidget())
+assert(h~=nil,"Iris.SetColumnWidth() can only called when directly within a table.")
+assert((f>=1)and(f<=h.arguments.NumColumns),`The index must be between 1 and {h.arguments.NumColumns}, inclusive.`)
+
+local i=h.state.widths.value[f]
+h.state.widths.value[f]=g
+h.state.widths:set(h.state.widths.value,g~=i)
+end
+end
+end)()
+
+local e=(function()
+
+local e=a
+
+return function(f,g)
+local h=0
+
+
+f.WidgetConstructor("Root",{
+hasState=false,
+hasChildren=true,
+Args={},
+Events={},
+Generate=function(i)
+local j=Instance.new"Folder"
+j.Name="Iris_Root"
+
+local k
+if f._config.UseScreenGUIs then
+k=Instance.new"ScreenGui"
+k.ResetOnSpawn=false
+k.ZIndexBehavior=Enum.ZIndexBehavior.Sibling
+k.ScreenInsets=f._config.ScreenInsets
+k.IgnoreGuiInset=f._config.IgnoreGuiInset
+k.DisplayOrder=f._config.DisplayOrderOffset
+else
+k=Instance.new"Frame"
+k.AnchorPoint=Vector2.new(0.5,0.5)
+k.Position=UDim2.fromScale(0.5,0.5)
+k.Size=UDim2.fromScale(1,1)
+k.BackgroundTransparency=1
+k.ZIndex=f._config.DisplayOrderOffset
+end
+k.Name="PseudoWindowScreenGui"
+k.Parent=j
+
+local l
+if f._config.UseScreenGUIs then
+l=Instance.new"ScreenGui"
+l.ResetOnSpawn=false
+l.ZIndexBehavior=Enum.ZIndexBehavior.Sibling
+l.DisplayOrder=f._config.DisplayOrderOffset+1024
+l.ScreenInsets=f._config.ScreenInsets
+l.IgnoreGuiInset=f._config.IgnoreGuiInset
+else
+l=Instance.new"Frame"
+l.AnchorPoint=Vector2.new(0.5,0.5)
+l.Position=UDim2.fromScale(0.5,0.5)
+l.Size=UDim2.fromScale(1,1)
+l.BackgroundTransparency=1
+l.ZIndex=f._config.DisplayOrderOffset+1024
+end
+l.Name="PopupScreenGui"
+l.Parent=j
+
+local m=Instance.new"Frame"
+m.Name="TooltipContainer"
+m.AutomaticSize=Enum.AutomaticSize.XY
+m.Size=UDim2.fromOffset(0,0)
+m.BackgroundTransparency=1
+m.BorderSizePixel=0
+
+g.UIListLayout(m,Enum.FillDirection.Vertical,UDim.new(0,f._config.PopupBorderSize))
+
+m.Parent=l
+
+local n=Instance.new"Frame"
+n.Name="MenuBarContainer"
+n.AutomaticSize=Enum.AutomaticSize.Y
+n.Size=UDim2.fromScale(1,0)
+n.BackgroundTransparency=1
+n.BorderSizePixel=0
+
+n.Parent=l
+
+local o=Instance.new"Frame"
+o.Name="PseudoWindow"
+o.AutomaticSize=Enum.AutomaticSize.XY
+o.Size=UDim2.new(0,0,0,0)
+o.Position=UDim2.fromOffset(0,22)
+o.BackgroundTransparency=f._config.WindowBgTransparency
+o.BackgroundColor3=f._config.WindowBgColor
+o.BorderSizePixel=f._config.WindowBorderSize
+o.BorderColor3=f._config.BorderColor
+
+o.Selectable=false
+o.SelectionGroup=true
+o.SelectionBehaviorUp=Enum.SelectionBehavior.Stop
+o.SelectionBehaviorDown=Enum.SelectionBehavior.Stop
+o.SelectionBehaviorLeft=Enum.SelectionBehavior.Stop
+o.SelectionBehaviorRight=Enum.SelectionBehavior.Stop
+
+o.Visible=false
+
+g.UIPadding(o,f._config.WindowPadding)
+g.UIListLayout(o,Enum.FillDirection.Vertical,UDim.new(0,f._config.ItemSpacing.Y))
+
+o.Parent=k
+
+return j
+end,
+Update=function(i)
+if h>0 then
+local j=i.Instance
+local k=j.PseudoWindowScreenGui
+local l=k.PseudoWindow
+l.Visible=true
+end
+end,
+Discard=function(i)
+h=0
+i.Instance:Destroy()
+end,
+ChildAdded=function(i,j)
+local k=i.Instance
+
+if j.type=="Window"then
+return i.Instance
+elseif j.type=="Tooltip"then
+return k.PopupScreenGui.TooltipContainer
+elseif j.type=="MenuBar"then
+return k.PopupScreenGui.MenuBarContainer
+else
+local l=k.PseudoWindowScreenGui
+local m=l.PseudoWindow
+
+h+=1
+m.Visible=true
+
+return m
+end
+end,
+ChildDiscarded=function(i,j)
+if j.type~="Window"and j.type~="Tooltip"and j.type~="MenuBar"then
+h-=1
+if h==0 then
+local k=i.Instance
+local l=k.PseudoWindowScreenGui
+local m=l.PseudoWindow
+m.Visible=false
+end
+end
+end,
+})
+end
+end)()
+
+local f=(function()
+
+local f=a
+
+return function(g,h)
+local function relocateTooltips()
+if g._rootInstance==nil then
+return
+end
+local i=g._rootInstance:FindFirstChild"PopupScreenGui"
+local j=i.TooltipContainer
+local k=h.getMouseLocation()
+local l=h.findBestWindowPosForPopup(k,j.AbsoluteSize,g._config.DisplaySafeAreaPadding,i.AbsoluteSize)
+j.Position=UDim2.fromOffset(l.X,l.Y)
+end
+
+h.registerEvent("InputChanged",function()
+if not g._started then
+return
+end
+relocateTooltips()
+end)
+
+
+g.WidgetConstructor("Tooltip",{
+hasState=false,
+hasChildren=false,
+Args={Text=
+1,
+},
+Events={},
+Generate=function(i)
+i.parentWidget=g._rootWidget
+
+local j=Instance.new"Frame"
+j.Name="Iris_Tooltip"
+j.AutomaticSize=Enum.AutomaticSize.Y
+j.Size=UDim2.new(g._config.ContentWidth,UDim.new(0,0))
+j.BorderSizePixel=0
+j.BackgroundTransparency=1
+
+local k=Instance.new"TextLabel"
+k.Name="TooltipText"
+k.AutomaticSize=Enum.AutomaticSize.XY
+k.Size=UDim2.fromOffset(0,0)
+k.BackgroundColor3=g._config.PopupBgColor
+k.BackgroundTransparency=g._config.PopupBgTransparency
+
+h.applyTextStyle(k)
+h.UIStroke(k,g._config.PopupBorderSize,g._config.BorderActiveColor,g._config.BorderActiveTransparency)
+h.UIPadding(k,g._config.WindowPadding)
+if g._config.PopupRounding>0 then
+h.UICorner(k,g._config.PopupRounding)
+end
+
+k.Parent=j
+
+return j
+end,
+Update=function(i)
+local j=i.Instance
+local k=j.TooltipText
+if i.arguments.Text==nil then
+error("Text argument is required for Iris.Tooltip().",5)
+end
+k.Text=i.arguments.Text
+relocateTooltips()
+end,
+Discard=function(i)
+i.Instance:Destroy()
+end,
+})
+
+local i=0
+local j
+local k=false
+local l
+
+local m
+local n=false
+local o=false
+local p=false
+local q=Enum.TopBottom.Top
+local r=Enum.LeftRight.Left
+
+local s
+
+local t
+local u=false
+
+local v={}
+
+local function quickSwapWindows()
+
+if g._config.UseScreenGUIs==false then
+return
+end
+
+local w=0xFFFF
+local x
+
+for y,z in v do
+if z.state.isOpened.value and not z.arguments.NoNav then
+if z.Instance:IsA"ScreenGui"then
+local A=z.Instance.DisplayOrder
+if A<w then
+w=A
+x=z
+end
+end
+end
+end
+
+if not x then
+return
+end
+
+if x.state.isUncollapsed.value==false then
+x.state.isUncollapsed:set(true)
+end
+g.SetFocusedWindow(x)
+end
+
+local function fitSizeToWindowBounds(w,x)
+local y=Vector2.new(w.state.position.value.X,w.state.position.value.Y)
+local z=(g._config.TextSize+2*g._config.FramePadding.Y)*2
+local A=h.getScreenSizeForWindow(w)
+local B=Vector2.new(g._config.WindowBorderSize+g._config.DisplaySafeAreaPadding.X,g._config.WindowBorderSize+g._config.DisplaySafeAreaPadding.Y)
+
+local C=(A-y-B)
+return Vector2.new(math.clamp(x.X,z,math.max(C.X,z)),math.clamp(x.Y,z,math.max(C.Y,z)))
+end
+
+local function fitPositionToWindowBounds(w,x)
+local y=w.Instance
+local z=h.getScreenSizeForWindow(w)
+local A=Vector2.new(g._config.WindowBorderSize+g._config.DisplaySafeAreaPadding.X,g._config.WindowBorderSize+g._config.DisplaySafeAreaPadding.Y)
+
+return Vector2.new(
+math.clamp(x.X,A.X,math.max(A.X,z.X-y.WindowButton.AbsoluteSize.X-A.X)),
+math.clamp(x.Y,A.Y,math.max(A.Y,z.Y-y.WindowButton.AbsoluteSize.Y-A.Y))
+)
+end
+
+g.SetFocusedWindow=function(w)
+if t==w then
+return
+end
+
+if u and t~=nil then
+if v[t.ID]then
+local x=t.Instance
+local y=x.WindowButton
+local z=y.Content
+local A=z.TitleBar
+
+if t.state.isUncollapsed.value then
+A.BackgroundColor3=g._config.TitleBgColor
+A.BackgroundTransparency=g._config.TitleBgTransparency
+else
+A.BackgroundColor3=g._config.TitleBgCollapsedColor
+A.BackgroundTransparency=g._config.TitleBgCollapsedTransparency
+end
+y.UIStroke.Color=g._config.BorderColor
+end
+
+u=false
+t=nil
+end
+
+if w~=nil then
+
+u=true
+t=w
+local x=w.Instance
+local y=x.WindowButton
+local z=y.Content
+local A=z.TitleBar
+
+A.BackgroundColor3=g._config.TitleBgActiveColor
+A.BackgroundTransparency=g._config.TitleBgActiveTransparency
+y.UIStroke.Color=g._config.BorderActiveColor
+
+i+=1
+if w.usesScreenGuis then
+x.DisplayOrder=i+g._config.DisplayOrderOffset
+else
+x.ZIndex=i+g._config.DisplayOrderOffset
+end
+
+if w.state.isUncollapsed.value==false then
+w.state.isUncollapsed:set(true)
+end
+
+local B=h.GuiService.SelectedObject
+if B then
+if A.Visible then
+h.GuiService:Select(A)
+else
+h.GuiService:Select(w.ChildContainer)
+end
+end
+end
+end
+
+h.registerEvent("InputBegan",function(w)
+if not g._started then
+return
+end
+if w.UserInputType==Enum.UserInputType.MouseButton1 then
+local x=false
+local y=h.getMouseLocation()
+for z,A in v do
+local B=A.Instance
+if not B then
+continue
+end
+local C=B.WindowButton
+local D=C.ResizeBorder
+if D and h.isPosInsideRect(y,D.AbsolutePosition-h.GuiOffset,D.AbsolutePosition-h.GuiOffset+D.AbsoluteSize)then
+x=true
+break
+end
+end
+
+if not x then
+g.SetFocusedWindow(nil)
+end
+end
+
+if w.KeyCode==Enum.KeyCode.Tab and(h.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or h.UserInputService:IsKeyDown(Enum.KeyCode.RightControl))then
+quickSwapWindows()
+end
+
+if w.UserInputType==Enum.UserInputType.MouseButton1 and o and not p and u and t then
+local x=t.state.position.value+(t.state.size.value/2)
+local y=h.getMouseLocation()-x
+
+
+if math.abs(y.X)*t.state.size.value.Y>=math.abs(y.Y)*t.state.size.value.X then
+q=Enum.TopBottom.Center
+r=if math.sign(y.X)==-1 then Enum.LeftRight.Left else Enum.LeftRight.Right
+else
+r=Enum.LeftRight.Center
+q=if math.sign(y.Y)==-1 then Enum.TopBottom.Top else Enum.TopBottom.Bottom
+end
+n=true
+m=t
+end
+end)
+
+h.registerEvent("TouchTapInWorld",function(w,x)
+if not g._started then
+return
+end
+if not x then
+g.SetFocusedWindow(nil)
+end
+end)
+
+h.registerEvent("InputChanged",function(w)
+if not g._started then
+return
+end
+if k and j then
+local x
+if w.UserInputType==Enum.UserInputType.Touch then
+local y=w.Position
+x=Vector2.new(y.X,y.Y)
+else
+x=h.getMouseLocation()
+end
+local y=j.Instance
+local z=y.WindowButton
+local A=x-l
+local B=fitPositionToWindowBounds(j,A)
+
+
+z.Position=UDim2.fromOffset(B.X,B.Y)
+j.state.position.value=B
+end
+if n and m and m.arguments.NoResize~=true then
+local x=m.Instance
+local y=x.WindowButton
+local z=Vector2.new(y.Position.X.Offset,y.Position.Y.Offset)
+local A=Vector2.new(y.Size.X.Offset,y.Size.Y.Offset)
+
+local B
+if w.UserInputType==Enum.UserInputType.Touch then
+B=w.Delta
+else
+B=h.getMouseLocation()-s
+end
+
+local C=z+Vector2.new(if r==Enum.LeftRight.Left then B.X else 0,if q==Enum.TopBottom.Top then B.Y else 0)
+
+local D=A
++Vector2.new(
+if r==Enum.LeftRight.Left then-B.X elseif r==Enum.LeftRight.Right then B.X else 0,
+if q==Enum.TopBottom.Top then-B.Y elseif q==Enum.TopBottom.Bottom then B.Y else 0
+)
+
+local E=fitSizeToWindowBounds(m,D)
+local F=fitPositionToWindowBounds(m,C)
+
+y.Size=UDim2.fromOffset(E.X,E.Y)
+m.state.size.value=E
+y.Position=UDim2.fromOffset(F.X,F.Y)
+m.state.position.value=F
+end
+
+s=h.getMouseLocation()
+end)
+
+h.registerEvent("InputEnded",function(w,x)
+if not g._started then
+return
+end
+if(w.UserInputType==Enum.UserInputType.MouseButton1 or w.UserInputType==Enum.UserInputType.Touch)and k and j then
+local y=j.Instance
+local z=y.WindowButton
+k=false
+j.state.position:set(Vector2.new(z.Position.X.Offset,z.Position.Y.Offset))
+end
+if(w.UserInputType==Enum.UserInputType.MouseButton1 or w.UserInputType==Enum.UserInputType.Touch)and n and m then
+local y=m.Instance
+n=false
+m.state.size:set(y.WindowButton.AbsoluteSize)
+end
+
+if w.KeyCode==Enum.KeyCode.ButtonX then
+quickSwapWindows()
+end
+end)
+
+
+g.WidgetConstructor("Window",{
+hasState=true,
+hasChildren=true,
+Args={Title=
+1,NoTitleBar=
+2,NoBackground=
+3,NoCollapse=
+4,NoClose=
+5,NoMove=
+6,NoScrollbar=
+7,NoResize=
+8,NoNav=
+9,NoMenu=
+10,
+},
+Events={closed=
+{Init=
+function(w)end,Get=
+function(w)
+return w.lastClosedTick==g._cycleTick
+end,
+},opened=
+{Init=
+function(w)end,Get=
+function(w)
+return w.lastOpenedTick==g._cycleTick
+end,
+},collapsed=
+{Init=
+function(w)end,Get=
+function(w)
+return w.lastCollapsedTick==g._cycleTick
+end,
+},uncollapsed=
+{Init=
+function(w)end,Get=
+function(w)
+return w.lastUncollapsedTick==g._cycleTick
+end,
+},hovered=
+h.EVENTS.hover(function(w)
+local x=w.Instance
+return x.WindowButton
+end),
+},
+Generate=function(w)
+w.parentWidget=g._rootWidget
+
+w.usesScreenGuis=g._config.UseScreenGUIs
+v[w.ID]=w
+
+local x
+if w.usesScreenGuis then
+x=Instance.new"ScreenGui"
+x.ResetOnSpawn=false
+x.ZIndexBehavior=Enum.ZIndexBehavior.Sibling
+x.DisplayOrder=g._config.DisplayOrderOffset
+x.ScreenInsets=g._config.ScreenInsets
+x.IgnoreGuiInset=g._config.IgnoreGuiInset
+else
+x=Instance.new"Frame"
+x.AnchorPoint=Vector2.new(0.5,0.5)
+x.Position=UDim2.fromScale(0.5,0.5)
+x.Size=UDim2.fromScale(1,1)
+x.BackgroundTransparency=1
+x.ZIndex=g._config.DisplayOrderOffset
+end
+x.Name="Iris_Window"
+
+local y=Instance.new"TextButton"
+y.Name="WindowButton"
+y.Size=UDim2.fromOffset(0,0)
+y.BackgroundTransparency=1
+y.BorderSizePixel=0
+y.Text=""
+y.AutoButtonColor=false
+y.ClipsDescendants=false
+y.Selectable=false
+
+y.SelectionImageObject=g.SelectionImageObject
+y.SelectionGroup=true
+y.SelectionBehaviorUp=Enum.SelectionBehavior.Stop
+y.SelectionBehaviorDown=Enum.SelectionBehavior.Stop
+y.SelectionBehaviorLeft=Enum.SelectionBehavior.Stop
+y.SelectionBehaviorRight=Enum.SelectionBehavior.Stop
+
+h.UIStroke(y,g._config.WindowBorderSize,g._config.BorderColor,g._config.BorderTransparency)
+
+y.Parent=x
+
+h.applyInputBegan(y,function(z)
+if z.UserInputType==Enum.UserInputType.MouseMovement or z.UserInputType==Enum.UserInputType.Keyboard then
+return
+end
+if w.state.isUncollapsed.value then
+g.SetFocusedWindow(w)
+end
+if not w.arguments.NoMove and z.UserInputType==Enum.UserInputType.MouseButton1 then
+j=w
+k=true
+l=h.getMouseLocation()-w.state.position.value
+end
+end)
+
+local z=Instance.new"Frame"
+z.Name="Content"
+z.AnchorPoint=Vector2.new(0.5,0.5)
+z.Position=UDim2.fromScale(0.5,0.5)
+z.Size=UDim2.fromScale(1,1)
+z.BackgroundTransparency=1
+z.ClipsDescendants=true
+z.Parent=y
+
+local A=h.UIListLayout(z,Enum.FillDirection.Vertical,UDim.new(0,0))
+A.HorizontalAlignment=Enum.HorizontalAlignment.Center
+A.VerticalAlignment=Enum.VerticalAlignment.Top
+
+local B=Instance.new"ScrollingFrame"
+B.Name="WindowContainer"
+B.Size=UDim2.fromScale(1,1)
+B.BackgroundColor3=g._config.WindowBgColor
+B.BackgroundTransparency=g._config.WindowBgTransparency
+B.BorderSizePixel=0
+
+B.AutomaticCanvasSize=Enum.AutomaticSize.Y
+B.ScrollBarImageTransparency=g._config.ScrollbarGrabTransparency
+B.ScrollBarImageColor3=g._config.ScrollbarGrabColor
+B.CanvasSize=UDim2.fromScale(0,0)
+B.VerticalScrollBarInset=Enum.ScrollBarInset.ScrollBar
+B.TopImage=h.ICONS.BLANK_SQUARE
+B.MidImage=h.ICONS.BLANK_SQUARE
+B.BottomImage=h.ICONS.BLANK_SQUARE
+
+B.LayoutOrder=w.ZIndex+0xFFFF
+B.ClipsDescendants=true
+
+h.UIPadding(B,g._config.WindowPadding)
+
+B.Parent=z
+
+local C=Instance.new"UIFlexItem"
+C.FlexMode=Enum.UIFlexMode.Fill
+C.ItemLineAlignment=Enum.ItemLineAlignment.End
+C.Parent=B
+
+B:GetPropertyChangedSignal"CanvasPosition":Connect(function()
+
+w.state.scrollDistance.value=B.CanvasPosition.Y
+end)
+
+h.applyInputBegan(B,function(D)
+if D.UserInputType==Enum.UserInputType.MouseMovement or D.UserInputType==Enum.UserInputType.Keyboard then
+return
+end
+if w.state.isUncollapsed.value then
+g.SetFocusedWindow(w)
+end
+end)
+
+local D=Instance.new"Frame"
+D.Name="TerminatingFrame"
+D.Size=UDim2.fromOffset(0,g._config.WindowPadding.Y+g._config.FramePadding.Y)
+D.BackgroundTransparency=1
+D.BorderSizePixel=0
+D.LayoutOrder=0x7FFFFFF0
+
+h.UIListLayout(B,Enum.FillDirection.Vertical,UDim.new(0,g._config.ItemSpacing.Y)).VerticalAlignment=Enum.VerticalAlignment.Top
+
+D.Parent=B
+
+local E=Instance.new"Frame"
+E.Name="TitleBar"
+E.AutomaticSize=Enum.AutomaticSize.Y
+E.Size=UDim2.fromScale(1,0)
+E.BorderSizePixel=0
+E.ClipsDescendants=true
+
+E.Parent=z
+
+h.UIPadding(E,Vector2.new(g._config.FramePadding.X))
+h.UIListLayout(E,Enum.FillDirection.Horizontal,UDim.new(0,g._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+h.applyInputBegan(E,function(F)
+if F.UserInputType==Enum.UserInputType.Touch then
+if not w.arguments.NoMove then
+j=w
+k=true
+local G=F.Position
+l=Vector2.new(G.X,G.Y)-w.state.position.value
+end
+end
+end)
+
+local F=g._config.TextSize+((g._config.FramePadding.Y-1)*2)
+
+local G=Instance.new"TextButton"
+G.Name="CollapseButton"
+G.AutomaticSize=Enum.AutomaticSize.None
+G.AnchorPoint=Vector2.new(0,0.5)
+G.Size=UDim2.fromOffset(F,F)
+G.Position=UDim2.fromScale(0,0.5)
+G.BackgroundTransparency=1
+G.BorderSizePixel=0
+G.AutoButtonColor=false
+G.Text=""
+
+h.UICorner(G)
+
+G.Parent=E
+
+h.applyButtonClick(G,function()
+w.state.isUncollapsed:set(not w.state.isUncollapsed.value)
+end)
+
+h.applyInteractionHighlights("Background",G,G,{
+Color=g._config.ButtonColor,
+Transparency=1,
+HoveredColor=g._config.ButtonHoveredColor,
+HoveredTransparency=g._config.ButtonHoveredTransparency,
+ActiveColor=g._config.ButtonActiveColor,
+ActiveTransparency=g._config.ButtonActiveTransparency,
+})
+
+local H=Instance.new"ImageLabel"
+H.Name="Arrow"
+H.AnchorPoint=Vector2.new(0.5,0.5)
+H.Size=UDim2.fromOffset(math.floor(0.7*F),math.floor(0.7*F))
+H.Position=UDim2.fromScale(0.5,0.5)
+H.BackgroundTransparency=1
+H.BorderSizePixel=0
+H.Image=h.ICONS.MULTIPLICATION_SIGN
+H.ImageColor3=g._config.TextColor
+H.ImageTransparency=g._config.TextTransparency
+H.Parent=G
+
+local I=Instance.new"TextButton"
+I.Name="CloseButton"
+I.AutomaticSize=Enum.AutomaticSize.None
+I.AnchorPoint=Vector2.new(1,0.5)
+I.Size=UDim2.fromOffset(F,F)
+I.Position=UDim2.fromScale(1,0.5)
+I.BackgroundTransparency=1
+I.BorderSizePixel=0
+I.Text=""
+I.AutoButtonColor=false
+I.LayoutOrder=2
+
+h.UICorner(I)
+
+h.applyButtonClick(I,function()
+w.state.isOpened:set(false)
+end)
+
+h.applyInteractionHighlights("Background",I,I,{
+Color=g._config.ButtonColor,
+Transparency=1,
+HoveredColor=g._config.ButtonHoveredColor,
+HoveredTransparency=g._config.ButtonHoveredTransparency,
+ActiveColor=g._config.ButtonActiveColor,
+ActiveTransparency=g._config.ButtonActiveTransparency,
+})
+
+I.Parent=E
+
+local J=Instance.new"ImageLabel"
+J.Name="Icon"
+J.AnchorPoint=Vector2.new(0.5,0.5)
+J.Size=UDim2.fromOffset(math.floor(0.7*F),math.floor(0.7*F))
+J.Position=UDim2.fromScale(0.5,0.5)
+J.BackgroundTransparency=1
+J.BorderSizePixel=0
+J.Image=h.ICONS.MULTIPLICATION_SIGN
+J.ImageColor3=g._config.TextColor
+J.ImageTransparency=g._config.TextTransparency
+J.Parent=I
+
+
+
+local K=Instance.new"TextLabel"
+K.Name="Title"
+K.AutomaticSize=Enum.AutomaticSize.XY
+K.BorderSizePixel=0
+K.BackgroundTransparency=1
+K.LayoutOrder=1
+K.ClipsDescendants=true
+
+h.UIPadding(K,Vector2.new(0,g._config.FramePadding.Y))
+h.applyTextStyle(K)
+K.TextXAlignment=Enum.TextXAlignment[g._config.WindowTitleAlign.Name]
+
+local L=Instance.new"UIFlexItem"
+L.FlexMode=Enum.UIFlexMode.Fill
+L.ItemLineAlignment=Enum.ItemLineAlignment.Center
+
+L.Parent=K
+
+K.Parent=E
+
+local M=g._config.TextSize+g._config.FramePadding.X
+
+local N=Instance.new"ImageButton"
+N.Name="LeftResizeGrip"
+N.AnchorPoint=Vector2.yAxis
+N.Rotation=180
+N.Position=UDim2.fromScale(0,1)
+N.Size=UDim2.fromOffset(M,M)
+N.BackgroundTransparency=1
+N.BorderSizePixel=0
+N.Image=h.ICONS.BOTTOM_RIGHT_CORNER
+N.ImageColor3=g._config.ResizeGripColor
+N.ImageTransparency=1
+N.AutoButtonColor=false
+N.ZIndex=3
+N.Parent=y
+
+h.applyInteractionHighlights("Image",N,N,{
+Color=g._config.ResizeGripColor,
+Transparency=1,
+HoveredColor=g._config.ResizeGripHoveredColor,
+HoveredTransparency=g._config.ResizeGripHoveredTransparency,
+ActiveColor=g._config.ResizeGripActiveColor,
+ActiveTransparency=g._config.ResizeGripActiveTransparency,
+})
+
+h.applyButtonDown(N,function()
+if not u or not(t==w)then
+g.SetFocusedWindow(w)
+
+end
+n=true
+q=Enum.TopBottom.Bottom
+r=Enum.LeftRight.Left
+m=w
+end)
+
+
+local O=Instance.new"ImageButton"
+O.Name="RightResizeGrip"
+O.AnchorPoint=Vector2.one
+O.Rotation=90
+O.Position=UDim2.fromScale(1,1)
+O.Size=UDim2.fromOffset(M,M)
+O.BackgroundTransparency=1
+O.BorderSizePixel=0
+O.Image=h.ICONS.BOTTOM_RIGHT_CORNER
+O.ImageColor3=g._config.ResizeGripColor
+O.ImageTransparency=g._config.ResizeGripTransparency
+O.AutoButtonColor=false
+O.ZIndex=3
+O.Parent=y
+
+h.applyInteractionHighlights("Image",O,O,{
+Color=g._config.ResizeGripColor,
+Transparency=g._config.ResizeGripTransparency,
+HoveredColor=g._config.ResizeGripHoveredColor,
+HoveredTransparency=g._config.ResizeGripHoveredTransparency,
+ActiveColor=g._config.ResizeGripActiveColor,
+ActiveTransparency=g._config.ResizeGripActiveTransparency,
+})
+
+h.applyButtonDown(O,function()
+if not u or not(t==w)then
+g.SetFocusedWindow(w)
+
+end
+n=true
+q=Enum.TopBottom.Bottom
+r=Enum.LeftRight.Right
+m=w
+end)
+
+local P=Instance.new"ImageButton"
+P.Name="LeftResizeBorder"
+P.AnchorPoint=Vector2.new(1,.5)
+P.Position=UDim2.fromScale(0,.5)
+P.Size=UDim2.new(0,g._config.WindowResizePadding.X,1,2*g._config.WindowBorderSize)
+P.Transparency=1
+P.Image=h.ICONS.BORDER
+P.ResampleMode=Enum.ResamplerMode.Pixelated
+P.ScaleType=Enum.ScaleType.Slice
+P.SliceCenter=Rect.new(0,0,1,1)
+P.ImageRectOffset=Vector2.new(2,2)
+P.ImageRectSize=Vector2.new(2,1)
+P.ImageTransparency=1
+P.AutoButtonColor=false
+P.ZIndex=4
+
+P.Parent=y
+
+local Q=Instance.new"ImageButton"
+Q.Name="RightResizeBorder"
+Q.AnchorPoint=Vector2.new(0,.5)
+Q.Position=UDim2.fromScale(1,.5)
+Q.Size=UDim2.new(0,g._config.WindowResizePadding.X,1,2*g._config.WindowBorderSize)
+Q.Transparency=1
+Q.Image=h.ICONS.BORDER
+Q.ResampleMode=Enum.ResamplerMode.Pixelated
+Q.ScaleType=Enum.ScaleType.Slice
+Q.SliceCenter=Rect.new(1,0,2,1)
+Q.ImageRectOffset=Vector2.new(1,2)
+Q.ImageRectSize=Vector2.new(2,1)
+Q.ImageTransparency=1
+Q.AutoButtonColor=false
+Q.ZIndex=4
+
+Q.Parent=y
+
+local R=Instance.new"ImageButton"
+R.Name="TopResizeBorder"
+R.AnchorPoint=Vector2.new(.5,1)
+R.Position=UDim2.fromScale(.5,0)
+R.Size=UDim2.new(1,2*g._config.WindowBorderSize,0,g._config.WindowResizePadding.Y)
+R.Transparency=1
+R.Image=h.ICONS.BORDER
+R.ResampleMode=Enum.ResamplerMode.Pixelated
+R.ScaleType=Enum.ScaleType.Slice
+R.SliceCenter=Rect.new(0,0,1,1)
+R.ImageRectOffset=Vector2.new(2,2)
+R.ImageRectSize=Vector2.new(1,2)
+R.ImageTransparency=1
+R.AutoButtonColor=false
+R.ZIndex=4
+
+R.Parent=y
+
+local S=Instance.new"ImageButton"
+S.Name="BottomResizeBorder"
+S.AnchorPoint=Vector2.new(.5,0)
+S.Position=UDim2.fromScale(.5,1)
+S.Size=UDim2.new(1,2*g._config.WindowBorderSize,0,g._config.WindowResizePadding.Y)
+S.Transparency=1
+S.Image=h.ICONS.BORDER
+S.ResampleMode=Enum.ResamplerMode.Pixelated
+S.ScaleType=Enum.ScaleType.Slice
+S.SliceCenter=Rect.new(0,1,1,2)
+S.ImageRectOffset=Vector2.new(2,1)
+S.ImageRectSize=Vector2.new(1,2)
+S.ImageTransparency=1
+S.AutoButtonColor=false
+S.ZIndex=4
+
+S.Parent=y
+
+h.applyInteractionHighlights("Image",P,P,{
+Color=g._config.ResizeGripColor,
+Transparency=1,
+HoveredColor=g._config.ResizeGripHoveredColor,
+HoveredTransparency=g._config.ResizeGripHoveredTransparency,
+ActiveColor=g._config.ResizeGripActiveColor,
+ActiveTransparency=g._config.ResizeGripActiveTransparency,
+})
+
+h.applyInteractionHighlights("Image",Q,Q,{
+Color=g._config.ResizeGripColor,
+Transparency=1,
+HoveredColor=g._config.ResizeGripHoveredColor,
+HoveredTransparency=g._config.ResizeGripHoveredTransparency,
+ActiveColor=g._config.ResizeGripActiveColor,
+ActiveTransparency=g._config.ResizeGripActiveTransparency,
+})
+
+h.applyInteractionHighlights("Image",R,R,{
+Color=g._config.ResizeGripColor,
+Transparency=1,
+HoveredColor=g._config.ResizeGripHoveredColor,
+HoveredTransparency=g._config.ResizeGripHoveredTransparency,
+ActiveColor=g._config.ResizeGripActiveColor,
+ActiveTransparency=g._config.ResizeGripActiveTransparency,
+})
+
+h.applyInteractionHighlights("Image",S,S,{
+Color=g._config.ResizeGripColor,
+Transparency=1,
+HoveredColor=g._config.ResizeGripHoveredColor,
+HoveredTransparency=g._config.ResizeGripHoveredTransparency,
+ActiveColor=g._config.ResizeGripActiveColor,
+ActiveTransparency=g._config.ResizeGripActiveTransparency,
+})
+
+local T=Instance.new"Frame"
+T.Name="ResizeBorder"
+T.Position=UDim2.fromOffset(-g._config.WindowResizePadding.X,-g._config.WindowResizePadding.Y)
+T.Size=UDim2.new(1,g._config.WindowResizePadding.X*2,1,g._config.WindowResizePadding.Y*2)
+T.BackgroundTransparency=1
+T.BorderSizePixel=0
+T.Active=false
+T.Selectable=false
+T.ClipsDescendants=false
+T.Parent=y
+
+h.applyMouseEnter(T,function()
+if t==w then
+o=true
+end
+end)
+h.applyMouseLeave(T,function()
+if t==w then
+o=false
+end
+end)
+h.applyInputBegan(T,function(U)
+if U.UserInputType==Enum.UserInputType.MouseMovement or U.UserInputType==Enum.UserInputType.Keyboard then
+return
+end
+if w.state.isUncollapsed.value then
+g.SetFocusedWindow(w)
+end
+end)
+
+h.applyMouseEnter(y,function()
+if t==w then
+p=true
+end
+end)
+h.applyMouseLeave(y,function()
+if t==w then
+p=false
+end
+end)
+
+w.ChildContainer=B
+return x
+end,
+GenerateState=function(w)
+if w.state.size==nil then
+w.state.size=g._widgetState(w,"size",Vector2.new(400,300))
+end
+if w.state.position==nil then
+w.state.position=g._widgetState(w,"position",if u and t then t.state.position.value+Vector2.new(15,45)else Vector2.new(150,250))
+end
+w.state.position.value=fitPositionToWindowBounds(w,w.state.position.value)
+w.state.size.value=fitSizeToWindowBounds(w,w.state.size.value)
+
+if w.state.isUncollapsed==nil then
+w.state.isUncollapsed=g._widgetState(w,"isUncollapsed",true)
+end
+if w.state.isOpened==nil then
+w.state.isOpened=g._widgetState(w,"isOpened",true)
+end
+if w.state.scrollDistance==nil then
+w.state.scrollDistance=g._widgetState(w,"scrollDistance",0)
+end
+end,
+Update=function(w)
+local x=w.Instance
+local y=w.ChildContainer
+local z=x.WindowButton
+local A=z.Content
+local B=A.TitleBar
+local C=B.Title
+local D=A:FindFirstChild"Iris_MenuBar"
+local E=z.LeftResizeGrip
+local F=z.RightResizeGrip
+local G=z.LeftResizeBorder
+local H=z.RightResizeBorder
+local I=z.TopResizeBorder
+local J=z.BottomResizeBorder
+
+if w.arguments.NoResize~=true then
+E.Visible=true
+F.Visible=true
+G.Visible=true
+H.Visible=true
+I.Visible=true
+J.Visible=true
+else
+E.Visible=false
+F.Visible=false
+G.Visible=false
+H.Visible=false
+I.Visible=false
+J.Visible=false
+end
+if w.arguments.NoScrollbar then
+y.ScrollBarThickness=0
+else
+y.ScrollBarThickness=g._config.ScrollbarSize
+end
+if w.arguments.NoTitleBar then
+B.Visible=false
+else
+B.Visible=true
+end
+if D then
+if w.arguments.NoMenu then
+D.Visible=false
+else
+D.Visible=true
+end
+end
+if w.arguments.NoBackground then
+y.BackgroundTransparency=1
+else
+y.BackgroundTransparency=g._config.WindowBgTransparency
+end
+
+
+if w.arguments.NoCollapse then
+B.CollapseButton.Visible=false
+else
+B.CollapseButton.Visible=true
+end
+if w.arguments.NoClose then
+B.CloseButton.Visible=false
+else
+B.CloseButton.Visible=true
+end
+
+C.Text=w.arguments.Title or""
+end,
+UpdateState=function(w)
+local x=w.state.size.value
+local y=w.state.position.value
+local z=w.state.isUncollapsed.value
+local A=w.state.isOpened.value
+local B=w.state.scrollDistance.value
+
+local C=w.Instance
+local D=w.ChildContainer
+local E=C.WindowButton
+local F=E.Content
+local G=F.TitleBar
+local H=F:FindFirstChild"Iris_MenuBar"
+local I=E.LeftResizeGrip
+local J=E.RightResizeGrip
+local K=E.LeftResizeBorder
+local L=E.RightResizeBorder
+local M=E.TopResizeBorder
+local N=E.BottomResizeBorder
+
+E.Size=UDim2.fromOffset(x.X,x.Y)
+E.Position=UDim2.fromOffset(y.X,y.Y)
+
+if A then
+if w.usesScreenGuis then
+C.Enabled=true
+E.Visible=true
+else
+C.Visible=true
+E.Visible=true
+end
+w.lastOpenedTick=g._cycleTick+1
+else
+if w.usesScreenGuis then
+C.Enabled=false
+E.Visible=false
+else
+C.Visible=false
+E.Visible=false
+end
+w.lastClosedTick=g._cycleTick+1
+end
+
+if z then
+G.CollapseButton.Arrow.Image=h.ICONS.DOWN_POINTING_TRIANGLE
+if H then
+H.Visible=not w.arguments.NoMenu
+end
+D.Visible=true
+if w.arguments.NoResize~=true then
+I.Visible=true
+J.Visible=true
+K.Visible=true
+L.Visible=true
+M.Visible=true
+N.Visible=true
+end
+E.AutomaticSize=Enum.AutomaticSize.None
+w.lastUncollapsedTick=g._cycleTick+1
+else
+local O=G.AbsoluteSize.Y
+G.CollapseButton.Arrow.Image=h.ICONS.RIGHT_POINTING_TRIANGLE
+
+if H then
+H.Visible=false
+end
+D.Visible=false
+I.Visible=false
+J.Visible=false
+K.Visible=false
+L.Visible=false
+M.Visible=false
+N.Visible=false
+E.Size=UDim2.fromOffset(x.X,O)
+w.lastCollapsedTick=g._cycleTick+1
+end
+
+if A and z then
+g.SetFocusedWindow(w)
+else
+G.BackgroundColor3=g._config.TitleBgCollapsedColor
+G.BackgroundTransparency=g._config.TitleBgCollapsedTransparency
+E.UIStroke.Color=g._config.BorderColor
+
+g.SetFocusedWindow(nil)
+end
+
+
+if B and B~=0 then
+local O=#g._postCycleCallbacks+1
+local P=g._cycleTick+1
+g._postCycleCallbacks[O]=function()
+if g._cycleTick>=P then
+if w.lastCycleTick~=-1 then
+D.CanvasPosition=Vector2.new(0,B)
+end
+g._postCycleCallbacks[O]=nil
+end
+end
+end
+end,
+ChildAdded=function(w,x)
+local y=w.Instance
+local z=y.WindowButton
+local A=z.Content
+if x.type=="MenuBar"then
+local B=w.ChildContainer
+x.Instance.ZIndex=B.ZIndex+1
+x.Instance.LayoutOrder=B.LayoutOrder-1
+return A
+end
+return w.ChildContainer
+end,
+Discard=function(w)
+if t==w then
+t=nil
+u=false
+end
+if j==w then
+j=nil
+k=false
+end
+if m==w then
+m=nil
+n=false
+end
+v[w.ID]=nil
+w.Instance:Destroy()
+h.discardState(w)
+end,
+})
+end
+end)()
+
+local g=(function()
+
+local g=a
+
+return function(h,i)
+local j=false
+local k
+local l={}
+
+local function EmptyMenuStack(m)
+for n=#l,m and m+1 or 1,-1 do
+local o=l[n]
+o.state.isOpened:set(false)
+
+o.Instance.BackgroundColor3=h._config.HeaderColor
+o.Instance.BackgroundTransparency=1
+
+table.remove(l,n)
+end
+
+if#l==0 then
+j=false
+k=nil
+end
+end
+
+local function UpdateChildContainerTransform(m)
+local n=m.parentWidget.type=="Menu"
+
+local o=m.Instance
+local p=m.ChildContainer
+p.Size=UDim2.fromOffset(o.AbsoluteSize.X,0)
+if p.Parent==nil then
+return
+end
+
+local q=o.AbsolutePosition-i.GuiOffset
+local r=o.AbsoluteSize
+local s=p.AbsoluteSize
+local t=h._config.PopupBorderSize
+local u=p.Parent.AbsoluteSize
+
+local v=q.X
+local w
+local x=Vector2.zero
+
+if n then
+if q.X+s.X>u.X then
+x=Vector2.xAxis
+else
+v=q.X+r.X
+end
+end
+
+if q.Y+s.Y>u.Y then
+
+w=q.Y-t+(n and r.Y or 0)
+x+=Vector2.yAxis
+else
+w=q.Y+t+(n and 0 or r.Y)
+end
+
+p.Position=UDim2.fromOffset(v,w)
+p.AnchorPoint=x
+end
+
+i.registerEvent("InputBegan",function(m)
+if not h._started then
+return
+end
+if m.UserInputType~=Enum.UserInputType.MouseButton1 and m.UserInputType~=Enum.UserInputType.MouseButton2 then
+return
+end
+if j==false then
+return
+end
+if k==nil then
+return
+end
+
+
+local n=false
+local o=i.getMouseLocation()
+for p,q in l do
+for r,s in{q.ChildContainer,q.Instance}do
+local t=s.AbsolutePosition-i.GuiOffset
+local u=t+s.AbsoluteSize
+if i.isPosInsideRect(o,t,u)then
+n=true
+break
+end
+end
+if n then
+break
+end
+end
+
+if not n then
+EmptyMenuStack()
+end
+end)
+
+
+h.WidgetConstructor("MenuBar",{
+hasState=false,
+hasChildren=true,
+Args={},
+Events={},
+Generate=function(m)
+local n=Instance.new"Frame"
+n.Name="Iris_MenuBar"
+n.AutomaticSize=Enum.AutomaticSize.Y
+n.Size=UDim2.fromScale(1,0)
+n.BackgroundColor3=h._config.MenubarBgColor
+n.BackgroundTransparency=h._config.MenubarBgTransparency
+n.BorderSizePixel=0
+n.ClipsDescendants=true
+
+i.UIPadding(n,Vector2.new(h._config.WindowPadding.X,1))
+i.UIListLayout(n,Enum.FillDirection.Horizontal,UDim.new()).VerticalAlignment=Enum.VerticalAlignment.Center
+i.applyFrameStyle(n,true,true)
+
+return n
+end,
+Update=function(m)
+
+end,
+ChildAdded=function(m,n)
+return m.Instance
+end,
+Discard=function(m)
+m.Instance:Destroy()
+end,
+})
+
+
+h.WidgetConstructor("Menu",{
+hasState=true,
+hasChildren=true,
+Args={Text=
+1,
+},
+Events={clicked=
+i.EVENTS.click(function(m)
+return m.Instance
+end),hovered=
+i.EVENTS.hover(function(m)
+return m.Instance
+end),opened=
+{Init=
+function(m)end,Get=
+function(m)
+return m.lastOpenedTick==h._cycleTick
+end,
+},closed=
+{Init=
+function(m)end,Get=
+function(m)
+return m.lastClosedTick==h._cycleTick
+end,
+},
+},
+Generate=function(m)
+local n
+m.ButtonColors={
+Color=h._config.HeaderColor,
+Transparency=1,
+HoveredColor=h._config.HeaderHoveredColor,
+HoveredTransparency=h._config.HeaderHoveredTransparency,
+ActiveColor=h._config.HeaderHoveredColor,
+ActiveTransparency=h._config.HeaderHoveredTransparency,
+}
+if m.parentWidget.type=="Menu"then
+
+n=Instance.new"TextButton"
+n.Name="Menu"
+n.AutomaticSize=Enum.AutomaticSize.Y
+n.Size=UDim2.fromScale(1,0)
+n.BackgroundColor3=h._config.HeaderColor
+n.BackgroundTransparency=1
+n.BorderSizePixel=0
+n.Text=""
+n.AutoButtonColor=false
+
+local o=i.UIPadding(n,h._config.FramePadding)
+o.PaddingTop=o.PaddingTop-UDim.new(0,1)
+i.UIListLayout(n,Enum.FillDirection.Horizontal,UDim.new(0,h._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+local p=Instance.new"TextLabel"
+p.Name="TextLabel"
+p.AutomaticSize=Enum.AutomaticSize.XY
+p.BackgroundTransparency=1
+p.BorderSizePixel=0
+
+i.applyTextStyle(p)
+
+p.Parent=n
+
+local q=h._config.TextSize+2*h._config.FramePadding.Y
+local r=math.round(0.2*q)
+local s=q-2*r
+
+local t=Instance.new"ImageLabel"
+t.Name="Icon"
+t.Size=UDim2.fromOffset(s,s)
+t.BackgroundTransparency=1
+t.BorderSizePixel=0
+t.ImageColor3=h._config.TextColor
+t.ImageTransparency=h._config.TextTransparency
+t.Image=i.ICONS.RIGHT_POINTING_TRIANGLE
+t.LayoutOrder=1
+
+t.Parent=n
+else
+n=Instance.new"TextButton"
+n.Name="Menu"
+n.AutomaticSize=Enum.AutomaticSize.XY
+n.Size=UDim2.fromScale(0,0)
+n.BackgroundColor3=h._config.HeaderColor
+n.BackgroundTransparency=1
+n.BorderSizePixel=0
+n.Text=""
+n.AutoButtonColor=false
+n.ClipsDescendants=true
+
+i.applyTextStyle(n)
+i.UIPadding(n,Vector2.new(h._config.ItemSpacing.X,h._config.FramePadding.Y))
+end
+i.applyInteractionHighlights("Background",n,n,m.ButtonColors)
+
+i.applyButtonClick(n,function()
+local o=if#l<=1 then not m.state.isOpened.value else true
+m.state.isOpened:set(o)
+
+j=o
+k=o and m or nil
+
+if#l<=1 then
+if o then
+table.insert(l,m)
+else
+table.remove(l)
+end
+end
+end)
+
+i.applyMouseEnter(n,function()
+if j and k and k~=m then
+local o=m.parentWidget
+local p=table.find(l,o)
+
+EmptyMenuStack(p)
+m.state.isOpened:set(true)
+k=m
+j=true
+table.insert(l,m)
+end
+end)
+
+local o=Instance.new"ScrollingFrame"
+o.Name="MenuContainer"
+o.AutomaticSize=Enum.AutomaticSize.XY
+o.Size=UDim2.fromOffset(0,0)
+o.BackgroundColor3=h._config.PopupBgColor
+o.BackgroundTransparency=h._config.PopupBgTransparency
+o.BorderSizePixel=0
+
+o.AutomaticCanvasSize=Enum.AutomaticSize.Y
+o.ScrollBarImageTransparency=h._config.ScrollbarGrabTransparency
+o.ScrollBarImageColor3=h._config.ScrollbarGrabColor
+o.ScrollBarThickness=h._config.ScrollbarSize
+o.CanvasSize=UDim2.fromScale(0,0)
+o.VerticalScrollBarInset=Enum.ScrollBarInset.ScrollBar
+o.TopImage=i.ICONS.BLANK_SQUARE
+o.MidImage=i.ICONS.BLANK_SQUARE
+o.BottomImage=i.ICONS.BLANK_SQUARE
+
+o.ZIndex=6
+o.LayoutOrder=6
+o.ClipsDescendants=true
+
+
+
+
+
+
+i.UIStroke(o,h._config.WindowBorderSize,h._config.BorderColor,h._config.BorderTransparency)
+i.UIPadding(o,Vector2.new(2,h._config.WindowPadding.Y-h._config.ItemSpacing.Y))
+
+i.UIListLayout(o,Enum.FillDirection.Vertical,UDim.new(0,1)).VerticalAlignment=Enum.VerticalAlignment.Top
+
+local p=h._rootInstance and(h._rootInstance:FindFirstChild"PopupScreenGui")
+o.Parent=p
+
+
+m.ChildContainer=o
+return n
+end,
+Update=function(m)
+local n=m.Instance
+local o
+if m.parentWidget.type=="Menu"then
+o=n.TextLabel
+else
+o=n
+end
+o.Text=m.arguments.Text or"Menu"
+end,
+ChildAdded=function(m,n)
+UpdateChildContainerTransform(m)
+return m.ChildContainer
+end,
+ChildDiscarded=function(m,n)
+UpdateChildContainerTransform(m)
+end,
+GenerateState=function(m)
+if m.state.isOpened==nil then
+m.state.isOpened=h._widgetState(m,"isOpened",false)
+end
+end,
+UpdateState=function(m)
+local n=m.ChildContainer
+
+if m.state.isOpened.value then
+m.lastOpenedTick=h._cycleTick+1
+m.ButtonColors.Transparency=h._config.HeaderTransparency
+n.Visible=true
+
+UpdateChildContainerTransform(m)
+else
+m.lastClosedTick=h._cycleTick+1
+m.ButtonColors.Transparency=1
+n.Visible=false
+end
+end,
+Discard=function(m)
+
+if j then
+local n=m.parentWidget
+local o=table.find(l,n)
+if o then
+EmptyMenuStack(o)
+if#l~=0 then
+k=n
+j=true
+end
+end
+end
+
+m.Instance:Destroy()
+m.ChildContainer:Destroy()
+i.discardState(m)
+end,
+})
+
+
+h.WidgetConstructor("MenuItem",{
+hasState=false,
+hasChildren=false,
+Args={
+Text=1,
+KeyCode=2,
+ModifierKey=3,
+},
+Events={clicked=
+i.EVENTS.click(function(m)
+return m.Instance
+end),hovered=
+i.EVENTS.hover(function(m)
+return m.Instance
+end),
+},
+Generate=function(m)
+local n=Instance.new"TextButton"
+n.Name="Iris_MenuItem"
+n.AutomaticSize=Enum.AutomaticSize.Y
+n.Size=UDim2.fromScale(1,0)
+n.BackgroundTransparency=1
+n.BorderSizePixel=0
+n.Text=""
+n.AutoButtonColor=false
+
+local o=i.UIPadding(n,h._config.FramePadding)
+o.PaddingTop=o.PaddingTop-UDim.new(0,1)
+i.UIListLayout(n,Enum.FillDirection.Horizontal,UDim.new(0,h._config.ItemInnerSpacing.X))
+
+i.applyInteractionHighlights("Background",n,n,{
+Color=h._config.HeaderColor,
+Transparency=1,
+HoveredColor=h._config.HeaderHoveredColor,
+HoveredTransparency=h._config.HeaderHoveredTransparency,
+ActiveColor=h._config.HeaderHoveredColor,
+ActiveTransparency=h._config.HeaderHoveredTransparency,
+})
+
+i.applyButtonClick(n,function()
+EmptyMenuStack()
+end)
+
+i.applyMouseEnter(n,function()
+local p=m.parentWidget
+if j and k and k~=p then
+local q=table.find(l,p)
+
+EmptyMenuStack(q)
+k=p
+j=true
+end
+end)
+
+local p=Instance.new"TextLabel"
+p.Name="TextLabel"
+p.AutomaticSize=Enum.AutomaticSize.XY
+p.BackgroundTransparency=1
+p.BorderSizePixel=0
+
+i.applyTextStyle(p)
+
+p.Parent=n
+
+local q=Instance.new"TextLabel"
+q.Name="Shortcut"
+q.AutomaticSize=Enum.AutomaticSize.XY
+q.BackgroundTransparency=1
+q.BorderSizePixel=0
+q.LayoutOrder=1
+
+i.applyTextStyle(q)
+
+q.Text=""
+q.TextColor3=h._config.TextDisabledColor
+q.TextTransparency=h._config.TextDisabledTransparency
+
+q.Parent=n
+
+return n
+end,
+Update=function(m)
+local n=m.Instance
+local o=n.TextLabel
+local p=n.Shortcut
+
+o.Text=m.arguments.Text
+if m.arguments.KeyCode then
+if m.arguments.ModifierKey then
+p.Text=m.arguments.ModifierKey.Name.." + "..m.arguments.KeyCode.Name
+else
+p.Text=m.arguments.KeyCode.Name
+end
+end
+end,
+Discard=function(m)
+m.Instance:Destroy()
+end,
+})
+
+
+h.WidgetConstructor("MenuToggle",{
+hasState=true,
+hasChildren=false,
+Args={
+Text=1,
+KeyCode=2,
+ModifierKey=3,
+},
+Events={checked=
+{Init=
+function(m)end,Get=
+function(m)
+return m.lastCheckedTick==h._cycleTick
+end,
+},unchecked=
+{Init=
+function(m)end,Get=
+function(m)
+return m.lastUncheckedTick==h._cycleTick
+end,
+},hovered=
+i.EVENTS.hover(function(m)
+return m.Instance
+end),
+},
+Generate=function(m)
+local n=Instance.new"TextButton"
+n.Name="Iris_MenuToggle"
+n.AutomaticSize=Enum.AutomaticSize.Y
+n.Size=UDim2.fromScale(1,0)
+n.BackgroundTransparency=1
+n.BorderSizePixel=0
+n.Text=""
+n.AutoButtonColor=false
+
+local o=i.UIPadding(n,h._config.FramePadding)
+o.PaddingTop=o.PaddingTop-UDim.new(0,1)
+i.UIListLayout(n,Enum.FillDirection.Horizontal,UDim.new(0,h._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+i.applyInteractionHighlights("Background",n,n,{
+Color=h._config.HeaderColor,
+Transparency=1,
+HoveredColor=h._config.HeaderHoveredColor,
+HoveredTransparency=h._config.HeaderHoveredTransparency,
+ActiveColor=h._config.HeaderHoveredColor,
+ActiveTransparency=h._config.HeaderHoveredTransparency,
+})
+
+i.applyButtonClick(n,function()
+m.state.isChecked:set(not m.state.isChecked.value)
+EmptyMenuStack()
+end)
+
+i.applyMouseEnter(n,function()
+local p=m.parentWidget
+if j and k and k~=p then
+local q=table.find(l,p)
+
+EmptyMenuStack(q)
+k=p
+j=true
+end
+end)
+
+local p=Instance.new"TextLabel"
+p.Name="TextLabel"
+p.AutomaticSize=Enum.AutomaticSize.XY
+p.BackgroundTransparency=1
+p.BorderSizePixel=0
+
+i.applyTextStyle(p)
+
+p.Parent=n
+
+local q=Instance.new"TextLabel"
+q.Name="Shortcut"
+q.AutomaticSize=Enum.AutomaticSize.XY
+q.BackgroundTransparency=1
+q.BorderSizePixel=0
+q.LayoutOrder=1
+
+i.applyTextStyle(q)
+
+q.Text=""
+q.TextColor3=h._config.TextDisabledColor
+q.TextTransparency=h._config.TextDisabledTransparency
+
+q.Parent=n
+
+local r=h._config.TextSize+2*h._config.FramePadding.Y
+local s=math.round(0.2*r)
+local t=r-2*s
+
+local u=Instance.new"ImageLabel"
+u.Name="Icon"
+u.Size=UDim2.fromOffset(t,t)
+u.BackgroundTransparency=1
+u.BorderSizePixel=0
+u.ImageColor3=h._config.TextColor
+u.ImageTransparency=h._config.TextTransparency
+u.Image=i.ICONS.CHECKMARK
+u.LayoutOrder=2
+
+u.Parent=n
+
+return n
+end,
+GenerateState=function(m)
+if m.state.isChecked==nil then
+m.state.isChecked=h._widgetState(m,"isChecked",false)
+end
+end,
+Update=function(m)
+local n=m.Instance
+local o=n.TextLabel
+local p=n.Shortcut
+
+o.Text=m.arguments.Text
+if m.arguments.KeyCode then
+if m.arguments.ModifierKey then
+p.Text=m.arguments.ModifierKey.Name.." + "..m.arguments.KeyCode.Name
+else
+p.Text=m.arguments.KeyCode.Name
+end
+end
+end,
+UpdateState=function(m)
+local n=m.Instance
+local o=n.Icon
+
+if m.state.isChecked.value then
+o.ImageTransparency=h._config.TextTransparency
+m.lastCheckedTick=h._cycleTick+1
+else
+o.ImageTransparency=1
+m.lastUncheckedTick=h._cycleTick+1
+end
+end,
+Discard=function(m)
+m.Instance:Destroy()
+i.discardState(m)
+end,
+})
+end
+end)()
+
+local h=(function()
+
+local h=a
+
+return function(i,j)
+
+i.WidgetConstructor("Separator",{
+hasState=false,
+hasChildren=false,
+Args={},
+Events={},
+Generate=function(k)
+local l=Instance.new"Frame"
+l.Name="Iris_Separator"
+if k.parentWidget.type=="SameLine"then
+l.Size=UDim2.new(0,1,i._config.ItemWidth.Scale,i._config.ItemWidth.Offset)
+else
+l.Size=UDim2.new(i._config.ItemWidth.Scale,i._config.ItemWidth.Offset,0,1)
+end
+l.BackgroundColor3=i._config.SeparatorColor
+l.BackgroundTransparency=i._config.SeparatorTransparency
+l.BorderSizePixel=0
+
+j.UIListLayout(l,Enum.FillDirection.Vertical,UDim.new(0,0))
+
+
+return l
+end,
+Update=function(k)end,
+Discard=function(k)
+k.Instance:Destroy()
+end,
+})
+
+
+i.WidgetConstructor("Indent",{
+hasState=false,
+hasChildren=true,
+Args={Width=
+1,
+},
+Events={},
+Generate=function(k)
+local l=Instance.new"Frame"
+l.Name="Iris_Indent"
+l.AutomaticSize=Enum.AutomaticSize.Y
+l.Size=UDim2.new(i._config.ItemWidth,UDim.new())
+l.BackgroundTransparency=1
+l.BorderSizePixel=0
+
+j.UIListLayout(l,Enum.FillDirection.Vertical,UDim.new(0,i._config.ItemSpacing.Y))
+j.UIPadding(l,Vector2.zero)
+
+return l
+end,
+Update=function(k)
+local l=k.Instance
+
+l.UIPadding.PaddingLeft=UDim.new(0,if k.arguments.Width then k.arguments.Width else i._config.IndentSpacing)
+end,
+ChildAdded=function(k,l)
+return k.Instance
+end,
+Discard=function(k)
+k.Instance:Destroy()
+end,
+})
+
+
+i.WidgetConstructor("SameLine",{
+hasState=false,
+hasChildren=true,
+Args={Width=
+1,VerticalAlignment=
+2,HorizontalAlignment=
+3,
+},
+Events={},
+Generate=function(k)
+local l=Instance.new"Frame"
+l.Name="Iris_SameLine"
+l.AutomaticSize=Enum.AutomaticSize.Y
+l.Size=UDim2.new(i._config.ItemWidth,UDim.new())
+l.BackgroundTransparency=1
+l.BorderSizePixel=0
+
+j.UIListLayout(l,Enum.FillDirection.Horizontal,UDim.new(0,0))
+
+return l
+end,
+Update=function(k)
+local l=k.Instance
+local m=l.UIListLayout
+
+m.Padding=UDim.new(0,if k.arguments.Width then k.arguments.Width else i._config.ItemSpacing.X)
+if k.arguments.VerticalAlignment then
+m.VerticalAlignment=k.arguments.VerticalAlignment
+else
+m.VerticalAlignment=Enum.VerticalAlignment.Top
+end
+if k.arguments.HorizontalAlignment then
+m.HorizontalAlignment=k.arguments.HorizontalAlignment
+else
+m.HorizontalAlignment=Enum.HorizontalAlignment.Left
+end
+end,
+ChildAdded=function(k,l)
+return k.Instance
+end,
+Discard=function(k)
+k.Instance:Destroy()
+end,
+})
+
+
+i.WidgetConstructor("Group",{
+hasState=false,
+hasChildren=true,
+Args={},
+Events={},
+Generate=function(k)
+local l=Instance.new"Frame"
+l.Name="Iris_Group"
+l.AutomaticSize=Enum.AutomaticSize.XY
+l.Size=UDim2.fromOffset(0,0)
+l.BackgroundTransparency=1
+l.BorderSizePixel=0
+l.ClipsDescendants=false
+
+j.UIListLayout(l,Enum.FillDirection.Vertical,UDim.new(0,i._config.ItemSpacing.Y))
+
+return l
+end,
+Update=function(k)end,
+ChildAdded=function(k,l)
+return k.Instance
+end,
+Discard=function(k)
+k.Instance:Destroy()
+end,
+})
+end
+end)()
+
+local i=(function()
+
+local i=a
+
+return function(j,k)
+
+j.WidgetConstructor("Text",{
+hasState=false,
+hasChildren=false,
+Args={Text=
+1,Wrapped=
+2,Color=
+3,RichText=
+4,
+},
+Events={hovered=
+k.EVENTS.hover(function(l)
+return l.Instance
+end),
+},
+Generate=function(l)
+local m=Instance.new"TextLabel"
+m.Name="Iris_Text"
+m.AutomaticSize=Enum.AutomaticSize.XY
+m.Size=UDim2.fromOffset(0,0)
+m.BackgroundTransparency=1
+m.BorderSizePixel=0
+
+k.applyTextStyle(m)
+k.UIPadding(m,Vector2.new(0,2))
+
+return m
+end,
+Update=function(l)
+local m=l.Instance
+if l.arguments.Text==nil then
+error("Text argument is required for Iris.Text().",5)
+end
+if l.arguments.Wrapped~=nil then
+m.TextWrapped=l.arguments.Wrapped
+else
+m.TextWrapped=j._config.TextWrapped
+end
+if l.arguments.Color then
+m.TextColor3=l.arguments.Color
+else
+m.TextColor3=j._config.TextColor
+end
+if l.arguments.RichText~=nil then
+m.RichText=l.arguments.RichText
+else
+m.RichText=j._config.RichText
+end
+
+m.Text=l.arguments.Text
+end,
+Discard=function(l)
+l.Instance:Destroy()
+end,
+})
+
+
+j.WidgetConstructor("SeparatorText",{
+hasState=false,
+hasChildren=false,
+Args={Text=
+1,
+},
+Events={hovered=
+k.EVENTS.hover(function(l)
+return l.Instance
+end),
+},
+Generate=function(l)
+local m=Instance.new"Frame"
+m.Name="Iris_SeparatorText"
+m.AutomaticSize=Enum.AutomaticSize.Y
+m.Size=UDim2.new(j._config.ItemWidth,UDim.new())
+m.BackgroundTransparency=1
+m.BorderSizePixel=0
+m.ClipsDescendants=true
+
+k.UIPadding(m,Vector2.new(0,j._config.SeparatorTextPadding.Y))
+k.UIListLayout(m,Enum.FillDirection.Horizontal,UDim.new(0,j._config.ItemSpacing.X))
+
+m.UIListLayout.VerticalAlignment=Enum.VerticalAlignment.Center
+
+local n=Instance.new"TextLabel"
+n.Name="TextLabel"
+n.AutomaticSize=Enum.AutomaticSize.XY
+n.BackgroundTransparency=1
+n.BorderSizePixel=0
+n.LayoutOrder=1
+
+k.applyTextStyle(n)
+
+n.Parent=m
+
+local o=Instance.new"Frame"
+o.Name="Left"
+o.AnchorPoint=Vector2.new(1,0.5)
+o.Size=UDim2.fromOffset(j._config.SeparatorTextPadding.X-j._config.ItemSpacing.X,j._config.SeparatorTextBorderSize)
+o.BackgroundColor3=j._config.SeparatorColor
+o.BackgroundTransparency=j._config.SeparatorTransparency
+o.BorderSizePixel=0
+
+o.Parent=m
+
+local p=Instance.new"Frame"
+p.Name="Right"
+p.AnchorPoint=Vector2.new(1,0.5)
+p.Size=UDim2.new(1,0,0,j._config.SeparatorTextBorderSize)
+p.BackgroundColor3=j._config.SeparatorColor
+p.BackgroundTransparency=j._config.SeparatorTransparency
+p.BorderSizePixel=0
+p.LayoutOrder=2
+
+p.Parent=m
+
+return m
+end,
+Update=function(l)
+local m=l.Instance
+local n=m.TextLabel
+if l.arguments.Text==nil then
+error("Text argument is required for Iris.SeparatorText().",5)
+end
+n.Text=l.arguments.Text
+end,
+Discard=function(l)
+l.Instance:Destroy()
+end,
+})
+end
+end)()
+
+local j=(function()
+
+local j=a
+
+return function(k,l)
+local m={
+hasState=false,
+hasChildren=false,
+Args={Text=
+1,Size=
+2,
+},
+Events={clicked=
+l.EVENTS.click(function(m)
+return m.Instance
+end),rightClicked=
+l.EVENTS.rightClick(function(m)
+return m.Instance
+end),doubleClicked=
+l.EVENTS.doubleClick(function(m)
+return m.Instance
+end),ctrlClicked=
+l.EVENTS.ctrlClick(function(m)
+return m.Instance
+end),hovered=
+l.EVENTS.hover(function(m)
+return m.Instance
+end),
+},
+Generate=function(m)
+local n=Instance.new"TextButton"
+n.AutomaticSize=Enum.AutomaticSize.XY
+n.Size=UDim2.fromOffset(0,0)
+n.BackgroundColor3=k._config.ButtonColor
+n.BackgroundTransparency=k._config.ButtonTransparency
+n.AutoButtonColor=false
+
+l.applyTextStyle(n)
+n.TextXAlignment=Enum.TextXAlignment.Center
+
+l.applyFrameStyle(n)
+
+l.applyInteractionHighlights("Background",n,n,{
+Color=k._config.ButtonColor,
+Transparency=k._config.ButtonTransparency,
+HoveredColor=k._config.ButtonHoveredColor,
+HoveredTransparency=k._config.ButtonHoveredTransparency,
+ActiveColor=k._config.ButtonActiveColor,
+ActiveTransparency=k._config.ButtonActiveTransparency,
+})
+
+return n
+end,
+Update=function(m)
+local n=m.Instance
+n.Text=m.arguments.Text or"Button"
+n.Size=m.arguments.Size or UDim2.fromOffset(0,0)
+end,
+Discard=function(m)
+m.Instance:Destroy()
+end,
+}
+l.abstractButton=m
+
+
+k.WidgetConstructor("Button",l.extend(m,{
+Generate=function(n)
+local o=m.Generate(n)
+o.Name="Iris_Button"
+
+return o
+end,
+})
+)
+
+
+k.WidgetConstructor("SmallButton",l.extend(m,{
+Generate=function(n)
+local o=m.Generate(n)
+o.Name="Iris_SmallButton"
+
+local p=o.UIPadding
+p.PaddingLeft=UDim.new(0,2)
+p.PaddingRight=UDim.new(0,2)
+p.PaddingTop=UDim.new(0,0)
+p.PaddingBottom=UDim.new(0,0)
+
+return o
+end,
+})
+)
+end
+end)()
+
+local k=(function()
+
+local k=a
+
+return function(l,m)
+
+l.WidgetConstructor("Checkbox",{
+hasState=true,
+hasChildren=false,
+Args={Text=
+1,
+},
+Events={checked=
+{Init=
+function(n)end,Get=
+function(n)
+return n.lastCheckedTick==l._cycleTick
+end,
+},unchecked=
+{Init=
+function(n)end,Get=
+function(n)
+return n.lastUncheckedTick==l._cycleTick
+end,
+},hovered=
+m.EVENTS.hover(function(n)
+return n.Instance
+end),
+},
+Generate=function(n)
+local o=Instance.new"TextButton"
+o.Name="Iris_Checkbox"
+o.AutomaticSize=Enum.AutomaticSize.XY
+o.Size=UDim2.fromOffset(0,0)
+o.BackgroundTransparency=1
+o.BorderSizePixel=0
+o.Text=""
+o.AutoButtonColor=false
+
+m.UIListLayout(o,Enum.FillDirection.Horizontal,UDim.new(0,l._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+local p=l._config.TextSize+2*l._config.FramePadding.Y
+
+local q=Instance.new"Frame"
+q.Name="Box"
+q.Size=UDim2.fromOffset(p,p)
+q.BackgroundColor3=l._config.FrameBgColor
+q.BackgroundTransparency=l._config.FrameBgTransparency
+
+m.applyFrameStyle(q,true)
+m.UIPadding(q,Vector2.new(math.floor(p/10),math.floor(p/10)))
+
+m.applyInteractionHighlights("Background",o,q,{
+Color=l._config.FrameBgColor,
+Transparency=l._config.FrameBgTransparency,
+HoveredColor=l._config.FrameBgHoveredColor,
+HoveredTransparency=l._config.FrameBgHoveredTransparency,
+ActiveColor=l._config.FrameBgActiveColor,
+ActiveTransparency=l._config.FrameBgActiveTransparency,
+})
+
+q.Parent=o
+
+local r=Instance.new"ImageLabel"
+r.Name="Checkmark"
+r.Size=UDim2.fromScale(1,1)
+r.BackgroundTransparency=1
+r.Image=m.ICONS.CHECKMARK
+r.ImageColor3=l._config.CheckMarkColor
+r.ImageTransparency=1
+r.ScaleType=Enum.ScaleType.Fit
+
+r.Parent=q
+
+m.applyButtonClick(o,function()
+n.state.isChecked:set(not n.state.isChecked.value)
+end)
+
+local s=Instance.new"TextLabel"
+s.Name="TextLabel"
+s.AutomaticSize=Enum.AutomaticSize.XY
+s.BackgroundTransparency=1
+s.BorderSizePixel=0
+s.LayoutOrder=1
+
+m.applyTextStyle(s)
+s.Parent=o
+
+return o
+end,
+GenerateState=function(n)
+if n.state.isChecked==nil then
+n.state.isChecked=l._widgetState(n,"checked",false)
+end
+end,
+Update=function(n)
+local o=n.Instance
+o.TextLabel.Text=n.arguments.Text or"Checkbox"
+end,
+UpdateState=function(n)
+local o=n.Instance
+local p=o.Box
+local q=p.Checkmark
+if n.state.isChecked.value then
+q.ImageTransparency=l._config.CheckMarkTransparency
+n.lastCheckedTick=l._cycleTick+1
+else
+q.ImageTransparency=1
+n.lastUncheckedTick=l._cycleTick+1
+end
+end,
+Discard=function(n)
+n.Instance:Destroy()
+m.discardState(n)
+end,
+})
+end
+end)()
+
+local l=(function()
+
+local l=a
+
+return function(m,n)
+
+m.WidgetConstructor("RadioButton",{
+hasState=true,
+hasChildren=false,
+Args={Text=
+1,Index=
+2,
+},
+Events={selected=
+{Init=
+function(o)end,Get=
+function(o)
+return o.lastSelectedTick==m._cycleTick
+end,
+},unselected=
+{Init=
+function(o)end,Get=
+function(o)
+return o.lastUnselectedTick==m._cycleTick
+end,
+},active=
+{Init=
+function(o)end,Get=
+function(o)
+return o.state.index.value==o.arguments.Index
+end,
+},hovered=
+n.EVENTS.hover(function(o)
+return o.Instance
+end),
+},
+Generate=function(o)
+local p=Instance.new"TextButton"
+p.Name="Iris_RadioButton"
+p.AutomaticSize=Enum.AutomaticSize.XY
+p.Size=UDim2.fromOffset(0,0)
+p.BackgroundTransparency=1
+p.BorderSizePixel=0
+p.Text=""
+p.AutoButtonColor=false
+
+n.UIListLayout(p,Enum.FillDirection.Horizontal,UDim.new(0,m._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+local q=m._config.TextSize+2*(m._config.FramePadding.Y-1)
+local r=Instance.new"Frame"
+r.Name="Button"
+r.Size=UDim2.fromOffset(q,q)
+r.BackgroundColor3=m._config.FrameBgColor
+r.BackgroundTransparency=m._config.FrameBgTransparency
+r.Parent=p
+
+n.UICorner(r)
+n.UIPadding(r,Vector2.new(math.max(1,math.floor(q/5)),math.max(1,math.floor(q/5))))
+
+local s=Instance.new"Frame"
+s.Name="Circle"
+s.Size=UDim2.fromScale(1,1)
+s.BackgroundColor3=m._config.CheckMarkColor
+s.BackgroundTransparency=m._config.CheckMarkTransparency
+n.UICorner(s)
+
+s.Parent=r
+
+n.applyInteractionHighlights("Background",p,r,{
+Color=m._config.FrameBgColor,
+Transparency=m._config.FrameBgTransparency,
+HoveredColor=m._config.FrameBgHoveredColor,
+HoveredTransparency=m._config.FrameBgHoveredTransparency,
+ActiveColor=m._config.FrameBgActiveColor,
+ActiveTransparency=m._config.FrameBgActiveTransparency,
+})
+
+n.applyButtonClick(p,function()
+o.state.index:set(o.arguments.Index)
+end)
+
+local t=Instance.new"TextLabel"
+t.Name="TextLabel"
+t.AutomaticSize=Enum.AutomaticSize.XY
+t.BackgroundTransparency=1
+t.BorderSizePixel=0
+t.LayoutOrder=1
+
+n.applyTextStyle(t)
+t.Parent=p
+
+return p
+end,
+Update=function(o)
+local p=o.Instance
+local q=p.TextLabel
+
+q.Text=o.arguments.Text or"Radio Button"
+if o.state then
+o.state.index.lastChangeTick=m._cycleTick
+m._widgets[o.type].UpdateState(o)
+end
+end,
+Discard=function(o)
+o.Instance:Destroy()
+n.discardState(o)
+end,
+GenerateState=function(o)
+if o.state.index==nil then
+o.state.index=m._widgetState(o,"index",o.arguments.Index)
+end
+end,
+UpdateState=function(o)
+local p=o.Instance
+local q=p.Button
+local r=q.Circle
+
+if o.state.index.value==o.arguments.Index then
+
+r.BackgroundTransparency=m._config.CheckMarkTransparency
+o.lastSelectedTick=m._cycleTick+1
+else
+r.BackgroundTransparency=1
+o.lastUnselectedTick=m._cycleTick+1
+end
+end,
+})
+end
+end)()
+
+local m=(function()
+
+local m=a
+
+
+
+
+return function(n,o)
+local p={Init=
+function(p)end,Get=
+function(p)
+return p.lastNumberChangedTick==n._cycleTick
+end,
+}
+
+local function getValueByIndex(q,r,s)
+local t=q
+if typeof(t)=="number"then
+return t
+elseif typeof(t)=="Vector2"then
+if r==1 then
+return t.X
+elseif r==2 then
+return t.Y
+end
+elseif typeof(t)=="Vector3"then
+if r==1 then
+return t.X
+elseif r==2 then
+return t.Y
+elseif r==3 then
+return t.Z
+end
+elseif typeof(t)=="UDim"then
+if r==1 then
+return t.Scale
+elseif r==2 then
+return t.Offset
+end
+elseif typeof(t)=="UDim2"then
+if r==1 then
+return t.X.Scale
+elseif r==2 then
+return t.X.Offset
+elseif r==3 then
+return t.Y.Scale
+elseif r==4 then
+return t.Y.Offset
+end
+elseif typeof(t)=="Color3"then
+local u=if s.UseHSV then{t:ToHSV()}else{t.R,t.G,t.B}
+if r==1 then
+return u[1]
+elseif r==2 then
+return u[2]
+elseif r==3 then
+return u[3]
+end
+elseif typeof(t)=="Rect"then
+if r==1 then
+return t.Min.X
+elseif r==2 then
+return t.Min.Y
+elseif r==3 then
+return t.Max.X
+elseif r==4 then
+return t.Max.Y
+end
+elseif typeof(t)=="table"then
+return t[r]
+end
+
+error(`Incorrect datatype or value: {q} {typeof(q)} {r}.`)
+end
+
+local function updateValueByIndex(q,r,s,t)
+local u=q
+if typeof(u)=="number"then
+return s
+elseif typeof(u)=="Vector2"then
+if r==1 then
+return(Vector2.new(s,u.Y))
+elseif r==2 then
+return(Vector2.new(u.X,s))
+end
+elseif typeof(u)=="Vector3"then
+if r==1 then
+return(Vector3.new(s,u.Y,u.Z))
+elseif r==2 then
+return(Vector3.new(u.X,s,u.Z))
+elseif r==3 then
+return(Vector3.new(u.X,u.Y,s))
+end
+elseif typeof(u)=="UDim"then
+if r==1 then
+return(UDim.new(s,u.Offset))
+elseif r==2 then
+return(UDim.new(u.Scale,s))
+end
+elseif typeof(u)=="UDim2"then
+if r==1 then
+return(UDim2.new(UDim.new(s,u.X.Offset),u.Y))
+elseif r==2 then
+return(UDim2.new(UDim.new(u.X.Scale,s),u.Y))
+elseif r==3 then
+return(UDim2.new(u.X,UDim.new(s,u.Y.Offset)))
+elseif r==4 then
+return(UDim2.new(u.X,UDim.new(u.Y.Scale,s)))
+end
+elseif typeof(u)=="Rect"then
+if r==1 then
+return(Rect.new(Vector2.new(s,u.Min.Y),u.Max))
+elseif r==2 then
+return(Rect.new(Vector2.new(u.Min.X,s),u.Max))
+elseif r==3 then
+return(Rect.new(u.Min,Vector2.new(s,u.Max.Y)))
+elseif r==4 then
+return(Rect.new(u.Min,Vector2.new(u.Max.X,s)))
+end
+elseif typeof(u)=="Color3"then
+if t.UseHSV then
+local v,w,x=u:ToHSV()
+if r==1 then
+return(Color3.fromHSV(s,w,x))
+elseif r==2 then
+return(Color3.fromHSV(v,s,x))
+elseif r==3 then
+return(Color3.fromHSV(v,w,s))
+end
+end
+if r==1 then
+return(Color3.new(s,u.G,u.B))
+elseif r==2 then
+return(Color3.new(u.R,s,u.B))
+elseif r==3 then
+return(Color3.new(u.R,u.G,s))
+end
+end
+
+error(`Incorrect datatype or value {q} {typeof(q)} {r}.`)
+end
+
+local q={
+Num={1},
+Vector2={1,1},
+Vector3={1,1,1},
+UDim={0.01,1},
+UDim2={0.01,1,0.01,1},
+Color3={1,1,1},
+Color4={1,1,1,1},
+Rect={1,1,1,1},
+}
+
+local r={
+Num={0},
+Vector2={0,0},
+Vector3={0,0,0},
+UDim={0,0},
+UDim2={0,0,0,0},
+Rect={0,0,0,0},
+}
+
+local s={
+Num={100},
+Vector2={100,100},
+Vector3={100,100,100},
+UDim={1,960},
+UDim2={1,960,1,960},
+Rect={960,960,960,960},
+}
+
+local t={
+Num={""},
+Vector2={"X: ","Y: "},
+Vector3={"X: ","Y: ","Z: "},
+UDim={"",""},
+UDim2={"","","",""},
+Color3_RGB={"R: ","G: ","B: "},
+Color3_HSV={"H: ","S: ","V: "},
+Color4_RGB={"R: ","G: ","B: ","T: "},
+Color4_HSV={"H: ","S: ","V: ","T: "},
+Rect={"X: ","Y: ","X: ","Y: "},
+}
+
+local u={
+Num={0},
+Vector2={0,0},
+Vector3={0,0,0},
+UDim={3,0},
+UDim2={3,0,3,0},
+Color3={0,0,0},
+Color4={0,0,0,0},
+Rect={0,0,0,0},
+}
+
+local function generateAbstract(v,w,x,y)
+return{
+hasState=true,
+hasChildren=false,
+Args={Text=
+1,Increment=
+2,Min=
+3,Max=
+4,Format=
+5,
+},
+Events={numberChanged=
+p,hovered=
+o.EVENTS.hover(function(z)
+return z.Instance
+end),
+},
+GenerateState=function(z)
+if z.state.number==nil then
+z.state.number=n._widgetState(z,"number",y)
+end
+if z.state.editingText==nil then
+z.state.editingText=n._widgetState(z,"editingText",0)
+end
+end,
+Update=function(z)
+local A=z.Instance
+local B=A.TextLabel
+B.Text=z.arguments.Text or`Input {w}`
+
+if z.arguments.Format and typeof(z.arguments.Format)~="table"then
+z.arguments.Format={z.arguments.Format}
+elseif not z.arguments.Format then
+
+local C={}
+for D=1,x do
+local E=u[w][D]
+
+if z.arguments.Increment then
+local F=getValueByIndex(z.arguments.Increment,D,z.arguments)
+E=math.max(E,math.ceil(-math.log10(F==0 and 1 or F)),E)
+end
+
+if z.arguments.Max then
+local F=getValueByIndex(z.arguments.Max,D,z.arguments)
+E=math.max(E,math.ceil(-math.log10(F==0 and 1 or F)),E)
+end
+
+if z.arguments.Min then
+local F=getValueByIndex(z.arguments.Min,D,z.arguments)
+E=math.max(E,math.ceil(-math.log10(F==0 and 1 or F)),E)
+end
+
+if E>0 then
+
+C[D]=`%.{E}f`
+else
+C[D]="%d"
+end
+end
+
+z.arguments.Format=C
+z.arguments.Prefix=t[w]
+end
+
+if v=="Input"and w=="Num"then
+A.SubButton.Visible=not z.arguments.NoButtons
+A.AddButton.Visible=not z.arguments.NoButtons
+local C=A.InputField1
+local D=if z.arguments.NoButtons then 0 else(2*n._config.ItemInnerSpacing.X)+(2*(n._config.TextSize+2*n._config.FramePadding.Y))
+C.Size=UDim2.new(UDim.new(n._config.ContentWidth.Scale,n._config.ContentWidth.Offset-D),n._config.ContentHeight)
+end
+
+if v=="Slider"then
+for C=1,x do
+local D=(A:FindFirstChild("SliderField"..tostring(C)))
+local E=D.GrabBar
+
+local F=z.arguments.Increment and getValueByIndex(z.arguments.Increment,C,z.arguments)or q[w][C]
+local G=z.arguments.Min and getValueByIndex(z.arguments.Min,C,z.arguments)or r[w][C]
+local H=z.arguments.Max and getValueByIndex(z.arguments.Max,C,z.arguments)or s[w][C]
+
+local I=1/math.floor((1+H-G)/F)
+
+E.Size=UDim2.fromScale(I,1)
+end
+
+local C=#n._postCycleCallbacks+1
+local D=n._cycleTick+1
+n._postCycleCallbacks[C]=function()
+if n._cycleTick>=D then
+if z.lastCycleTick~=-1 then
+z.state.number.lastChangeTick=n._cycleTick
+n._widgets[`Slider{w}`].UpdateState(z)
+end
+n._postCycleCallbacks[C]=nil
+end
+end
+end
+end,
+Discard=function(z)
+z.Instance:Destroy()
+o.discardState(z)
+end,
+}
+end
+
+local function focusLost(v,w,x,y)
+local z=tonumber(w.Text:match"-?%d*%.?%d*")
+local A=v.state.number
+local B=v
+if y=="Color4"and x==4 then
+A=B.state.transparency
+elseif y=="Color3"or y=="Color4"then
+A=B.state.color
+end
+if z~=nil then
+if y=="Color3"or y=="Color4"and not B.arguments.UseFloats then
+z=z/255
+end
+if v.arguments.Min~=nil then
+z=math.max(z,getValueByIndex(v.arguments.Min,x,v.arguments))
+end
+if v.arguments.Max~=nil then
+z=math.min(z,getValueByIndex(v.arguments.Max,x,v.arguments))
+end
+
+if v.arguments.Increment then
+z=math.round(z/getValueByIndex(v.arguments.Increment,x,v.arguments))*getValueByIndex(v.arguments.Increment,x,v.arguments)
+end
+
+A:set(updateValueByIndex(A.value,x,z,v.arguments))
+v.lastNumberChangedTick=n._cycleTick+1
+end
+
+local C=getValueByIndex(A.value,x,v.arguments)
+if y=="Color3"or y=="Color4"and not B.arguments.UseFloats then
+C=math.round(C*255)
+end
+
+local D=v.arguments.Format[x]or v.arguments.Format[1]
+if v.arguments.Prefix then
+D=v.arguments.Prefix[x]..D
+end
+w.Text=string.format(D,C)
+
+v.state.editingText:set(0)
+w:ReleaseFocus(true)
+end
+
+
+
+
+local v
+do
+local function generateButtons(w,x,y)
+local z=(o.abstractButton.Generate(w))
+z.Name="SubButton"
+z.Size=UDim2.fromOffset(n._config.TextSize+2*n._config.FramePadding.Y,n._config.TextSize)
+z.Text="-"
+z.TextXAlignment=Enum.TextXAlignment.Center
+z.ZIndex=5
+z.LayoutOrder=5
+z.Parent=x
+
+o.applyButtonClick(z,function()
+local A=o.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or o.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)
+local B=(w.arguments.Increment and getValueByIndex(w.arguments.Increment,1,w.arguments)or 1)*(A and 100 or 1)
+local C=w.state.number.value-B
+if w.arguments.Min~=nil then
+C=math.max(C,getValueByIndex(w.arguments.Min,1,w.arguments))
+end
+if w.arguments.Max~=nil then
+C=math.min(C,getValueByIndex(w.arguments.Max,1,w.arguments))
+end
+w.state.number:set(C)
+w.lastNumberChangedTick=n._cycleTick+1
+end)
+
+local A=(o.abstractButton.Generate(w))
+A.Name="AddButton"
+A.Size=UDim2.fromOffset(n._config.TextSize+2*n._config.FramePadding.Y,n._config.TextSize)
+A.Text="+"
+A.TextXAlignment=Enum.TextXAlignment.Center
+A.ZIndex=6
+A.LayoutOrder=6
+A.Parent=x
+
+o.applyButtonClick(A,function()
+local B=o.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or o.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)
+local C=(w.arguments.Increment and getValueByIndex(w.arguments.Increment,1,w.arguments)or 1)*(B and 100 or 1)
+local D=w.state.number.value+C
+if w.arguments.Min~=nil then
+D=math.max(D,getValueByIndex(w.arguments.Min,1,w.arguments))
+end
+if w.arguments.Max~=nil then
+D=math.min(D,getValueByIndex(w.arguments.Max,1,w.arguments))
+end
+w.state.number:set(D)
+w.lastNumberChangedTick=n._cycleTick+1
+end)
+
+return 2*n._config.ItemInnerSpacing.X+2*y
+end
+
+local function generateField(w,x,y,z)
+local A=Instance.new"TextBox"
+A.Name="InputField"..tostring(x)
+A.AutomaticSize=Enum.AutomaticSize.Y
+A.Size=UDim2.new(y,n._config.ContentHeight)
+A.BackgroundColor3=n._config.FrameBgColor
+A.BackgroundTransparency=n._config.FrameBgTransparency
+A.TextTruncate=Enum.TextTruncate.AtEnd
+A.ClearTextOnFocus=false
+A.ZIndex=x
+A.LayoutOrder=x
+A.ClipsDescendants=true
+
+o.applyFrameStyle(A)
+o.applyTextStyle(A)
+o.UISizeConstraint(A,Vector2.xAxis)
+
+A.FocusLost:Connect(function()
+focusLost(w,A,x,z)
+end)
+
+A.Focused:Connect(function()
+
+A.CursorPosition=#A.Text+1
+A.SelectionStart=1
+
+w.state.editingText:set(x)
+end)
+
+return A
+end
+
+function v(w,x,y)
+local z=generateAbstract("Input",w,x,y)
+
+return o.extend(z,{
+Generate=function(A)
+local B=Instance.new"Frame"
+B.Name="Iris_Input"..w
+B.AutomaticSize=Enum.AutomaticSize.Y
+B.Size=UDim2.new(n._config.ItemWidth,UDim.new())
+B.BackgroundTransparency=1
+B.BorderSizePixel=0
+
+o.UIListLayout(B,Enum.FillDirection.Horizontal,UDim.new(0,n._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+
+local C=0
+local D=n._config.TextSize+2*n._config.FramePadding.Y
+
+if x==1 then
+C=generateButtons(A,B,D)
+end
+
+
+
+
+local E=UDim.new(n._config.ContentWidth.Scale/x,(n._config.ContentWidth.Offset-(n._config.ItemInnerSpacing.X*(x-1))-C)/x)
+local F=UDim.new(E.Scale*(x-1),(E.Offset*(x-1))+(n._config.ItemInnerSpacing.X*(x-1))+C)
+local G=n._config.ContentWidth-F
+
+
+for H=1,x do
+generateField(A,H,if H==x then G else E,w).Parent=B
+end
+
+local H=Instance.new"TextLabel"
+H.Name="TextLabel"
+H.AutomaticSize=Enum.AutomaticSize.XY
+H.BackgroundTransparency=1
+H.BorderSizePixel=0
+H.LayoutOrder=7
+
+o.applyTextStyle(H)
+
+H.Parent=B
+
+return B
+end,
+UpdateState=function(A)
+local B=A.Instance
+
+for C=1,x do
+local D=B:FindFirstChild("InputField"..tostring(C))
+local E=A.arguments.Format[C]or A.arguments.Format[1]
+if A.arguments.Prefix then
+E=A.arguments.Prefix[C]..E
+end
+D.Text=string.format(E,getValueByIndex(A.state.number.value,C,A.arguments))
+end
+end,
+})
+end
+end
+
+
+
+
+local w
+local x
+do
+local y=0
+local z=false
+local A
+local B=0
+local C=""
+
+local function updateActiveDrag()
+local D=o.getMouseLocation().X
+local E=D-y
+y=D
+if z==false then
+return
+end
+if A==nil then
+return
+end
+
+local F=A.state.number
+if C=="Color3"or C=="Color4"then
+local G=A
+F=G.state.color
+if B==4 then
+F=G.state.transparency
+end
+end
+
+local G=A.arguments.Increment and getValueByIndex(A.arguments.Increment,B,A.arguments)or q[C][B]
+G*=(o.UserInputService:IsKeyDown(Enum.KeyCode.LeftShift)or o.UserInputService:IsKeyDown(Enum.KeyCode.RightShift))and 10 or 1
+G*=(o.UserInputService:IsKeyDown(Enum.KeyCode.LeftAlt)or o.UserInputService:IsKeyDown(Enum.KeyCode.RightAlt))and 0.1 or 1
+
+G*=(C=="Color3"or C=="Color4")and 5 or 1
+
+local H=getValueByIndex(F.value,B,A.arguments)
+local I=H+(E*G)
+
+if A.arguments.Min~=nil then
+I=math.max(I,getValueByIndex(A.arguments.Min,B,A.arguments))
+end
+if A.arguments.Max~=nil then
+I=math.min(I,getValueByIndex(A.arguments.Max,B,A.arguments))
+end
+
+F:set(updateValueByIndex(F.value,B,I,A.arguments))
+A.lastNumberChangedTick=n._cycleTick+1
+end
+
+local function DragMouseDown(D,E,F,G,H)
+local I=o.getTime()
+local J=I-D.lastClickedTime<n._config.MouseDoubleClickTime
+local K=o.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or o.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)
+if(J and(Vector2.new(G,H)-D.lastClickedPosition).Magnitude<n._config.MouseDoubleClickMaxDist)or K then
+D.state.editingText:set(F)
+else
+D.lastClickedTime=I
+D.lastClickedPosition=Vector2.new(G,H)
+
+z=true
+A=D
+B=F
+C=E
+updateActiveDrag()
+end
+end
+
+o.registerEvent("InputChanged",function()
+if not n._started then
+return
+end
+updateActiveDrag()
+end)
+
+o.registerEvent("InputEnded",function(D)
+if not n._started then
+return
+end
+if D.UserInputType==Enum.UserInputType.MouseButton1 and z then
+z=false
+A=nil
+B=0
+end
+end)
+
+local function generateField(D,E,F,G)
+local H=Instance.new"TextButton"
+H.Name="DragField"..tostring(E)
+H.AutomaticSize=Enum.AutomaticSize.Y
+H.Size=F
+H.BackgroundColor3=n._config.FrameBgColor
+H.BackgroundTransparency=n._config.FrameBgTransparency
+H.Text=""
+H.AutoButtonColor=false
+H.LayoutOrder=E
+H.ClipsDescendants=true
+
+o.applyFrameStyle(H)
+o.applyTextStyle(H)
+o.UISizeConstraint(H,Vector2.xAxis)
+
+H.TextXAlignment=Enum.TextXAlignment.Center
+
+o.applyInteractionHighlights("Background",H,H,{
+Color=n._config.FrameBgColor,
+Transparency=n._config.FrameBgTransparency,
+HoveredColor=n._config.FrameBgHoveredColor,
+HoveredTransparency=n._config.FrameBgHoveredTransparency,
+ActiveColor=n._config.FrameBgActiveColor,
+ActiveTransparency=n._config.FrameBgActiveTransparency,
+})
+
+local I=Instance.new"TextBox"
+I.Name="InputField"
+I.Size=UDim2.fromScale(1,1)
+I.BackgroundTransparency=1
+I.ClearTextOnFocus=false
+I.TextTruncate=Enum.TextTruncate.AtEnd
+I.ClipsDescendants=true
+I.Visible=false
+
+o.applyFrameStyle(I,true)
+o.applyTextStyle(I)
+
+I.Parent=H
+
+I.FocusLost:Connect(function()
+focusLost(D,I,E,G)
+end)
+
+I.Focused:Connect(function()
+
+I.CursorPosition=#I.Text+1
+I.SelectionStart=1
+
+D.state.editingText:set(E)
+end)
+
+o.applyButtonDown(H,function(J,K)
+DragMouseDown(D,G,E,J,K)
+end)
+
+return H
+end
+
+function w(D,E,F)
+local G=generateAbstract("Drag",D,E,F)
+
+return o.extend(G,{
+Generate=function(H)
+H.lastClickedTime=-1
+H.lastClickedPosition=Vector2.zero
+
+local I=Instance.new"Frame"
+I.Name="Iris_Drag"..D
+I.AutomaticSize=Enum.AutomaticSize.Y
+I.Size=UDim2.new(n._config.ItemWidth,UDim.new())
+I.BackgroundTransparency=1
+I.BorderSizePixel=0
+
+o.UIListLayout(I,Enum.FillDirection.Horizontal,UDim.new(0,n._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+
+local J=0
+local K=n._config.TextSize+2*n._config.FramePadding.Y
+
+if D=="Color3"or D=="Color4"then
+J+=n._config.ItemInnerSpacing.X+K
+
+local L=Instance.new"ImageLabel"
+L.Name="ColorBox"
+L.Size=UDim2.fromOffset(K,K)
+L.BorderSizePixel=0
+L.Image=o.ICONS.ALPHA_BACKGROUND_TEXTURE
+L.ImageTransparency=1
+L.LayoutOrder=5
+
+o.applyFrameStyle(L,true)
+
+L.Parent=I
+end
+
+
+
+
+local L=UDim.new(n._config.ContentWidth.Scale/E,(n._config.ContentWidth.Offset-(n._config.ItemInnerSpacing.X*(E-1))-J)/E)
+local M=UDim.new(L.Scale*(E-1),(L.Offset*(E-1))+(n._config.ItemInnerSpacing.X*(E-1))+J)
+local N=n._config.ContentWidth-M
+
+for O=1,E do
+generateField(H,O,if O==E then UDim2.new(N,n._config.ContentHeight)else UDim2.new(L,n._config.ContentHeight),D).Parent=I
+end
+
+local O=Instance.new"TextLabel"
+O.Name="TextLabel"
+O.AutomaticSize=Enum.AutomaticSize.XY
+O.BackgroundTransparency=1
+O.BorderSizePixel=0
+O.LayoutOrder=6
+
+o.applyTextStyle(O)
+
+O.Parent=I
+
+return I
+end,
+UpdateState=function(H)
+local I=H.Instance
+
+local J=H
+for K=1,E do
+local L=H.state.number
+if D=="Color3"or D=="Color4"then
+L=J.state.color
+if K==4 then
+L=J.state.transparency
+end
+end
+local M=(I:FindFirstChild("DragField"..tostring(K)))
+local N=M.InputField
+local O=getValueByIndex(L.value,K,H.arguments)
+if(D=="Color3"or D=="Color4")and not J.arguments.UseFloats then
+O=math.round(O*255)
+end
+
+local P=H.arguments.Format[K]or H.arguments.Format[1]
+if H.arguments.Prefix then
+P=H.arguments.Prefix[K]..P
+end
+M.Text=string.format(P,O)
+N.Text=tostring(O)
+
+if H.state.editingText.value==K then
+N.Visible=true
+N:CaptureFocus()
+M.TextTransparency=1
+else
+N.Visible=false
+M.TextTransparency=n._config.TextTransparency
+end
+end
+
+if D=="Color3"or D=="Color4"then
+local K=I.ColorBox
+
+K.BackgroundColor3=J.state.color.value
+
+if D=="Color4"then
+K.ImageTransparency=1-J.state.transparency.value
+end
+end
+end,
+})
+end
+
+function x(D,...)
+local E={...}
+local F=w(D,D=="Color4"and 4 or 3,E[1])
+
+return o.extend(F,{
+Args={Text=
+1,UseFloats=
+2,UseHSV=
+3,Format=
+4,
+},
+Update=function(G)
+local H=G.Instance
+local I=H.TextLabel
+I.Text=G.arguments.Text or`Drag {D}`
+
+if G.arguments.Format and typeof(G.arguments.Format)~="table"then
+G.arguments.Format={G.arguments.Format}
+elseif not G.arguments.Format then
+if G.arguments.UseFloats then
+G.arguments.Format={"%.3f"}
+else
+G.arguments.Format={"%d"}
+end
+
+G.arguments.Prefix=t[D..if G.arguments.UseHSV then"_HSV"else"_RGB"]
+end
+
+G.arguments.Min={0,0,0,0}
+G.arguments.Max={1,1,1,1}
+G.arguments.Increment={0.001,0.001,0.001,0.001}
+
+
+
+if G.state then
+G.state.color.lastChangeTick=n._cycleTick
+if D=="Color4"then
+G.state.transparency.lastChangeTick=n._cycleTick
+end
+n._widgets[G.type].UpdateState(G)
+end
+end,
+GenerateState=function(G)
+if G.state.color==nil then
+G.state.color=n._widgetState(G,"color",E[1])
+end
+if D=="Color4"then
+if G.state.transparency==nil then
+G.state.transparency=n._widgetState(G,"transparency",E[2])
+end
+end
+if G.state.editingText==nil then
+G.state.editingText=n._widgetState(G,"editingText",false)
+end
+end,
+})
+end
+end
+
+
+
+
+local y
+local z
+do
+local A=false
+local B
+local C=0
+local D=""
+
+local function updateActiveSlider()
+if A==false then
+return
+end
+if B==nil then
+return
+end
+
+local E=B.Instance
+local F=(E:FindFirstChild("SliderField"..tostring(C)))
+local G=F.GrabBar
+
+local H=B.arguments.Increment and getValueByIndex(B.arguments.Increment,C,B.arguments)or q[D][C]
+local I=B.arguments.Min and getValueByIndex(B.arguments.Min,C,B.arguments)or r[D][C]
+local J=B.arguments.Max and getValueByIndex(B.arguments.Max,C,B.arguments)or s[D][C]
+
+local K=G.AbsoluteSize.X
+local L=o.getMouseLocation().X-(F.AbsolutePosition.X-o.GuiOffset.X+K/2)
+local M=L/(F.AbsoluteSize.X-K)
+local N=math.floor((J-I)/H)
+local O=math.clamp(math.round(M*N)*H+I,I,J)
+
+B.state.number:set(updateValueByIndex(B.state.number.value,C,O,B.arguments))
+B.lastNumberChangedTick=n._cycleTick+1
+end
+
+local function SliderMouseDown(E,F,G)
+local H=o.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or o.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)
+if H then
+E.state.editingText:set(G)
+else
+A=true
+B=E
+C=G
+D=F
+updateActiveSlider()
+end
+end
+
+o.registerEvent("InputChanged",function()
+if not n._started then
+return
+end
+updateActiveSlider()
+end)
+
+o.registerEvent("InputEnded",function(E)
+if not n._started then
+return
+end
+if E.UserInputType==Enum.UserInputType.MouseButton1 and A then
+A=false
+B=nil
+C=0
+D=""
+end
+end)
+
+local function generateField(E,F,G,H)
+local I=Instance.new"TextButton"
+I.Name="SliderField"..tostring(F)
+I.AutomaticSize=Enum.AutomaticSize.Y
+I.Size=G
+I.BackgroundColor3=n._config.FrameBgColor
+I.BackgroundTransparency=n._config.FrameBgTransparency
+I.Text=""
+I.AutoButtonColor=false
+I.LayoutOrder=F
+I.ClipsDescendants=true
+
+o.applyFrameStyle(I)
+o.applyTextStyle(I)
+o.UISizeConstraint(I,Vector2.xAxis)
+
+local J=Instance.new"TextLabel"
+J.Name="OverlayText"
+J.Size=UDim2.fromScale(1,1)
+J.BackgroundTransparency=1
+J.BorderSizePixel=0
+J.ZIndex=10
+J.ClipsDescendants=true
+
+o.applyTextStyle(J)
+
+J.TextXAlignment=Enum.TextXAlignment.Center
+
+J.Parent=I
+
+o.applyInteractionHighlights("Background",I,I,{
+Color=n._config.FrameBgColor,
+Transparency=n._config.FrameBgTransparency,
+HoveredColor=n._config.FrameBgHoveredColor,
+HoveredTransparency=n._config.FrameBgHoveredTransparency,
+ActiveColor=n._config.FrameBgActiveColor,
+ActiveTransparency=n._config.FrameBgActiveTransparency,
+})
+
+local K=Instance.new"TextBox"
+K.Name="InputField"
+K.Size=UDim2.fromScale(1,1)
+K.BackgroundTransparency=1
+K.ClearTextOnFocus=false
+K.TextTruncate=Enum.TextTruncate.AtEnd
+K.ClipsDescendants=true
+K.Visible=false
+
+o.applyFrameStyle(K,true)
+o.applyTextStyle(K)
+
+K.Parent=I
+
+K.FocusLost:Connect(function()
+focusLost(E,K,F,H)
+end)
+
+K.Focused:Connect(function()
+
+K.CursorPosition=#K.Text+1
+K.SelectionStart=1
+
+E.state.editingText:set(F)
+end)
+
+o.applyButtonDown(I,function()
+SliderMouseDown(E,H,F)
+end)
+
+local L=Instance.new"Frame"
+L.Name="GrabBar"
+L.AnchorPoint=Vector2.new(0.5,0.5)
+L.Position=UDim2.fromScale(0,0.5)
+L.BackgroundColor3=n._config.SliderGrabColor
+L.Transparency=n._config.SliderGrabTransparency
+L.BorderSizePixel=0
+L.ZIndex=5
+
+o.applyInteractionHighlights("Background",I,L,{
+Color=n._config.SliderGrabColor,
+Transparency=n._config.SliderGrabTransparency,
+HoveredColor=n._config.SliderGrabColor,
+HoveredTransparency=n._config.SliderGrabTransparency,
+ActiveColor=n._config.SliderGrabActiveColor,
+ActiveTransparency=n._config.SliderGrabActiveTransparency,
+})
+
+if n._config.GrabRounding>0 then
+o.UICorner(L,n._config.GrabRounding)
+end
+
+o.UISizeConstraint(L,Vector2.new(n._config.GrabMinSize,0))
+
+L.Parent=I
+
+return I
+end
+
+function y(E,F,G)
+local H=generateAbstract("Slider",E,F,G)
+
+return o.extend(H,{
+Generate=function(I)
+local J=Instance.new"Frame"
+J.Name="Iris_Slider"..E
+J.AutomaticSize=Enum.AutomaticSize.Y
+J.Size=UDim2.new(n._config.ItemWidth,UDim.new())
+J.BackgroundTransparency=1
+J.BorderSizePixel=0
+
+o.UIListLayout(J,Enum.FillDirection.Horizontal,UDim.new(0,n._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+
+
+
+local K=UDim.new(n._config.ContentWidth.Scale/F,(n._config.ContentWidth.Offset-(n._config.ItemInnerSpacing.X*(F-1)))/F)
+local L=UDim.new(K.Scale*(F-1),(K.Offset*(F-1))+(n._config.ItemInnerSpacing.X*(F-1)))
+local M=n._config.ContentWidth-L
+
+for N=1,F do
+generateField(I,N,if N==F then UDim2.new(M,n._config.ContentHeight)else UDim2.new(K,n._config.ContentHeight),E).Parent=J
+end
+
+local N=Instance.new"TextLabel"
+N.Name="TextLabel"
+N.AutomaticSize=Enum.AutomaticSize.XY
+N.BackgroundTransparency=1
+N.BorderSizePixel=0
+N.LayoutOrder=5
+
+o.applyTextStyle(N)
+
+N.Parent=J
+
+return J
+end,
+UpdateState=function(I)
+local J=I.Instance
+
+for K=1,F do
+local L=(J:FindFirstChild("SliderField"..tostring(K)))
+local M=L.InputField
+local N=L.OverlayText
+local O=L.GrabBar
+
+local P=getValueByIndex(I.state.number.value,K,I.arguments)
+local Q=I.arguments.Format[K]or I.arguments.Format[1]
+if I.arguments.Prefix then
+Q=I.arguments.Prefix[K]..Q
+end
+
+N.Text=string.format(Q,P)
+M.Text=tostring(P)
+
+local R=I.arguments.Increment and getValueByIndex(I.arguments.Increment,K,I.arguments)or q[E][K]
+local S=I.arguments.Min and getValueByIndex(I.arguments.Min,K,I.arguments)or r[E][K]
+local T=I.arguments.Max and getValueByIndex(I.arguments.Max,K,I.arguments)or s[E][K]
+
+local U=L.AbsoluteSize.X
+local V=U-O.AbsoluteSize.X
+local W=(P-S)/(T-S)
+local X=math.floor((T-S)/R)
+local Y=math.clamp(math.floor((W*X))/X,0,1)
+local Z=((V/U)*Y)+((1-(V/U))/2)
+
+O.Position=UDim2.fromScale(Z,0.5)
+
+if I.state.editingText.value==K then
+M.Visible=true
+N.Visible=false
+O.Visible=false
+M:CaptureFocus()
+else
+M.Visible=false
+N.Visible=true
+O.Visible=true
+end
+end
+end,
+})
+end
+
+function z(E,F)
+local G=y("Enum",1,F.Value)
+local H={string}
+
+for I,J in E:GetEnumItems()do
+H[J.Value]=J.Name
+end
+
+return o.extend(G,{
+Args={Text=
+1,
+},
+Update=function(I)
+local J=I.Instance
+local K=J.TextLabel
+K.Text=I.arguments.Text or"Input Enum"
+
+I.arguments.Increment=1
+I.arguments.Min=0
+I.arguments.Max=#E:GetEnumItems()-1
+
+local L=(J:FindFirstChild"SliderField1")
+local M=L.GrabBar
+
+local N=1/math.floor(#E:GetEnumItems())
+
+M.Size=UDim2.fromScale(N,1)
+end,
+GenerateState=function(I)
+if I.state.number==nil then
+I.state.number=n._widgetState(I,"number",F.Value)
+end
+if I.state.enumItem==nil then
+I.state.enumItem=n._widgetState(I,"enumItem",F)
+end
+if I.state.editingText==nil then
+I.state.editingText=n._widgetState(I,"editingText",false)
+end
+end,
+})
+end
+end
+
+do
+local A=v("Num",1,0)
+A.Args.NoButtons=6
+n.WidgetConstructor("InputNum",A)
+end
+n.WidgetConstructor("InputVector2",v("Vector2",2,Vector2.zero))
+n.WidgetConstructor("InputVector3",v("Vector3",3,Vector3.zero))
+n.WidgetConstructor("InputUDim",v("UDim",2,UDim.new()))
+n.WidgetConstructor("InputUDim2",v("UDim2",4,UDim2.new()))
+n.WidgetConstructor("InputRect",v("Rect",4,Rect.new(0,0,0,0)))
+
+n.WidgetConstructor("DragNum",w("Num",1,0))
+n.WidgetConstructor("DragVector2",w("Vector2",2,Vector2.zero))
+n.WidgetConstructor("DragVector3",w("Vector3",3,Vector3.zero))
+n.WidgetConstructor("DragUDim",w("UDim",2,UDim.new()))
+n.WidgetConstructor("DragUDim2",w("UDim2",4,UDim2.new()))
+n.WidgetConstructor("DragRect",w("Rect",4,Rect.new(0,0,0,0)))
+
+n.WidgetConstructor("InputColor3",x("Color3",Color3.fromRGB(0,0,0)))
+n.WidgetConstructor("InputColor4",x("Color4",Color3.fromRGB(0,0,0),0))
+
+n.WidgetConstructor("SliderNum",y("Num",1,0))
+n.WidgetConstructor("SliderVector2",y("Vector2",2,Vector2.zero))
+n.WidgetConstructor("SliderVector3",y("Vector3",3,Vector3.zero))
+n.WidgetConstructor("SliderUDim",y("UDim",2,UDim.new()))
+n.WidgetConstructor("SliderUDim2",y("UDim2",4,UDim2.new()))
+n.WidgetConstructor("SliderRect",y("Rect",4,Rect.new(0,0,0,0)))
+
+
+
+n.WidgetConstructor("InputText",{
+hasState=true,
+hasChildren=false,
+Args={Text=
+1,TextHint=
+2,ReadOnly=
+3,MultiLine=
+4,
+},
+Events={textChanged=
+{Init=
+function(A)
+A.lastTextChangedTick=0
+end,Get=
+function(A)
+return A.lastTextChangedTick==n._cycleTick
+end,
+},hovered=
+o.EVENTS.hover(function(A)
+return A.Instance
+end),
+},
+Generate=function(A)
+local B=Instance.new"Frame"
+B.Name="Iris_InputText"
+B.AutomaticSize=Enum.AutomaticSize.Y
+B.Size=UDim2.new(n._config.ItemWidth,UDim.new())
+B.BackgroundTransparency=1
+B.BorderSizePixel=0
+o.UIListLayout(B,Enum.FillDirection.Horizontal,UDim.new(0,n._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+local C=Instance.new"TextBox"
+C.Name="InputField"
+C.AutomaticSize=Enum.AutomaticSize.Y
+C.Size=UDim2.new(n._config.ContentWidth,n._config.ContentHeight)
+C.BackgroundColor3=n._config.FrameBgColor
+C.BackgroundTransparency=n._config.FrameBgTransparency
+C.Text=""
+C.TextYAlignment=Enum.TextYAlignment.Top
+C.PlaceholderColor3=n._config.TextDisabledColor
+C.ClearTextOnFocus=false
+C.ClipsDescendants=true
+
+o.applyFrameStyle(C)
+o.applyTextStyle(C)
+o.UISizeConstraint(C,Vector2.xAxis)
+
+
+C.Parent=B
+
+C.FocusLost:Connect(function()
+A.state.text:set(C.Text)
+A.lastTextChangedTick=n._cycleTick+1
+end)
+
+local D=n._config.TextSize+2*n._config.FramePadding.Y
+
+local E=Instance.new"TextLabel"
+E.Name="TextLabel"
+E.AutomaticSize=Enum.AutomaticSize.X
+E.Size=UDim2.fromOffset(0,D)
+E.BackgroundTransparency=1
+E.BorderSizePixel=0
+E.LayoutOrder=1
+
+o.applyTextStyle(E)
+
+E.Parent=B
+
+return B
+end,
+GenerateState=function(A)
+if A.state.text==nil then
+A.state.text=n._widgetState(A,"text","")
+end
+end,
+Update=function(A)
+local B=A.Instance
+local C=B.TextLabel
+local D=B.InputField
+
+C.Text=A.arguments.Text or"Input Text"
+D.PlaceholderText=A.arguments.TextHint or""
+D.TextEditable=not A.arguments.ReadOnly
+D.MultiLine=A.arguments.MultiLine or false
+end,
+UpdateState=function(A)
+local B=A.Instance
+local C=B.InputField
+
+C.Text=A.state.text.value
+end,
+Discard=function(A)
+A.Instance:Destroy()
+o.discardState(A)
+end,
+})
+end
+end)()
+
+local n=(function()
+
+local n=a
+
+return function(o,p)
+
+o.WidgetConstructor("Selectable",{
+hasState=true,
+hasChildren=false,
+Args={Text=
+1,Index=
+2,NoClick=
+3,
+},
+Events={selected=
+{Init=
+function(q)end,Get=
+function(q)
+return q.lastSelectedTick==o._cycleTick
+end,
+},unselected=
+{Init=
+function(q)end,Get=
+function(q)
+return q.lastUnselectedTick==o._cycleTick
+end,
+},active=
+{Init=
+function(q)end,Get=
+function(q)
+return q.state.index.value==q.arguments.Index
+end,
+},clicked=
+p.EVENTS.click(function(q)
+local r=q.Instance
+return r.SelectableButton
+end),rightClicked=
+p.EVENTS.rightClick(function(q)
+local r=q.Instance
+return r.SelectableButton
+end),doubleClicked=
+p.EVENTS.doubleClick(function(q)
+local r=q.Instance
+return r.SelectableButton
+end),ctrlClicked=
+p.EVENTS.ctrlClick(function(q)
+local r=q.Instance
+return r.SelectableButton
+end),hovered=
+p.EVENTS.hover(function(q)
+local r=q.Instance
+return r.SelectableButton
+end),
+},
+Generate=function(q)
+local r=Instance.new"Frame"
+r.Name="Iris_Selectable"
+r.Size=UDim2.new(o._config.ItemWidth,UDim.new(0,o._config.TextSize+2*o._config.FramePadding.Y-o._config.ItemSpacing.Y))
+r.BackgroundTransparency=1
+r.BorderSizePixel=0
+
+local s=Instance.new"TextButton"
+s.Name="SelectableButton"
+s.Size=UDim2.new(1,0,0,o._config.TextSize+2*o._config.FramePadding.Y)
+s.Position=UDim2.fromOffset(0,-bit32.rshift(o._config.ItemSpacing.Y,1))
+s.BackgroundColor3=o._config.HeaderColor
+s.ClipsDescendants=true
+
+p.applyFrameStyle(s)
+p.applyTextStyle(s)
+p.UISizeConstraint(s,Vector2.xAxis)
+
+q.ButtonColors={
+Color=o._config.HeaderColor,
+Transparency=1,
+HoveredColor=o._config.HeaderHoveredColor,
+HoveredTransparency=o._config.HeaderHoveredTransparency,
+ActiveColor=o._config.HeaderActiveColor,
+ActiveTransparency=o._config.HeaderActiveTransparency,
+}
+
+p.applyInteractionHighlights("Background",s,s,q.ButtonColors)
+
+p.applyButtonClick(s,function()
+if q.arguments.NoClick~=true then
+if type(q.state.index.value)=="boolean"then
+q.state.index:set(not q.state.index.value)
+else
+q.state.index:set(q.arguments.Index)
+end
+end
+end)
+
+s.Parent=r
+
+return r
+end,
+GenerateState=function(q)
+if q.state.index==nil then
+if q.arguments.Index~=nil then
+error("A shared state index is required for Iris.Selectables() with an Index argument.",5)
+end
+q.state.index=o._widgetState(q,"index",false)
+end
+end,
+Update=function(q)
+local r=q.Instance
+local s=r.SelectableButton
+s.Text=q.arguments.Text or"Selectable"
+end,
+UpdateState=function(q)
+local r=q.Instance
+local s=r.SelectableButton
+
+if q.state.index.value==q.arguments.Index or q.state.index.value==true then
+q.ButtonColors.Transparency=o._config.HeaderTransparency
+s.BackgroundTransparency=o._config.HeaderTransparency
+q.lastSelectedTick=o._cycleTick+1
+else
+q.ButtonColors.Transparency=1
+s.BackgroundTransparency=1
+q.lastUnselectedTick=o._cycleTick+1
+end
+end,
+Discard=function(q)
+q.Instance:Destroy()
+p.discardState(q)
+end,
+})
+
+local q=false
+local r=-1
+local s
+local t=0
+
+local function UpdateChildContainerTransform(u)
+local v=u.Instance
+local w=v.PreviewContainer
+local x=u.ChildContainer
+
+local y=w.AbsolutePosition-p.GuiOffset
+local z=w.AbsoluteSize
+local A=o._config.PopupBorderSize
+local B=x.Parent.AbsoluteSize
+
+local C=u.UIListLayout.AbsoluteContentSize.Y
+t=C
+
+local D=C+2*o._config.WindowPadding.Y
+
+local E=y.X
+local F=y.Y+z.Y+A
+local G=Vector2.zero
+local H=B.Y-F
+
+
+
+if D>H and F>(B.Y/2)then
+F=y.Y-A
+G=Vector2.yAxis
+H=F
+end
+
+x.AnchorPoint=G
+x.Position=UDim2.fromOffset(E,F)
+
+local I=math.min(D,H)
+x.Size=UDim2.fromOffset(w.AbsoluteSize.X,I)
+end
+
+table.insert(o._postCycleCallbacks,function()
+if q and s then
+local u=s.UIListLayout.AbsoluteContentSize.Y
+if u~=t then
+UpdateChildContainerTransform(s)
+end
+end
+end)
+
+local function UpdateComboState(u)
+if not o._started then
+return
+end
+if u.UserInputType~=Enum.UserInputType.MouseButton1 and u.UserInputType~=Enum.UserInputType.MouseButton2 and u.UserInputType~=Enum.UserInputType.Touch and u.UserInputType~=Enum.UserInputType.MouseWheel then
+return
+end
+if q==false or not s then
+return
+end
+if r==o._cycleTick then
+return
+end
+
+local v=p.getMouseLocation()
+local w=s.Instance
+local x=w.PreviewContainer
+local y=s.ChildContainer
+local z=x.AbsolutePosition-p.GuiOffset
+local A=x.AbsolutePosition-p.GuiOffset+x.AbsoluteSize
+if p.isPosInsideRect(v,z,A)then
+return
+end
+
+z=y.AbsolutePosition-p.GuiOffset
+A=y.AbsolutePosition-p.GuiOffset+y.AbsoluteSize
+if p.isPosInsideRect(v,z,A)then
+return
+end
+
+s.state.isOpened:set(false)
+end
+
+p.registerEvent("InputBegan",UpdateComboState)
+
+p.registerEvent("InputChanged",UpdateComboState)
+
+
+o.WidgetConstructor("Combo",{
+hasState=true,
+hasChildren=true,
+Args={Text=
+1,NoButton=
+2,NoPreview=
+3,
+},
+Events={opened=
+{Init=
+function(u)end,Get=
+function(u)
+return u.lastOpenedTick==o._cycleTick
+end,
+},closed=
+{Init=
+function(u)end,Get=
+function(u)
+return u.lastClosedTick==o._cycleTick
+end,
+},changed=
+{Init=
+function(u)end,Get=
+function(u)
+return u.lastChangedTick==o._cycleTick
+end,
+},clicked=
+p.EVENTS.click(function(u)
+local v=u.Instance
+return v.PreviewContainer
+end),hovered=
+p.EVENTS.hover(function(u)
+return u.Instance
+end),
+},
+Generate=function(u)
+local v=o._config.TextSize+2*o._config.FramePadding.Y
+
+local w=Instance.new"Frame"
+w.Name="Iris_Combo"
+w.AutomaticSize=Enum.AutomaticSize.Y
+w.Size=UDim2.new(o._config.ItemWidth,UDim.new())
+w.BackgroundTransparency=1
+w.BorderSizePixel=0
+
+p.UIListLayout(w,Enum.FillDirection.Horizontal,UDim.new(0,o._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+local x=Instance.new"TextButton"
+x.Name="PreviewContainer"
+x.AutomaticSize=Enum.AutomaticSize.Y
+x.Size=UDim2.new(o._config.ContentWidth,UDim.new(0,0))
+x.BackgroundTransparency=1
+x.Text=""
+x.AutoButtonColor=false
+x.ZIndex=2
+
+p.applyFrameStyle(x,true)
+p.UIListLayout(x,Enum.FillDirection.Horizontal,UDim.new(0,0))
+p.UISizeConstraint(x,Vector2.new(v))
+
+x.Parent=w
+
+local y=Instance.new"TextLabel"
+y.Name="PreviewLabel"
+y.AutomaticSize=Enum.AutomaticSize.Y
+y.Size=UDim2.new(UDim.new(1,0),o._config.ContentHeight)
+y.BackgroundColor3=o._config.FrameBgColor
+y.BackgroundTransparency=o._config.FrameBgTransparency
+y.BorderSizePixel=0
+y.ClipsDescendants=true
+
+p.applyTextStyle(y)
+p.UIPadding(y,o._config.FramePadding)
+
+y.Parent=x
+
+local z=Instance.new"TextLabel"
+z.Name="DropdownButton"
+z.Size=UDim2.new(0,v,o._config.ContentHeight.Scale,math.max(o._config.ContentHeight.Offset,v))
+z.BackgroundColor3=o._config.ButtonColor
+z.BackgroundTransparency=o._config.ButtonTransparency
+z.BorderSizePixel=0
+z.Text=""
+
+local A=math.round(v*0.2)
+local B=v-2*A
+
+local C=Instance.new"ImageLabel"
+C.Name="Dropdown"
+C.AnchorPoint=Vector2.new(0.5,0.5)
+C.Size=UDim2.fromOffset(B,B)
+C.Position=UDim2.fromScale(0.5,0.5)
+C.BackgroundTransparency=1
+C.BorderSizePixel=0
+C.ImageColor3=o._config.TextColor
+C.ImageTransparency=o._config.TextTransparency
+
+C.Parent=z
+
+z.Parent=x
+
+
+
+p.applyInteractionHighlightsWithMultiHighlightee("Background",x,{
+{
+y,
+{
+Color=o._config.FrameBgColor,
+Transparency=o._config.FrameBgTransparency,
+HoveredColor=o._config.FrameBgHoveredColor,
+HoveredTransparency=o._config.FrameBgHoveredTransparency,
+ActiveColor=o._config.FrameBgActiveColor,
+ActiveTransparency=o._config.FrameBgActiveTransparency,
+},
+},
+{
+z,
+{
+Color=o._config.ButtonColor,
+Transparency=o._config.ButtonTransparency,
+HoveredColor=o._config.ButtonHoveredColor,
+HoveredTransparency=o._config.ButtonHoveredTransparency,
+
+ActiveColor=o._config.ButtonHoveredColor,
+ActiveTransparency=o._config.ButtonHoveredTransparency,
+},
+},
+})
+
+p.applyButtonClick(x,function()
+if q and s~=u then
+return
+end
+u.state.isOpened:set(not u.state.isOpened.value)
+end)
+
+local D=Instance.new"TextLabel"
+D.Name="TextLabel"
+D.AutomaticSize=Enum.AutomaticSize.X
+D.Size=UDim2.fromOffset(0,v)
+D.BackgroundTransparency=1
+D.BorderSizePixel=0
+
+p.applyTextStyle(D)
+
+D.Parent=w
+
+local E=Instance.new"ScrollingFrame"
+E.Name="ComboContainer"
+E.BackgroundColor3=o._config.PopupBgColor
+E.BackgroundTransparency=o._config.PopupBgTransparency
+E.BorderSizePixel=0
+
+E.AutomaticCanvasSize=Enum.AutomaticSize.Y
+E.ScrollBarImageTransparency=o._config.ScrollbarGrabTransparency
+E.ScrollBarImageColor3=o._config.ScrollbarGrabColor
+E.ScrollBarThickness=o._config.ScrollbarSize
+E.CanvasSize=UDim2.fromScale(0,0)
+E.VerticalScrollBarInset=Enum.ScrollBarInset.ScrollBar
+E.TopImage=p.ICONS.BLANK_SQUARE
+E.MidImage=p.ICONS.BLANK_SQUARE
+E.BottomImage=p.ICONS.BLANK_SQUARE
+
+
+E.ClipsDescendants=true
+
+
+
+
+
+
+p.UIStroke(E,o._config.WindowBorderSize,o._config.BorderColor,o._config.BorderTransparency)
+p.UIPadding(E,Vector2.new(2,o._config.WindowPadding.Y))
+p.UISizeConstraint(E,Vector2.new(100))
+
+local F=p.UIListLayout(E,Enum.FillDirection.Vertical,UDim.new(0,o._config.ItemSpacing.Y))
+F.VerticalAlignment=Enum.VerticalAlignment.Top
+
+local G=o._rootInstance and(o._rootInstance:WaitForChild"PopupScreenGui")
+E.Parent=G
+
+u.ChildContainer=E
+u.UIListLayout=F
+return w
+end,
+GenerateState=function(u)
+if u.state.index==nil then
+u.state.index=o._widgetState(u,"index","No Selection")
+end
+if u.state.isOpened==nil then
+u.state.isOpened=o._widgetState(u,"isOpened",false)
+end
+
+u.state.index:onChange(function()
+u.lastChangedTick=o._cycleTick+1
+if u.state.isOpened.value then
+u.state.isOpened:set(false)
+end
+end)
+end,
+Update=function(u)
+local v=u.Instance
+local w=v.PreviewContainer
+local x=w.PreviewLabel
+local y=w.DropdownButton
+local z=v.TextLabel
+
+z.Text=u.arguments.Text or"Combo"
+
+if u.arguments.NoButton then
+y.Visible=false
+x.Size=UDim2.new(UDim.new(1,0),x.Size.Height)
+else
+y.Visible=true
+local A=o._config.TextSize+2*o._config.FramePadding.Y
+x.Size=UDim2.new(UDim.new(1,-A),x.Size.Height)
+end
+
+if u.arguments.NoPreview then
+x.Visible=false
+w.Size=UDim2.new(0,0,0,0)
+w.AutomaticSize=Enum.AutomaticSize.XY
+else
+x.Visible=true
+w.Size=UDim2.new(o._config.ContentWidth,o._config.ContentHeight)
+w.AutomaticSize=Enum.AutomaticSize.Y
+end
+end,
+UpdateState=function(u)
+local v=u.Instance
+local w=u.ChildContainer
+local x=v.PreviewContainer
+local y=x.PreviewLabel
+local z=x.DropdownButton
+local A=z.Dropdown
+
+if u.state.isOpened.value then
+q=true
+s=u
+r=o._cycleTick
+u.lastOpenedTick=o._cycleTick+1
+
+
+A.Image=p.ICONS.RIGHT_POINTING_TRIANGLE
+w.Visible=true
+
+UpdateChildContainerTransform(u)
+else
+if q then
+q=false
+s=nil
+u.lastClosedTick=o._cycleTick+1
+end
+A.Image=p.ICONS.DOWN_POINTING_TRIANGLE
+w.Visible=false
+end
+
+local B=u.state.index.value
+y.Text=if typeof(B)=="EnumItem"then B.Name else tostring(B)
+end,
+ChildAdded=function(u,v)
+UpdateChildContainerTransform(u)
+return u.ChildContainer
+end,
+Discard=function(u)
+
+if s and s==u then
+s=nil
+q=false
+end
+
+u.Instance:Destroy()
+u.ChildContainer:Destroy()
+p.discardState(u)
+end,
+})
+end
+end)()
+
+local o=(function()
+
+local o=a
+
+return function(p,q)
+local r={
+hasState=true,
+hasChildren=true,
+Events={collapsed=
+{Init=
+function(r)end,Get=
+function(r)
+return r.lastCollapsedTick==p._cycleTick
+end,
+},uncollapsed=
+{Init=
+function(r)end,Get=
+function(r)
+return r.lastUncollapsedTick==p._cycleTick
+end,
+},hovered=
+q.EVENTS.hover(function(r)
+return r.Instance
+end),
+},
+Discard=function(r)
+r.Instance:Destroy()
+q.discardState(r)
+end,
+ChildAdded=function(r,s)
+local t=r.ChildContainer
+
+t.Visible=r.state.isUncollapsed.value
+
+return t
+end,
+UpdateState=function(r)
+local s=r.state.isUncollapsed.value
+local t=r.Instance
+local u=r.ChildContainer
+local v=t.Header
+local w=v.Button
+local x=w.Arrow
+
+x.Image=(s and q.ICONS.DOWN_POINTING_TRIANGLE or q.ICONS.RIGHT_POINTING_TRIANGLE)
+if s then
+r.lastUncollapsedTick=p._cycleTick+1
+else
+r.lastCollapsedTick=p._cycleTick+1
+end
+
+u.Visible=s
+end,
+GenerateState=function(r)
+if r.state.isUncollapsed==nil then
+r.state.isUncollapsed=p._widgetState(r,"isUncollapsed",r.arguments.DefaultOpen or false)
+end
+end,
+}
+
+
+p.WidgetConstructor(
+"Tree",
+q.extend(r,{
+Args={Text=
+1,SpanAvailWidth=
+2,NoIndent=
+3,DefaultOpen=
+4,
+},
+Generate=function(s)
+local t=Instance.new"Frame"
+t.Name="Iris_Tree"
+t.AutomaticSize=Enum.AutomaticSize.Y
+t.Size=UDim2.new(p._config.ItemWidth,UDim.new(0,0))
+t.BackgroundTransparency=1
+t.BorderSizePixel=0
+
+q.UIListLayout(t,Enum.FillDirection.Vertical,UDim.new(0,0))
+
+local u=Instance.new"Frame"
+u.Name="TreeContainer"
+u.AutomaticSize=Enum.AutomaticSize.Y
+u.Size=UDim2.fromScale(1,0)
+u.BackgroundTransparency=1
+u.BorderSizePixel=0
+u.LayoutOrder=1
+u.Visible=false
+
+
+q.UIListLayout(u,Enum.FillDirection.Vertical,UDim.new(0,p._config.ItemSpacing.Y))
+q.UIPadding(u,Vector2.zero).PaddingTop=UDim.new(0,p._config.ItemSpacing.Y)
+
+u.Parent=t
+
+local v=Instance.new"Frame"
+v.Name="Header"
+v.AutomaticSize=Enum.AutomaticSize.Y
+v.Size=UDim2.fromScale(1,0)
+v.BackgroundTransparency=1
+v.BorderSizePixel=0
+v.Parent=t
+
+local w=Instance.new"TextButton"
+w.Name="Button"
+w.BackgroundTransparency=1
+w.BorderSizePixel=0
+w.Text=""
+w.AutoButtonColor=false
+
+q.applyInteractionHighlights("Background",w,v,{
+Color=Color3.fromRGB(0,0,0),
+Transparency=1,
+HoveredColor=p._config.HeaderHoveredColor,
+HoveredTransparency=p._config.HeaderHoveredTransparency,
+ActiveColor=p._config.HeaderActiveColor,
+ActiveTransparency=p._config.HeaderActiveTransparency,
+})
+
+q.UIPadding(w,Vector2.zero).PaddingLeft=UDim.new(0,p._config.FramePadding.X)
+q.UIListLayout(w,Enum.FillDirection.Horizontal,UDim.new(0,p._config.FramePadding.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+w.Parent=v
+
+local x=Instance.new"ImageLabel"
+x.Name="Arrow"
+x.Size=UDim2.fromOffset(p._config.TextSize,math.floor(p._config.TextSize*0.7))
+x.BackgroundTransparency=1
+x.BorderSizePixel=0
+x.ImageColor3=p._config.TextColor
+x.ImageTransparency=p._config.TextTransparency
+x.ScaleType=Enum.ScaleType.Fit
+
+x.Parent=w
+
+local y=Instance.new"TextLabel"
+y.Name="TextLabel"
+y.AutomaticSize=Enum.AutomaticSize.XY
+y.Size=UDim2.fromOffset(0,0)
+y.BackgroundTransparency=1
+y.BorderSizePixel=0
+
+q.UIPadding(y,Vector2.zero).PaddingRight=UDim.new(0,21)
+q.applyTextStyle(y)
+
+y.Parent=w
+
+q.applyButtonClick(w,function()
+s.state.isUncollapsed:set(not s.state.isUncollapsed.value)
+end)
+
+s.ChildContainer=u
+return t
+end,
+Update=function(s)
+local t=s.Instance
+local u=s.ChildContainer
+local v=t.Header
+local w=v.Button
+local x=w.TextLabel
+local y=u.UIPadding
+
+x.Text=s.arguments.Text or"Tree"
+if s.arguments.SpanAvailWidth then
+w.AutomaticSize=Enum.AutomaticSize.Y
+w.Size=UDim2.fromScale(1,0)
+else
+w.AutomaticSize=Enum.AutomaticSize.XY
+w.Size=UDim2.fromScale(0,0)
+end
+
+if s.arguments.NoIndent then
+y.PaddingLeft=UDim.new(0,0)
+else
+y.PaddingLeft=UDim.new(0,p._config.IndentSpacing)
+end
+end,
+})
+)
+
+
+p.WidgetConstructor(
+"CollapsingHeader",
+q.extend(r,{
+Args={Text=
+1,DefaultOpen=
+2
+},
+Generate=function(s)
+local t=Instance.new"Frame"
+t.Name="Iris_CollapsingHeader"
+t.AutomaticSize=Enum.AutomaticSize.Y
+t.Size=UDim2.new(p._config.ItemWidth,UDim.new(0,0))
+t.BackgroundTransparency=1
+t.BorderSizePixel=0
+
+q.UIListLayout(t,Enum.FillDirection.Vertical,UDim.new(0,0))
+
+local u=Instance.new"Frame"
+u.Name="CollapsingHeaderContainer"
+u.AutomaticSize=Enum.AutomaticSize.Y
+u.Size=UDim2.fromScale(1,0)
+u.BackgroundTransparency=1
+u.BorderSizePixel=0
+u.LayoutOrder=1
+u.Visible=false
+
+
+q.UIListLayout(u,Enum.FillDirection.Vertical,UDim.new(0,p._config.ItemSpacing.Y))
+q.UIPadding(u,Vector2.zero).PaddingTop=UDim.new(0,p._config.ItemSpacing.Y)
+
+u.Parent=t
+
+local v=Instance.new"Frame"
+v.Name="Header"
+v.AutomaticSize=Enum.AutomaticSize.Y
+v.Size=UDim2.fromScale(1,0)
+v.BackgroundTransparency=1
+v.BorderSizePixel=0
+v.Parent=t
+
+local w=Instance.new"TextButton"
+w.Name="Button"
+w.AutomaticSize=Enum.AutomaticSize.Y
+w.Size=UDim2.fromScale(1,0)
+w.BackgroundColor3=p._config.HeaderColor
+w.BackgroundTransparency=p._config.HeaderTransparency
+w.BorderSizePixel=0
+w.Text=""
+w.AutoButtonColor=false
+w.ClipsDescendants=true
+
+q.UIPadding(w,p._config.FramePadding)
+q.applyFrameStyle(w,true)
+q.UIListLayout(w,Enum.FillDirection.Horizontal,UDim.new(0,2*p._config.FramePadding.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+q.applyInteractionHighlights("Background",w,w,{
+Color=p._config.HeaderColor,
+Transparency=p._config.HeaderTransparency,
+HoveredColor=p._config.HeaderHoveredColor,
+HoveredTransparency=p._config.HeaderHoveredTransparency,
+ActiveColor=p._config.HeaderActiveColor,
+ActiveTransparency=p._config.HeaderActiveTransparency,
+})
+
+w.Parent=v
+
+local x=Instance.new"ImageLabel"
+x.Name="Arrow"
+x.AutomaticSize=Enum.AutomaticSize.Y
+x.Size=UDim2.fromOffset(p._config.TextSize,math.ceil(p._config.TextSize*0.8))
+x.BackgroundTransparency=1
+x.BorderSizePixel=0
+x.ImageColor3=p._config.TextColor
+x.ImageTransparency=p._config.TextTransparency
+x.ScaleType=Enum.ScaleType.Fit
+
+x.Parent=w
+
+local y=Instance.new"TextLabel"
+y.Name="TextLabel"
+y.AutomaticSize=Enum.AutomaticSize.XY
+y.Size=UDim2.fromOffset(0,0)
+y.BackgroundTransparency=1
+y.BorderSizePixel=0
+
+q.UIPadding(y,Vector2.zero).PaddingRight=UDim.new(0,21)
+q.applyTextStyle(y)
+
+y.Parent=w
+
+q.applyButtonClick(w,function()
+s.state.isUncollapsed:set(not s.state.isUncollapsed.value)
+end)
+
+s.ChildContainer=u
+return t
+end,
+Update=function(s)
+local t=s.Instance
+local u=t.Header
+local v=u.Button
+local w=v.TextLabel
+
+w.Text=s.arguments.Text or"Collapsing Header"
+end,
+})
+)
+end
+end)()
+
+local p=(function()
+
+local p=a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return function(q,r)
+local s={}
+local t={}
+local u=false
+local v
+local w=0
+local x=-1
+local y=-1
+local z=0
+
+local function CalculateMinColumnWidth(A,B)
+local C=0
+for D,E in A._cellInstances do
+local F=E[B]
+for G,H in F:GetChildren()do
+if H:IsA"GuiObject"then
+C=math.max(C,H.AbsoluteSize.X)
+end
+end
+end
+
+A._minWidths[B]=C+2*q._config.CellPadding.X
+end
+
+table.insert(q._postCycleCallbacks,function()
+for A,B in s do
+for C,D in B._rowCycles do
+if D<q._cycleTick-1 then
+local E=B._rowInstances[C]
+local F=B._rowBorders[C-1]
+if E~=nil then
+E:Destroy()
+end
+if F~=nil then
+F:Destroy()
+end
+B._rowInstances[C]=nil
+B._rowBorders[C-1]=nil
+B._cellInstances[C]=nil
+B._rowCycles[C]=nil
+end
+end
+
+B._rowIndex=1
+B._columnIndex=1
+
+
+local C=B.Instance
+local D=C.BorderContainer
+D.Size=UDim2.new(1,0,0,B._rowContainer.AbsoluteSize.Y)
+B._columnBorders[0].Size=UDim2.fromOffset(5,B._rowContainer.AbsoluteSize.Y)
+end
+
+for A,B in t do
+local C=false
+for D,E in B do
+CalculateMinColumnWidth(A,D)
+C=true
+end
+if C then
+table.clear(B)
+q._widgets.Table.UpdateState(A)
+end
+end
+end)
+
+local function UpdateActiveColumn()
+if u==false or v==nil then
+return
+end
+
+local A=v.state.widths
+local B=v.arguments.NumColumns
+local C=v.Instance
+local D=C.BorderContainer
+local E=v.arguments.FixedWidth
+local F=2*q._config.CellPadding.X
+
+if x==-1 then
+x=A.value[w]
+if x==0 then
+x=F/C.AbsoluteSize.X
+end
+y=A.value[w+1]or-1
+if y==0 then
+y=F/C.AbsoluteSize.X
+end
+end
+
+local G=C.AbsolutePosition.X
+local H
+
+local I
+if w==1 then
+H=0
+else
+H=math.floor(D:FindFirstChild(`Border_{w-1}`).AbsolutePosition.X+3-G)
+end
+if w>=B-1 then
+I=C.AbsoluteSize.X
+else
+I=math.floor(D:FindFirstChild(`Border_{w+1}`).AbsolutePosition.X+3-G)
+end
+
+local J=G-r.GuiOffset.X
+local K=math.clamp(r.getMouseLocation().X,H+J+F,I+J-F)-z
+local L=(z-J)-H
+local M=x/L
+
+if E then
+A.value[w]=math.clamp(math.round(x+K),F,C.AbsoluteSize.X-H)
+else
+local N=M*K
+A.value[w]=math.clamp(x+N,0,(I-H-F)/C.AbsoluteSize.X)
+if w<B then
+A.value[w+1]=math.clamp(y-N,0,1)
+end
+end
+
+A:set(A.value,true)
+end
+
+local function ColumnMouseDown(A,B)
+u=true
+v=A
+w=B
+x=-1
+y=-1
+z=r.getMouseLocation().X
+end
+
+r.registerEvent("InputChanged",function()
+if not q._started then
+return
+end
+UpdateActiveColumn()
+end)
+
+r.registerEvent("InputEnded",function(A)
+if not q._started then
+return
+end
+if A.UserInputType==Enum.UserInputType.MouseButton1 and u then
+u=false
+v=nil
+w=0
+x=-1
+y=-1
+z=0
+end
+end)
+
+local function GenerateCell(A,B,C,D)
+local E
+if D then
+E=Instance.new"TextButton"
+E.Text=""
+E.AutoButtonColor=false
+else
+E=((Instance.new"Frame"))
+end
+E.Name=`Cell_{B}`
+E.AutomaticSize=Enum.AutomaticSize.Y
+E.Size=UDim2.new(C,UDim.new())
+E.BackgroundTransparency=1
+E.ZIndex=B
+E.LayoutOrder=B
+E.ClipsDescendants=true
+
+if D then
+r.applyInteractionHighlights("Background",E,E,{
+Color=q._config.HeaderColor,
+Transparency=1,
+HoveredColor=q._config.HeaderHoveredColor,
+HoveredTransparency=q._config.HeaderHoveredTransparency,
+ActiveColor=q._config.HeaderActiveColor,
+ActiveTransparency=q._config.HeaderActiveTransparency,
+})
+end
+
+r.UIPadding(E,q._config.CellPadding)
+r.UIListLayout(E,Enum.FillDirection.Vertical,UDim.new())
+r.UISizeConstraint(E,Vector2.new(2*q._config.CellPadding.X,0))
+
+return E
+end
+
+local function GenerateColumnBorder(A,B,C)
+local D=Instance.new"ImageButton"
+D.Name=`Border_{B}`
+D.Size=UDim2.new(0,5,1,0)
+D.BackgroundTransparency=1
+D.Image=""
+D.ImageTransparency=1
+D.AutoButtonColor=false
+D.ZIndex=B
+D.LayoutOrder=2*B
+
+local E=if B==A.arguments.NumColumns then 3 else 2
+
+local F=Instance.new"Frame"
+F.Name="Line"
+F.Size=UDim2.new(0,1,1,0)
+F.Position=UDim2.fromOffset(E,0)
+F.BackgroundColor3=q._config[`TableBorder{C}Color`]
+F.BackgroundTransparency=q._config[`TableBorder{C}Transparency`]
+F.BorderSizePixel=0
+
+F.Parent=D
+
+local G=Instance.new"Frame"
+G.Name="Hover"
+G.Position=UDim2.fromOffset(E,0)
+G.Size=UDim2.new(0,1,1,0)
+G.BackgroundColor3=q._config[`TableBorder{C}Color`]
+G.BackgroundTransparency=q._config[`TableBorder{C}Transparency`]
+G.BorderSizePixel=0
+
+G.Visible=A.arguments.Resizable
+
+G.Parent=D
+
+r.applyInteractionHighlights("Background",D,G,{
+Color=q._config.ResizeGripColor,
+Transparency=1,
+HoveredColor=q._config.ResizeGripHoveredColor,
+HoveredTransparency=q._config.ResizeGripHoveredTransparency,
+ActiveColor=q._config.ResizeGripActiveColor,
+ActiveTransparency=q._config.ResizeGripActiveTransparency,
+})
+
+r.applyButtonDown(D,function()
+if A.arguments.Resizable then
+ColumnMouseDown(A,B)
+end
+end)
+
+return D
+end
+
+
+local function GenerateRow(A,B)
+local C=Instance.new"Frame"
+C.Name=`Row_{B}`
+C.AutomaticSize=Enum.AutomaticSize.Y
+C.Size=UDim2.fromScale(1,0)
+if B==0 then
+C.BackgroundColor3=q._config.TableHeaderColor
+C.BackgroundTransparency=q._config.TableHeaderTransparency
+elseif A.arguments.RowBackground==true then
+if(B%2)==0 then
+C.BackgroundColor3=q._config.TableRowBgAltColor
+C.BackgroundTransparency=q._config.TableRowBgAltTransparency
+else
+C.BackgroundColor3=q._config.TableRowBgColor
+C.BackgroundTransparency=q._config.TableRowBgTransparency
+end
+else
+C.BackgroundTransparency=1
+end
+C.BorderSizePixel=0
+C.ZIndex=2*B-1
+C.LayoutOrder=2*B-1
+C.ClipsDescendants=true
+
+r.UIListLayout(C,Enum.FillDirection.Horizontal,UDim.new())
+
+A._cellInstances[B]=table.create(A.arguments.NumColumns)
+for D=1,A.arguments.NumColumns do
+local E=GenerateCell(A,D,A._widths[D],B==0)
+E.Parent=C
+A._cellInstances[B][D]=E
+end
+
+A._rowInstances[B]=C
+
+return C
+end
+
+local function GenerateRowBorder(A,B,C)
+local D=Instance.new"Frame"
+D.Name=`Border_{B}`
+D.Size=UDim2.fromScale(1,0)
+D.BackgroundTransparency=1
+D.ZIndex=2*B
+D.LayoutOrder=2*B
+
+local E=Instance.new"Frame"
+E.Name="Line"
+E.AnchorPoint=Vector2.new(0,0.5)
+E.Size=UDim2.new(1,0,0,1)
+E.BackgroundColor3=q._config[`TableBorder{C}Color`]
+E.BackgroundTransparency=q._config[`TableBorder{C}Transparency`]
+E.BorderSizePixel=0
+
+E.Parent=D
+
+return D
+end
+
+
+q.WidgetConstructor("Table",{
+hasState=true,
+hasChildren=true,
+Args={
+NumColumns=1,
+Header=2,
+RowBackground=3,
+OuterBorders=4,
+InnerBorders=5,
+Resizable=6,
+FixedWidth=7,
+ProportionalWidth=8,
+LimitTableWidth=9,
+},
+Events={},
+Generate=function(A)
+s[A.ID]=A
+t[A]={}
+
+local B=Instance.new"Frame"
+B.Name="Iris_Table"
+B.AutomaticSize=Enum.AutomaticSize.Y
+B.Size=UDim2.fromScale(1,0)
+B.BackgroundTransparency=1
+
+local C=Instance.new"Frame"
+C.Name="RowContainer"
+C.AutomaticSize=Enum.AutomaticSize.Y
+C.Size=UDim2.fromScale(1,0)
+C.BackgroundTransparency=1
+C.ZIndex=1
+
+r.UISizeConstraint(C)
+r.UIListLayout(C,Enum.FillDirection.Vertical,UDim.new())
+
+C.Parent=B
+A._rowContainer=C
+
+local D=Instance.new"Frame"
+D.Name="BorderContainer"
+D.Size=UDim2.fromScale(1,1)
+D.BackgroundTransparency=1
+D.ZIndex=2
+D.ClipsDescendants=true
+
+r.UISizeConstraint(D)
+r.UIListLayout(D,Enum.FillDirection.Horizontal,UDim.new())
+r.UIStroke(D,1,q._config.TableBorderStrongColor,q._config.TableBorderStrongTransparency)
+
+D.Parent=B
+
+A._columnIndex=1
+A._rowIndex=1
+A._rowInstances={}
+A._cellInstances={}
+A._rowBorders={}
+A._columnBorders={}
+A._rowCycles={}
+
+local E=#q._postCycleCallbacks+1
+local F=q._cycleTick+1
+q._postCycleCallbacks[E]=function()
+if q._cycleTick>=F then
+if A.lastCycleTick~=-1 then
+A.state.widths.lastChangeTick=q._cycleTick
+q._widgets.Table.UpdateState(A)
+end
+q._postCycleCallbacks[E]=nil
+end
+end
+
+return B
+end,
+GenerateState=function(A)
+local B=A.arguments.NumColumns
+if A.state.widths==nil then
+local C=table.create(B,1/B)
+A.state.widths=q._widgetState(A,"widths",C)
+end
+A._widths=table.create(B,UDim.new())
+A._minWidths=table.create(B,0)
+
+local C=A.Instance
+local D=C.BorderContainer
+
+A._cellInstances[-1]=table.create(B)
+for E=1,B do
+local F=GenerateColumnBorder(A,E,"Light")
+F.Visible=A.arguments.InnerBorders
+A._columnBorders[E]=F
+F.Parent=D
+
+local G=GenerateCell(A,E,A._widths[E],false)
+local H=(G:FindFirstChild"UISizeConstraint")
+H.MinSize=Vector2.new(
+2*q._config.CellPadding.X+(if E>1 then-2 else 0)+(if E<B then-3 else 0),
+0
+)
+G.LayoutOrder=2*E-1
+A._cellInstances[-1][E]=G
+G.Parent=D
+end
+
+local E=GenerateColumnBorder(A,B,"Strong")
+A._columnBorders[0]=E
+E.Parent=C
+end,
+Update=function(A)
+local B=A.arguments.NumColumns
+assert(B>=1,"Iris.Table must have at least one column.")
+
+if A._widths~=nil and#A._widths~=B then
+
+A.arguments.NumColumns=#A._widths
+warn"NumColumns cannot change once set. See documentation."
+end
+
+for C,D in A._rowInstances do
+if C==0 then
+D.BackgroundColor3=q._config.TableHeaderColor
+D.BackgroundTransparency=q._config.TableHeaderTransparency
+elseif A.arguments.RowBackground==true then
+if(C%2)==0 then
+D.BackgroundColor3=q._config.TableRowBgAltColor
+D.BackgroundTransparency=q._config.TableRowBgAltTransparency
+else
+D.BackgroundColor3=q._config.TableRowBgColor
+D.BackgroundTransparency=q._config.TableRowBgTransparency
+end
+else
+D.BackgroundTransparency=1
+end
+end
+
+for C,D in A._rowBorders do
+D.Visible=A.arguments.InnerBorders
+end
+
+for C,D in A._columnBorders do
+D.Visible=A.arguments.InnerBorders or A.arguments.Resizable
+end
+
+for C,D in A._columnBorders do
+local E=(D:FindFirstChild"Hover")
+if E then
+E.Visible=A.arguments.Resizable
+end
+end
+
+if A._columnBorders[B]~=nil then
+A._columnBorders[B].Visible=
+not A.arguments.LimitTableWidth and(A.arguments.Resizable or A.arguments.InnerBorders)
+A._columnBorders[0].Visible=
+A.arguments.LimitTableWidth and(A.arguments.Resizable or A.arguments.OuterBorders)
+end
+
+
+
+local C=A._rowInstances[0]
+local D=A._rowBorders[0]
+if C~=nil then
+C.Visible=A.arguments.Header
+end
+if D~=nil then
+D.Visible=A.arguments.Header and A.arguments.InnerBorders
+end
+
+local E=A.Instance
+local F=E.BorderContainer
+F.UIStroke.Enabled=A.arguments.OuterBorders
+
+for G=1,A.arguments.NumColumns do
+t[A][G]=true
+end
+
+if A._widths~=nil then
+q._widgets.Table.UpdateState(A)
+end
+end,
+UpdateState=function(A)
+local B=A.Instance
+local C=B.BorderContainer
+local D=B.RowContainer
+local E=A.arguments.NumColumns
+local F=A.state.widths.value
+local G=A._minWidths
+
+local H=A.arguments.FixedWidth
+local I=A.arguments.ProportionalWidth
+
+if not A.arguments.Resizable then
+if H then
+if I then
+for J=1,E do
+F[J]=G[J]
+end
+else
+local J=0
+for K,L in G do
+J=math.max(J,L)
+end
+for K=1,E do
+F[K]=J
+end
+end
+else
+if I then
+local J=0
+for K,L in G do
+J+=L
+end
+local K=1/J
+for L=1,E do
+F[L]=K*G[L]
+end
+else
+local J=1/E
+for K=1,E do
+F[K]=J
+end
+end
+end
+end
+
+local J=UDim.new()
+for K=1,E do
+local L=F[K]
+
+local M=UDim.new(
+if H then 0 else math.clamp(L,0,1),
+if H then math.max(L,0)else 0
+)
+A._widths[K]=M
+J+=M
+
+for N,O in A._cellInstances do
+O[K].Size=UDim2.new(M,UDim.new())
+end
+
+A._cellInstances[-1][K].Size=UDim2.new(M+UDim.new(0,
+(if K>1 then-2 else 0)-3
+),UDim.new())
+end
+
+
+local K=J.Offset
+if not A.arguments.FixedWidth or not A.arguments.LimitTableWidth then
+K=math.huge
+end
+
+C.UISizeConstraint.MaxSize=Vector2.new(K,math.huge)
+D.UISizeConstraint.MaxSize=Vector2.new(K,math.huge)
+A._columnBorders[0].Position=UDim2.fromOffset(K-3,0)
+end,
+ChildAdded=function(A,B)
+local C=A._rowIndex
+local D=A._columnIndex
+
+local E=A._rowInstances[C]
+A._rowCycles[C]=q._cycleTick
+t[A][D]=true
+
+if E~=nil then
+return A._cellInstances[C][D]
+end
+
+E=GenerateRow(A,C)
+if C==0 then
+E.Visible=A.arguments.Header
+end
+E.Parent=A._rowContainer
+
+if C>0 then
+local F=GenerateRowBorder(A,C-1,if C==1 then"Strong"else"Light")
+F.Visible=A.arguments.InnerBorders and(if C==1 then(A.arguments.Header and A.arguments.InnerBorders)and(A._rowInstances[0]~=nil)else true)
+A._rowBorders[C-1]=F
+F.Parent=A._rowContainer
+end
+
+return A._cellInstances[C][D]
+end,
+ChildDiscarded=function(A,B)
+local C=B.Instance.Parent
+
+if C~=nil then
+local D=tonumber(C.Name:sub(6))
+
+if D then
+t[A][D]=true
+end
+end
+end,
+Discard=function(A)
+s[A.ID]=nil
+t[A]=nil
+A.Instance:Destroy()
+r.discardState(A)
+end
+})
+end
+end)()
+
+local q=(function()
+
+local q=a
+
+return function(r,s)
+local function openTab(t,u)
+if t.state.index.value>0 then
+return
+end
+
+t.state.index:set(u)
+end
+
+local function closeTab(t,u)
+if t.state.index.value~=u then
+return
+end
+
+
+for v=u-1,1,-1 do
+if t.Tabs[v].state.isOpened.value==true then
+t.state.index:set(v)
+return
+end
+end
+
+
+for v=u,#t.Tabs do
+if t.Tabs[v].state.isOpened.value==true then
+t.state.index:set(v)
+return
+end
+end
+
+
+t.state.index:set(0)
+end
+
+
+r.WidgetConstructor("TabBar",{
+hasState=true,
+hasChildren=true,
+Args={},
+Events={},
+Generate=function(t)
+local u=Instance.new"Frame"
+u.Name="Iris_TabBar"
+u.AutomaticSize=Enum.AutomaticSize.Y
+u.Size=UDim2.fromScale(1,0)
+u.BackgroundTransparency=1
+u.BorderSizePixel=0
+
+s.UIListLayout(u,Enum.FillDirection.Vertical,UDim.new()).VerticalAlignment=Enum.VerticalAlignment.Bottom
+
+local v=Instance.new"Frame"
+v.Name="Bar"
+v.AutomaticSize=Enum.AutomaticSize.Y
+v.Size=UDim2.fromScale(1,0)
+v.BackgroundTransparency=1
+v.BorderSizePixel=0
+
+s.UIListLayout(v,Enum.FillDirection.Horizontal,UDim.new(0,r._config.ItemInnerSpacing.X))
+
+v.Parent=u
+
+local w=Instance.new"Frame"
+w.Name="Underline"
+w.Size=UDim2.new(1,0,0,1)
+w.BackgroundColor3=r._config.TabActiveColor
+w.BackgroundTransparency=r._config.TabActiveTransparency
+w.BorderSizePixel=0
+w.LayoutOrder=1
+
+w.Parent=u
+
+local x=Instance.new"Frame"
+x.Name="TabContainer"
+x.AutomaticSize=Enum.AutomaticSize.Y
+x.Size=UDim2.fromScale(1,0)
+x.BackgroundTransparency=1
+x.BorderSizePixel=0
+x.LayoutOrder=2
+x.ClipsDescendants=true
+
+x.Parent=u
+
+t.ChildContainer=x
+t.Tabs={}
+
+return u
+end,
+Update=function(t)end,
+ChildAdded=function(t,u)
+assert(u.type=="Tab","Only Iris.Tab can be parented to Iris.TabBar.")
+local v=t.Instance
+u.ChildContainer.Parent=t.ChildContainer
+u.Index=#t.Tabs+1
+t.state.index.ConnectedWidgets[u.ID]=u
+table.insert(t.Tabs,u)
+
+return v.Bar
+end,
+ChildDiscarded=function(t,u)
+local v=u.Index
+table.remove(t.Tabs,v)
+
+for w=v,#t.Tabs do
+t.Tabs[w].Index=w
+end
+
+closeTab(t,v)
+end,
+GenerateState=function(t)
+if t.state.index==nil then
+t.state.index=r._widgetState(t,"index",1)
+end
+end,
+UpdateState=function(t)
+end,
+Discard=function(t)
+t.Instance:Destroy()
+end,
+})
+
+
+r.WidgetConstructor("Tab",{
+hasState=true,
+hasChildren=true,
+Args={Text=
+1,Hideable=
+2,
+},
+Events={clicked=
+s.EVENTS.click(function(t)
+return t.Instance
+end),hovered=
+s.EVENTS.hover(function(t)
+return t.Instance
+end),selected=
+{Init=
+function(t)end,Get=
+function(t)
+return t.lastSelectedTick==r._cycleTick
+end,
+},unselected=
+{Init=
+function(t)end,Get=
+function(t)
+return t.lastUnselectedTick==r._cycleTick
+end,
+},active=
+{Init=
+function(t)end,Get=
+function(t)
+return t.state.index.value==t.Index
+end,
+},opened=
+{Init=
+function(t)end,Get=
+function(t)
+return t.lastOpenedTick==r._cycleTick
+end,
+},closed=
+{Init=
+function(t)end,Get=
+function(t)
+return t.lastClosedTick==r._cycleTick
+end,
+},
+},
+Generate=function(t)
+local u=Instance.new"TextButton"
+u.Name="Iris_Tab"
+u.AutomaticSize=Enum.AutomaticSize.XY
+u.BackgroundColor3=r._config.TabColor
+u.BackgroundTransparency=r._config.TabTransparency
+u.BorderSizePixel=0
+u.Text=""
+u.AutoButtonColor=false
+
+t.ButtonColors={
+Color=r._config.TabColor,
+Transparency=r._config.TabTransparency,
+HoveredColor=r._config.TabHoveredColor,
+HoveredTransparency=r._config.TabHoveredTransparency,
+ActiveColor=r._config.TabActiveColor,
+ActiveTransparency=r._config.TabActiveTransparency,
+}
+
+s.UIPadding(u,Vector2.new(r._config.FramePadding.X,0))
+s.applyFrameStyle(u,true,true)
+s.UIListLayout(u,Enum.FillDirection.Horizontal,UDim.new(0,r._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+s.applyInteractionHighlights("Background",u,u,t.ButtonColors)
+s.applyButtonClick(u,function()
+t.state.index:set(t.Index)
+end)
+
+local v=Instance.new"TextLabel"
+v.Name="TextLabel"
+v.AutomaticSize=Enum.AutomaticSize.XY
+v.BackgroundTransparency=1
+v.BorderSizePixel=0
+
+s.applyTextStyle(v)
+s.UIPadding(v,Vector2.new(0,r._config.FramePadding.Y))
+
+v.Parent=u
+
+local w=r._config.TextSize+((r._config.FramePadding.Y-1)*2)
+
+local x=Instance.new"TextButton"
+x.Name="CloseButton"
+x.Size=UDim2.fromOffset(w,w)
+x.BackgroundTransparency=1
+x.BorderSizePixel=0
+x.Text=""
+x.AutoButtonColor=false
+x.LayoutOrder=1
+
+s.UICorner(x)
+s.applyButtonClick(x,function()
+t.state.isOpened:set(false)
+closeTab(t.parentWidget,t.Index)
+end)
+
+s.applyInteractionHighlights("Background",x,x,{
+Color=r._config.TabColor,
+Transparency=1,
+HoveredColor=r._config.ButtonHoveredColor,
+HoveredTransparency=r._config.ButtonHoveredTransparency,
+ActiveColor=r._config.ButtonActiveColor,
+ActiveTransparency=r._config.ButtonActiveTransparency,
+})
+
+x.Parent=u
+
+local y=Instance.new"ImageLabel"
+y.Name="Icon"
+y.AnchorPoint=Vector2.new(0.5,0.5)
+y.Position=UDim2.fromScale(0.5,0.5)
+y.Size=UDim2.fromOffset(math.floor(0.7*w),math.floor(0.7*w))
+y.BackgroundTransparency=1
+y.BorderSizePixel=0
+y.Image=s.ICONS.MULTIPLICATION_SIGN
+y.ImageTransparency=1
+
+s.applyInteractionHighlights("Image",u,y,{
+Color=r._config.TextColor,
+Transparency=1,
+HoveredColor=r._config.TextColor,
+HoveredTransparency=r._config.TextTransparency,
+ActiveColor=r._config.TextColor,
+ActiveTransparency=r._config.TextTransparency,
+})
+y.Parent=x
+
+local z=Instance.new"Frame"
+z.Name="TabContainer"
+z.AutomaticSize=Enum.AutomaticSize.Y
+z.Size=UDim2.fromScale(1,0)
+z.BackgroundTransparency=1
+z.BorderSizePixel=0
+
+z.ClipsDescendants=true
+s.UIListLayout(z,Enum.FillDirection.Vertical,UDim.new(0,r._config.ItemSpacing.Y))
+s.UIPadding(z,Vector2.new(0,r._config.ItemSpacing.Y)).PaddingBottom=UDim.new()
+
+t.ChildContainer=z
+
+return u
+end,
+Update=function(t)
+local u=t.Instance
+local v=u.TextLabel
+local w=u.CloseButton
+
+v.Text=t.arguments.Text
+w.Visible=if t.arguments.Hideable==true then true else false
+end,
+ChildAdded=function(t,u)
+return t.ChildContainer
+end,
+GenerateState=function(t)
+t.state.index=t.parentWidget.state.index
+t.state.index.ConnectedWidgets[t.ID]=t
+
+if t.state.isOpened==nil then
+t.state.isOpened=r._widgetState(t,"isOpened",true)
+end
+end,
+UpdateState=function(t)
+local u=t.Instance
+local v=t.ChildContainer
+
+if t.state.isOpened.lastChangeTick==r._cycleTick then
+if t.state.isOpened.value==true then
+t.lastOpenedTick=r._cycleTick+1
+openTab(t.parentWidget,t.Index)
+u.Visible=true
+else
+t.lastClosedTick=r._cycleTick+1
+closeTab(t.parentWidget,t.Index)
+u.Visible=false
+end
+end
+
+if t.state.index.lastChangeTick==r._cycleTick then
+if t.state.index.value==t.Index then
+t.ButtonColors.Color=r._config.TabActiveColor
+t.ButtonColors.Transparency=r._config.TabActiveTransparency
+u.BackgroundColor3=r._config.TabActiveColor
+u.BackgroundTransparency=r._config.TabActiveTransparency
+v.Visible=true
+t.lastSelectedTick=r._cycleTick+1
+else
+t.ButtonColors.Color=r._config.TabColor
+t.ButtonColors.Transparency=r._config.TabTransparency
+u.BackgroundColor3=r._config.TabColor
+u.BackgroundTransparency=r._config.TabTransparency
+v.Visible=false
+t.lastUnselectedTick=r._cycleTick+1
+end
+end
+end,
+Discard=function(t)
+if t.state.isOpened.value==true then
+closeTab(t.parentWidget,t.Index)
+end
+
+t.Instance:Destroy()
+t.ChildContainer:Destroy()
+s.discardState(t)
+end
+})
+end
+end)()
+
+local r=(function()
+
+local r=a
+
+return function(s,t)
+
+s.WidgetConstructor("ProgressBar",{
+hasState=true,
+hasChildren=false,
+Args={Text=
+1,Format=
+2,
+},
+Events={hovered=
+t.EVENTS.hover(function(u)
+return u.Instance
+end),changed=
+{Init=
+function(u)end,Get=
+function(u)
+return u.lastChangedTick==s._cycleTick
+end,
+},
+},
+Generate=function(u)
+local v=Instance.new"Frame"
+v.Name="Iris_ProgressBar"
+v.AutomaticSize=Enum.AutomaticSize.Y
+v.Size=UDim2.new(s._config.ItemWidth,UDim.new())
+v.BackgroundTransparency=1
+
+t.UIListLayout(v,Enum.FillDirection.Horizontal,UDim.new(0,s._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+local w=Instance.new"Frame"
+w.Name="Bar"
+w.AutomaticSize=Enum.AutomaticSize.Y
+w.Size=UDim2.new(s._config.ContentWidth,s._config.ContentHeight)
+w.BackgroundColor3=s._config.FrameBgColor
+w.BackgroundTransparency=s._config.FrameBgTransparency
+w.BorderSizePixel=0
+w.ClipsDescendants=true
+
+t.applyFrameStyle(w,true)
+
+w.Parent=v
+
+local x=Instance.new"TextLabel"
+x.Name="Progress"
+x.AutomaticSize=Enum.AutomaticSize.Y
+x.Size=UDim2.new(UDim.new(0,0),s._config.ContentHeight)
+x.BackgroundColor3=s._config.PlotHistogramColor
+x.BackgroundTransparency=s._config.PlotHistogramTransparency
+x.BorderSizePixel=0
+
+t.applyTextStyle(x)
+t.UIPadding(x,s._config.FramePadding)
+t.UICorner(x,s._config.FrameRounding)
+
+x.Text=""
+x.Parent=w
+
+local y=Instance.new"TextLabel"
+y.Name="Value"
+y.AutomaticSize=Enum.AutomaticSize.XY
+y.Size=UDim2.new(UDim.new(0,0),s._config.ContentHeight)
+y.BackgroundTransparency=1
+y.BorderSizePixel=0
+y.ZIndex=1
+
+t.applyTextStyle(y)
+t.UIPadding(y,s._config.FramePadding)
+
+y.Parent=w
+
+local z=Instance.new"TextLabel"
+z.Name="TextLabel"
+z.AutomaticSize=Enum.AutomaticSize.XY
+z.AnchorPoint=Vector2.new(0,0.5)
+z.BackgroundTransparency=1
+z.BorderSizePixel=0
+z.LayoutOrder=1
+
+t.applyTextStyle(z)
+t.UIPadding(y,s._config.FramePadding)
+
+z.Parent=v
+
+return v
+end,
+GenerateState=function(u)
+if u.state.progress==nil then
+u.state.progress=s._widgetState(u,"Progress",0)
+end
+end,
+Update=function(u)
+local v=u.Instance
+local w=v.TextLabel
+local x=v.Bar
+local y=x.Value
+
+if u.arguments.Format~=nil and typeof(u.arguments.Format)=="string"then
+y.Text=u.arguments.Format
+end
+
+w.Text=u.arguments.Text or"Progress Bar"
+end,
+UpdateState=function(u)
+local v=u.Instance
+local w=v.Bar
+local x=w.Progress
+local y=w.Value
+
+local z=math.clamp(u.state.progress.value,0,1)
+local A=w.AbsoluteSize.X
+local B=y.AbsoluteSize.X
+if A*(1-z)<B then
+y.AnchorPoint=Vector2.xAxis
+y.Position=UDim2.fromScale(1,0)
+else
+y.AnchorPoint=Vector2.zero
+y.Position=UDim2.fromScale(z,0)
+end
+
+x.Size=UDim2.new(UDim.new(z,0),x.Size.Height)
+if u.arguments.Format~=nil and typeof(u.arguments.Format)=="string"then
+y.Text=u.arguments.Format
+else
+y.Text=string.format("%d%%",z*100)
+end
+u.lastChangedTick=s._cycleTick+1
+end,
+Discard=function(u)
+u.Instance:Destroy()
+t.discardState(u)
+end,
+})
+
+local function createLine(u,v)
+local w=Instance.new"Frame"
+w.Name=tostring(v)
+w.AnchorPoint=Vector2.new(0.5,0.5)
+w.BackgroundColor3=s._config.PlotLinesColor
+w.BackgroundTransparency=s._config.PlotLinesTransparency
+w.BorderSizePixel=0
+
+w.Parent=u
+
+return w
+end
+
+local function clearLine(u)
+if u.HoveredLine then
+u.HoveredLine.BackgroundColor3=s._config.PlotLinesColor
+u.HoveredLine.BackgroundTransparency=s._config.PlotLinesTransparency
+u.HoveredLine=false
+u.state.hovered:set(nil)
+end
+end
+
+local function updateLine(u,v)
+local w=u.Instance
+local x=w.Background
+local y=x.Plot
+
+local z=t.getMouseLocation()
+
+local A=y.AbsolutePosition-t.GuiOffset
+local B=(z.X-A.X)/y.AbsoluteSize.X
+local C=math.ceil(B*#u.Lines)
+local D=u.Lines[C]
+
+if D then
+if D~=u.HoveredLine and not v then
+clearLine(u)
+end
+local E=u.state.values.value[C]
+local F=u.state.values.value[C+1]
+if E and F then
+if math.floor(E)==E and math.floor(F)==F then
+u.Tooltip.Text=("%d: %d\n%d: %d"):format(C,E,C+1,F)
+else
+u.Tooltip.Text=("%d: %.3f\n%d: %.3f"):format(C,E,C+1,F)
+end
+end
+u.HoveredLine=D
+D.BackgroundColor3=s._config.PlotLinesHoveredColor
+D.BackgroundTransparency=s._config.PlotLinesHoveredTransparency
+if v then
+u.state.hovered.value={E,F}
+else
+u.state.hovered:set{E,F}
+end
+end
+end
+
+
+s.WidgetConstructor("PlotLines",{
+hasState=true,
+hasChildren=false,
+Args={Text=
+1,Height=
+2,Min=
+3,Max=
+4,TextOverlay=
+5,
+},
+Events={hovered=
+t.EVENTS.hover(function(u)
+return u.Instance
+end),
+},
+Generate=function(u)
+local v=Instance.new"Frame"
+v.Name="Iris_PlotLines"
+v.Size=UDim2.new(s._config.ItemWidth,UDim.new())
+v.BackgroundTransparency=1
+v.BorderSizePixel=0
+
+t.UIListLayout(v,Enum.FillDirection.Horizontal,UDim.new(0,s._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+local w=Instance.new"Frame"
+w.Name="Background"
+w.Size=UDim2.new(s._config.ContentWidth,UDim.new(1,0))
+w.BackgroundColor3=s._config.FrameBgColor
+w.BackgroundTransparency=s._config.FrameBgTransparency
+t.applyFrameStyle(w)
+
+w.Parent=v
+
+local x=Instance.new"Frame"
+x.Name="Plot"
+x.Size=UDim2.fromScale(1,1)
+x.BackgroundTransparency=1
+x.BorderSizePixel=0
+x.ClipsDescendants=true
+
+x:GetPropertyChangedSignal"AbsoluteSize":Connect(function()
+u.state.values.lastChangeTick=s._cycleTick
+s._widgets.PlotLines.UpdateState(u)
+end)
+
+local y=Instance.new"TextLabel"
+y.Name="OverlayText"
+y.AutomaticSize=Enum.AutomaticSize.XY
+y.AnchorPoint=Vector2.new(0.5,0)
+y.Size=UDim2.fromOffset(0,0)
+y.Position=UDim2.fromScale(0.5,0)
+y.BackgroundTransparency=1
+y.BorderSizePixel=0
+y.ZIndex=2
+
+t.applyTextStyle(y)
+
+y.Parent=x
+
+local z=Instance.new"TextLabel"
+z.Name="Iris_Tooltip"
+z.AutomaticSize=Enum.AutomaticSize.XY
+z.Size=UDim2.fromOffset(0,0)
+z.BackgroundColor3=s._config.PopupBgColor
+z.BackgroundTransparency=s._config.PopupBgTransparency
+z.BorderSizePixel=0
+z.Visible=false
+
+t.applyTextStyle(z)
+t.UIStroke(z,s._config.PopupBorderSize,s._config.BorderActiveColor,s._config.BorderActiveTransparency)
+t.UIPadding(z,s._config.WindowPadding)
+if s._config.PopupRounding>0 then
+t.UICorner(z,s._config.PopupRounding)
+end
+
+local A=s._rootInstance and s._rootInstance:FindFirstChild"PopupScreenGui"
+z.Parent=A and A:FindFirstChild"TooltipContainer"
+
+u.Tooltip=z
+
+t.applyMouseMoved(x,function()
+updateLine(u)
+end)
+
+t.applyMouseLeave(x,function()
+clearLine(u)
+end)
+
+x.Parent=w
+
+u.Lines={}
+u.HoveredLine=false
+
+local B=Instance.new"TextLabel"
+B.Name="TextLabel"
+B.AutomaticSize=Enum.AutomaticSize.XY
+B.Size=UDim2.fromOffset(0,0)
+B.BackgroundTransparency=1
+B.BorderSizePixel=0
+B.ZIndex=3
+B.LayoutOrder=3
+
+t.applyTextStyle(B)
+
+B.Parent=v
+
+return v
+end,
+GenerateState=function(u)
+if u.state.values==nil then
+u.state.values=s._widgetState(u,"values",{0,1})
+end
+if u.state.hovered==nil then
+u.state.hovered=s._widgetState(u,"hovered",nil)
+end
+end,
+Update=function(u)
+local v=u.Instance
+local w=v.TextLabel
+local x=v.Background
+local y=x.Plot
+local z=y.OverlayText
+
+w.Text=u.arguments.Text or"Plot Lines"
+z.Text=u.arguments.TextOverlay or""
+v.Size=UDim2.new(1,0,0,u.arguments.Height or 0)
+end,
+UpdateState=function(u)
+if u.state.hovered.lastChangeTick==s._cycleTick then
+if u.state.hovered.value then
+u.Tooltip.Visible=true
+else
+u.Tooltip.Visible=false
+end
+end
+
+if u.state.values.lastChangeTick==s._cycleTick then
+local v=u.Instance
+local w=v.Background
+local x=w.Plot
+
+local y=u.state.values.value
+local z=#y-1
+local A=#u.Lines
+
+local B=u.arguments.Min or math.huge
+local C=u.arguments.Max or-math.huge
+
+if B==nil or C==nil then
+for D,E in y do
+B=math.min(B,E)
+C=math.max(C,E)
+end
+end
+
+
+if A<z then
+for D=A+1,z do
+table.insert(u.Lines,createLine(x,D))
+end
+elseif A>z then
+for D=z+1,A do
+local E=table.remove(u.Lines)
+if E then
+E:Destroy()
+end
+end
+end
+
+local D=C-B
+local E=x.AbsoluteSize
+
+for F=1,z do
+local G=y[F]
+local H=y[F+1]
+local I=E*Vector2.new((F-1)/z,(C-G)/D)
+local J=E*Vector2.new(F/z,(C-H)/D)
+local K=(I+J)/2
+
+u.Lines[F].Size=UDim2.fromOffset((J-I).Magnitude+1,1)
+u.Lines[F].Position=UDim2.fromOffset(K.X,K.Y)
+u.Lines[F].Rotation=math.atan2(J.Y-I.Y,J.X-I.X)*(180/math.pi)
+end
+
+
+if u.HoveredLine then
+updateLine(u,true)
+end
+end
+end,
+Discard=function(u)
+u.Instance:Destroy()
+u.Tooltip:Destroy()
+t.discardState(u)
+end,
+})
+
+local function createBlock(u,v)
+local w=Instance.new"Frame"
+w.Name=tostring(v)
+w.BackgroundColor3=s._config.PlotHistogramColor
+w.BackgroundTransparency=s._config.PlotHistogramTransparency
+w.BorderSizePixel=0
+
+w.Parent=u
+
+return w
+end
+
+local function clearBlock(u)
+if u.HoveredBlock then
+u.HoveredBlock.BackgroundColor3=s._config.PlotHistogramColor
+u.HoveredBlock.BackgroundTransparency=s._config.PlotHistogramTransparency
+u.HoveredBlock=false
+u.state.hovered:set(nil)
+end
+end
+
+local function updateBlock(u,v)
+local w=u.Instance
+local x=w.Background
+local y=x.Plot
+
+local z=t.getMouseLocation()
+
+local A=y.AbsolutePosition-t.GuiOffset
+local B=(z.X-A.X)/y.AbsoluteSize.X
+local C=math.ceil(B*#u.Blocks)
+local D=u.Blocks[C]
+
+if D then
+if D~=u.HoveredBlock and not v then
+clearBlock(u)
+end
+local E=u.state.values.value[C]
+if E then
+u.Tooltip.Text=if math.floor(E)==E then("%d: %d"):format(C,E)else("%d: %.3f"):format(C,E)
+end
+u.HoveredBlock=D
+D.BackgroundColor3=s._config.PlotHistogramHoveredColor
+D.BackgroundTransparency=s._config.PlotHistogramHoveredTransparency
+if v then
+u.state.hovered.value=E
+else
+u.state.hovered:set(E)
+end
+end
+end
+
+
+s.WidgetConstructor("PlotHistogram",{
+hasState=true,
+hasChildren=false,
+Args={Text=
+1,Height=
+2,Min=
+3,Max=
+4,TextOverlay=
+5,BaseLine=
+6,
+},
+Events={hovered=
+t.EVENTS.hover(function(u)
+return u.Instance
+end),
+},
+Generate=function(u)
+local v=Instance.new"Frame"
+v.Name="Iris_PlotHistogram"
+v.Size=UDim2.new(s._config.ItemWidth,UDim.new())
+v.BackgroundTransparency=1
+v.BorderSizePixel=0
+
+t.UIListLayout(v,Enum.FillDirection.Horizontal,UDim.new(0,s._config.ItemInnerSpacing.X)).VerticalAlignment=Enum.VerticalAlignment.Center
+
+local w=Instance.new"Frame"
+w.Name="Background"
+w.Size=UDim2.new(s._config.ContentWidth,UDim.new(1,0))
+w.BackgroundColor3=s._config.FrameBgColor
+w.BackgroundTransparency=s._config.FrameBgTransparency
+t.applyFrameStyle(w)
+
+local x=(w).UIPadding
+x.PaddingRight=UDim.new(0,s._config.FramePadding.X-1)
+
+w.Parent=v
+
+local y=Instance.new"Frame"
+y.Name="Plot"
+y.Size=UDim2.fromScale(1,1)
+y.BackgroundTransparency=1
+y.BorderSizePixel=0
+y.ClipsDescendants=true
+
+local z=Instance.new"TextLabel"
+z.Name="OverlayText"
+z.AutomaticSize=Enum.AutomaticSize.XY
+z.AnchorPoint=Vector2.new(0.5,0)
+z.Size=UDim2.fromOffset(0,0)
+z.Position=UDim2.fromScale(0.5,0)
+z.BackgroundTransparency=1
+z.BorderSizePixel=0
+z.ZIndex=2
+
+t.applyTextStyle(z)
+
+z.Parent=y
+
+local A=Instance.new"TextLabel"
+A.Name="Iris_Tooltip"
+A.AutomaticSize=Enum.AutomaticSize.XY
+A.Size=UDim2.fromOffset(0,0)
+A.BackgroundColor3=s._config.PopupBgColor
+A.BackgroundTransparency=s._config.PopupBgTransparency
+A.BorderSizePixel=0
+A.Visible=false
+
+t.applyTextStyle(A)
+t.UIStroke(A,s._config.PopupBorderSize,s._config.BorderActiveColor,s._config.BorderActiveTransparency)
+t.UIPadding(A,s._config.WindowPadding)
+if s._config.PopupRounding>0 then
+t.UICorner(A,s._config.PopupRounding)
+end
+
+local B=s._rootInstance and s._rootInstance:FindFirstChild"PopupScreenGui"
+A.Parent=B and B:FindFirstChild"TooltipContainer"
+
+u.Tooltip=A
+
+t.applyMouseMoved(y,function()
+updateBlock(u)
+end)
+
+t.applyMouseLeave(y,function()
+clearBlock(u)
+end)
+
+y.Parent=w
+
+u.Blocks={}
+u.HoveredBlock=false
+
+local C=Instance.new"TextLabel"
+C.Name="TextLabel"
+C.AutomaticSize=Enum.AutomaticSize.XY
+C.Size=UDim2.fromOffset(0,0)
+C.BackgroundTransparency=1
+C.BorderSizePixel=0
+C.ZIndex=3
+C.LayoutOrder=3
+
+t.applyTextStyle(C)
+
+C.Parent=v
+
+return v
+end,
+GenerateState=function(u)
+if u.state.values==nil then
+u.state.values=s._widgetState(u,"values",{1})
+end
+if u.state.hovered==nil then
+u.state.hovered=s._widgetState(u,"hovered",nil)
+end
+end,
+Update=function(u)
+local v=u.Instance
+local w=v.TextLabel
+local x=v.Background
+local y=x.Plot
+local z=y.OverlayText
+
+w.Text=u.arguments.Text or"Plot Histogram"
+z.Text=u.arguments.TextOverlay or""
+v.Size=UDim2.new(1,0,0,u.arguments.Height or 0)
+end,
+UpdateState=function(u)
+if u.state.hovered.lastChangeTick==s._cycleTick then
+if u.state.hovered.value then
+u.Tooltip.Visible=true
+else
+u.Tooltip.Visible=false
+end
+end
+
+if u.state.values.lastChangeTick==s._cycleTick then
+local v=u.Instance
+local w=v.Background
+local x=w.Plot
+
+local y=u.state.values.value
+local z=#y
+local A=#u.Blocks
+
+local B=u.arguments.Min or math.huge
+local C=u.arguments.Max or-math.huge
+local D=u.arguments.BaseLine or 0
+
+if B==nil or C==nil then
+for E,F in y do
+B=math.min(B or F,F)
+C=math.max(C or F,F)
+end
+end
+
+
+if A<z then
+for E=A+1,z do
+table.insert(u.Blocks,createBlock(x,E))
+end
+elseif A>z then
+for E=z+1,A do
+local F=table.remove(u.Blocks)
+if F then
+F:Destroy()
+end
+end
+end
+
+local E=C-B
+local F=UDim.new(1/z,-1)
+for G=1,z do
+local H=y[G]
+if H>=0 then
+u.Blocks[G].Size=UDim2.new(F,UDim.new((H-D)/E))
+u.Blocks[G].Position=UDim2.fromScale((G-1)/z,(C-H)/E)
+else
+u.Blocks[G].Size=UDim2.new(F,UDim.new((D-H)/E))
+u.Blocks[G].Position=UDim2.fromScale((G-1)/z,(C-D)/E)
+end
+end
+
+
+if u.HoveredBlock then
+updateBlock(u,true)
+end
+end
+end,
+Discard=function(u)
+u.Instance:Destroy()
+u.Tooltip:Destroy()
+t.discardState(u)
+end,
+})
+end
+end)()
+
+local s=(function()
+
+local s=a
+
+return function(t,u)
+local v={
+hasState=false,
+hasChildren=false,
+Args={Image=
+1,Size=
+2,Rect=
+3,ScaleType=
+4,ResampleMode=
+5,TileSize=
+6,SliceCenter=
+7,SliceScale=
+8,
+},
+Discard=function(v)
+v.Instance:Destroy()
+end,
+}
+
+
+t.WidgetConstructor("Image",u.extend(v,{
+Events={hovered=
+u.EVENTS.hover(function(w)
+return w.Instance
+end),
+},
+Generate=function(w)
+local x=Instance.new"ImageLabel"
+x.Name="Iris_Image"
+x.BackgroundTransparency=1
+x.BorderSizePixel=0
+x.ImageColor3=t._config.ImageColor
+x.ImageTransparency=t._config.ImageTransparency
+
+u.applyFrameStyle(x,true)
+
+return x
+end,
+Update=function(w)
+local x=w.Instance
+
+x.Image=w.arguments.Image or u.ICONS.UNKNOWN_TEXTURE
+x.Size=w.arguments.Size
+if w.arguments.ScaleType then
+x.ScaleType=w.arguments.ScaleType
+if w.arguments.ScaleType==Enum.ScaleType.Tile and w.arguments.TileSize then
+x.TileSize=w.arguments.TileSize
+elseif w.arguments.ScaleType==Enum.ScaleType.Slice then
+if w.arguments.SliceCenter then
+x.SliceCenter=w.arguments.SliceCenter
+end
+if w.arguments.SliceScale then
+x.SliceScale=w.arguments.SliceScale
+end
+end
+end
+
+if w.arguments.Rect then
+x.ImageRectOffset=w.arguments.Rect.Min
+x.ImageRectSize=Vector2.new(w.arguments.Rect.Width,w.arguments.Rect.Height)
+end
+
+if w.arguments.ResampleMode then
+x.ResampleMode=w.arguments.ResampleMode
+end
+end,
+})
+)
+
+
+t.WidgetConstructor("ImageButton",u.extend(v,{
+Events={clicked=
+u.EVENTS.click(function(w)
+return w.Instance
+end),rightClicked=
+u.EVENTS.rightClick(function(w)
+return w.Instance
+end),doubleClicked=
+u.EVENTS.doubleClick(function(w)
+return w.Instance
+end),ctrlClicked=
+u.EVENTS.ctrlClick(function(w)
+return w.Instance
+end),hovered=
+u.EVENTS.hover(function(w)
+return w.Instance
+end),
+},
+Generate=function(w)
+local x=Instance.new"ImageButton"
+x.Name="Iris_ImageButton"
+x.AutomaticSize=Enum.AutomaticSize.XY
+x.BackgroundColor3=t._config.FrameBgColor
+x.BackgroundTransparency=t._config.FrameBgTransparency
+x.BorderSizePixel=0
+x.Image=""
+x.ImageTransparency=1
+x.AutoButtonColor=false
+
+u.applyFrameStyle(x,true)
+u.UIPadding(x,Vector2.new(t._config.ImageBorderSize,t._config.ImageBorderSize))
+
+local y=Instance.new"ImageLabel"
+y.Name="ImageLabel"
+y.BackgroundTransparency=1
+y.BorderSizePixel=0
+y.ImageColor3=t._config.ImageColor
+y.ImageTransparency=t._config.ImageTransparency
+y.Parent=x
+
+u.applyInteractionHighlights("Background",x,x,{
+Color=t._config.FrameBgColor,
+Transparency=t._config.FrameBgTransparency,
+HoveredColor=t._config.FrameBgHoveredColor,
+HoveredTransparency=t._config.FrameBgHoveredTransparency,
+ActiveColor=t._config.FrameBgActiveColor,
+ActiveTransparency=t._config.FrameBgActiveTransparency,
+})
+
+return x
+end,
+Update=function(w)
+local x=w.Instance
+local y=x.ImageLabel
+
+y.Image=w.arguments.Image or u.ICONS.UNKNOWN_TEXTURE
+y.Size=w.arguments.Size
+if w.arguments.ScaleType then
+y.ScaleType=w.arguments.ScaleType
+if w.arguments.ScaleType==Enum.ScaleType.Tile and w.arguments.TileSize then
+y.TileSize=w.arguments.TileSize
+elseif w.arguments.ScaleType==Enum.ScaleType.Slice then
+if w.arguments.SliceCenter then
+y.SliceCenter=w.arguments.SliceCenter
+end
+if w.arguments.SliceScale then
+y.SliceScale=w.arguments.SliceScale
+end
+end
+end
+
+if w.arguments.Rect then
+y.ImageRectOffset=w.arguments.Rect.Min
+y.ImageRectSize=Vector2.new(w.arguments.Rect.Width,w.arguments.Rect.Height)
+end
+
+if w.arguments.ResampleMode then
+y.ResampleMode=w.arguments.ResampleMode
+end
+end,
+})
+)
+end
+end)()
+
+local t=(function()
+
+local t=a
+
+local u={}
+
+return function(v)
+u.GuiService=game:GetService"GuiService"
+u.RunService=game:GetService"RunService"
+u.UserInputService=game:GetService"UserInputService"
+u.ContextActionService=game:GetService"ContextActionService"
+u.TextService=game:GetService"TextService"
+
+u.ICONS={
+BLANK_SQUARE="rbxassetid://83265623867126",
+RIGHT_POINTING_TRIANGLE="rbxassetid://105541346271951",
+DOWN_POINTING_TRIANGLE="rbxassetid://95465797476827",
+MULTIPLICATION_SIGN="rbxassetid://133890060015237",
+BOTTOM_RIGHT_CORNER="rbxassetid://125737344915000",
+CHECKMARK="rbxassetid://109638815494221",
+BORDER="rbxassetid://133803690460269",
+ALPHA_BACKGROUND_TEXTURE="rbxassetid://114090016039876",
+UNKNOWN_TEXTURE="rbxassetid://95045813476061",
+}
+
+u.IS_STUDIO=u.RunService:IsStudio()
+function u.getTime()
+
+if u.IS_STUDIO then
+return os.clock()
+else
+return time()
+end
+end
+
+
+u.GuiOffset=if v._config.IgnoreGuiInset then-u.GuiService:GetGuiInset()else Vector2.zero
+
+u.MouseOffset=if v._config.IgnoreGuiInset then Vector2.zero else u.GuiService:GetGuiInset()
+
+
+local w
+w=u.GuiService:GetPropertyChangedSignal"TopbarInset":Once(function()
+u.MouseOffset=if v._config.IgnoreGuiInset then Vector2.zero else u.GuiService:GetGuiInset()
+u.GuiOffset=if v._config.IgnoreGuiInset then-u.GuiService:GetGuiInset()else Vector2.zero
+w:Disconnect()
+end)
+
+task.delay(5,function()
+w:Disconnect()
+end)
+
+function u.getMouseLocation()
+return u.UserInputService:GetMouseLocation()-u.MouseOffset
+end
+
+function u.isPosInsideRect(x,y,z)
+return x.X>=y.X and x.X<=z.X and x.Y>=y.Y and x.Y<=z.Y
+end
+
+function u.findBestWindowPosForPopup(x,y,z,A)
+local B=20
+
+if x.X+y.X+B>A.X then
+if x.Y+y.Y+B>A.Y then
+
+x+=Vector2.new(0,-(B+y.Y))
+else
+
+x+=Vector2.new(0,B)
+end
+else
+
+x+=Vector2.new(B)
+end
+
+return Vector2.new(math.max(math.min(x.X+y.X,A.X)-y.X,z.X),math.max(math.min(x.Y+y.Y,A.Y)-y.Y,z.Y))
+end
+
+function u.getScreenSizeForWindow(x)
+if x.Instance:IsA"GuiBase2d"then
+return x.Instance.AbsoluteSize
+else
+local y=x.Instance.Parent
+if y:IsA"GuiBase2d"then
+return y.AbsoluteSize
+else
+if y.Parent:IsA"GuiBase2d"then
+return y.AbsoluteSize
+else
+return workspace.CurrentCamera.ViewportSize
+end
+end
+end
+end
+
+function u.extend(x,y)
+local z=table.clone(x)
+for A,B in y do
+z[A]=B
+end
+return z
+end
+
+function u.UIPadding(x,y)
+local z=Instance.new"UIPadding"
+z.PaddingLeft=UDim.new(0,y.X)
+z.PaddingRight=UDim.new(0,y.X)
+z.PaddingTop=UDim.new(0,y.Y)
+z.PaddingBottom=UDim.new(0,y.Y)
+z.Parent=x
+return z
+end
+
+function u.UIListLayout(x,y,z)
+local A=Instance.new"UIListLayout"
+A.SortOrder=Enum.SortOrder.LayoutOrder
+A.Padding=z
+A.FillDirection=y
+A.Parent=x
+return A
+end
+
+function u.UIStroke(x,y,z,A)
+local B=Instance.new"UIStroke"
+B.Thickness=y
+B.Color=z
+B.Transparency=A
+B.ApplyStrokeMode=Enum.ApplyStrokeMode.Border
+B.LineJoinMode=Enum.LineJoinMode.Round
+B.Parent=x
+return B
+end
+
+function u.UICorner(x,y)
+local z=Instance.new"UICorner"
+z.CornerRadius=UDim.new(y and 0 or 1,y or 0)
+z.Parent=x
+return z
+end
+
+function u.UISizeConstraint(x,y,z)
+local A=Instance.new"UISizeConstraint"
+A.MinSize=y or A.MinSize
+A.MaxSize=z or A.MaxSize
+A.Parent=x
+return A
+end
+
+
+
+function u.applyTextStyle(x)
+x.FontFace=v._config.TextFont
+x.TextSize=v._config.TextSize
+x.TextColor3=v._config.TextColor
+x.TextTransparency=v._config.TextTransparency
+x.TextXAlignment=Enum.TextXAlignment.Left
+x.TextYAlignment=Enum.TextYAlignment.Center
+x.RichText=v._config.RichText
+x.TextWrapped=v._config.TextWrapped
+
+x.AutoLocalize=false
+end
+
+function u.applyInteractionHighlights(x,y,z,A)
+local B=false
+u.applyMouseEnter(y,function()
+z[x.."Color3"]=A.HoveredColor
+z[x.."Transparency"]=A.HoveredTransparency
+
+B=false
+end)
+
+u.applyMouseLeave(y,function()
+z[x.."Color3"]=A.Color
+z[x.."Transparency"]=A.Transparency
+
+B=true
+end)
+
+u.applyInputBegan(y,function(C)
+if not(C.UserInputType==Enum.UserInputType.MouseButton1 or C.UserInputType==Enum.UserInputType.Gamepad1)then
+return
+end
+z[x.."Color3"]=A.ActiveColor
+z[x.."Transparency"]=A.ActiveTransparency
+end)
+
+u.applyInputEnded(y,function(C)
+if not(C.UserInputType==Enum.UserInputType.MouseButton1 or C.UserInputType==Enum.UserInputType.Gamepad1)or B then
+return
+end
+if C.UserInputType==Enum.UserInputType.MouseButton1 then
+z[x.."Color3"]=A.HoveredColor
+z[x.."Transparency"]=A.HoveredTransparency
+end
+if C.UserInputType==Enum.UserInputType.Gamepad1 then
+z[x.."Color3"]=A.Color
+z[x.."Transparency"]=A.Transparency
+end
+end)
+
+y.SelectionImageObject=v.SelectionImageObject
+end
+
+function u.applyInteractionHighlightsWithMultiHighlightee(x,y,z)
+local A=false
+u.applyMouseEnter(y,function()
+for B,C in z do
+C[1][x.."Color3"]=C[2].HoveredColor
+C[1][x.."Transparency"]=C[2].HoveredTransparency
+
+A=false
+end
+end)
+
+u.applyMouseLeave(y,function()
+for B,C in z do
+C[1][x.."Color3"]=C[2].Color
+C[1][x.."Transparency"]=C[2].Transparency
+
+A=true
+end
+end)
+
+u.applyInputBegan(y,function(B)
+if not(B.UserInputType==Enum.UserInputType.MouseButton1 or B.UserInputType==Enum.UserInputType.Gamepad1)then
+return
+end
+for C,D in z do
+D[1][x.."Color3"]=D[2].ActiveColor
+D[1][x.."Transparency"]=D[2].ActiveTransparency
+end
+end)
+
+u.applyInputEnded(y,function(B)
+if not(B.UserInputType==Enum.UserInputType.MouseButton1 or B.UserInputType==Enum.UserInputType.Gamepad1)or A then
+return
+end
+for C,D in z do
+if B.UserInputType==Enum.UserInputType.MouseButton1 then
+D[1][x.."Color3"]=D[2].HoveredColor
+D[1][x.."Transparency"]=D[2].HoveredTransparency
+end
+if B.UserInputType==Enum.UserInputType.Gamepad1 then
+D[1][x.."Color3"]=D[2].Color
+D[1][x.."Transparency"]=D[2].Transparency
+end
+end
+end)
+
+y.SelectionImageObject=v.SelectionImageObject
+end
+
+function u.applyFrameStyle(x,y,z)
+
+
+local A=v._config.FrameBorderSize
+local B=v._config.FrameRounding
+x.BorderSizePixel=0
+
+if A>0 then
+u.UIStroke(x,A,v._config.BorderColor,v._config.BorderTransparency)
+end
+if B>0 and not z then
+u.UICorner(x,B)
+end
+if not y then
+u.UIPadding(x,v._config.FramePadding)
+end
+end
+
+function u.applyButtonClick(x,y)
+x.MouseButton1Click:Connect(function()
+y()
+end)
+end
+
+function u.applyButtonDown(x,y)
+x.MouseButton1Down:Connect(function(z,A)
+local B=Vector2.new(z,A)-u.MouseOffset
+y(B.X,B.Y)
+end)
+end
+
+function u.applyMouseEnter(x,y)
+x.MouseEnter:Connect(function(z,A)
+local B=Vector2.new(z,A)-u.MouseOffset
+y(B.X,B.Y)
+end)
+end
+
+function u.applyMouseMoved(x,y)
+x.MouseMoved:Connect(function(z,A)
+local B=Vector2.new(z,A)-u.MouseOffset
+y(B.X,B.Y)
+end)
+end
+
+function u.applyMouseLeave(x,y)
+x.MouseLeave:Connect(function(z,A)
+local B=Vector2.new(z,A)-u.MouseOffset
+y(B.X,B.Y)
+end)
+end
+
+function u.applyInputBegan(x,y)
+x.InputBegan:Connect(function(...)
+y(...)
+end)
+end
+
+function u.applyInputEnded(x,y)
+x.InputEnded:Connect(function(...)
+y(...)
+end)
+end
+
+function u.discardState(x)
+for y,z in x.state do
+z.ConnectedWidgets[x.ID]=nil
+end
+end
+
+function u.registerEvent(x,y)
+table.insert(v._initFunctions,function()
+table.insert(v._connections,u.UserInputService[x]:Connect(y))
+end)
+end
+
+u.EVENTS={
+hover=function(x)
+return{Init=
+function(y)
+local z=x(y)
+u.applyMouseEnter(z,function()
+y.isHoveredEvent=true
+end)
+u.applyMouseLeave(z,function()
+y.isHoveredEvent=false
+end)
+y.isHoveredEvent=false
+end,Get=
+function(y)
+return y.isHoveredEvent
+end,
+}
+end,
+
+click=function(x)
+return{Init=
+function(y)
+local z=x(y)
+y.lastClickedTick=-1
+
+u.applyButtonClick(z,function()
+y.lastClickedTick=v._cycleTick+1
+end)
+end,Get=
+function(y)
+return y.lastClickedTick==v._cycleTick
+end,
+}
+end,
+
+rightClick=function(x)
+return{Init=
+function(y)
+local z=x(y)
+y.lastRightClickedTick=-1
+
+z.MouseButton2Click:Connect(function()
+y.lastRightClickedTick=v._cycleTick+1
+end)
+end,Get=
+function(y)
+return y.lastRightClickedTick==v._cycleTick
+end,
+}
+end,
+
+doubleClick=function(x)
+return{Init=
+function(y)
+local z=x(y)
+y.lastClickedTime=-1
+y.lastClickedPosition=Vector2.zero
+y.lastDoubleClickedTick=-1
+
+u.applyButtonDown(z,function(A,B)
+local C=u.getTime()
+local D=C-y.lastClickedTime<v._config.MouseDoubleClickTime
+if D and(Vector2.new(A,B)-y.lastClickedPosition).Magnitude<v._config.MouseDoubleClickMaxDist then
+y.lastDoubleClickedTick=v._cycleTick+1
+else
+y.lastClickedTime=C
+y.lastClickedPosition=Vector2.new(A,B)
+end
+end)
+end,Get=
+function(y)
+return y.lastDoubleClickedTick==v._cycleTick
+end,
+}
+end,
+
+ctrlClick=function(x)
+return{Init=
+function(y)
+local z=x(y)
+y.lastCtrlClickedTick=-1
+
+u.applyButtonClick(z,function()
+if u.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)or u.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)then
+y.lastCtrlClickedTick=v._cycleTick+1
+end
+end)
+end,Get=
+function(y)
+return y.lastCtrlClickedTick==v._cycleTick
+end,
+}
+end,
+}
+
+v._utility=u
+
+e(v,u)
+f(v,u)
+
+g(v,u)
+
+h(v,u)
+
+i(v,u)
+j(v,u)
+k(v,u)
+l(v,u)
+s(v,u)
+
+o(v,u)
+q(v,u)
+
+m(v,u)
+n(v,u)
+r(v,u)
+
+p(v,u)
+end
+end)()
+
+local aa=(function()
+
+local u=a
+
+return function(v)
+local w=v.State(true)
+local x=v.State(false)
+local y=v.State(false)
+local z=v.State(false)
+local A=v.State(false)
+local B=v.State(false)
+local C=v.State(false)
+
+local D=v.State(false)
+local E=v.State(Color3.fromRGB(115,140,152))
+local F=v.State(0)
+table.insert(v.Internal._initFunctions,function()
+local G=Instance.new"Frame"
+G.Name="Background"
+G.Size=UDim2.fromScale(1,1)
+G.BackgroundColor3=E.value
+G.BackgroundTransparency=F.value
+
+local H
+if v._config.UseScreenGUIs then
+H=Instance.new"ScreenGui"
+H.Name="Iris_Background"
+H.IgnoreGuiInset=true
+H.DisplayOrder=v._config.DisplayOrderOffset-1
+H.ScreenInsets=Enum.ScreenInsets.None
+H.Enabled=true
+
+G.Parent=H
+else
+G.ZIndex=v._config.DisplayOrderOffset-1
+H=G
+end
+
+E:onChange(function(I)
+G.BackgroundColor3=I
+end)
+F:onChange(function(I)
+G.BackgroundTransparency=I
+end)
+
+D:onChange(function(I)
+if I then
+H.Parent=v.Internal.parentInstance
+else
+H.Parent=nil
+end
+end)
+end)
+
+local function helpMarker(G)
+v.PushConfig{TextColor=v._config.TextDisabledColor}
+local H=v.Text{"(?)"}
+v.PopConfig()
+
+v.PushConfig{ContentWidth=UDim.new(0,350)}
+if H.hovered()then
+v.Tooltip{G}
+end
+v.PopConfig()
+end
+
+local function textAndHelpMarker(G,H)
+v.SameLine()
+do
+v.Text{G}
+helpMarker(H)
+end
+v.End()
+end
+
+
+local G={
+Basic=function()
+v.Tree{"Basic"}
+do
+v.SeparatorText{"Basic"}
+
+local G=v.State(1)
+v.Button{"Button"}
+v.SmallButton{"SmallButton"}
+v.Text{"Text"}
+v.TextWrapped{string.rep("Text Wrapped ",5)}
+v.TextColored{"Colored Text",Color3.fromRGB(255,128,0)}
+v.Text{`Rich Text: <b>bold text</b> <i>italic text</i> <u>underline text</u> <s>strikethrough text</s> <font color= "rgb(240, 40, 10)">red text</font> <font size="32">bigger text</font>`,true,nil,true}
+
+v.SameLine()
+do
+v.RadioButton({"Index '1'",1},{index=G})
+v.RadioButton({"Index 'two'","two"},{index=G})
+if v.RadioButton({"Index 'false'",false},{index=G}).active()==false then
+if v.SmallButton{"Select last"}.clicked()then
+G:set(false)
+end
+end
+end
+v.End()
+
+v.Text{"The Index is: "..tostring(G.value)}
+
+v.SeparatorText{"Inputs"}
+
+v.InputNum{}
+v.DragNum{}
+v.SliderNum{}
+end
+v.End()
+end,
+
+Image=function()
+v.Tree{"Image"}
+do
+v.SeparatorText{"Image Controls"}
+
+local G=v.State"rbxasset://textures/ui/common/robux.png"
+local H=v.State(UDim2.fromOffset(100,100))
+local I=v.State(Rect.new(0,0,0,0))
+local J=v.State(Enum.ScaleType.Stretch)
+local K=v.State(false)
+local L=v.ComputedState(K,function(L)
+return L and Enum.ResamplerMode.Pixelated or Enum.ResamplerMode.Default
+end)
+
+local M=v.State(v._config.ImageColor)
+local N=v.State(v._config.ImageTransparency)
+v.InputColor4({"Image Tint"},{color=M,transparency=N})
+
+v.Combo({"Asset"},{index=G})
+do
+v.Selectable({"Robux Small","rbxasset://textures/ui/common/robux.png"},{index=G})
+v.Selectable({"Robux Large","rbxasset://textures//ui/common/robux@3x.png"},{index=G})
+v.Selectable({"Loading Texture","rbxasset://textures//loading/darkLoadingTexture.png"},{index=G})
+v.Selectable({"Hue-Saturation Gradient","rbxasset://textures//TagEditor/huesatgradient.png"},{index=G})
+v.Selectable({"famfamfam.png (WHY?)","rbxasset://textures//TagEditor/famfamfam.png"},{index=G})
+end
+v.End()
+
+v.SliderUDim2({"Image Size",nil,nil,UDim2.new(1,240,1,240)},{number=H})
+v.SliderRect({"Image Rect",nil,nil,Rect.new(256,256,256,256)},{number=I})
+
+v.Combo({"Scale Type"},{index=J})
+do
+v.Selectable({"Stretch",Enum.ScaleType.Stretch},{index=J})
+v.Selectable({"Fit",Enum.ScaleType.Fit},{index=J})
+v.Selectable({"Crop",Enum.ScaleType.Crop},{index=J})
+end
+
+v.End()
+v.Checkbox({"Pixelated"},{isChecked=K})
+
+v.PushConfig{
+ImageColor=M:get(),
+ImageTransparency=N:get(),
+}
+v.Image{G:get(),H:get(),I:get(),J:get(),L:get()}
+v.PopConfig()
+
+v.SeparatorText{"Tile"}
+local O=v.State(UDim2.fromScale(0.5,0.5))
+v.SliderUDim2({"Tile Size",nil,nil,UDim2.new(1,240,1,240)},{number=O})
+
+v.PushConfig{
+ImageColor=M:get(),
+ImageTransparency=N:get(),
+}
+v.Image{"rbxasset://textures/grid2.png",H:get(),nil,Enum.ScaleType.Tile,L:get(),O:get()}
+v.PopConfig()
+
+v.SeparatorText{"Slice"}
+local P=v.State(1)
+v.SliderNum({"Image Slice Scale",0.1,0.1,5},{number=P})
+
+v.PushConfig{
+ImageColor=M:get(),
+ImageTransparency=N:get(),
+}
+v.Image({"rbxasset://textures/ui/chatBubble_blue_notify_bkg.png",H:get(),nil,Enum.ScaleType.Slice,L:get(),nil,Rect.new(12,12,56,56),1},P:get())
+v.PopConfig()
+
+v.SeparatorText{"Image Button"}
+local Q=v.State(0)
+
+v.SameLine()
+do
+v.PushConfig{
+ImageColor=M:get(),
+ImageTransparency=N:get(),
+}
+if v.ImageButton{"rbxasset://textures/AvatarCompatibilityPreviewer/add.png",UDim2.fromOffset(20,20)}.clicked()then
+Q:set(Q.value+1)
+end
+v.PopConfig()
+
+v.Text{`Click count: {Q.value}`}
+end
+v.End()
+end
+v.End()
+end,
+
+Selectable=function()
+v.Tree{"Selectable"}
+do
+local G=v.State(2)
+v.Selectable({"Selectable #1",1},{index=G})
+v.Selectable({"Selectable #2",2},{index=G})
+if v.Selectable({"Double click Selectable",3,true},{index=G}).doubleClicked()then
+G:set(3)
+end
+
+v.Selectable({"Impossible to select",4,true},{index=G})
+if v.Button{"Select last"}.clicked()then
+G:set(4)
+end
+
+v.Selectable{"Independent Selectable"}
+end
+v.End()
+end,
+
+Combo=function()
+v.Tree{"Combo"}
+do
+v.PushConfig{ContentWidth=UDim.new(1,-200)}
+local G=v.State"No Selection"
+
+local H,I
+v.SameLine()
+do
+H=v.Checkbox{"No Preview"}
+I=v.Checkbox{"No Button"}
+if H.checked()and I.isChecked.value==true then
+I.isChecked:set(false)
+end
+if I.checked()and H.isChecked.value==true then
+H.isChecked:set(false)
+end
+end
+v.End()
+
+v.Combo({"Basic Usage",I.isChecked:get(),H.isChecked:get()},{index=G})
+do
+v.Selectable({"Select 1","One"},{index=G})
+v.Selectable({"Select 2","Two"},{index=G})
+v.Selectable({"Select 3","Three"},{index=G})
+end
+v.End()
+
+v.ComboArray({"Using ComboArray"},{index="No Selection"},{"Red","Green","Blue"})
+
+local J={}
+for K=1,50 do
+table.insert(J,tostring(K))
+end
+v.ComboArray({"Height Test"},{index="1"},J)
+
+local K=v.State"7 AM"
+
+v.Combo({"Combo with Inner widgets"},{index=K})
+do
+v.Tree{"Morning Shifts"}
+do
+v.Selectable({"Shift at 7 AM","7 AM"},{index=K})
+v.Selectable({"Shift at 11 AM","11 AM"},{index=K})
+v.Selectable({"Shift at 3 PM","3 PM"},{index=K})
+end
+v.End()
+v.Tree{"Night Shifts"}
+do
+v.Selectable({"Shift at 6 PM","6 PM"},{index=K})
+v.Selectable({"Shift at 9 PM","9 PM"},{index=K})
+end
+v.End()
+end
+v.End()
+
+local L=v.ComboEnum({"Using ComboEnum"},{index=Enum.UserInputState.Begin},Enum.UserInputState)
+v.Text{"Selected: "..L.index:get().Name}
+v.PopConfig()
+end
+v.End()
+end,
+
+Tree=function()
+v.Tree{"Trees"}
+do
+v.Tree{"Tree using SpanAvailWidth",true}
+do
+helpMarker"SpanAvailWidth determines if the Tree is selectable from its entire with, or only the text area"
+end
+v.End()
+
+local G=v.Tree{"Tree with Children"}
+do
+v.Text{"Im inside the first tree!"}
+v.Button{"Im a button inside the first tree!"}
+v.Tree{"Im a tree inside the first tree!"}
+do
+v.Text{"I am the innermost text!"}
+end
+v.End()
+end
+v.End()
+
+v.Checkbox({"Toggle above tree"},{isChecked=G.state.isUncollapsed})
+end
+v.End()
+end,
+
+CollapsingHeader=function()
+v.Tree{"Collapsing Headers"}
+do
+v.CollapsingHeader{"A header"}
+do
+v.Text{"This is under the first header!"}
+end
+v.End()
+
+local G=v.State(false)
+v.CollapsingHeader({"Another header"},{isUncollapsed=G})
+do
+if v.Button{"Shhh... secret button!"}.clicked()then
+G:set(true)
+end
+end
+v.End()
+end
+v.End()
+end,
+
+Group=function()
+v.Tree{"Groups"}
+do
+v.SameLine()
+do
+v.Group()
+do
+v.Text{"I am in group A"}
+v.Button{"Im also in A"}
+end
+v.End()
+
+v.Separator()
+
+v.Group()
+do
+v.Text{"I am in group B"}
+v.Button{"Im also in B"}
+v.Button{"Also group B"}
+end
+v.End()
+end
+v.End()
+end
+v.End()
+end,
+
+Tab=function()
+v.Tree{"Tabs"}
+do
+v.Tree{"Simple"}
+do
+v.TabBar()
+do
+v.Tab{"Apples"}
+do
+v.Text{"Who loves apples?"}
+end
+v.End()
+v.Tab{"Broccoli"}
+do
+v.Text{"And what about broccoli?"}
+end
+v.End()
+v.Tab{"Carrots"}
+do
+v.Text{"But carrots are the best."}
+end
+v.End()
+end
+v.End()
+v.Separator()
+v.Text{"Very important questions."}
+end
+v.End()
+
+v.Tree{"Closable"}
+do
+local G=v.State(true)
+local H=v.State(true)
+local I=v.State(true)
+
+v.TabBar()
+do
+v.Tab({"🍎",true},{isOpened=G})
+do
+v.Text{"Who loves apples?"}
+if v.Button{"I don't like apples."}.clicked()then
+G:set(false)
+end
+end
+v.End()
+v.Tab({"🥦",true},{isOpened=H})
+do
+v.Text{"And what about broccoli?"}
+if v.Button{"Not for me."}.clicked()then
+H:set(false)
+end
+end
+v.End()
+v.Tab({"🥕",true},{isOpened=I})
+do
+v.Text{"But carrots are the best."}
+if v.Button{"I disagree with you."}.clicked()then
+I:set(false)
+end
+end
+v.End()
+end
+v.End()
+v.Separator()
+if v.Button{"Actually, let me reconsider it."}.clicked()then
+G:set(true)
+H:set(true)
+I:set(true)
+end
+end
+v.End()
+end
+v.End()
+end,
+
+Indent=function()
+v.Tree{"Indents"}
+v.Text{"Not Indented"}
+v.Indent()
+do
+v.Text{"Indented"}
+v.Indent{7}
+do
+v.Text{"Indented by 7 more pixels"}
+v.End()
+
+v.Indent{-7}
+do
+v.Text{"Indented by 7 less pixels"}
+end
+v.End()
+end
+v.End()
+end
+v.End()
+end,
+
+Input=function()
+v.Tree{"Input"}
+do
+local G,H,I,J,K,L=v.State(false),v.State(false),v.State(0),v.State(100),v.State(1),v.State"%d"
+
+v.PushConfig{ContentWidth=UDim.new(1,-120)}
+local M=v.InputNum{
+[v.Args.InputNum.Text]="Input Number",
+
+[v.Args.InputNum.NoButtons]=H.value,
+[v.Args.InputNum.Min]=I.value,
+[v.Args.InputNum.Max]=J.value,
+[v.Args.InputNum.Increment]=K.value,
+[v.Args.InputNum.Format]={L.value},
+}
+v.PopConfig()
+v.Text{"The Value is: "..M.number.value}
+if v.Button{"Randomize Number"}.clicked()then
+M.number:set(math.random(1,99))
+end
+local N=v.Checkbox({"NoField"},{isChecked=G})
+local O=v.Checkbox({"NoButtons"},{isChecked=H})
+if N.checked()and O.isChecked.value==true then
+O.isChecked:set(false)
+end
+if O.checked()and N.isChecked.value==true then
+N.isChecked:set(false)
+end
+
+v.PushConfig{ContentWidth=UDim.new(1,-120)}
+v.InputVector2{"InputVector2"}
+v.InputVector3{"InputVector3"}
+v.InputUDim{"InputUDim"}
+v.InputUDim2{"InputUDim2"}
+local P=v.State(false)
+local Q=v.State(false)
+local R=v.State(Color3.new())
+local S=v.State(0)
+v.SliderNum({"Transparency",0.01,0,1},{number=S})
+v.InputColor3({"InputColor3",P:get(),Q:get()},{color=R})
+v.InputColor4({"InputColor4",P:get(),Q:get()},{color=R,transparency=S})
+v.SameLine()
+v.Text{`#{R:get():ToHex()}`}
+v.Checkbox({"Use Floats"},{isChecked=P})
+v.Checkbox({"Use HSV"},{isChecked=Q})
+v.End()
+
+v.PopConfig()
+
+v.Separator()
+
+v.SameLine()
+do
+v.Text{"Slider Numbers"}
+helpMarker"ctrl + click slider number widgets to input a number"
+end
+v.End()
+v.PushConfig{ContentWidth=UDim.new(1,-120)}
+v.SliderNum{"Slide Int",1,1,8}
+v.SliderNum{"Slide Float",0.01,0,100}
+v.SliderNum{"Small Numbers",0.001,-2,1,"%f radians"}
+v.SliderNum{"Odd Ranges",0.001,-math.pi,math.pi,"%f radians"}
+v.SliderNum{"Big Numbers",1e4,1e5,1e7}
+v.SliderNum{"Few Numbers",1,0,3}
+v.PopConfig()
+
+v.Separator()
+
+v.SameLine()
+do
+v.Text{"Drag Numbers"}
+helpMarker"ctrl + click or double click drag number widgets to input a number, hold shift/alt while dragging to increase/decrease speed"
+end
+v.End()
+v.PushConfig{ContentWidth=UDim.new(1,-120)}
+v.DragNum{"Drag Int"}
+v.DragNum{"Slide Float",0.001,-10,10}
+v.DragNum{"Percentage",1,0,100,"%d %%"}
+v.PopConfig()
+end
+v.End()
+end,
+
+InputText=function()
+v.Tree{"Input Text"}
+do
+local G=v.InputText{"Input Text Test","Input Text here"}
+v.Text{"The text is: "..G.text.value}
+end
+v.End()
+end,
+
+MultiInput=function()
+v.Tree{"Multi-Component Input"}
+do
+local G=v.State(Vector2.new())
+local H=v.State(Vector3.new())
+local I=v.State(UDim.new())
+local J=v.State(UDim2.new())
+local K=v.State(Color3.new())
+local L=v.State(Rect.new(0,0,0,0))
+
+v.SeparatorText{"Input"}
+
+v.InputVector2({},{number=G})
+v.InputVector3({},{number=H})
+v.InputUDim({},{number=I})
+v.InputUDim2({},{number=J})
+v.InputRect({},{number=L})
+
+v.SeparatorText{"Drag"}
+
+v.DragVector2({},{number=G})
+v.DragVector3({},{number=H})
+v.DragUDim({},{number=I})
+v.DragUDim2({},{number=J})
+v.DragRect({},{number=L})
+
+v.SeparatorText{"Slider"}
+
+v.SliderVector2({},{number=G})
+v.SliderVector3({},{number=H})
+v.SliderUDim({},{number=I})
+v.SliderUDim2({},{number=J})
+v.SliderRect({},{number=L})
+
+v.SeparatorText{"Color"}
+
+v.InputColor3({},{color=K})
+v.InputColor4({},{color=K})
+end
+v.End()
+end,
+
+Tooltip=function()
+v.PushConfig{ContentWidth=UDim.new(0,250)}
+v.Tree{"Tooltip"}
+do
+if v.Text{"Hover over me to reveal a tooltip"}.hovered()then
+v.Tooltip{"I am some helpful tooltip text"}
+end
+local G=v.State"Hello "
+local H=v.State(1)
+if v.InputNum({"# of repeat",1,1,50},{number=H}).numberChanged()then
+G:set(string.rep("Hello ",H:get()))
+end
+if v.Checkbox{"Show dynamic text tooltip"}.state.isChecked.value then
+v.Tooltip{G:get()}
+end
+end
+v.End()
+v.PopConfig()
+end,
+
+Plotting=function()
+v.Tree{"Plotting"}
+do
+v.SeparatorText{"Progress"}
+local G=os.clock()*15
+
+local H=v.State(0)
+
+local I=math.clamp((math.abs(G%100-50))-7.5,0,35)/35
+H:set(I)
+
+v.ProgressBar({"Progress Bar"},{progress=H})
+v.ProgressBar({"Progress Bar",`{math.floor(H:get()*1753)}/1753`},{progress=H})
+
+v.SeparatorText{"Graphs"}
+
+do
+local J=v.State{0.5,0.8,0.2,0.9,0.1,0.6,0.4,0.7,0.3,0.0}
+
+v.PlotHistogram({"Histogram",100,0,1,"random"},{values=J})
+v.PlotLines({"Lines",100,0,1,"random"},{values=J})
+end
+
+do
+local J=v.State"Cos"
+local K=v.State(37)
+local L=v.State(0)
+local M=v.State{}
+local N=v.State(0)
+
+local O=v.Checkbox{"Animate"}
+local P=v.ComboArray({"Plotting Function"},{index=J},{"Sin","Cos","Tan","Saw"})
+local Q=v.SliderNum({"Samples",1,1,145,"%d samples"},{number=K})
+if v.SliderNum({"Baseline",0.1,-1,1},{number=L}).numberChanged()then
+M:set(M.value,true)
+end
+
+if O.state.isChecked.value or P.closed()or Q.numberChanged()or#M.value==0 then
+if O.state.isChecked.value then
+N:set(N.value+v.Internal._deltaTime)
+end
+local R=math.floor(N.value*30)-1
+local S=J.value
+table.clear(M.value)
+for T=1,K.value do
+if S=="Sin"then
+M.value[T]=math.sin(math.rad(5*(T+R)))
+elseif S=="Cos"then
+M.value[T]=math.cos(math.rad(5*(T+R)))
+elseif S=="Tan"then
+M.value[T]=math.tan(math.rad(5*(T+R)))
+elseif S=="Saw"then
+M.value[T]=if(T%2)==(R%2)then 1 else-1
+end
+end
+
+M:set(M.value,true)
+end
+
+v.PlotHistogram({"Histogram",100,-1,1,"",L:get()},{values=M})
+v.PlotLines({"Lines",100,-1,1},{values=M})
+end
+end
+v.End()
+end,
+}
+local H={"Basic","Image","Selectable","Combo","Tree","CollapsingHeader","Group","Tab","Indent","Input","MultiInput","InputText","Tooltip","Plotting"}
+
+local function recursiveTree()
+local I=v.Tree{"Recursive Tree"}
+do
+if I.state.isUncollapsed.value then
+recursiveTree()
+end
+end
+v.End()
+end
+
+local function recursiveWindow(I)
+local J
+v.Window({"Recursive Window"},{size=v.State(Vector2.new(175,100)),isOpened=I})
+do
+J=v.Checkbox{"Recurse Again"}
+end
+v.End()
+
+if J.isChecked.value then
+recursiveWindow(J.isChecked)
+end
+end
+
+
+local function runtimeInfo()
+local I=v.Window({"Runtime Info"},{isOpened=y})
+do
+local J=v.Internal._lastVDOM
+local K=v.Internal._states
+
+local L=v.State(3)
+local M=v.State(0)
+local N=v.State(os.clock())
+
+v.SameLine()
+do
+v.InputNum({[v.Args.InputNum.Text]="",[v.Args.InputNum.Format]="%d Seconds",[v.Args.InputNum.Max]=10},{number=L})
+if v.Button{"Disable"}.clicked()then
+v.Disabled=true
+task.delay(L:get(),function()
+v.Disabled=false
+end)
+end
+end
+v.End()
+
+local O=os.clock()
+local P=O-N.value
+M.value+=(P-M.value)*0.2
+N.value=O
+v.Text{string.format("Average %.3f ms/frame (%.1f FPS)",M.value*1000,1/M.value)}
+
+v.Text{
+string.format("Window Position: (%d, %d), Window Size: (%d, %d)",I.position.value.X,I.position.value.Y,I.size.value.X,I.size.value.Y),
+}
+
+v.SameLine()
+do
+v.Text{"Enter an ID to learn more about it."}
+helpMarker"every widget and state has an ID which Iris tracks to remember which widget is which. below lists all widgets and states, with their respective IDs"
+end
+v.End()
+
+v.PushConfig{ItemWidth=UDim.new(1,-150)}
+local Q=v.InputText({"ID field"},{text=v.State(I.ID)}).state.text.value
+v.PopConfig()
+
+v.Indent()
+do
+local R=J[Q]
+local S=K[Q]
+if R then
+v.Table{1}
+v.Text{string.format('The ID, "%s", is a widget',Q)}
+v.NextRow()
+
+v.Text{string.format("Widget is type: %s",R.type)}
+v.NextRow()
+
+v.Tree({"Widget has Args:"},{isUncollapsed=v.State(true)})
+for T,U in R.arguments do
+v.Text{T.." - "..tostring(U)}
+end
+v.End()
+v.NextRow()
+
+if R.state then
+v.Tree({"Widget has State:"},{isUncollapsed=v.State(true)})
+for T,U in R.state do
+v.Text{T.." - "..tostring(U.value)}
+end
+v.End()
+end
+v.End()
+elseif S then
+v.Table{1}
+v.Text{string.format('The ID, "%s", is a state',Q)}
+v.NextRow()
+
+v.Text{string.format("Value is type: %s, Value = %s",typeof(S.value),tostring(S.value))}
+v.NextRow()
+
+v.Tree({"state has connected widgets:"},{isUncollapsed=v.State(true)})
+for T,U in S.ConnectedWidgets do
+v.Text{T.." - "..U.type}
+end
+v.End()
+v.NextRow()
+
+v.Text{string.format("state has: %d connected functions",#S.ConnectedFunctions)}
+v.End()
+else
+v.Text{string.format('The ID, "%s", is not a state or widget',Q)}
+end
+end
+v.End()
+
+if v.Tree{"Widgets"}.state.isUncollapsed.value then
+local R=0
+local S=""
+for T,U in J do
+R+=1
+S..="\n"..U.ID.." - "..U.type
+end
+
+v.Text{"Number of Widgets: "..R}
+
+v.Text{S}
+end
+v.End()
+
+if v.Tree{"States"}.state.isUncollapsed.value then
+local R=0
+local S=""
+for T,U in K do
+R+=1
+S..="\n"..T.." - "..tostring(U.value)
+end
+
+v.Text{"Number of States: "..R}
+
+v.Text{S}
+end
+v.End()
+end
+v.End()
+end
+
+local function debugPanel()
+v.Window({"Debug Panel"},{isOpened=C})
+do
+v.CollapsingHeader{"Widgets"}
+do
+v.SeparatorText{"GuiService"}
+v.Text{`GuiOffset: {v.Internal._utility.GuiOffset}`}
+v.Text{`MouseOffset: {v.Internal._utility.MouseOffset}`}
+
+v.SeparatorText{"UserInputService"}
+v.Text{`MousePosition: {v.Internal._utility.UserInputService:GetMouseLocation()}`}
+v.Text{`MouseLocation: {v.Internal._utility.getMouseLocation()}`}
+
+v.Text{`Left Control: {v.Internal._utility.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl)}`}
+v.Text{`Right Control: {v.Internal._utility.UserInputService:IsKeyDown(Enum.KeyCode.RightControl)}`}
+end
+v.End()
+end
+v.End()
+end
+
+local function recursiveMenu()
+if v.Menu{"Recursive"}.state.isOpened.value then
+v.MenuItem{"New",Enum.KeyCode.N,Enum.ModifierKey.Ctrl}
+v.MenuItem{"Open",Enum.KeyCode.O,Enum.ModifierKey.Ctrl}
+v.MenuItem{"Save",Enum.KeyCode.S,Enum.ModifierKey.Ctrl}
+v.Separator()
+v.MenuToggle{"Autosave"}
+v.MenuToggle{"Checked"}
+v.Separator()
+v.Menu{"Options"}
+v.MenuItem{"Red"}
+v.MenuItem{"Yellow"}
+v.MenuItem{"Green"}
+v.MenuItem{"Blue"}
+v.Separator()
+recursiveMenu()
+v.End()
+end
+v.End()
+end
+
+local function mainMenuBar()
+v.MenuBar()
+do
+v.Menu{"File"}
+do
+v.MenuItem{"New",Enum.KeyCode.N,Enum.ModifierKey.Ctrl}
+v.MenuItem{"Open",Enum.KeyCode.O,Enum.ModifierKey.Ctrl}
+v.MenuItem{"Save",Enum.KeyCode.S,Enum.ModifierKey.Ctrl}
+recursiveMenu()
+if v.MenuItem{"Quit",Enum.KeyCode.Q,Enum.ModifierKey.Alt}.clicked()then
+w:set(false)
+end
+end
+v.End()
+
+v.Menu{"Examples"}
+do
+v.MenuToggle({"Recursive Window"},{isChecked=x})
+v.MenuToggle({"Windowless"},{isChecked=A})
+v.MenuToggle({"Main Menu Bar"},{isChecked=B})
+end
+v.End()
+
+v.Menu{"Tools"}
+do
+v.MenuToggle({"Runtime Info"},{isChecked=y})
+v.MenuToggle({"Style Editor"},{isChecked=z})
+v.MenuToggle({"Debug Panel"},{isChecked=C})
+end
+v.End()
+end
+v.End()
+end
+
+local function mainMenuBarExample()
+
+
+
+
+
+
+mainMenuBar()
+
+
+end
+
+
+local I
+do
+I=function()
+local J={
+{
+"Sizing",
+function()
+local J=v.State{}
+
+v.SameLine()
+do
+if v.Button{"Update"}.clicked()then
+v.UpdateGlobalConfig(J.value)
+J:set{}
+end
+
+helpMarker"Update the global config with these changes."
+end
+v.End()
+
+local function SliderInput(K,L)
+local M=v[K](L,{number=v.WeakState(v._config[L[1] ])})
+if M.numberChanged()then
+J.value[L[1] ]=M.number:get()
+end
+end
+
+local function BooleanInput(K)
+local L=v.Checkbox(K,{isChecked=v.WeakState(v._config[K[1] ])})
+if L.checked()or L.unchecked()then
+J.value[K[1] ]=L.isChecked:get()
+end
+end
+
+v.SeparatorText{"Main"}
+SliderInput("SliderVector2",{"WindowPadding",nil,Vector2.zero,Vector2.new(20,20)})
+SliderInput("SliderVector2",{"WindowResizePadding",nil,Vector2.zero,Vector2.new(20,20)})
+SliderInput("SliderVector2",{"FramePadding",nil,Vector2.zero,Vector2.new(20,20)})
+SliderInput("SliderVector2",{"ItemSpacing",nil,Vector2.zero,Vector2.new(20,20)})
+SliderInput("SliderVector2",{"ItemInnerSpacing",nil,Vector2.zero,Vector2.new(20,20)})
+SliderInput("SliderVector2",{"CellPadding",nil,Vector2.zero,Vector2.new(20,20)})
+SliderInput("SliderNum",{"IndentSpacing",1,0,36})
+SliderInput("SliderNum",{"ScrollbarSize",1,0,20})
+SliderInput("SliderNum",{"GrabMinSize",1,0,20})
+
+v.SeparatorText{"Borders & Rounding"}
+SliderInput("SliderNum",{"FrameBorderSize",0.1,0,1})
+SliderInput("SliderNum",{"WindowBorderSize",0.1,0,1})
+SliderInput("SliderNum",{"PopupBorderSize",0.1,0,1})
+SliderInput("SliderNum",{"SeparatorTextBorderSize",1,0,20})
+SliderInput("SliderNum",{"FrameRounding",1,0,12})
+SliderInput("SliderNum",{"GrabRounding",1,0,12})
+SliderInput("SliderNum",{"PopupRounding",1,0,12})
+
+v.SeparatorText{"Widgets"}
+SliderInput("SliderVector2",{"DisplaySafeAreaPadding",nil,Vector2.zero,Vector2.new(20,20)})
+SliderInput("SliderVector2",{"SeparatorTextPadding",nil,Vector2.zero,Vector2.new(36,36)})
+SliderInput("SliderUDim",{"ItemWidth",nil,UDim.new(),UDim.new(1,200)})
+SliderInput("SliderUDim",{"ContentWidth",nil,UDim.new(),UDim.new(1,200)})
+SliderInput("SliderNum",{"ImageBorderSize",1,0,12})
+local K=v.ComboEnum({"WindowTitleAlign"},{index=v.WeakState(v._config.WindowTitleAlign)},Enum.LeftRight)
+if K.closed()then
+J.value.WindowTitleAlign=K.index:get()
+end
+BooleanInput{"RichText"}
+BooleanInput{"TextWrapped"}
+
+v.SeparatorText{"Config"}
+BooleanInput{"UseScreenGUIs"}
+SliderInput("DragNum",{"DisplayOrderOffset",1,0})
+SliderInput("DragNum",{"ZIndexOffset",1,0})
+SliderInput("SliderNum",{"MouseDoubleClickTime",0.1,0,5})
+SliderInput("SliderNum",{"MouseDoubleClickMaxDist",0.1,0,20})
+end,
+},
+{
+"Colors",
+function()
+local J=v.State{}
+
+v.SameLine()
+do
+if v.Button{"Update"}.clicked()then
+v.UpdateGlobalConfig(J.value)
+J:set{}
+end
+helpMarker"Update the global config with these changes."
+end
+v.End()
+
+local K={
+"Text",
+"TextDisabled",
+"WindowBg",
+"PopupBg",
+"Border",
+"BorderActive",
+"ScrollbarGrab",
+"TitleBg",
+"TitleBgActive",
+"TitleBgCollapsed",
+"MenubarBg",
+"FrameBg",
+"FrameBgHovered",
+"FrameBgActive",
+"Button",
+"ButtonHovered",
+"ButtonActive",
+"Image",
+"SliderGrab",
+"SliderGrabActive",
+"Header",
+"HeaderHovered",
+"HeaderActive",
+"SelectionImageObject",
+"SelectionImageObjectBorder",
+"TableBorderStrong",
+"TableBorderLight",
+"TableRowBg",
+"TableRowBgAlt",
+"NavWindowingHighlight",
+"NavWindowingDimBg",
+"Separator",
+"CheckMark",
+}
+
+for L,M in K do
+local N=v.InputColor4({M},{
+color=v.WeakState(v._config[M.."Color"]),
+transparency=v.WeakState(v._config[M.."Transparency"]),
+})
+if N.numberChanged()then
+J.value[M.."Color"]=N.color:get()
+J.value[M.."Transparency"]=N.transparency:get()
+end
+end
+end,
+},
+{
+"Fonts",
+function()
+local J=v.State{}
+
+v.SameLine()
+do
+if v.Button{"Update"}.clicked()then
+v.UpdateGlobalConfig(J.value)
+J:set{}
+end
+
+helpMarker"Update the global config with these changes."
+end
+v.End()
+
+local K={
+["Code (default)"]=Font.fromEnum(Enum.Font.Code),
+["Ubuntu (template)"]=Font.fromEnum(Enum.Font.Ubuntu),Arial=
+Font.fromEnum(Enum.Font.Arial),Highway=
+Font.fromEnum(Enum.Font.Highway),Roboto=
+Font.fromEnum(Enum.Font.Roboto),
+["Roboto Mono"]=Font.fromEnum(Enum.Font.RobotoMono),
+["Noto Sans"]=Font.new"rbxassetid://12187370747",
+["Builder Sans"]=Font.fromEnum(Enum.Font.BuilderSans),
+["Builder Mono"]=Font.new"rbxassetid://16658246179",Sono=
+Font.new"rbxassetid://12187374537",
+}
+
+v.Text{`Current Font: {v._config.TextFont.Family} Weight: {v._config.TextFont.Weight} Style: {v._config.TextFont.Style}`}
+v.SeparatorText{"Size"}
+
+local L=v.SliderNum({"Font Size",1,4,20},{number=v.WeakState(v._config.TextSize)})
+if L.numberChanged()then
+J.value.TextSize=L.state.number:get()
+end
+
+v.SeparatorText{"Properties"}
+
+local M=v.WeakState(v._config.TextFont.Family)
+local N=v.ComboEnum({"Font Weight"},{index=v.WeakState(v._config.TextFont.Weight)},Enum.FontWeight)
+local O=v.ComboEnum({"Font Style"},{index=v.WeakState(v._config.TextFont.Style)},Enum.FontStyle)
+
+v.SeparatorText{"Fonts"}
+for P,Q in K do
+Q=Font.new(Q.Family,N.state.index.value,O.state.index.value)
+v.SameLine()
+do
+v.PushConfig{
+TextFont=Q,
+}
+
+if v.Selectable({`{P} | "The quick brown fox jumps over the lazy dog."`,Q.Family},{index=M}).selected()then
+J.value.TextFont=Q
+end
+v.PopConfig()
+end
+v.End()
+end
+end,
+},
+}
+
+v.Window({"Style Editor"},{isOpened=z})
+do
+v.Text{"Customize the look of Iris in realtime."}
+
+local K=v.State"Dark Theme"
+if v.ComboArray({"Theme"},{index=K},{"Dark Theme","Light Theme"}).closed()then
+if K.value=="Dark Theme"then
+v.UpdateGlobalConfig(v.TemplateConfig.colorDark)
+elseif K.value=="Light Theme"then
+v.UpdateGlobalConfig(v.TemplateConfig.colorLight)
+end
+end
+
+local L=v.State"Classic Size"
+if v.ComboArray({"Size"},{index=L},{"Classic Size","Larger Size"}).closed()then
+if L.value=="Classic Size"then
+v.UpdateGlobalConfig(v.TemplateConfig.sizeDefault)
+elseif L.value=="Larger Size"then
+v.UpdateGlobalConfig(v.TemplateConfig.sizeClear)
+end
+end
+
+v.SameLine()
+do
+if v.Button{"Revert"}.clicked()then
+v.UpdateGlobalConfig(v.TemplateConfig.colorDark)
+v.UpdateGlobalConfig(v.TemplateConfig.sizeDefault)
+K:set"Dark Theme"
+L:set"Classic Size"
+end
+
+helpMarker"Reset Iris to the default theme and size."
+end
+v.End()
+
+v.TabBar()
+do
+for M,N in ipairs(J)do
+v.Tab{N[1]}
+do
+J[M][2]()
+end
+v.End()
+end
+end
+v.End()
+
+v.Separator()
+end
+v.End()
+end
+end
+
+local function widgetEventInteractivity()
+v.CollapsingHeader{"Widget Event Interactivity"}
+do
+local J=v.State(0)
+if v.Button{"Click to increase Number"}.clicked()then
+J:set(J:get()+1)
+end
+v.Text{"The Number is: "..J:get()}
+
+v.Separator()
+
+local K=v.State(false)
+local L=v.State"clicked"
+
+v.SameLine()
+do
+v.RadioButton({"clicked","clicked"},{index=L})
+v.RadioButton({"rightClicked","rightClicked"},{index=L})
+v.RadioButton({"doubleClicked","doubleClicked"},{index=L})
+v.RadioButton({"ctrlClicked","ctrlClicked"},{index=L})
+end
+v.End()
+
+v.SameLine()
+do
+local M=v.Button{L:get().." to reveal text"}
+if M[L:get()]()then
+K:set(not K:get())
+end
+if K:get()then
+v.Text{"Here i am!"}
+end
+end
+v.End()
+
+v.Separator()
+
+local M=v.State(0)
+v.SameLine()
+do
+if v.Button{"Click to show text for 20 frames"}.clicked()then
+M:set(20)
+end
+if M:get()>0 then
+v.Text{"Here i am!"}
+end
+end
+v.End()
+
+M:set(math.max(0,M:get()-1))
+v.Text{"Text Timer: "..M:get()}
+
+local N=v.Checkbox{"Event-tracked checkbox"}
+v.Indent()
+do
+v.Text{"unchecked: "..tostring(N.unchecked())}
+v.Text{"checked: "..tostring(N.checked())}
+end
+v.End()
+
+v.SameLine()
+do
+if v.Button{"Hover over me"}.hovered()then
+v.Text{"The button is hovered"}
+end
+end
+v.End()
+end
+v.End()
+end
+
+local function widgetStateInteractivity()
+v.CollapsingHeader{"Widget State Interactivity"}
+do
+local J=v.Checkbox{"Widget-Generated State"}
+v.Text{`isChecked: {J.state.isChecked.value}\n`}
+
+local K=v.State(false)
+local L=v.Checkbox({"User-Generated State"},{isChecked=K})
+v.Text{`isChecked: {L.state.isChecked.value}\n`}
+
+local M=v.Checkbox{"Widget Coupled State"}
+local N=v.Checkbox({"Coupled to above Checkbox"},{isChecked=M.state.isChecked})
+v.Text{`isChecked: {N.state.isChecked.value}\n`}
+
+local O=v.State(false)
+v.Checkbox({"Widget and Code Coupled State"},{isChecked=O})
+local P=v.Button{"Click to toggle above checkbox"}
+if P.clicked()then
+O:set(not O:get())
+end
+v.Text{`isChecked: {O.value}\n`}
+
+local Q=v.State(true)
+local R=v.ComputedState(Q,function(R)
+return not R
+end)
+v.Checkbox({"ComputedState (dynamic coupling)"},{isChecked=Q})
+v.Checkbox({"Inverted of above checkbox"},{isChecked=R})
+v.Text{`isChecked: {R.value}\n`}
+end
+v.End()
+end
+
+local function dynamicStyle()
+v.CollapsingHeader{"Dynamic Styles"}
+do
+local J=v.State(0)
+v.SameLine()
+do
+if v.Button{"Change Color"}.clicked()then
+J:set(math.random())
+end
+v.Text{"Hue: "..math.floor(J:get()*255)}
+helpMarker"Using PushConfig with a changing value, this can be done with any config field"
+end
+v.End()
+
+v.PushConfig{TextColor=Color3.fromHSV(J:get(),1,1)}
+v.Text{"Text with a unique and changable color"}
+v.PopConfig()
+end
+v.End()
+end
+
+local function tablesDemo()
+local J=v.State(false)
+
+v.CollapsingHeader({"Tables & Columns"},{isUncollapsed=J})
+if J.value==false then
+
+
+
+v.End()
+else
+v.Tree{"Basic"}
+do
+v.SameLine()
+do
+v.Text{"Table using NextColumn syntax:"}
+helpMarker"calling Iris.NextColumn() in the inner loop,\nwhich automatically goes to the next row at the end."
+end
+v.End()
+
+v.Table{3}
+do
+for K=1,4 do
+for L=1,3 do
+v.Text{`Row: {K}, Column: {L}`}
+v.NextColumn()
+end
+end
+end
+v.End()
+
+v.Text{""}
+
+v.SameLine()
+do
+v.Text{"Table using NextColumn and NextRow syntax:"}
+helpMarker"Calling Iris.NextColumn() in the inner loop and Iris.NextRow() in the outer loop,\nto acehieve a visually identical result. Technically they are not the same."
+end
+v.End()
+
+v.Table{3}
+do
+for K=1,4 do
+for L=1,3 do
+v.Text{`Row: {K}, Column: {L}`}
+v.NextColumn()
+end
+v.NextRow()
+end
+end
+v.End()
+end
+v.End()
+
+v.Tree{"Headers, borders and backgrounds"}
+do
+local K=v.State(0)
+local L=v.State(false)
+local M=v.State(false)
+local N=v.State(true)
+local O=v.State(true)
+
+v.Checkbox({"Table header row"},{isChecked=L})
+v.Checkbox({"Table row backgrounds"},{isChecked=M})
+v.Checkbox({"Table outer border"},{isChecked=N})
+v.Checkbox({"Table inner borders"},{isChecked=O})
+v.SameLine()
+do
+v.Text{"Cell contents"}
+v.RadioButton({"Text",0},{index=K})
+v.RadioButton({"Fill button",1},{index=K})
+end
+v.End()
+
+v.Table{3,L.value,M.value,N.value,O.value}
+do
+v.SetHeaderColumnIndex(1)
+for P=0,4 do
+for Q=1,3 do
+if K.value==0 then
+v.Text{`Cell ({Q}, {P})`}
+else
+v.Button{`Cell ({Q}, {P})`,UDim2.fromScale(1,0)}
+end
+v.NextColumn()
+end
+end
+end
+v.End()
+end
+v.End()
+
+v.Tree{"Sizing"}
+do
+local K=v.State(false)
+local L=v.State(false)
+v.Checkbox({"Resizable"},{isChecked=K})
+v.Checkbox({"Limit Table Width"},{isChecked=L})
+
+do
+v.SeparatorText{"stretch, equal"}
+v.Table{3,false,true,true,true,K.value}
+do
+for M=1,3 do
+for N=1,3 do
+v.Text{"stretch"}
+v.NextColumn()
+end
+end
+end
+v.End()
+v.Table{3,false,true,true,true,K.value}
+do
+for M=1,3 do
+for N=1,3 do
+v.Text{string.rep(string.char(64+N),4*N)}
+v.NextColumn()
+end
+end
+end
+v.End()
+end
+
+do
+v.SeparatorText{"stretch, proportional"}
+v.Table{3,false,true,true,true,K.value,false,true}
+do
+for M=1,3 do
+for N=1,3 do
+v.Text{"stretch"}
+v.NextColumn()
+end
+end
+end
+v.End()
+v.Table{3,false,true,true,true,K.value,false,true}
+do
+for M=1,3 do
+for N=1,3 do
+v.Text{string.rep(string.char(64+N),4*N)}
+v.NextColumn()
+end
+end
+end
+v.End()
+end
+
+do
+v.SeparatorText{"fixed, equal"}
+v.Table{3,false,true,true,true,K.value,true,false,L.value}
+do
+for M=1,3 do
+for N=1,3 do
+v.Text{"fixed"}
+v.NextColumn()
+end
+end
+end
+v.End()
+v.Table{3,false,true,true,true,K.value,true,false,L.value}
+do
+for M=1,3 do
+for N=1,3 do
+v.Text{string.rep(string.char(64+N),4*N)}
+v.NextColumn()
+end
+end
+end
+v.End()
+end
+
+do
+v.SeparatorText{"fixed, proportional"}
+v.Table{3,false,true,true,true,K.value,true,true,L.value}
+do
+for M=1,3 do
+for N=1,3 do
+v.Text{"fixed"}
+v.NextColumn()
+end
+end
+end
+v.End()
+v.Table{3,false,true,true,true,K.value,true,true,L.value}
+do
+for M=1,3 do
+for N=1,3 do
+v.Text{string.rep(string.char(64+N),4*N)}
+v.NextColumn()
+end
+end
+end
+v.End()
+end
+end
+v.End()
+
+v.Tree{"Resizable"}
+do
+local K=v.State(4)
+local L=v.State(3)
+local M=v.State(false)
+
+local N=v.State(true)
+local O=v.State(true)
+local P=v.State(true)
+local Q=v.State(true)
+local R=v.State(false)
+local S=v.State(false)
+local T=v.State(false)
+local U=v.State(false)
+
+local V=v.State(false)
+
+local W=v.State(table.create(10,100))
+
+v.SliderNum({"Num Columns",1,1,10},{number=K})
+v.SliderNum({"Number of rows",1,0,100},{number=L})
+
+v.SameLine()
+do
+v.RadioButton({"Buttons",true},{index=M})
+v.RadioButton({"Text",false},{index=M})
+end
+v.End()
+
+v.Table{3}
+do
+v.Checkbox({"Show Header Row"},{isChecked=N})
+v.NextColumn()
+v.Checkbox({"Show Row Backgrounds"},{isChecked=O})
+v.NextColumn()
+v.Checkbox({"Show Outer Border"},{isChecked=P})
+v.NextColumn()
+v.Checkbox({"Show Inner Border"},{isChecked=Q})
+v.NextColumn()
+v.Checkbox({"Resizable"},{isChecked=R})
+v.NextColumn()
+v.Checkbox({"Fixed Width"},{isChecked=S})
+v.NextColumn()
+v.Checkbox({"Proportional Width"},{isChecked=T})
+v.NextColumn()
+v.Checkbox({"Limit Table Width"},{isChecked=U})
+v.NextColumn()
+v.Checkbox({"Add extra"},{isChecked=V})
+v.NextColumn()
+end
+v.End()
+
+for X=1,K.value do
+local Y=if S.value==true then 1 else 0.05
+local Z=if S.value==true then 2 else 0.05
+local _=if S.value==true then 480 else 1
+v.SliderNum({`Column {X} Width`,Y,Z,_},{
+number=v.TableState(W.value,X,function(aa)
+
+W.value[X]=aa
+W:set(W.value,true)
+return false
+end),
+})
+end
+
+v.PushConfig{
+NumColumns=K.value,
+}
+v.Table(
+{K.value,N.value,O.value,P.value,Q.value,R.value,S.value,T.value,U.value},
+{widths=W}
+)
+do
+v.SetHeaderColumnIndex(1)
+for aa=0,L:get()do
+for X=1,K.value do
+if aa==0 then
+if M.value then
+v.Button{`H: {X}`}
+else
+v.Text{`H: {X}`}
+end
+else
+if M.value then
+v.Button{`R: {aa}, C: {X}`}
+v.Button{string.rep("...",X)}
+else
+v.Text{`R: {aa}, C: {X}`}
+v.Text{string.rep("...",X)}
+end
+end
+v.NextColumn()
+end
+end
+
+if V.value then
+v.Text{"A really long piece of text!"}
+end
+end
+v.End()
+v.PopConfig()
+end
+v.End()
+
+v.End()
+end
+end
+
+local function layoutDemo()
+v.CollapsingHeader{"Widget Layout"}
+do
+v.Tree{"Widget Alignment"}
+do
+v.Text{"Iris.SameLine has optional argument supporting horizontal and vertical alignments."}
+v.Text{"This allows widgets to be place anywhere on the line."}
+v.Separator()
+
+v.SameLine()
+do
+v.Text{"By default child widgets will be aligned to the left."}
+helpMarker'Iris.SameLine()\n\tIris.Button({ "Button A" })\n\tIris.Button({ "Button B" })\nIris.End()'
+end
+v.End()
+
+v.SameLine()
+do
+v.Button{"Button A"}
+v.Button{"Button B"}
+end
+v.End()
+
+v.SameLine()
+do
+v.Text{"But can be aligned to the center."}
+helpMarker'Iris.SameLine({ nil, nil, Enum.HorizontalAlignment.Center })\n\tIris.Button({ "Button A" })\n\tIris.Button({ "Button B" })\nIris.End()'
+end
+v.End()
+
+v.SameLine{nil,nil,Enum.HorizontalAlignment.Center}
+do
+v.Button{"Button A"}
+v.Button{"Button B"}
+end
+v.End()
+
+v.SameLine()
+do
+v.Text{"Or right."}
+helpMarker'Iris.SameLine({ nil, nil, Enum.HorizontalAlignment.Right })\n\tIris.Button({ "Button A" })\n\tIris.Button({ "Button B" })\nIris.End()'
+end
+v.End()
+
+v.SameLine{nil,nil,Enum.HorizontalAlignment.Right}
+do
+v.Button{"Button A"}
+v.Button{"Button B"}
+end
+v.End()
+
+v.Separator()
+
+v.SameLine()
+do
+v.Text{"You can also specify the padding."}
+helpMarker'Iris.SameLine({ 0, nil, Enum.HorizontalAlignment.Center })\n\tIris.Button({ "Button A" })\n\tIris.Button({ "Button B" })\nIris.End()'
+end
+v.End()
+
+v.SameLine{0,nil,Enum.HorizontalAlignment.Center}
+do
+v.Button{"Button A"}
+v.Button{"Button B"}
+end
+v.End()
+end
+v.End()
+
+v.Tree{"Widget Sizing"}
+do
+v.Text{"Nearly all widgets are the minimum size of the content."}
+v.Text{"For example, text and button widgets will be the size of the text labels."}
+v.Text{"Some widgets, such as the Image and Button have Size arguments will will set the size of them."}
+v.Separator()
+
+textAndHelpMarker("The button takes up the full screen-width.",'Iris.Button({ "Button", UDim2.fromScale(1, 0) })')
+v.Button{"Button",UDim2.fromScale(1,0)}
+textAndHelpMarker("The button takes up half the screen-width.",'Iris.Button({ "Button", UDim2.fromScale(0.5, 0) })')
+v.Button{"Button",UDim2.fromScale(0.5,0)}
+
+textAndHelpMarker("Combining with SameLine, the buttons can fill the screen width.","The button will still be larger that the text size.")
+local aa=v.State(2)
+v.SliderNum({"Number of Buttons",1,1,8},{number=aa})
+v.SameLine{0,nil,Enum.HorizontalAlignment.Center}
+do
+for J=1,aa.value do
+v.Button{`Button {J}`,UDim2.fromScale(1/aa.value,0)}
+end
+end
+v.End()
+end
+v.End()
+
+v.Tree{"Content Width"}
+do
+local aa=v.State(50)
+local J=v.State(Enum.Axis.X)
+
+v.Text{"The Content Width is a size property which determines the width of input fields."}
+v.SameLine()
+do
+v.Text{"By default the value is UDim.new(0.65, 0)"}
+helpMarker"This is the default value from Dear ImGui.\nIt is 65% of the window width."
+end
+v.End()
+
+v.Text{"This works well, but sometimes we know how wide elements are going to be and want to maximise the space."}
+v.Text{"Therefore, we can use Iris.PushConfig() to change the width"}
+
+v.Separator()
+
+v.SameLine()
+do
+v.Text{"Content Width = 150 pixels"}
+helpMarker"UDim.new(0, 150)"
+end
+v.End()
+
+v.PushConfig{ContentWidth=UDim.new(0,150)}
+v.DragNum({"number",1,0,100},{number=aa})
+v.InputEnum({"axis"},{index=J},Enum.Axis)
+v.PopConfig()
+
+v.SameLine()
+do
+v.Text{"Content Width = 50% window width"}
+helpMarker"UDim.new(0.5, 0)"
+end
+v.End()
+
+v.PushConfig{ContentWidth=UDim.new(0.5,0)}
+v.DragNum({"number",1,0,100},{number=aa})
+v.InputEnum({"axis"},{index=J},Enum.Axis)
+v.PopConfig()
+
+v.SameLine()
+do
+v.Text{"Content Width = -150 pixels from the right side"}
+helpMarker"UDim.new(1, -150)"
+end
+v.End()
+
+v.PushConfig{ContentWidth=UDim.new(1,-150)}
+v.DragNum({"number",1,0,100},{number=aa})
+v.InputEnum({"axis"},{index=J},Enum.Axis)
+v.PopConfig()
+end
+v.End()
+
+v.Tree{"Content Height"}
+do
+local aa=v.State"a single line"
+local J=v.State(50)
+local K=v.State(Enum.Axis.X)
+local L=v.State(0)
+
+
+local M=math.clamp((math.abs((os.clock()*15)%100-50))-7.5,0,35)/35
+L:set(M)
+
+v.Text{"The Content Height is a size property that determines the minimum size of certain widgets."}
+v.Text{"By default the value is UDim.new(0, 0), so there is no minimum height."}
+v.Text{"We use Iris.PushConfig() to change this value."}
+
+v.Separator()
+v.SameLine()
+do
+v.Text{"Content Height = 0 pixels"}
+helpMarker"UDim.new(0, 0)"
+end
+v.End()
+
+v.InputText({"text"},{text=aa})
+v.ProgressBar({"progress"},{progress=L})
+v.DragNum({"number",1,0,100},{number=J})
+v.ComboEnum({"axis"},{index=K},Enum.Axis)
+
+v.SameLine()
+do
+v.Text{"Content Height = 60 pixels"}
+helpMarker"UDim.new(0, 60)"
+end
+v.End()
+
+v.PushConfig{ContentHeight=UDim.new(0,60)}
+v.InputText({"text",nil,nil,true},{text=aa})
+v.ProgressBar({"progress"},{progress=L})
+v.DragNum({"number",1,0,100},{number=J})
+v.ComboEnum({"axis"},{index=K},Enum.Axis)
+v.PopConfig()
+
+v.Text{"This property can be used to force the height of a text box."}
+v.Text{"Just make sure you enable the MultiLine argument."}
+end
+v.End()
+end
+v.End()
+end
+
+
+local function windowlessDemo()
+v.PushConfig{ItemWidth=UDim.new(0,150)}
+v.SameLine()
+do
+v.TextWrapped{"Windowless widgets"}
+helpMarker"Widgets which are placed outside of a window will appear on the top left side of the screen."
+end
+v.End()
+
+v.Button{}
+v.Tree{}
+do
+v.InputText{}
+end
+v.End()
+
+v.PopConfig()
+end
+
+
+return function()
+local aa=v.State(false)
+local J=v.State(false)
+local K=v.State(false)
+local L=v.State(true)
+local M=v.State(false)
+local N=v.State(false)
+local O=v.State(false)
+local P=v.State(false)
+local Q=v.State(false)
+
+if w.value==false then
+v.Checkbox({"Open main window"},{isChecked=w})
+return
+end
+
+debug.profilebegin"Iris/Demo/Window"
+local R=v.Window({
+[v.Args.Window.Title]="Iris Demo Window",
+[v.Args.Window.NoTitleBar]=aa.value,
+[v.Args.Window.NoBackground]=J.value,
+[v.Args.Window.NoCollapse]=K.value,
+[v.Args.Window.NoClose]=L.value,
+[v.Args.Window.NoMove]=M.value,
+[v.Args.Window.NoScrollbar]=N.value,
+[v.Args.Window.NoResize]=O.value,
+[v.Args.Window.NoNav]=P.value,
+[v.Args.Window.NoMenu]=Q.value,
+},{size=v.State(Vector2.new(600,550)),position=v.State(Vector2.new(100,25)),isOpened=w})
+
+if R.state.isUncollapsed.value and R.state.isOpened.value then
+debug.profilebegin"Iris/Demo/MenuBar"
+mainMenuBar()
+debug.profileend()
+
+v.Text{"Iris says hello. ("..v.Internal._version..")"}
+
+debug.profilebegin"Iris/Demo/Options"
+v.CollapsingHeader{"Window Options"}
+do
+v.Table{3,false,false,false}
+do
+v.Checkbox({"NoTitleBar"},{isChecked=aa})
+v.NextColumn()
+v.Checkbox({"NoBackground"},{isChecked=J})
+v.NextColumn()
+v.Checkbox({"NoCollapse"},{isChecked=K})
+v.NextColumn()
+v.Checkbox({"NoClose"},{isChecked=L})
+v.NextColumn()
+v.Checkbox({"NoMove"},{isChecked=M})
+v.NextColumn()
+v.Checkbox({"NoScrollbar"},{isChecked=N})
+v.NextColumn()
+v.Checkbox({"NoResize"},{isChecked=O})
+v.NextColumn()
+v.Checkbox({"NoNav"},{isChecked=P})
+v.NextColumn()
+v.Checkbox({"NoMenu"},{isChecked=Q})
+v.NextColumn()
+end
+v.End()
+end
+v.End()
+debug.profileend()
+
+debug.profilebegin"Iris/Demo/Events"
+widgetEventInteractivity()
+debug.profileend()
+
+debug.profilebegin"Iris/Demo/States"
+widgetStateInteractivity()
+debug.profileend()
+
+debug.profilebegin"Iris/Demo/Recursive"
+v.CollapsingHeader{"Recursive Tree"}
+recursiveTree()
+v.End()
+debug.profileend()
+
+debug.profilebegin"Iris/Demo/Style"
+dynamicStyle()
+debug.profileend()
+
+v.Separator()
+
+debug.profilebegin"Iris/Demo/Widgets"
+v.CollapsingHeader{"Widgets"}
+do
+for S,T in H do
+debug.profilebegin(`Iris/Demo/Widgets/{T}`)
+G[T]()
+debug.profileend()
+end
+end
+v.End()
+debug.profileend()
+
+debug.profilebegin"Iris/Demo/Tables"
+tablesDemo()
+debug.profileend()
+
+debug.profilebegin"Iris/Demo/Layout"
+layoutDemo()
+debug.profileend()
+
+v.CollapsingHeader{"Background"}
+do
+v.Checkbox({"Show background colour"},{isChecked=D})
+v.InputColor4({"Background colour"},{color=E,transparency=F})
+end
+v.End()
+end
+v.End()
+debug.profileend()
+
+if x.value then
+recursiveWindow(x)
+end
+if y.value then
+runtimeInfo()
+end
+if C.value then
+debugPanel()
+end
+if z.value then
+I()
+end
+if A.value then
+windowlessDemo()
+end
+
+if B.value then
+mainMenuBarExample()
+end
+
+return R
+end
+end
+end)()
+
+local u=(function()
+
+
+local u=a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local v={}
+
+local w=c(v)
+
+
+
+
+
+
+
+
+v.Disabled=false
+
+
+
+
+
+
+
+
+
+
+
+
+v.Args={}
+
+
+
+
+
+
+
+
+v.Events={}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.Init(x,y,z)
+assert(w._shutdown==false,"Iris.Init() cannot be called once shutdown.")
+assert(w._started==false or z==true,"Iris.Init() can only be called once.")
+
+if w._started then
+return v
+end
+
+if x==nil then
+
+x=game:GetService"Players".LocalPlayer:WaitForChild"PlayerGui"
+end
+if y==nil then
+
+y=game:GetService"RunService".Heartbeat
+end
+w.parentInstance=x
+w._started=true
+
+w._generateRootInstance()
+w._generateSelectionImageObject()
+
+for A,B in w._initFunctions do
+B()
+end
+
+
+task.spawn(function()
+if typeof(y)=="function"then
+while w._started do
+local A=y()
+w._cycle(A)
+end
+elseif y~=nil and y~=false then
+w._eventConnection=y:Connect(function(...)
+w._cycle(...)
+end)
+end
+end)
+
+return v
+end
+
+
+
+
+
+
+
+function v.Shutdown()
+w._started=false
+w._shutdown=true
+
+if w._eventConnection then
+w._eventConnection:Disconnect()
+end
+w._eventConnection=nil
+
+if w._rootWidget then
+if w._rootWidget.Instance then
+w._widgets.Root.Discard(w._rootWidget)
+end
+w._rootInstance=nil
+end
+
+if w.SelectionImageObject then
+w.SelectionImageObject:Destroy()
+end
+
+for x,y in w._connections do
+y:Disconnect()
+end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.Connect(x,y)
+if w._started==false then
+warn"Iris:Connect() was called before calling Iris.Init(); always initialise Iris first."
+end
+local z=#w._connectedFunctions+1
+w._connectedFunctions[z]=y
+return function()
+w._connectedFunctions[z]=nil
+end
+end
+
+
+
+
+
+
+
+
+
+
+
+function v.Append(x)
+local y=w._GetParentWidget()
+local z
+if w._config.Parent then
+z=w._config.Parent
+else
+z=w._widgets[y.type].ChildAdded(y,{type="userInstance"})
+end
+x.Parent=z
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.End()
+if w._stackIndex==1 then
+error("Too many calls to Iris.End().",2)
+end
+
+w._IDStack[w._stackIndex]=nil
+w._stackIndex-=1
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.ForceRefresh()
+w._globalRefreshRequested=true
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.UpdateGlobalConfig(x)
+for y,z in x do
+w._rootConfig[y]=z
+end
+v.ForceRefresh()
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.PushConfig(x)
+local y=v.State(-1)
+if y.value==-1 then
+y:set(x)
+else
+
+if w._deepCompare(y:get(),x)==false then
+
+y:set(x)
+w._refreshStack[w._refreshLevel]=true
+w._refreshCounter+=1
+end
+end
+w._refreshLevel+=1
+
+w._config=(setmetatable(x,{
+__index=w._config,
+}))
+end
+
+
+
+
+
+
+
+
+
+function v.PopConfig()
+w._refreshLevel-=1
+if w._refreshStack[w._refreshLevel]==true then
+w._refreshCounter-=1
+w._refreshStack[w._refreshLevel]=nil
+end
+
+w._config=getmetatable(w._config).__index
+end
+
+
+
+
+
+
+
+
+v.TemplateConfig=b
+v.UpdateGlobalConfig(v.TemplateConfig.colorDark)
+v.UpdateGlobalConfig(v.TemplateConfig.sizeDefault)
+v.UpdateGlobalConfig(v.TemplateConfig.utilityDefault)
+w._globalRefreshRequested=false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.PushId(x)
+assert(typeof(x)=="string","The ID argument to Iris.PushId() to be a string.")
+
+w._newID=true
+table.insert(w._pushedIds,x)
+end
+
+
+
+
+
+
+
+function v.PopId()
+if#w._pushedIds==0 then
+return
+end
+
+table.remove(w._pushedIds)
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.SetNextWidgetID(x)
+w._nextWidgetId=x
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.State(x)
+local y=w._getID(2)
+if w._states[y]then
+return w._states[y]
+end
+local z={
+ID=y,
+value=x,
+lastChangeTick=v.Internal._cycleTick,
+ConnectedWidgets={},
+ConnectedFunctions={},
+}
+setmetatable(z,w.StateClass)
+w._states[y]=z
+return z
+end
+
+
+
+
+
+
+
+
+
+
+function v.WeakState(x)
+local y=w._getID(2)
+if w._states[y]then
+if next(w._states[y].ConnectedWidgets)==nil then
+w._states[y]=nil
+else
+return w._states[y]
+end
+end
+local z={
+ID=y,
+value=x,
+lastChangeTick=v.Internal._cycleTick,
+ConnectedWidgets={},
+ConnectedFunctions={},
+}
+setmetatable(z,w.StateClass)
+w._states[y]=z
+return z
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.VariableState(x,y)
+local z=w._getID(2)
+local A=w._states[z]
+
+if A then
+if x~=A.value then
+A:set(x)
+end
+return A
+end
+
+local B={
+ID=z,
+value=x,
+lastChangeTick=v.Internal._cycleTick,
+ConnectedWidgets={},
+ConnectedFunctions={},
+}
+setmetatable(B,w.StateClass)
+w._states[z]=B
+
+B:onChange(y)
+
+return B
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.TableState(x,y,z)
+local A=x[y]
+local B=w._getID(2)
+local C=w._states[B]
+
+
+if C then
+if A~=C.value then
+C:set(A)
+end
+return C
+end
+
+local D={
+ID=B,
+value=A,
+lastChangeTick=v.Internal._cycleTick,
+ConnectedWidgets={},
+ConnectedFunctions={},
+}
+setmetatable(D,w.StateClass)
+w._states[B]=D
+
+
+D:onChange(function()
+if z~=nil then
+if z(D.value)then
+x[y]=D.value
+end
+else
+x[y]=D.value
+end
+end)
+return D
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function v.ComputedState(x,y)
+local z=w._getID(2)
+
+if w._states[z]then
+return w._states[z]
+else
+local A={
+ID=z,
+value=y(x.value),
+lastChangeTick=v.Internal._cycleTick,
+ConnectedWidgets={},
+ConnectedFunctions={},
+}
+setmetatable(A,w.StateClass)
+w._states[z]=A
+
+x:onChange(function(B)
+A:set(y(B))
+end)
+return A
+end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+v.ShowDemoWindow=aa(v)
+
+t(w)
+d(v)
+
+return v
+end)()
+
+return u
